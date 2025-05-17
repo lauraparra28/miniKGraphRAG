@@ -1,0 +1,3318 @@
+Fm. Água Grande faz parte de Gr. Santo Amaro.
+Formação Taipus-Mirim faz parte de Gr. Camamu.
+Formação Taipus-Mirim tem idade geológica Neoaptiano.
+Formação Taipus-Mirim é constituído por siltito.
+Formação Taipus-Mirim é constituído por conglomerado.
+Formação Taipus-Mirim é constituído por carvão.
+Formação Taipus-Mirim é constituído por calcilutito.
+Formação Taipus-Mirim é constituído por arenito.
+Formação Taipus-Mirim é constituído por folhelho.
+Formação Taipus-Mirim está localizado em CAMAMU-ALMADA.
+1-TR-1-AM atravessa Fm. Nova Olinda.
+1-TR-1-AM atravessa Fm. Itaituba.
+1-TR-1-AM atravessa Formação Monte Alegre.
+1-TR-1-AM atravessa Fm. Maecuru.
+1-TR-1-AM está localizado em AMAZONAS.
+1-TR-1-AM atravessa Fm. Ererê.
+1-TR-1-AM atravessa Formação Barreirinha.
+1-TR-1-AM atravessa Formação Curiri.
+1-TR-1-AM atravessa Formação Alter do Chão.
+1-TR-1-AM atravessa Formação Andirá.
+1-TR-1-AM atravessa Formação Oriximiná.
+1-TR-1-AM atravessa Formação Manacapuru.
+1-TR-1-AM atravessa Formação Jatapu.
+2-BCST-1-PA atravessa Formação Curiri.
+2-BCST-1-PA está localizado em AMAZONAS.
+2-BCST-1-PA atravessa Fm. Ererê.
+2-BCST-1-PA atravessa Formação Barreirinha.
+2-BCST-1-PA atravessa Formação Manacapuru.
+2-BCST-1-PA atravessa Formação Alter do Chão.
+2-BCST-1-PA atravessa Fm. Maecuru.
+2-BCST-1-PA atravessa Formação Jatapu.
+1-BRSA-9-AM atravessa Formação Jatapu.
+1-BRSA-9-AM atravessa Formação Barreirinha.
+1-BRSA-9-AM atravessa Formação Oriximiná.
+1-BRSA-9-AM atravessa Fm. Itaituba.
+1-BRSA-9-AM atravessa Formação Monte Alegre.
+1-BRSA-9-AM atravessa Fm. Ererê.
+1-BRSA-9-AM atravessa Formação Curiri.
+1-BRSA-9-AM está localizado em AZULÃO.
+1-BRSA-9-AM atravessa Formação Alter do Chão.
+1-BRSA-9-AM atravessa Formação Andirá.
+1-BRSA-9-AM atravessa Fm. Nova Olinda.
+1-BRSA-9-AM está localizado em AMAZONAS.
+1-BRSA-9-AM atravessa Fm. Maecuru.
+1-JUT-1-PA atravessa Formação Oriximiná.
+1-JUT-1-PA atravessa Fm. Itaituba.
+1-JUT-1-PA atravessa Fm. Nova Olinda.
+1-JUT-1-PA atravessa Formação Curiri.
+1-JUT-1-PA atravessa Formação Andirá.
+1-JUT-1-PA atravessa Formação Alter do Chão.
+1-JUT-1-PA atravessa Formação Barreirinha.
+1-JUT-1-PA atravessa Formação Faro.
+1-JUT-1-PA está localizado em AMAZONAS.
+1-JUT-1-PA atravessa Formação Monte Alegre.
+1-JAB-1-AM atravessa Formação Andirá.
+1-JAB-1-AM está localizado em AMAZONAS.
+1-JAB-1-AM atravessa Fm. Itaituba.
+1-JAB-1-AM atravessa Formação Curiri.
+1-JAB-1-AM atravessa Formação Monte Alegre.
+1-JAB-1-AM atravessa Fm. Nova Olinda.
+1-JAB-1-AM atravessa Fm. Ererê.
+1-JAB-1-AM atravessa Formação Oriximiná.
+1-JAB-1-AM atravessa Formação Alter do Chão.
+1-JAB-1-AM atravessa Formação Barreirinha.
+1-JAB-1-AM atravessa Fm. Maecuru.
+Fm. Rio Doce faz parte de Gr. Espírito Santo.
+Fm. Rio Doce está localizado em CAMAMU-ALMADA.
+Fm. Rio Doce tem idade geológica Rio_da_Serra.
+2-MUST-1-AM atravessa Formação Jatapu.
+2-MUST-1-AM atravessa Fm. Itaituba.
+2-MUST-1-AM atravessa Formação Monte Alegre.
+2-MUST-1-AM atravessa Formação Barreirinha.
+2-MUST-1-AM atravessa Fm. Nhamundá.
+2-MUST-1-AM atravessa Fm. Maecuru.
+2-MUST-1-AM atravessa Fm. Pitinga.
+2-MUST-1-AM atravessa Formação Alter do Chão.
+2-MUST-1-AM atravessa Fm. Ererê.
+2-MUST-1-AM atravessa Formação Manacapuru.
+2-MUST-1-AM atravessa Fm. Nova Olinda.
+2-MUST-1-AM está localizado em AMAZONAS.
+2-CUST-1-PA atravessa Fm. Maecuru.
+2-CUST-1-PA atravessa Fm. Itaituba.
+2-CUST-1-PA atravessa Formação Oriximiná.
+2-CUST-1-PA atravessa Fm. Ererê.
+2-CUST-1-PA atravessa Formação Faro.
+2-CUST-1-PA está localizado em AMAZONAS.
+2-CUST-1-PA atravessa Formação Barreirinha.
+2-CUST-1-PA atravessa Formação Manacapuru.
+2-CUST-1-PA atravessa Formação Monte Alegre.
+2-CUST-1-PA atravessa Formação Jatapu.
+2-CUST-1-PA atravessa Formação Curiri.
+2-CUST-1-PA atravessa Fm. Nova Olinda.
+1-AM-4-AM atravessa Formação Monte Alegre.
+1-AM-4-AM atravessa Fm. Nova Olinda.
+1-AM-4-AM está localizado em AMAZONAS.
+1-AM-4-AM atravessa Formação Barreirinha.
+1-AM-4-AM atravessa Formação Curiri.
+1-AM-4-AM atravessa Fm. Itaituba.
+1-AM-4-AM atravessa Fm. Ererê.
+1-AM-4-AM atravessa Formação Alter do Chão.
+1-AM-4-AM atravessa Fm. Maecuru.
+9-FZ-3-AM atravessa Formação Andirá.
+9-FZ-3-AM atravessa Formação Alter do Chão.
+9-FZ-3-AM está localizado em AMAZONAS.
+9-FZ-3-AM atravessa Fm. Nova Olinda.
+2-PUST-1-AM atravessa Formação Alter do Chão.
+2-PUST-1-AM atravessa Formação Monte Alegre.
+2-PUST-1-AM atravessa Fm. Solimões.
+2-PUST-1-AM atravessa Fm. Nhamundá.
+2-PUST-1-AM atravessa Fm. Itaituba.
+2-PUST-1-AM atravessa Fm. Prosperança.
+2-PUST-1-AM está localizado em AMAZONAS.
+2-PUST-1-AM atravessa Fm. Nova Olinda.
+1-UI-2-AM atravessa Fm. Itaituba.
+1-UI-2-AM atravessa Fm. Ererê.
+1-UI-2-AM atravessa Formação Curiri.
+1-UI-2-AM atravessa Formação Barreirinha.
+1-UI-2-AM atravessa Formação Monte Alegre.
+1-UI-2-AM atravessa Formação Jatapu.
+1-UI-2-AM atravessa Fm. Nova Olinda.
+1-UI-2-AM atravessa Fm. Pitinga.
+1-UI-2-AM atravessa Fm. Nhamundá.
+1-UI-2-AM atravessa Formação Manacapuru.
+1-UI-2-AM está localizado em AMAZONAS.
+1-UI-2-AM atravessa Embasamento.
+Fm. Caravelas é constituído por dolomito.
+Fm. Caravelas é constituído por calcilutito.
+Fm. Caravelas é constituído por arenito.
+Fm. Caravelas é constituído por calcarenito.
+Fm. Caravelas é constituído por folhelho.
+Fm. Caravelas faz parte de Gr. Espírito Santo.
+Fm. Caravelas está localizado em CAMAMU-ALMADA.
+Fm. Ererê faz parte de Gr. Urupadi.
+Fm. Ererê tem idade geológica Givetiano.
+Fm. Ererê é constituído por arenito.
+Fm. Ererê é constituído por folhelho.
+Fm. Ererê é constituído por siltito.
+Fm. Ererê é constituído por metamórfica.
+Fm. Ererê é constituído por diabásio.
+Fm. Ererê está localizado em AMAZONAS.
+Fm. Ererê é portador de Flaser.
+Fm. Ererê é portador de Maciça.
+3-BRSA-599DP-BAS atravessa Fm. Itaípe.
+3-BRSA-599DP-BAS atravessa Gr. Almada.
+3-BRSA-599DP-BAS está localizado em MANATI.
+3-BRSA-599DP-BAS atravessa Fm. Morro do Barro.
+3-BRSA-599DP-BAS atravessa Formação Sergi.
+3-BRSA-599DP-BAS atravessa Gr. Brotas.
+3-BRSA-599DP-BAS atravessa Fm. Rio de Contas.
+3-BRSA-599DP-BAS está localizado em CAMAMU-ALMADA.
+1-MS-5-AM atravessa Fm. Ererê.
+1-MS-5-AM atravessa Formação Oriximiná.
+1-MS-5-AM atravessa Formação Monte Alegre.
+1-MS-5-AM atravessa Fm. Nova Olinda.
+1-MS-5-AM atravessa Formação Barreirinha.
+1-MS-5-AM está localizado em AMAZONAS.
+1-MS-5-AM atravessa Formação Curiri.
+1-MS-5-AM atravessa Formação Alter do Chão.
+1-MS-5-AM atravessa Fm. Itaituba.
+1-MS-5-AM atravessa Formação Jatapu.
+9-FZ-17-AM atravessa Formação Alter do Chão.
+9-FZ-17-AM atravessa Formação Andirá.
+9-FZ-17-AM está localizado em AMAZONAS.
+9-FZ-17-AM atravessa Fm. Nova Olinda.
+1-RL-1-AM atravessa Fm. Pitinga.
+1-RL-1-AM atravessa Fm. Nhamundá.
+1-RL-1-AM está localizado em AMAZONAS.
+1-RL-1-AM atravessa Fm. Maecuru.
+1-RL-1-AM atravessa Formação Manacapuru.
+1-RL-1-AM atravessa Fm. Itaituba.
+1-RL-1-AM atravessa Formação Alter do Chão.
+1-RL-1-AM atravessa Fm. Prosperança.
+1-RL-1-AM atravessa Formação Jatapu.
+1-RL-1-AM atravessa Fm. Solimões.
+1-RL-1-AM atravessa Fm. Nova Olinda.
+1-RL-1-AM atravessa Fm. Autás Mirim.
+1-RL-1-AM atravessa Formação Monte Alegre.
+1-RL-1-AM atravessa Fm. Ererê.
+Mb. Cazumba está localizado em CAMAMU-ALMADA.
+Mb. Cazumba tem idade geológica Permiano.
+Mb. Cazumba faz parte de Fm. Afligidos.
+Mb. Cazumba é constituído por folhelho.
+Mb. Cazumba é constituído por siltito.
+3-BRSA-135-BAS atravessa Formação Taipus-Mirim.
+3-BRSA-135-BAS atravessa Fm. Algodões.
+3-BRSA-135-BAS atravessa Gr. Brotas.
+3-BRSA-135-BAS está localizado em CAMAMU-ALMADA.
+3-BRSA-135-BAS atravessa Fm. Itaípe.
+3-BRSA-135-BAS atravessa Fm. Rio de Contas.
+3-BRSA-135-BAS atravessa Formação Sergi.
+3-BRSA-135-BAS atravessa Gr. Camamu.
+3-BRSA-135-BAS atravessa Gr. Espírito Santo.
+3-BRSA-135-BAS está localizado em CAMARAO NORTE.
+3-BRSA-135-BAS atravessa Fm. Morro do Barro.
+3-BRSA-135-BAS atravessa Gr. Almada.
+1-PB-1-PA atravessa Fm. Ererê.
+1-PB-1-PA atravessa Fm. Itaituba.
+1-PB-1-PA atravessa Embasamento.
+1-PB-1-PA atravessa Fm. Pitinga.
+1-PB-1-PA atravessa Formação Curiri.
+1-PB-1-PA está localizado em AMAZONAS.
+1-PB-1-PA atravessa Formação Jatapu.
+1-PB-1-PA atravessa Fm. Nova Olinda.
+1-PB-1-PA atravessa Formação Monte Alegre.
+1-PB-1-PA atravessa Formação Barreirinha.
+3-BRSA-128-BAS atravessa Fm. Rio de Contas.
+3-BRSA-128-BAS atravessa Fm. Caravelas.
+3-BRSA-128-BAS atravessa Gr. Espírito Santo.
+3-BRSA-128-BAS atravessa Fm. Algodões.
+3-BRSA-128-BAS está localizado em CAMAMU-ALMADA.
+3-BRSA-128-BAS atravessa Gr. Camamu.
+3-BRSA-128-BAS atravessa Fm. Morro do Barro.
+3-BRSA-128-BAS atravessa Formação Taipus-Mirim.
+3-BRSA-128-BAS atravessa Gr. Almada.
+7-MNT-4-BAS atravessa Gr. Almada.
+7-MNT-4-BAS está localizado em MANATI.
+7-MNT-4-BAS atravessa Formação Sergi.
+7-MNT-4-BAS atravessa Gr. Brotas.
+7-MNT-4-BAS atravessa Fm. Itaípe.
+7-MNT-4-BAS atravessa Fm. Algodões.
+7-MNT-4-BAS atravessa Gr. Espírito Santo.
+7-MNT-4-BAS atravessa Formação Taipus-Mirim.
+7-MNT-4-BAS está localizado em CAMAMU-ALMADA.
+7-MNT-4-BAS atravessa Fm. Rio de Contas.
+7-MNT-4-BAS atravessa Fm. Morro do Barro.
+7-MNT-4-BAS atravessa Gr. Camamu.
+Gr. Purus está localizado em AMAZONAS.
+1-MD-1-AM atravessa Fm. Solimões.
+1-MD-1-AM atravessa Fm. Itaituba.
+1-MD-1-AM atravessa Formação Alter do Chão.
+1-MD-1-AM está localizado em AMAZONAS.
+1-MD-1-AM atravessa Fm. Maecuru.
+1-MD-1-AM atravessa Formação Monte Alegre.
+1-MD-1-AM atravessa Fm. Nova Olinda.
+1-MD-1-AM atravessa Formação Andirá.
+1-MD-1-AM atravessa Formação Oriximiná.
+1-MD-1-AM atravessa Formação Curiri.
+1-MD-1-AM atravessa Formação Barreirinha.
+1-MD-1-AM atravessa Fm. Ererê.
+1-AM-2-AM atravessa Formação Jatapu.
+1-AM-2-AM atravessa Fm. Maecuru.
+1-AM-2-AM atravessa Fm. Nova Olinda.
+1-AM-2-AM atravessa Formação Manacapuru.
+1-AM-2-AM atravessa Formação Curiri.
+1-AM-2-AM está localizado em AMAZONAS.
+1-AM-2-AM atravessa Formação Alter do Chão.
+1-AM-2-AM atravessa Formação Monte Alegre.
+1-AM-2-AM atravessa Fm. Ererê.
+1-AM-2-AM atravessa Formação Barreirinha.
+1-AM-2-AM atravessa Fm. Itaituba.
+1-UA-1-AM atravessa Formação Manacapuru.
+1-UA-1-AM atravessa Formação Oriximiná.
+1-UA-1-AM atravessa Formação Andirá.
+1-UA-1-AM atravessa Fm. Ererê.
+1-UA-1-AM atravessa Formação Curiri.
+1-UA-1-AM está localizado em AMAZONAS.
+1-UA-1-AM atravessa Formação Barreirinha.
+1-UA-1-AM atravessa Formação Monte Alegre.
+1-UA-1-AM atravessa Formação Jatapu.
+1-UA-1-AM atravessa Fm. Itaituba.
+1-UA-1-AM atravessa Formação Alter do Chão.
+1-UA-1-AM atravessa Fm. Nova Olinda.
+1-UA-1-AM atravessa Fm. Maecuru.
+1-AM-7-AM atravessa Fm. Ererê.
+1-AM-7-AM atravessa Formação Alter do Chão.
+1-AM-7-AM atravessa Formação Curiri.
+1-AM-7-AM atravessa Formação Jatapu.
+1-AM-7-AM atravessa Fm. Itaituba.
+1-AM-7-AM atravessa Formação Monte Alegre.
+1-AM-7-AM atravessa Fm. Maecuru.
+1-AM-7-AM está localizado em AMAZONAS.
+1-AM-7-AM atravessa Formação Barreirinha.
+1-AM-7-AM atravessa Fm. Nova Olinda.
+1-AO-1-BA está localizado em CAMAMU-ALMADA.
+1-BL-1-PA atravessa Formação Curiri.
+1-BL-1-PA atravessa Fm. Maecuru.
+1-BL-1-PA está localizado em AMAZONAS.
+1-BL-1-PA atravessa Fm. Ererê.
+1-BL-1-PA atravessa Fm. Nova Olinda.
+1-BL-1-PA atravessa Formação Alter do Chão.
+1-BL-1-PA atravessa Fm. Pitinga.
+1-BL-1-PA atravessa Gr. Purus.
+1-BL-1-PA atravessa Formação Jatapu.
+1-BL-1-PA atravessa Formação Barreirinha.
+1-BL-1-PA atravessa Fm. Itaituba.
+1-BL-1-PA atravessa Formação Monte Alegre.
+3-MB-4-BA está localizado em CAMAMU-ALMADA.
+3-MB-4-BA atravessa Fm. Morro do Barro.
+3-MB-4-BA atravessa Gr. Almada.
+3-MB-4-BA atravessa Formação Sergi.
+3-MB-4-BA atravessa Fm. Itaípe.
+3-MB-4-BA está localizado em MORRO DO BARRO.
+3-MB-4-BA atravessa Gr. Brotas.
+1-BAS-129 está localizado em CAMAMU-ALMADA.
+1-BAS-129 atravessa Gr. Camamu.
+1-BAS-129 atravessa Formação Urucutuca.
+1-BAS-129 atravessa Fm. Algodões.
+1-BAS-129 atravessa Gr. Espírito Santo.
+1-BAS-129 atravessa Formação Taipus-Mirim.
+MORRO DO BARRO está localizado em CAMAMU-ALMADA.
+2-OAST-1-PA atravessa Formação Oriximiná.
+2-OAST-1-PA atravessa Fm. Maecuru.
+2-OAST-1-PA atravessa Fm. Nhamundá.
+2-OAST-1-PA atravessa Fm. Nova Olinda.
+2-OAST-1-PA atravessa Fm. Itaituba.
+2-OAST-1-PA atravessa Formação Faro.
+2-OAST-1-PA está localizado em AMAZONAS.
+2-OAST-1-PA atravessa Formação Manacapuru.
+2-OAST-1-PA atravessa Fm. Ererê.
+2-OAST-1-PA atravessa Fm. Pitinga.
+2-OAST-1-PA atravessa Formação Curiri.
+2-OAST-1-PA atravessa Formação Alter do Chão.
+2-OAST-1-PA atravessa Formação Jatapu.
+2-OAST-1-PA atravessa Formação Monte Alegre.
+2-OAST-1-PA atravessa Formação Andirá.
+2-OAST-1-PA atravessa Formação Barreirinha.
+1-SIL-1-AM atravessa Fm. Itaituba.
+1-SIL-1-AM atravessa Formação Andirá.
+1-SIL-1-AM está localizado em AMAZONAS.
+1-SIL-1-AM atravessa Formação Alter do Chão.
+1-SIL-1-AM atravessa Fm. Nova Olinda.
+1-SIL-1-AM atravessa Formação Monte Alegre.
+1-SIL-1-AM atravessa Formação Faro.
+1-SIL-1-AM atravessa Formação Oriximiná.
+2-BUST-1-PA atravessa Formação Faro.
+2-BUST-1-PA está localizado em AMAZONAS.
+2-BUST-1-PA atravessa Formação Andirá.
+2-BUST-1-PA atravessa Formação Monte Alegre.
+2-BUST-1-PA atravessa Fm. Itaituba.
+2-BUST-1-PA atravessa Formação Alter do Chão.
+2-BUST-1-PA atravessa Formação Oriximiná.
+2-BUST-1-PA atravessa Fm. Nova Olinda.
+7-MNT-6D-BAS atravessa Fm. Morro do Barro.
+7-MNT-6D-BAS está localizado em MANATI.
+7-MNT-6D-BAS atravessa Gr. Almada.
+7-MNT-6D-BAS atravessa Formação Sergi.
+7-MNT-6D-BAS atravessa Gr. Camamu.
+7-MNT-6D-BAS atravessa Formação Taipus-Mirim.
+7-MNT-6D-BAS atravessa Fm. Itaípe.
+7-MNT-6D-BAS está localizado em CAMAMU-ALMADA.
+7-MNT-6D-BAS atravessa Fm. Algodões.
+7-MNT-6D-BAS atravessa Gr. Brotas.
+7-MNT-6D-BAS atravessa Fm. Rio de Contas.
+7-MNT-6D-BAS atravessa Gr. Espírito Santo.
+2-AP-1A-PA está localizado em AMAZONAS.
+2-AP-1A-PA atravessa Fm. Nova Olinda.
+2-AP-1A-PA atravessa Formação Alter do Chão.
+2-AP-1A-PA atravessa Formação Andirá.
+1-BAS-77 está localizado em CAMAMU-ALMADA.
+1-BAS-77 atravessa Formação Taipus-Mirim.
+1-BAS-77 atravessa Gr. Almada.
+1-BAS-77 atravessa Fm. Algodões.
+1-BAS-77 atravessa Fm. Itaípe.
+1-BAS-77 atravessa Fm. Morro do Barro.
+1-BAS-77 atravessa Formação Urucutuca.
+1-BAS-77 atravessa Gr. Espírito Santo.
+1-BAS-77 atravessa Gr. Camamu.
+1-BAS-77 atravessa Formação Sergi.
+1-BAS-77 atravessa Fm. Rio de Contas.
+1-BAS-77 atravessa Gr. Brotas.
+2-NAST-1-PA está localizado em AMAZONAS.
+2-NAST-1-PA atravessa Formação Curiri.
+2-NAST-1-PA atravessa Fm. Ererê.
+2-NAST-1-PA atravessa Fm. Maecuru.
+2-NAST-1-PA atravessa Formação Oriximiná.
+2-NAST-1-PA atravessa Fm. Itaituba.
+2-NAST-1-PA atravessa Formação Jatapu.
+2-NAST-1-PA atravessa Formação Barreirinha.
+2-NAST-1-PA atravessa Formação Monte Alegre.
+2-NAST-1-PA atravessa Formação Manacapuru.
+2-NAST-1-PA atravessa Fm. Nova Olinda.
+2-NAST-1-PA atravessa Formação Alter do Chão.
+Fm. Algodões faz parte de Gr. Camamu.
+Fm. Algodões tem idade geológica Cenomaniano.
+Fm. Algodões é constituído por folhelho.
+Fm. Algodões é constituído por dolomito.
+Fm. Algodões é constituído por calcissiltito.
+Fm. Algodões é constituído por anidrita.
+Fm. Algodões é constituído por argila.
+Fm. Algodões é constituído por calcilutito.
+Fm. Algodões é constituído por arenito.
+Fm. Algodões é constituído por marga.
+Fm. Algodões é constituído por siltito.
+Fm. Algodões é constituído por calcarenito.
+Fm. Algodões está localizado em CAMAMU-ALMADA.
+Fm. Nhamundá faz parte de Gr. Trombetas.
+Fm. Nhamundá tem idade geológica Siluriano.
+Fm. Nhamundá é constituído por arenito.
+Fm. Nhamundá é constituído por folhelho.
+Fm. Nhamundá é constituído por siltito.
+Fm. Nhamundá está localizado em AMAZONAS.
+1-BAS-78 atravessa Gr. Camamu.
+1-BAS-78 atravessa Formação Urucutuca.
+1-BAS-78 atravessa Gr. Espírito Santo.
+1-BAS-78 está localizado em CAMAMU-ALMADA.
+1-BAS-78 atravessa Formação Taipus-Mirim.
+1-STAT-7i-BAS atravessa Formação Urucutuca.
+1-STAT-7i-BAS está localizado em CAMAMU-ALMADA.
+1-CM-3-PA atravessa Formação Curiri.
+1-CM-3-PA atravessa Formação Alter do Chão.
+1-CM-3-PA atravessa Formação Barreirinha.
+1-CM-3-PA está localizado em AMAZONAS.
+1-CM-3-PA atravessa Fm. Maecuru.
+1-CM-3-PA atravessa Formação Oriximiná.
+1-CM-3-PA atravessa Formação Jatapu.
+1-CM-3-PA atravessa Fm. Itaituba.
+1-CM-3-PA atravessa Formação Monte Alegre.
+1-CM-3-PA atravessa Fm. Ererê.
+1-BAS-13 atravessa Gr. Espírito Santo.
+1-BAS-13 atravessa Formação Urucutuca.
+1-BAS-13 atravessa Formação Taipus-Mirim.
+1-BAS-13 está localizado em CAMAMU-ALMADA.
+1-BAS-13 atravessa Gr. Camamu.
+1-BAS-13 atravessa Gr. Almada.
+1-BAS-13 atravessa Fm. Rio de Contas.
+1-STAT-7-BAS atravessa Formação Urucutuca.
+1-STAT-7-BAS está localizado em CAMAMU-ALMADA.
+Mb. Urubu faz parte de Formação Barreirinha.
+2-AP-1-PA atravessa Formação Alter do Chão.
+2-AP-1-PA atravessa Formação Andirá.
+2-AP-1-PA atravessa Fm. Nova Olinda.
+2-AP-1-PA está localizado em AMAZONAS.
+1-LSA-1-AM atravessa Formação Faro.
+1-LSA-1-AM atravessa Fm. Nova Olinda.
+1-LSA-1-AM atravessa Fm. Maecuru.
+1-LSA-1-AM atravessa Formação Andirá.
+1-LSA-1-AM atravessa Formação Monte Alegre.
+1-LSA-1-AM está localizado em AMAZONAS.
+1-LSA-1-AM atravessa Formação Alter do Chão.
+1-LSA-1-AM atravessa Formação Curiri.
+1-LSA-1-AM atravessa Formação Barreirinha.
+1-LSA-1-AM atravessa Fm. Itaituba.
+1-LSA-1-AM atravessa Fm. Ererê.
+1-LSA-1-AM atravessa Formação Oriximiná.
+1-BAS-126 atravessa Gr. Espírito Santo.
+1-BAS-126 atravessa Gr. Camamu.
+1-BAS-126 atravessa Fm. Algodões.
+1-BAS-126 atravessa Formação Urucutuca.
+1-BAS-126 atravessa Mb. Igrapiúna.
+1-BAS-126 está localizado em CAMAMU-ALMADA.
+1-BAS-126 atravessa Formação Taipus-Mirim.
+2-JIST-1-PA está localizado em AMAZONAS.
+2-JIST-1-PA atravessa Formação Oriximiná.
+2-JIST-1-PA atravessa Formação Alter do Chão.
+2-JIST-1-PA atravessa Formação Faro.
+Fm. Itaípe faz parte de Gr. Brotas.
+Fm. Itaípe tem idade geológica Rio_da_Serra.
+Fm. Itaípe é constituído por arenito.
+Fm. Itaípe é constituído por folhelho.
+Fm. Itaípe é constituído por siltito.
+Fm. Itaípe é constituído por marga.
+Fm. Itaípe é constituído por calcilutito.
+Fm. Itaípe é constituído por calcário cristalino.
+Fm. Itaípe está localizado em CAMAMU-ALMADA.
+1-BAS-79 está localizado em CAMAMU-ALMADA.
+1-BAS-79 atravessa Gr. Almada.
+1-BAS-79 atravessa Formação Taipus-Mirim.
+1-BAS-79 atravessa Fm. Rio de Contas.
+1-BAS-79 atravessa Gr. Espírito Santo.
+1-BAS-79 atravessa Formação Urucutuca.
+1-BAS-79 atravessa Fm. Algodões.
+1-BAS-79 atravessa Gr. Camamu.
+1-BAS-14 atravessa Fm. Algodões.
+1-BAS-14 está localizado em CAMAMU-ALMADA.
+1-BAS-14 atravessa Formação Urucutuca.
+1-BAS-14 atravessa Fm. Rio de Contas.
+1-BAS-14 atravessa Gr. Almada.
+1-BAS-14 atravessa Gr. Camamu.
+1-BAS-14 atravessa Gr. Espírito Santo.
+1-BAS-14 atravessa Formação Taipus-Mirim.
+1-BAS-3 atravessa Fm. Algodões.
+1-BAS-3 atravessa Formação Taipus-Mirim.
+1-BAS-3 está localizado em CAMAMU-ALMADA.
+1-BAS-3 atravessa Gr. Almada.
+1-BAS-3 atravessa Fm. Morro do Barro.
+1-BAS-3 atravessa Gr. Camamu.
+1-BAS-3 atravessa Formação Urucutuca.
+1-BAS-3 atravessa Gr. Espírito Santo.
+1-BAS-3 atravessa Fm. Rio de Contas.
+1-FZT-1-BA está localizado em CAMAMU-ALMADA.
+1-FZT-1-BA atravessa Gr. Brotas.
+1-FZT-1-BA atravessa Fm. Itaípe.
+1-FZT-1-BA atravessa Fm. Morro do Barro.
+1-FZT-1-BA atravessa Gr. Almada.
+1-FZT-1-BA atravessa Embasamento.
+1-FZT-1-BA atravessa Formação Sergi.
+2-ITST-1-PA está localizado em AMAZONAS.
+2-ITST-1-PA atravessa Formação Alter do Chão.
+2-LQST-1-AM atravessa Formação Curiri.
+2-LQST-1-AM atravessa Formação Manacapuru.
+2-LQST-1-AM atravessa Formação Monte Alegre.
+2-LQST-1-AM atravessa Fm. Maecuru.
+2-LQST-1-AM atravessa Formação Alter do Chão.
+2-LQST-1-AM atravessa Formação Jatapu.
+2-LQST-1-AM atravessa Fm. Itaituba.
+2-LQST-1-AM atravessa Formação Barreirinha.
+2-LQST-1-AM está localizado em AMAZONAS.
+2-LQST-1-AM atravessa Formação Oriximiná.
+2-LQST-1-AM atravessa Fm. Nova Olinda.
+2-LQST-1-AM atravessa Fm. Ererê.
+2-UMST-1-AM atravessa Fm. Maecuru.
+2-UMST-1-AM atravessa Formação Manacapuru.
+2-UMST-1-AM atravessa Formação Monte Alegre.
+2-UMST-1-AM atravessa Formação Alter do Chão.
+2-UMST-1-AM atravessa Fm. Autás Mirim.
+2-UMST-1-AM atravessa Fm. Pitinga.
+2-UMST-1-AM atravessa Formação Jatapu.
+2-UMST-1-AM atravessa Fm. Ererê.
+2-UMST-1-AM atravessa Formação Barreirinha.
+2-UMST-1-AM atravessa Fm. Itaituba.
+2-UMST-1-AM atravessa Formação Curiri.
+2-UMST-1-AM atravessa Fm. Nhamundá.
+2-UMST-1-AM atravessa Gr. Purus.
+2-UMST-1-AM está localizado em AMAZONAS.
+2-UMST-1-AM atravessa Fm. Nova Olinda.
+1-RUT-1-AM atravessa Fm. Pitinga.
+1-RUT-1-AM atravessa Formação Alter do Chão.
+1-RUT-1-AM atravessa Fm. Itaituba.
+1-RUT-1-AM atravessa Fm. Nova Olinda.
+1-RUT-1-AM atravessa Fm. Maecuru.
+1-RUT-1-AM atravessa Formação Curiri.
+1-RUT-1-AM atravessa Formação Faro.
+1-RUT-1-AM atravessa Formação Monte Alegre.
+1-RUT-1-AM atravessa Fm. Ererê.
+1-RUT-1-AM está localizado em AMAZONAS.
+1-RUT-1-AM atravessa Formação Oriximiná.
+1-RUT-1-AM atravessa Formação Manacapuru.
+1-RUT-1-AM atravessa Formação Jatapu.
+1-RUT-1-AM está localizado em AZULÃO.
+1-RUT-1-AM atravessa Formação Barreirinha.
+1-RUT-1-AM atravessa Fm. Nhamundá.
+1-NB-2-BA atravessa Gr. Almada.
+1-NB-2-BA atravessa Embasamento.
+1-NB-2-BA atravessa Fm. Morro do Barro.
+1-NB-2-BA está localizado em CAMAMU-ALMADA.
+1-NB-2-BA atravessa Fm. Rio de Contas.
+1-NB-2-BA atravessa Gr. Espírito Santo.
+1-NB-2-BA atravessa Formação Urucutuca.
+Formação Urucutuca é constituído por argila.
+Formação Urucutuca é constituído por conglomerado.
+Formação Urucutuca faz parte de Gr. Espírito Santo.
+Formação Urucutuca é constituído por arenito.
+Formação Urucutuca é constituído por calcilutito.
+Formação Urucutuca é constituído por marga.
+Formação Urucutuca tem idade geológica Mesoeoceno.
+Formação Urucutuca é constituído por calcarenito.
+Formação Urucutuca é constituído por argilito.
+Formação Urucutuca é constituído por siltito.
+Formação Urucutuca está localizado em CAMAMU-ALMADA.
+Formação Urucutuca é constituído por folhelho.
+Formação Urucutuca é constituído por areia.
+2-MSST-1-AM atravessa Formação Oriximiná.
+2-MSST-1-AM atravessa Fm. Pitinga.
+2-MSST-1-AM atravessa Formação Andirá.
+2-MSST-1-AM atravessa Formação Alter do Chão.
+2-MSST-1-AM atravessa Formação Monte Alegre.
+2-MSST-1-AM atravessa Fm. Ererê.
+2-MSST-1-AM atravessa Formação Manacapuru.
+2-MSST-1-AM atravessa Fm. Nhamundá.
+2-MSST-1-AM está localizado em AMAZONAS.
+2-MSST-1-AM atravessa Formação Jatapu.
+2-MSST-1-AM atravessa Fm. Nova Olinda.
+2-MSST-1-AM atravessa Formação Barreirinha.
+2-MSST-1-AM atravessa Fm. Itaituba.
+2-MSST-1-AM atravessa Formação Curiri.
+1-BAS-71 atravessa Gr. Espírito Santo.
+1-BAS-71 atravessa Fm. Rio de Contas.
+1-BAS-71 atravessa Formação Sergi.
+1-BAS-71 atravessa Formação Taipus-Mirim.
+1-BAS-71 atravessa Gr. Almada.
+1-BAS-71 atravessa Embasamento.
+1-BAS-71 está localizado em CAMAMU-ALMADA.
+1-BAS-71 atravessa Gr. Brotas.
+1-BAS-71 atravessa Fm. Morro do Barro.
+1-BAS-71 atravessa Formação Urucutuca.
+1-BAS-71 atravessa Gr. Camamu.
+1-BAS-71 atravessa Fm. Itaípe.
+9-FZ-24-AM atravessa Fm. Nova Olinda.
+9-FZ-24-AM atravessa Formação Alter do Chão.
+9-FZ-24-AM está localizado em AMAZONAS.
+9-FZ-24-AM atravessa Formação Andirá.
+1-RM-1-AM atravessa Formação Jatapu.
+1-RM-1-AM atravessa Fm. Itaituba.
+1-RM-1-AM atravessa Formação Manacapuru.
+1-RM-1-AM atravessa Formação Curiri.
+1-RM-1-AM atravessa Fm. Ererê.
+1-RM-1-AM atravessa Fm. Nova Olinda.
+1-RM-1-AM atravessa Formação Alter do Chão.
+1-RM-1-AM está localizado em AMAZONAS.
+1-RM-1-AM atravessa Formação Monte Alegre.
+1-RM-1-AM atravessa Formação Barreirinha.
+1-RM-1-AM atravessa Fm. Maecuru.
+1-BAS-4 atravessa Gr. Espírito Santo.
+1-BAS-4 está localizado em CAMAMU-ALMADA.
+1-BAS-4 atravessa Gr. Almada.
+1-BAS-4 atravessa Fm. Morro do Barro.
+Fm. Marajó faz parte de Gr. Javari.
+Mb. Abacaxis faz parte de Formação Barreirinha.
+2-JCST-1-PA atravessa Fm. Itaituba.
+2-JCST-1-PA atravessa Formação Monte Alegre.
+2-JCST-1-PA atravessa Formação Oriximiná.
+2-JCST-1-PA atravessa Formação Faro.
+2-JCST-1-PA atravessa Formação Curiri.
+2-JCST-1-PA está localizado em AMAZONAS.
+2-JCST-1-PA atravessa Formação Alter do Chão.
+2-JCST-1-PA atravessa Fm. Nova Olinda.
+2-ITST-1R-PA atravessa Formação Alter do Chão.
+2-ITST-1R-PA atravessa Fm. Prosperança.
+2-ITST-1R-PA está localizado em AMAZONAS.
+Fm. Morro do Barro faz parte de Gr. Almada.
+Fm. Morro do Barro tem idade geológica Buracica.
+Fm. Morro do Barro é constituído por arenito.
+Fm. Morro do Barro é constituído por calcário cristalino.
+Fm. Morro do Barro é constituído por areia.
+Fm. Morro do Barro é constituído por argila.
+Fm. Morro do Barro é constituído por conglomerado.
+Fm. Morro do Barro é constituído por siltito.
+Fm. Morro do Barro é constituído por calcilutito.
+Fm. Morro do Barro é constituído por calcarenito.
+Fm. Morro do Barro é constituído por folhelho.
+Fm. Morro do Barro está localizado em CAMAMU-ALMADA.
+2-MIST-1-AM atravessa Fm. Maecuru.
+2-MIST-1-AM atravessa Formação Barreirinha.
+2-MIST-1-AM atravessa Formação Manacapuru.
+2-MIST-1-AM atravessa Fm. Ererê.
+2-MIST-1-AM atravessa Fm. Pitinga.
+2-MIST-1-AM atravessa Formação Monte Alegre.
+2-MIST-1-AM atravessa Fm. Nhamundá.
+2-MIST-1-AM atravessa Formação Curiri.
+2-MIST-1-AM atravessa Formação Jatapu.
+2-MIST-1-AM atravessa Formação Alter do Chão.
+2-MIST-1-AM atravessa Fm. Itaituba.
+2-MIST-1-AM atravessa Fm. Nova Olinda.
+2-MIST-1-AM está localizado em AMAZONAS.
+3-MB-5-BA atravessa Fm. Morro do Barro.
+3-MB-5-BA atravessa Gr. Almada.
+3-MB-5-BA está localizado em CAMAMU-ALMADA.
+3-MB-5-BA está localizado em MORRO DO BARRO.
+9-FZ-7-AM está localizado em AMAZONAS.
+9-FZ-7-AM atravessa Formação Alter do Chão.
+9-FZ-7-AM atravessa Fm. Nova Olinda.
+9-FZ-7-AM atravessa Formação Andirá.
+1-LPU-1-AM atravessa Fm. Nova Olinda.
+1-LPU-1-AM atravessa Fm. Itaituba.
+1-LPU-1-AM atravessa Formação Alter do Chão.
+1-LPU-1-AM atravessa Formação Curiri.
+1-LPU-1-AM está localizado em AMAZONAS.
+1-LPU-1-AM atravessa Formação Monte Alegre.
+7-JI-8-BA está localizado em JIRIBATUBA.
+7-JI-8-BA atravessa Fm. Morro do Barro.
+7-JI-8-BA atravessa Gr. Brotas.
+7-JI-8-BA está localizado em CAMAMU-ALMADA.
+7-JI-8-BA atravessa Gr. Almada.
+7-JI-8-BA atravessa Formação Sergi.
+7-JI-8-BA atravessa Fm. Itaípe.
+1-JI-1-BA está localizado em JIRIBATUBA.
+1-JI-1-BA atravessa Fm. Morro do Barro.
+1-JI-1-BA atravessa Formação Aliança.
+1-JI-1-BA atravessa Gr. Almada.
+1-JI-1-BA atravessa Gr. Espírito Santo.
+1-JI-1-BA atravessa Fm. Rio Doce.
+1-JI-1-BA atravessa Formação Sergi.
+1-JI-1-BA atravessa Mb. Capianga.
+1-JI-1-BA está localizado em CAMAMU-ALMADA.
+1-JI-1-BA atravessa Gr. Brotas.
+1-JI-1-BA atravessa Fm. Itaípe.
+9-FZ-20-AM atravessa Fm. Nova Olinda.
+9-FZ-20-AM atravessa Formação Andirá.
+9-FZ-20-AM está localizado em AMAZONAS.
+9-FZ-20-AM atravessa Formação Alter do Chão.
+7-JI-7-BA atravessa Fm. Itaípe.
+7-JI-7-BA está localizado em JIRIBATUBA.
+7-JI-7-BA está localizado em CAMAMU-ALMADA.
+7-JI-7-BA atravessa Gr. Brotas.
+7-JI-7-BA atravessa Formação Sergi.
+7-JI-7-BA atravessa Gr. Almada.
+7-JI-7-BA atravessa Fm. Morro do Barro.
+1-ELPS-16D-BAS está localizado em CAMAMU-ALMADA.
+Mb. Itacaré faz parte de Formação Taipus-Mirim.
+1-BRSA-734-BAS atravessa Gr. Brotas.
+1-BRSA-734-BAS atravessa Formação Urucutuca.
+1-BRSA-734-BAS atravessa Fm. Morro do Barro.
+1-BRSA-734-BAS está localizado em CAMAMU-ALMADA.
+1-BRSA-734-BAS atravessa Fm. Rio de Contas.
+1-BRSA-734-BAS atravessa Gr. Camamu.
+1-BRSA-734-BAS atravessa Formação Taipus-Mirim.
+1-BRSA-734-BAS atravessa Fm. Algodões.
+1-BRSA-734-BAS atravessa Fm. Itaípe.
+1-BRSA-734-BAS atravessa Formação Sergi.
+1-BRSA-734-BAS atravessa Gr. Almada.
+1-BRSA-734-BAS atravessa Gr. Espírito Santo.
+9-FZ-6-AM atravessa Formação Andirá.
+9-FZ-6-AM está localizado em AMAZONAS.
+9-FZ-6-AM atravessa Fm. Nova Olinda.
+9-FZ-6-AM atravessa Formação Alter do Chão.
+9-PA-2-AM atravessa Formação Alter do Chão.
+9-PA-2-AM atravessa Formação Andirá.
+9-PA-2-AM está localizado em AMAZONAS.
+1-ELPS-5-BAS está localizado em CAMAMU-ALMADA.
+1-BAS-63 atravessa Fm. Itaípe.
+1-BAS-63 atravessa Formação Taipus-Mirim.
+1-BAS-63 atravessa Fm. Rio de Contas.
+1-BAS-63 atravessa Gr. Espírito Santo.
+1-BAS-63 atravessa Gr. Brotas.
+1-BAS-63 atravessa Gr. Camamu.
+1-BAS-63 atravessa Formação Sergi.
+1-BAS-63 atravessa Fm. Morro do Barro.
+1-BAS-63 atravessa Fm. Algodões.
+1-BAS-63 atravessa Gr. Almada.
+1-BAS-63 está localizado em CAMAMU-ALMADA.
+2-IPST-1-AM atravessa Fm. Pitinga.
+2-IPST-1-AM atravessa Fm. Solimões.
+2-IPST-1-AM atravessa Formação Alter do Chão.
+2-IPST-1-AM atravessa Fm. Itaituba.
+2-IPST-1-AM atravessa Formação Monte Alegre.
+2-IPST-1-AM atravessa Fm. Nova Olinda.
+2-IPST-1-AM atravessa Formação Manacapuru.
+2-IPST-1-AM está localizado em AMAZONAS.
+2-IPST-1-AM atravessa Fm. Maecuru.
+1-RO-2-AM atravessa Fm. Itaituba.
+1-RO-2-AM atravessa Formação Alter do Chão.
+1-RO-2-AM atravessa Formação Monte Alegre.
+1-RO-2-AM atravessa Fm. Nova Olinda.
+1-RO-2-AM atravessa Formação Andirá.
+1-RO-2-AM atravessa Formação Oriximiná.
+1-RO-2-AM atravessa Formação Curiri.
+1-RO-2-AM está localizado em AMAZONAS.
+9-FZ-19-AM atravessa Formação Alter do Chão.
+9-FZ-19-AM atravessa Formação Andirá.
+9-FZ-19-AM está localizado em AMAZONAS.
+9-FZ-19-AM atravessa Fm. Nova Olinda.
+2-CAST-2-AM atravessa Formação Alter do Chão.
+2-CAST-2-AM está localizado em AMAZONAS.
+2-CAST-2-AM atravessa Fm. Itaituba.
+2-CAST-2-AM atravessa Formação Monte Alegre.
+2-CAST-2-AM atravessa Fm. Nova Olinda.
+2-CAST-2-AM atravessa Fm. Maecuru.
+2-CAST-2-AM atravessa Formação Barreirinha.
+2-CAST-2-AM atravessa Formação Jatapu.
+2-CAST-2-AM atravessa Formação Curiri.
+2-CAST-2-AM atravessa Fm. Ererê.
+2-CAST-2-AM atravessa Formação Manacapuru.
+1-RX-2-AM atravessa Formação Manacapuru.
+1-RX-2-AM atravessa Formação Alter do Chão.
+1-RX-2-AM atravessa Formação Monte Alegre.
+1-RX-2-AM atravessa Fm. Ererê.
+1-RX-2-AM atravessa Fm. Nhamundá.
+1-RX-2-AM atravessa Fm. Autás Mirim.
+1-RX-2-AM atravessa Formação Barreirinha.
+1-RX-2-AM atravessa Fm. Nova Olinda.
+1-RX-2-AM atravessa Fm. Pitinga.
+1-RX-2-AM atravessa Formação Curiri.
+1-RX-2-AM atravessa Fm. Itaituba.
+1-RX-2-AM atravessa Formação Jatapu.
+1-RX-2-AM atravessa Embasamento.
+1-RX-2-AM está localizado em AMAZONAS.
+9-FZ-28-AM atravessa Fm. Nova Olinda.
+9-FZ-28-AM atravessa Formação Andirá.
+9-FZ-28-AM atravessa Formação Alter do Chão.
+9-FZ-28-AM está localizado em AMAZONAS.
+Fm. Pitinga faz parte de Gr. Trombetas.
+Fm. Pitinga tem idade geológica Siluriano.
+Fm. Pitinga é constituído por silexito.
+Fm. Pitinga é constituído por siltito.
+Fm. Pitinga é constituído por diabásio.
+Fm. Pitinga é constituído por metassiltito.
+Fm. Pitinga é constituído por folhelho.
+Fm. Pitinga é constituído por metamórfica.
+Fm. Pitinga é constituído por arenito.
+Fm. Pitinga está localizado em AMAZONAS.
+9-FZ-25-AM atravessa Formação Andirá.
+9-FZ-25-AM atravessa Formação Alter do Chão.
+9-FZ-25-AM atravessa Fm. Nova Olinda.
+9-FZ-25-AM está localizado em AMAZONAS.
+1-AR-1A-AM atravessa Fm. Nova Olinda.
+1-AR-1A-AM atravessa Fm. Ererê.
+1-AR-1A-AM atravessa Fm. Itaituba.
+1-AR-1A-AM atravessa Formação Faro.
+1-AR-1A-AM atravessa Formação Monte Alegre.
+1-AR-1A-AM atravessa Formação Curiri.
+1-AR-1A-AM atravessa Formação Andirá.
+1-AR-1A-AM atravessa Formação Alter do Chão.
+1-AR-1A-AM atravessa Formação Barreirinha.
+1-AR-1A-AM está localizado em AMAZONAS.
+1-AR-1A-AM atravessa Formação Oriximiná.
+9-FZ-11-AM atravessa Formação Andirá.
+9-FZ-11-AM atravessa Fm. Nova Olinda.
+9-FZ-11-AM atravessa Formação Alter do Chão.
+9-FZ-11-AM está localizado em AMAZONAS.
+1-AM-9-AM atravessa Fm. Itaituba.
+1-AM-9-AM atravessa Formação Barreirinha.
+1-AM-9-AM está localizado em AMAZONAS.
+1-AM-9-AM atravessa Formação Monte Alegre.
+1-AM-9-AM atravessa Fm. Ererê.
+1-AM-9-AM atravessa Fm. Nova Olinda.
+1-AM-9-AM atravessa Formação Curiri.
+1-AM-9-AM atravessa Fm. Maecuru.
+1-AM-9-AM atravessa Formação Alter do Chão.
+1-AR-1-AM atravessa Formação Andirá.
+1-AR-1-AM atravessa Formação Alter do Chão.
+1-AR-1-AM está localizado em AMAZONAS.
+9-FZ-4-AM atravessa Formação Andirá.
+9-FZ-4-AM está localizado em AMAZONAS.
+9-FZ-4-AM atravessa Formação Alter do Chão.
+9-FZ-4-AM atravessa Fm. Nova Olinda.
+2-PCST-1-AM atravessa Formação Barreirinha.
+2-PCST-1-AM atravessa Fm. Ererê.
+2-PCST-1-AM está localizado em AMAZONAS.
+2-PCST-1-AM atravessa Fm. Maecuru.
+2-PCST-1-AM atravessa Formação Alter do Chão.
+2-PCST-1-AM atravessa Formação Jatapu.
+2-PCST-1-AM atravessa Fm. Nova Olinda.
+2-PCST-1-AM atravessa Formação Monte Alegre.
+2-PCST-1-AM atravessa Fm. Itaituba.
+2-PCST-1-AM atravessa Formação Curiri.
+9-FZ-5-AM atravessa Formação Alter do Chão.
+9-FZ-5-AM está localizado em AMAZONAS.
+CAMARAO NORTE está localizado em CAMAMU-ALMADA.
+1-BRSA-748-BAS atravessa Mb. Pedrão.
+1-BRSA-748-BAS atravessa Gr. Brotas.
+1-BRSA-748-BAS atravessa Fm. Afligidos.
+1-BRSA-748-BAS atravessa Gr. Almada.
+1-BRSA-748-BAS atravessa Gr. Espírito Santo.
+1-BRSA-748-BAS atravessa Formação Urucutuca.
+1-BRSA-748-BAS atravessa Fm. Morro do Barro.
+1-BRSA-748-BAS está localizado em CAMAMU-ALMADA.
+1-BRSA-748-BAS atravessa Fm. Rio de Contas.
+7-MNT-3-BAS atravessa Fm. Morro do Barro.
+7-MNT-3-BAS atravessa Fm. Itaípe.
+7-MNT-3-BAS atravessa Fm. Rio de Contas.
+7-MNT-3-BAS atravessa Formação Taipus-Mirim.
+7-MNT-3-BAS atravessa Gr. Camamu.
+7-MNT-3-BAS atravessa Gr. Brotas.
+7-MNT-3-BAS atravessa Gr. Espírito Santo.
+7-MNT-3-BAS está localizado em CAMAMU-ALMADA.
+7-MNT-3-BAS atravessa Gr. Almada.
+7-MNT-3-BAS atravessa Formação Sergi.
+7-MNT-3-BAS está localizado em MANATI.
+7-MNT-3-BAS atravessa Fm. Algodões.
+9-PFJ-1-AM atravessa Formação Alter do Chão.
+9-PFJ-1-AM atravessa Formação Andirá.
+9-PFJ-1-AM atravessa Fm. Nova Olinda.
+9-PFJ-1-AM está localizado em AMAZONAS.
+3-BRSA-164-AM está localizado em AZULÃO.
+3-BRSA-164-AM está localizado em AMAZONAS.
+3-BRSA-164-AM atravessa Formação Andirá.
+3-BRSA-164-AM atravessa Fm. Nova Olinda.
+3-BRSA-164-AM atravessa Formação Alter do Chão.
+9-FZ-5A-AM atravessa Formação Alter do Chão.
+9-FZ-5A-AM atravessa Formação Andirá.
+9-FZ-5A-AM está localizado em AMAZONAS.
+9-FZ-5A-AM atravessa Fm. Nova Olinda.
+1-AM-10-AM está localizado em AMAZONAS.
+1-AM-10-AM atravessa Fm. Nova Olinda.
+1-AM-10-AM atravessa Fm. Maecuru.
+1-AM-10-AM atravessa Formação Barreirinha.
+1-AM-10-AM atravessa Formação Alter do Chão.
+1-AM-10-AM atravessa Fm. Itaituba.
+1-AM-10-AM atravessa Fm. Ererê.
+1-AM-10-AM atravessa Formação Curiri.
+1-AM-10-AM atravessa Formação Monte Alegre.
+Mb. Ilhéus faz parte de Fm. Rio de Contas.
+1-RU-2-AM atravessa Fm. Nova Olinda.
+1-RU-2-AM atravessa Formação Jatapu.
+1-RU-2-AM atravessa Formação Alter do Chão.
+1-RU-2-AM está localizado em AMAZONAS.
+1-RU-2-AM atravessa Formação Manacapuru.
+1-RU-2-AM atravessa Fm. Itaituba.
+1-RU-2-AM atravessa Formação Andirá.
+1-RU-2-AM atravessa Formação Barreirinha.
+1-RU-2-AM atravessa Fm. Nhamundá.
+1-RU-2-AM atravessa Formação Monte Alegre.
+1-RU-2-AM atravessa Fm. Maecuru.
+1-RU-2-AM atravessa Fm. Pitinga.
+1-RU-2-AM atravessa Formação Curiri.
+1-RU-2-AM atravessa Fm. Ererê.
+4-MNT-7-BAS atravessa Fm. Morro do Barro.
+4-MNT-7-BAS atravessa Gr. Espírito Santo.
+4-MNT-7-BAS atravessa Gr. Almada.
+4-MNT-7-BAS está localizado em MANATI.
+4-MNT-7-BAS atravessa Formação Sergi.
+4-MNT-7-BAS atravessa Formação Taipus-Mirim.
+4-MNT-7-BAS atravessa Fm. Itaípe.
+4-MNT-7-BAS atravessa Gr. Camamu.
+4-MNT-7-BAS está localizado em CAMAMU-ALMADA.
+4-MNT-7-BAS atravessa Gr. Brotas.
+4-MNT-7-BAS atravessa Fm. Rio de Contas.
+4-MNT-7-BAS atravessa Fm. Algodões.
+2-RPST-1-PA está localizado em AMAZONAS.
+2-RPST-1-PA atravessa Fm. Itaituba.
+2-RPST-1-PA atravessa Formação Oriximiná.
+2-RPST-1-PA atravessa Formação Faro.
+2-RPST-1-PA atravessa Formação Monte Alegre.
+2-RPST-1-PA atravessa Formação Alter do Chão.
+2-RPST-1-PA atravessa Fm. Nova Olinda.
+1-BRSA-702-BAS atravessa Gr. Almada.
+1-BRSA-702-BAS atravessa Fm. Itaípe.
+1-BRSA-702-BAS atravessa Formação Sergi.
+1-BRSA-702-BAS atravessa Gr. Espírito Santo.
+1-BRSA-702-BAS atravessa Formação Urucutuca.
+1-BRSA-702-BAS está localizado em CAMAMU-ALMADA.
+1-BRSA-702-BAS atravessa Gr. Brotas.
+1-BRSA-702-BAS atravessa Fm. Morro do Barro.
+SARDINHA está localizado em CAMAMU-ALMADA.
+2-CAST-3-AM atravessa Fm. Maecuru.
+2-CAST-3-AM atravessa Formação Curiri.
+2-CAST-3-AM atravessa Formação Barreirinha.
+2-CAST-3-AM atravessa Fm. Ererê.
+2-CAST-3-AM atravessa Fm. Nova Olinda.
+2-CAST-3-AM atravessa Formação Monte Alegre.
+2-CAST-3-AM atravessa Formação Jatapu.
+2-CAST-3-AM atravessa Formação Alter do Chão.
+2-CAST-3-AM está localizado em AMAZONAS.
+2-CAST-3-AM atravessa Fm. Itaituba.
+Mb. Uraria faz parte de Formação Barreirinha.
+ÁREA BAS-064 está localizado em CAMAMU-ALMADA.
+3-JI-5-BA atravessa Fm. Itaípe.
+3-JI-5-BA atravessa Fm. Morro do Barro.
+3-JI-5-BA atravessa Gr. Brotas.
+3-JI-5-BA atravessa Gr. Almada.
+3-JI-5-BA atravessa Formação Sergi.
+3-JI-5-BA está localizado em CAMAMU-ALMADA.
+3-JI-5-BA está localizado em JIRIBATUBA.
+Embasamento é constituído por folhelho.
+Embasamento está localizado em CAMAMU-ALMADA.
+Embasamento é constituído por metamórfica.
+Embasamento tem idade geológica Dom_João.
+Embasamento é constituído por diabásio.
+1-BAS-88 atravessa Formação Urucutuca.
+1-BAS-88 atravessa Gr. Brotas.
+1-BAS-88 atravessa Gr. Espírito Santo.
+1-BAS-88 atravessa Fm. Morro do Barro.
+1-BAS-88 atravessa Formação Taipus-Mirim.
+1-BAS-88 atravessa Formação Sergi.
+1-BAS-88 atravessa Fm. Itaípe.
+1-BAS-88 atravessa Gr. Almada.
+1-BAS-88 está localizado em CAMAMU-ALMADA.
+1-BAS-88 atravessa Gr. Camamu.
+1-BAS-88 atravessa Embasamento.
+1-BAS-88 atravessa Fm. Rio de Contas.
+1-LC-2-AM atravessa Fm. Solimões.
+1-LC-2-AM atravessa Formação Curiri.
+1-LC-2-AM atravessa Formação Alter do Chão.
+1-LC-2-AM atravessa Fm. Maecuru.
+1-LC-2-AM atravessa Fm. Pitinga.
+1-LC-2-AM atravessa Formação Manacapuru.
+1-LC-2-AM atravessa Fm. Nova Olinda.
+1-LC-2-AM atravessa Formação Jatapu.
+1-LC-2-AM atravessa Formação Andirá.
+1-LC-2-AM atravessa Formação Monte Alegre.
+1-LC-2-AM atravessa Formação Barreirinha.
+1-LC-2-AM atravessa Fm. Nhamundá.
+1-LC-2-AM está localizado em AMAZONAS.
+1-LC-2-AM atravessa Fm. Ererê.
+1-LC-2-AM atravessa Fm. Itaituba.
+3-MB-7-BA atravessa Gr. Brotas.
+3-MB-7-BA está localizado em MORRO DO BARRO.
+3-MB-7-BA atravessa Fm. Itaípe.
+3-MB-7-BA atravessa Gr. Almada.
+3-MB-7-BA atravessa Fm. Morro do Barro.
+3-MB-7-BA está localizado em CAMAMU-ALMADA.
+3-MB-7-BA atravessa Formação Sergi.
+3-ELPS-11-BAS atravessa Fm. Morro do Barro.
+3-ELPS-11-BAS atravessa Fm. Itaípe.
+3-ELPS-11-BAS atravessa Formação Sergi.
+3-ELPS-11-BAS está localizado em CAMAMU-ALMADA.
+1-ITA-1-AM atravessa Formação Alter do Chão.
+1-ITA-1-AM atravessa Formação Curiri.
+1-ITA-1-AM atravessa Formação Monte Alegre.
+1-ITA-1-AM atravessa Formação Oriximiná.
+1-ITA-1-AM atravessa Fm. Itaituba.
+1-ITA-1-AM atravessa Formação Andirá.
+1-ITA-1-AM está localizado em AMAZONAS.
+1-ITA-1-AM atravessa Fm. Nova Olinda.
+1-ITA-1-AM atravessa Formação Barreirinha.
+4-ELPS-10-BAS está localizado em CAMAMU-ALMADA.
+4-ELPS-10-BAS atravessa Fm. Itaípe.
+4-ELPS-10-BAS atravessa Formação Sergi.
+4-ELPS-10-BAS atravessa Fm. Morro do Barro.
+2-ICST-1-AM atravessa Formação Barreirinha.
+2-ICST-1-AM atravessa Formação Jatapu.
+2-ICST-1-AM atravessa Fm. Maecuru.
+2-ICST-1-AM atravessa Formação Manacapuru.
+2-ICST-1-AM atravessa Fm. Nhamundá.
+2-ICST-1-AM atravessa Formação Alter do Chão.
+2-ICST-1-AM atravessa Formação Monte Alegre.
+2-ICST-1-AM atravessa Fm. Nova Olinda.
+2-ICST-1-AM atravessa Fm. Ererê.
+2-ICST-1-AM atravessa Fm. Itaituba.
+2-ICST-1-AM atravessa Fm. Pitinga.
+2-ICST-1-AM atravessa Formação Curiri.
+2-ICST-1-AM está localizado em AMAZONAS.
+7-JI-10-BA atravessa Formação Aliança.
+7-JI-10-BA atravessa Gr. Almada.
+7-JI-10-BA atravessa Fm. Itaípe.
+7-JI-10-BA está localizado em CAMAMU-ALMADA.
+7-JI-10-BA está localizado em JIRIBATUBA.
+7-JI-10-BA atravessa Formação Sergi.
+7-JI-10-BA atravessa Gr. Brotas.
+7-JI-10-BA atravessa Fm. Morro do Barro.
+7-JI-10-BA atravessa Embasamento.
+3-BRSA-115-BAS atravessa Fm. Rio de Contas.
+3-BRSA-115-BAS está localizado em CAMAMU-ALMADA.
+3-BRSA-115-BAS atravessa Gr. Brotas.
+3-BRSA-115-BAS atravessa Gr. Espírito Santo.
+3-BRSA-115-BAS atravessa Fm. Algodões.
+3-BRSA-115-BAS atravessa Formação Taipus-Mirim.
+3-BRSA-115-BAS atravessa Gr. Almada.
+3-BRSA-115-BAS atravessa Gr. Camamu.
+3-BRSA-115-BAS atravessa Fm. Morro do Barro.
+3-BRSA-115-BAS atravessa Fm. Itaípe.
+3-BRSA-115-BAS atravessa Formação Sergi.
+3-BRSA-115-BAS atravessa Fm. Caravelas.
+3-BRSA-115-BAS está localizado em MANATI.
+Fm. Itaparica faz parte de Gr. Santo Amaro.
+3-ELPS-6-BAS atravessa Formação Taipus-Mirim.
+3-ELPS-6-BAS atravessa Fm. Rio de Contas.
+3-ELPS-6-BAS está localizado em SARDINHA.
+3-ELPS-6-BAS atravessa Fm. Morro do Barro.
+3-ELPS-6-BAS está localizado em CAMAMU-ALMADA.
+3-ELPS-6-BAS atravessa Gr. Camamu.
+3-ELPS-6-BAS atravessa Gr. Almada.
+3-ELPS-6-BAS atravessa Membro Tinharé.
+3-ELPS-6-BAS atravessa Fm. Algodões.
+9-FZ-14-AM atravessa Formação Alter do Chão.
+9-FZ-14-AM atravessa Fm. Nova Olinda.
+9-FZ-14-AM atravessa Formação Andirá.
+9-FZ-14-AM está localizado em AMAZONAS.
+3-MBX-1R-BA atravessa Gr. Almada.
+3-MBX-1R-BA está localizado em MORRO DO BARRO.
+3-MBX-1R-BA atravessa Fm. Morro do Barro.
+3-MBX-1R-BA está localizado em CAMAMU-ALMADA.
+2-RUST-1-AM atravessa Fm. Itaituba.
+2-RUST-1-AM está localizado em AMAZONAS.
+2-RUST-1-AM atravessa Formação Andirá.
+2-RUST-1-AM atravessa Fm. Nova Olinda.
+2-RUST-1-AM atravessa Formação Alter do Chão.
+9-FZ-23-AM está localizado em AMAZONAS.
+9-FZ-23-AM atravessa Formação Alter do Chão.
+9-FZ-23-AM atravessa Fm. Nova Olinda.
+9-FZ-23-AM atravessa Formação Andirá.
+JAPIIM está localizado em AMAZONAS.
+Formação Curiri faz parte de Gr. Curuá.
+Formação Curiri tem idade geológica Neofamenniano.
+Formação Curiri é constituído por diabásio.
+Formação Curiri é constituído por arenito.
+Formação Curiri é constituído por metamórfica.
+Formação Curiri é constituído por folhelho.
+Formação Curiri é constituído por conglomerado.
+Formação Curiri é constituído por metassiltito.
+Formação Curiri é constituído por diamictito.
+Formação Curiri é constituído por siltito.
+Formação Curiri é constituído por areia.
+Formação Curiri está localizado em AMAZONAS.
+Formação Curiri é portador de Maciça.
+Formação Curiri é portador de Falha.
+Formação Curiri é portador de Estratificação Cruzada Sigmoidal.
+1-COST-5-BAS está localizado em CAMAMU-ALMADA.
+9-FZ-26-AM atravessa Formação Andirá.
+9-FZ-26-AM está localizado em AMAZONAS.
+9-FZ-26-AM atravessa Formação Alter do Chão.
+9-FZ-26-AM atravessa Fm. Nova Olinda.
+4-MB-9-BA atravessa Gr. Almada.
+4-MB-9-BA está localizado em CAMAMU-ALMADA.
+4-MB-9-BA está localizado em MORRO DO BARRO.
+4-MB-9-BA atravessa Fm. Morro do Barro.
+9-FZ-21-AM está localizado em AMAZONAS.
+9-FZ-21-AM atravessa Fm. Nova Olinda.
+9-FZ-21-AM atravessa Formação Andirá.
+9-FZ-21-AM atravessa Formação Alter do Chão.
+2-NBST-1D-BA atravessa Embasamento.
+2-NBST-1D-BA atravessa Formação Urucutuca.
+2-NBST-1D-BA está localizado em CAMAMU-ALMADA.
+2-NBST-1D-BA atravessa Fm. Rio de Contas.
+2-NBST-1D-BA atravessa Gr. Espírito Santo.
+2-NBST-1D-BA atravessa Gr. Almada.
+3-BAS-131 atravessa Gr. Camamu.
+3-BAS-131 atravessa Fm. Caravelas.
+3-BAS-131 atravessa Fm. Itaípe.
+3-BAS-131 atravessa Fm. Morro do Barro.
+3-BAS-131 atravessa Gr. Almada.
+3-BAS-131 está localizado em CAMAMU-ALMADA.
+3-BAS-131 está localizado em CAMARAO NORTE.
+3-BAS-131 atravessa Gr. Espírito Santo.
+3-BAS-131 atravessa Formação Taipus-Mirim.
+3-BAS-131 atravessa Gr. Brotas.
+3-BAS-131 atravessa Fm. Algodões.
+3-BAS-131 atravessa Formação Sergi.
+3-BAS-131 atravessa Fm. Rio de Contas.
+3-MB-3-BA atravessa Formação Sergi.
+3-MB-3-BA atravessa Gr. Brotas.
+3-MB-3-BA atravessa Gr. Almada.
+3-MB-3-BA está localizado em CAMAMU-ALMADA.
+3-MB-3-BA atravessa Fm. Morro do Barro.
+3-MB-3-BA está localizado em MORRO DO BARRO.
+3-MB-3-BA atravessa Fm. Itaípe.
+1-UA-2-AM atravessa Formação Oriximiná.
+1-UA-2-AM atravessa Formação Faro.
+1-UA-2-AM atravessa Fm. Ererê.
+1-UA-2-AM atravessa Formação Curiri.
+1-UA-2-AM atravessa Fm. Maecuru.
+1-UA-2-AM atravessa Formação Jatapu.
+1-UA-2-AM atravessa Formação Barreirinha.
+1-UA-2-AM está localizado em AMAZONAS.
+1-UA-2-AM atravessa Formação Andirá.
+1-UA-2-AM atravessa Formação Manacapuru.
+1-UA-2-AM atravessa Formação Monte Alegre.
+1-UA-2-AM atravessa Fm. Nova Olinda.
+1-UA-2-AM atravessa Fm. Itaituba.
+1-UA-2-AM atravessa Formação Alter do Chão.
+2-IBST-1A-PA atravessa Formação Curiri.
+2-IBST-1A-PA atravessa Formação Jatapu.
+2-IBST-1A-PA está localizado em AMAZONAS.
+2-IBST-1A-PA atravessa Formação Barreirinha.
+2-IBST-1A-PA atravessa Fm. Ererê.
+2-IBST-1A-PA atravessa Formação Manacapuru.
+2-IBST-1A-PA atravessa Formação Alter do Chão.
+2-AIST-1-AM atravessa Formação Alter do Chão.
+2-AIST-1-AM atravessa Formação Acari.
+2-AIST-1-AM atravessa Fm. Solimões.
+2-AIST-1-AM atravessa Fm. Prosperança.
+2-AIST-1-AM está localizado em AMAZONAS.
+2-AIST-1-AM atravessa Embasamento.
+1-MB-1-BA atravessa Fm. Itaípe.
+1-MB-1-BA atravessa Gr. Almada.
+1-MB-1-BA está localizado em CAMAMU-ALMADA.
+1-MB-1-BA atravessa Fm. Morro do Barro.
+1-MB-1-BA está localizado em MORRO DO BARRO.
+1-MB-1-BA atravessa Formação Sergi.
+1-MB-1-BA atravessa Gr. Brotas.
+2-NBST-1-BA atravessa Fm. Morro do Barro.
+2-NBST-1-BA atravessa Formação Urucutuca.
+2-NBST-1-BA está localizado em CAMAMU-ALMADA.
+2-NBST-1-BA atravessa Fm. Rio de Contas.
+2-NBST-1-BA atravessa Gr. Almada.
+2-NBST-1-BA atravessa Gr. Espírito Santo.
+2-NBST-1-BA atravessa Embasamento.
+2-LIST-1-AP está localizado em AMAZONAS.
+2-LIST-1-AP atravessa Formação Alter do Chão.
+2-IBST-1-PA está localizado em AMAZONAS.
+2-IBST-1-PA atravessa Formação Alter do Chão.
+9-FZ-2-AM atravessa Fm. Nova Olinda.
+9-FZ-2-AM atravessa Formação Alter do Chão.
+9-FZ-2-AM atravessa Fm. Ererê.
+9-FZ-2-AM atravessa Formação Monte Alegre.
+9-FZ-2-AM atravessa Formação Curiri.
+9-FZ-2-AM atravessa Formação Oriximiná.
+9-FZ-2-AM está localizado em AMAZONAS.
+9-FZ-2-AM atravessa Formação Faro.
+9-FZ-2-AM atravessa Formação Barreirinha.
+9-FZ-2-AM atravessa Formação Andirá.
+9-FZ-2-AM atravessa Fm. Itaituba.
+Gr. Curuá está localizado em AMAZONAS.
+Gr. Curuá tem idade geológica Bashkiriano.
+2-CPST-2-PA atravessa Formação Curiri.
+2-CPST-2-PA está localizado em AMAZONAS.
+2-CPST-2-PA atravessa Fm. Itaituba.
+2-CPST-2-PA atravessa Formação Monte Alegre.
+2-CPST-2-PA atravessa Fm. Nova Olinda.
+1-BAS-29 atravessa Formação Taipus-Mirim.
+1-BAS-29 atravessa Fm. Rio de Contas.
+1-BAS-29 atravessa Gr. Espírito Santo.
+1-BAS-29 atravessa Fm. Algodões.
+1-BAS-29 atravessa Formação Urucutuca.
+1-BAS-29 está localizado em CAMAMU-ALMADA.
+1-BAS-29 atravessa Gr. Camamu.
+1-BAS-29 atravessa Gr. Almada.
+1-BAS-36 atravessa Gr. Espírito Santo.
+1-BAS-36 atravessa Formação Urucutuca.
+1-BAS-36 atravessa Fm. Morro do Barro.
+1-BAS-36 atravessa Formação Sergi.
+1-BAS-36 atravessa Gr. Brotas.
+1-BAS-36 atravessa Embasamento.
+1-BAS-36 está localizado em CAMAMU-ALMADA.
+1-BAS-36 atravessa Fm. Rio de Contas.
+1-BAS-36 atravessa Fm. Itaípe.
+1-BAS-36 atravessa Gr. Almada.
+3-AZU-1-AM atravessa Fm. Itaituba.
+3-AZU-1-AM atravessa Formação Monte Alegre.
+3-AZU-1-AM está localizado em AZULÃO.
+3-AZU-1-AM atravessa Formação Andirá.
+3-AZU-1-AM atravessa Formação Oriximiná.
+3-AZU-1-AM atravessa Formação Curiri.
+3-AZU-1-AM atravessa Formação Alter do Chão.
+3-AZU-1-AM está localizado em AMAZONAS.
+3-AZU-1-AM atravessa Fm. Nova Olinda.
+3-AZU-1-AM atravessa Formação Faro.
+2-LCST-1-AM atravessa Formação Monte Alegre.
+2-LCST-1-AM atravessa Fm. Nova Olinda.
+2-LCST-1-AM atravessa Fm. Ererê.
+2-LCST-1-AM atravessa Fm. Itaituba.
+2-LCST-1-AM atravessa Formação Jatapu.
+2-LCST-1-AM atravessa Fm. Pitinga.
+2-LCST-1-AM atravessa Fm. Solimões.
+2-LCST-1-AM atravessa Formação Barreirinha.
+2-LCST-1-AM está localizado em AMAZONAS.
+2-LCST-1-AM atravessa Fm. Nhamundá.
+2-LCST-1-AM atravessa Formação Curiri.
+2-LCST-1-AM atravessa Formação Manacapuru.
+2-LCST-1-AM atravessa Fm. Maecuru.
+2-LCST-1-AM atravessa Formação Alter do Chão.
+3-MB-2-BA atravessa Gr. Almada.
+3-MB-2-BA atravessa Fm. Morro do Barro.
+3-MB-2-BA está localizado em CAMAMU-ALMADA.
+3-MB-2-BA atravessa Membro Tinharé.
+3-MB-2-BA está localizado em MORRO DO BARRO.
+3-MB-2-BA atravessa Mb. Jiribatuba.
+1-FMB-1-BA atravessa Embasamento.
+1-FMB-1-BA atravessa Formação Urucutuca.
+1-FMB-1-BA atravessa Formação Sergi.
+1-FMB-1-BA atravessa Fm. Itaípe.
+1-FMB-1-BA está localizado em CAMAMU-ALMADA.
+1-FMB-1-BA atravessa Gr. Espírito Santo.
+1-FMB-1-BA atravessa Gr. Brotas.
+9-PFJ-2-AM atravessa Formação Andirá.
+9-PFJ-2-AM atravessa Formação Alter do Chão.
+9-PFJ-2-AM atravessa Fm. Nova Olinda.
+9-PFJ-2-AM está localizado em AMAZONAS.
+9-PA-3A-AM atravessa Fm. Nova Olinda.
+9-PA-3A-AM atravessa Formação Alter do Chão.
+9-PA-3A-AM atravessa Formação Andirá.
+9-PA-3A-AM está localizado em AMAZONAS.
+1-AC-1-PA atravessa Fm. Itaituba.
+1-AC-1-PA está localizado em AMAZONAS.
+1-AC-1-PA atravessa Formação Oriximiná.
+1-AC-1-PA atravessa Formação Faro.
+1-AC-1-PA atravessa Formação Curiri.
+1-AC-1-PA atravessa Formação Andirá.
+1-AC-1-PA atravessa Fm. Nova Olinda.
+1-AC-1-PA atravessa Formação Alter do Chão.
+1-AC-1-PA atravessa Formação Monte Alegre.
+1-FZ-1-AM atravessa Formação Oriximiná.
+1-FZ-1-AM atravessa Formação Alter do Chão.
+1-FZ-1-AM atravessa Fm. Nova Olinda.
+1-FZ-1-AM atravessa Fm. Ererê.
+1-FZ-1-AM atravessa Formação Faro.
+1-FZ-1-AM atravessa Formação Andirá.
+1-FZ-1-AM está localizado em AMAZONAS.
+1-FZ-1-AM atravessa Fm. Itaituba.
+1-FZ-1-AM atravessa Formação Monte Alegre.
+1-FZ-1-AM atravessa Formação Barreirinha.
+1-FZ-1-AM atravessa Formação Curiri.
+1-SSA-1-BA atravessa Embasamento.
+1-SSA-1-BA atravessa Gr. Brotas.
+1-SSA-1-BA está localizado em CAMAMU-ALMADA.
+1-SSA-1-BA atravessa Gr. Espírito Santo.
+1-SSA-1-BA atravessa Formação Sergi.
+1-SSA-1-BA atravessa Fm. Rio de Contas.
+1-SSA-1-BA atravessa Formação Urucutuca.
+1-SSA-1-BA atravessa Fm. Itaípe.
+1-SSA-1-BA atravessa Gr. Almada.
+1-PCZ-1-BA está localizado em CAMAMU-ALMADA.
+1-PCZ-1-BA atravessa Gr. Espírito Santo.
+1-PCZ-1-BA atravessa Fm. Morro do Barro.
+1-PCZ-1-BA atravessa Fm. Rio Doce.
+1-PCZ-1-BA atravessa Gr. Almada.
+3-MB-8-BA está localizado em CAMAMU-ALMADA.
+3-MB-8-BA está localizado em MORRO DO BARRO.
+3-MB-8-BA atravessa Gr. Almada.
+3-MB-8-BA atravessa Fm. Morro do Barro.
+1-BAS-62 atravessa Embasamento.
+1-BAS-62 atravessa Fm. Rio de Contas.
+1-BAS-62 atravessa Fm. Morro do Barro.
+1-BAS-62 atravessa Gr. Brotas.
+1-BAS-62 atravessa Formação Urucutuca.
+1-BAS-62 atravessa Fm. Itaípe.
+1-BAS-62 atravessa Gr. Espírito Santo.
+1-BAS-62 atravessa Formação Sergi.
+1-BAS-62 está localizado em CAMAMU-ALMADA.
+1-BAS-62 atravessa Gr. Almada.
+2-LIST-1R-AP atravessa Fm. Nhamundá.
+2-LIST-1R-AP está localizado em AMAZONAS.
+2-LIST-1R-AP atravessa Fm. Maecuru.
+2-LIST-1R-AP atravessa Fm. Pitinga.
+2-LIST-1R-AP atravessa Fm. Autás Mirim.
+2-LIST-1R-AP atravessa Fm. Ererê.
+2-LIST-1R-AP atravessa Formação Alter do Chão.
+2-LIST-1R-AP atravessa Formação Jatapu.
+2-LIST-1R-AP atravessa Formação Manacapuru.
+2-LIST-1R-AP atravessa Formação Barreirinha.
+2-CPST-1-PA atravessa Fm. Maecuru.
+2-CPST-1-PA atravessa Fm. Pitinga.
+2-CPST-1-PA atravessa Formação Monte Alegre.
+2-CPST-1-PA está localizado em AMAZONAS.
+2-CPST-1-PA atravessa Formação Jatapu.
+2-CPST-1-PA atravessa Formação Manacapuru.
+2-CPST-1-PA atravessa Formação Barreirinha.
+2-CPST-1-PA atravessa Fm. Nhamundá.
+2-CPST-1-PA atravessa Fm. Nova Olinda.
+2-CPST-1-PA atravessa Formação Curiri.
+2-CPST-1-PA atravessa Fm. Itaituba.
+2-CPST-1-PA atravessa Fm. Ererê.
+3-MB-6-BA está localizado em MORRO DO BARRO.
+3-MB-6-BA atravessa Gr. Almada.
+3-MB-6-BA está localizado em CAMAMU-ALMADA.
+3-MB-6-BA atravessa Fm. Morro do Barro.
+1-BAS-82 está localizado em CAMAMU-ALMADA.
+1-BAS-82 atravessa Gr. Espírito Santo.
+1-BAS-82 atravessa Formação Taipus-Mirim.
+1-BAS-82 atravessa Gr. Camamu.
+1-BAS-82 atravessa Formação Urucutuca.
+7-JI-11-BA atravessa Fm. Morro do Barro.
+7-JI-11-BA atravessa Gr. Brotas.
+7-JI-11-BA está localizado em JIRIBATUBA.
+7-JI-11-BA atravessa Formação Sergi.
+7-JI-11-BA atravessa Gr. Almada.
+7-JI-11-BA atravessa Fm. Itaípe.
+7-JI-11-BA está localizado em CAMAMU-ALMADA.
+3-BRSA-126-AM atravessa Formação Andirá.
+3-BRSA-126-AM atravessa Fm. Itaituba.
+3-BRSA-126-AM está localizado em AZULÃO.
+3-BRSA-126-AM atravessa Formação Alter do Chão.
+3-BRSA-126-AM está localizado em AMAZONAS.
+3-BRSA-126-AM atravessa Formação Faro.
+3-BRSA-126-AM atravessa Formação Monte Alegre.
+3-BRSA-126-AM atravessa Fm. Nova Olinda.
+1-BAS-64 atravessa Gr. Espírito Santo.
+1-BAS-64 está localizado em CAMAMU-ALMADA.
+1-BAS-64 está localizado em ÁREA BAS-064.
+1-BAS-64 atravessa Fm. Afligidos.
+1-BAS-64 atravessa Fm. Algodões.
+1-BAS-64 atravessa Fm. Rio de Contas.
+1-BAS-64 atravessa Formação Sergi.
+1-BAS-64 atravessa Gr. Almada.
+1-BAS-64 atravessa Fm. Itaípe.
+1-BAS-64 atravessa Gr. Camamu.
+1-BAS-64 atravessa Formação Aliança.
+1-BAS-64 atravessa Formação Taipus-Mirim.
+1-BAS-64 atravessa Fm. Morro do Barro.
+1-FA-1-AM atravessa Formação Alter do Chão.
+1-FA-1-AM atravessa Formação Curiri.
+1-FA-1-AM atravessa Formação Andirá.
+1-FA-1-AM atravessa Fm. Itaituba.
+1-FA-1-AM atravessa Formação Oriximiná.
+1-FA-1-AM atravessa Formação Faro.
+1-FA-1-AM atravessa Fm. Nova Olinda.
+1-FA-1-AM está localizado em AMAZONAS.
+1-FA-1-AM atravessa Formação Monte Alegre.
+Fm. Candeias faz parte de Gr. Santo Amaro.
+1-BAS-112 está localizado em CAMAMU-ALMADA.
+1-BAS-112 atravessa Fm. Algodões.
+1-BAS-112 atravessa Gr. Camamu.
+1-BAS-112 atravessa Formação Taipus-Mirim.
+1-BAS-112 atravessa Gr. Espírito Santo.
+1-BAS-83 está localizado em CAMAMU-ALMADA.
+1-BAS-83 atravessa Gr. Espírito Santo.
+1-BAS-83 atravessa Gr. Almada.
+1-BAS-83 atravessa Formação Urucutuca.
+1-BAS-83 atravessa Formação Taipus-Mirim.
+1-BAS-83 atravessa Fm. Rio de Contas.
+1-BAS-83 atravessa Gr. Camamu.
+1-BAS-83 atravessa Fm. Algodões.
+Mb. Serinhaém faz parte de Formação Taipus-Mirim.
+3-JI-6-BA está localizado em CAMAMU-ALMADA.
+3-JI-6-BA atravessa Formação Aliança.
+3-JI-6-BA atravessa Mb. Capianga.
+3-JI-6-BA atravessa Fm. Afligidos.
+3-JI-6-BA atravessa Formação Sergi.
+3-JI-6-BA atravessa Mb. Pedrão.
+3-JI-6-BA está localizado em JIRIBATUBA.
+3-JI-6-BA atravessa Mb. Cazumba.
+3-JI-6-BA atravessa Mb. Boipeba.
+3-JI-6-BA atravessa Gr. Brotas.
+3-JI-6-BA atravessa Fm. Itaípe.
+1-TU-1-PA atravessa Fm. Itaituba.
+1-TU-1-PA atravessa Formação Monte Alegre.
+1-TU-1-PA atravessa Formação Oriximiná.
+1-TU-1-PA atravessa Formação Alter do Chão.
+1-TU-1-PA atravessa Fm. Nova Olinda.
+1-TU-1-PA atravessa Formação Andirá.
+1-TU-1-PA está localizado em AMAZONAS.
+1-TU-1-PA atravessa Formação Curiri.
+1-TU-1-PA atravessa Formação Faro.
+1-ICR-1-PA atravessa Formação Monte Alegre.
+1-ICR-1-PA atravessa Formação Alter do Chão.
+1-ICR-1-PA atravessa Fm. Itaituba.
+1-ICR-1-PA atravessa Formação Oriximiná.
+1-ICR-1-PA atravessa Formação Faro.
+1-ICR-1-PA atravessa Formação Curiri.
+1-ICR-1-PA atravessa Fm. Nova Olinda.
+1-ICR-1-PA está localizado em AMAZONAS.
+3-JI-3-BA atravessa Gr. Almada.
+3-JI-3-BA atravessa Formação Sergi.
+3-JI-3-BA está localizado em CAMAMU-ALMADA.
+3-JI-3-BA está localizado em JIRIBATUBA.
+3-JI-3-BA atravessa Gr. Brotas.
+3-JI-3-BA atravessa Fm. Morro do Barro.
+3-JI-3-BA atravessa Fm. Itaípe.
+1-RSO-2-BA atravessa Gr. Almada.
+1-RSO-2-BA está localizado em JIRIBATUBA.
+1-RSO-2-BA está localizado em CAMAMU-ALMADA.
+1-RSO-2-BA atravessa Fm. Morro do Barro.
+Formação Jatapu faz parte de Gr. Trombetas.
+Formação Jatapu tem idade geológica Eodevoniano.
+Formação Jatapu é constituído por folhelho.
+Formação Jatapu é constituído por siltito.
+Formação Jatapu é constituído por calcarenito.
+Formação Jatapu é constituído por diabásio.
+Formação Jatapu é constituído por arenito.
+Formação Jatapu é constituído por argilito.
+Formação Jatapu está localizado em AMAZONAS.
+1-RSO-1-BA atravessa Fm. Morro do Barro.
+1-RSO-1-BA está localizado em JIRIBATUBA.
+1-RSO-1-BA está localizado em CAMAMU-ALMADA.
+1-RSO-1-BA atravessa Gr. Almada.
+1-RSO-1-BA atravessa Formação Sergi.
+1-RSO-1-BA atravessa Fm. Itaípe.
+1-MU-4-AM atravessa Formação Alter do Chão.
+1-MU-4-AM atravessa Fm. Ererê.
+1-MU-4-AM atravessa Fm. Nhamundá.
+1-MU-4-AM atravessa Fm. Pitinga.
+1-MU-4-AM atravessa Formação Jatapu.
+1-MU-4-AM atravessa Fm. Nova Olinda.
+1-MU-4-AM está localizado em AMAZONAS.
+1-MU-4-AM atravessa Fm. Maecuru.
+1-MU-4-AM atravessa Fm. Itaituba.
+1-MU-4-AM atravessa Formação Manacapuru.
+1-MU-4-AM atravessa Formação Monte Alegre.
+3-JI-4-BA está localizado em CAMAMU-ALMADA.
+3-JI-4-BA está localizado em JIRIBATUBA.
+3-JI-4-BA atravessa Gr. Almada.
+3-JI-4-BA atravessa Fm. Morro do Barro.
+2-AAST-1-AM atravessa Formação Jatapu.
+2-AAST-1-AM atravessa Fm. Itaituba.
+2-AAST-1-AM atravessa Formação Monte Alegre.
+2-AAST-1-AM está localizado em AMAZONAS.
+2-AAST-1-AM atravessa Fm. Nhamundá.
+2-AAST-1-AM atravessa Fm. Autás Mirim.
+2-AAST-1-AM atravessa Fm. Pitinga.
+2-AAST-1-AM atravessa Formação Alter do Chão.
+2-AAST-1-AM atravessa Formação Acari.
+2-AAST-1-AM atravessa Formação Manacapuru.
+2-AAST-1-AM atravessa Fm. Nova Olinda.
+2-AAST-1-AM atravessa Fm. Solimões.
+1-MI-2-AM atravessa Formação Jatapu.
+1-MI-2-AM atravessa Formação Barreirinha.
+1-MI-2-AM atravessa Fm. Nova Olinda.
+1-MI-2-AM atravessa Fm. Ererê.
+1-MI-2-AM atravessa Formação Curiri.
+1-MI-2-AM está localizado em AMAZONAS.
+1-MI-2-AM atravessa Formação Monte Alegre.
+1-MI-2-AM atravessa Formação Manacapuru.
+1-MI-2-AM atravessa Fm. Maecuru.
+1-MI-2-AM atravessa Formação Alter do Chão.
+1-MI-2-AM atravessa Fm. Itaituba.
+1-MI-2-AM atravessa Fm. Pitinga.
+1-FC-1-PA atravessa Fm. Itaituba.
+1-FC-1-PA está localizado em AMAZONAS.
+1-FC-1-PA atravessa Formação Curiri.
+1-FC-1-PA atravessa Formação Faro.
+1-FC-1-PA atravessa Formação Oriximiná.
+1-FC-1-PA atravessa Formação Alter do Chão.
+1-FC-1-PA atravessa Fm. Nova Olinda.
+1-FC-1-PA atravessa Formação Monte Alegre.
+1-JIS-1-BA atravessa Gr. Brotas.
+1-JIS-1-BA atravessa Fm. Morro do Barro.
+1-JIS-1-BA está localizado em CAMAMU-ALMADA.
+1-JIS-1-BA atravessa Embasamento.
+1-JIS-1-BA está localizado em JIRIBATUBA.
+1-JIS-1-BA atravessa Fm. Itaípe.
+1-JIS-1-BA atravessa Gr. Almada.
+1-AB-1-PA atravessa Formação Alter do Chão.
+1-AB-1-PA está localizado em AMAZONAS.
+1-AB-1-PA atravessa Fm. Nova Olinda.
+1-AB-1-PA atravessa Formação Curiri.
+1-AB-1-PA atravessa Formação Monte Alegre.
+1-AB-1-PA atravessa Fm. Itaituba.
+2-PEST-1-AM atravessa Formação Curiri.
+2-PEST-1-AM atravessa Formação Barreirinha.
+2-PEST-1-AM atravessa Fm. Ererê.
+2-PEST-1-AM atravessa Fm. Maecuru.
+2-PEST-1-AM atravessa Fm. Nova Olinda.
+2-PEST-1-AM atravessa Fm. Itaituba.
+2-PEST-1-AM está localizado em AMAZONAS.
+2-PEST-1-AM atravessa Formação Monte Alegre.
+2-PEST-1-AM atravessa Formação Oriximiná.
+2-PEST-1-AM atravessa Formação Alter do Chão.
+1-IU-1-PA atravessa Formação Faro.
+1-IU-1-PA atravessa Fm. Maecuru.
+1-IU-1-PA atravessa Formação Oriximiná.
+1-IU-1-PA atravessa Formação Alter do Chão.
+1-IU-1-PA atravessa Formação Jatapu.
+1-IU-1-PA está localizado em AMAZONAS.
+1-IU-1-PA atravessa Fm. Ererê.
+1-IU-1-PA atravessa Fm. Itaituba.
+1-IU-1-PA atravessa Formação Curiri.
+1-IU-1-PA atravessa Formação Monte Alegre.
+1-IU-1-PA atravessa Formação Barreirinha.
+1-ELPS-17DA-BAS está localizado em CAMAMU-ALMADA.
+1-BAS-84 atravessa Fm. Rio de Contas.
+1-BAS-84 está localizado em CAMAMU-ALMADA.
+1-BAS-84 atravessa Fm. Itaípe.
+1-BAS-84 atravessa Fm. Morro do Barro.
+1-BAS-84 atravessa Formação Sergi.
+1-BAS-84 atravessa Gr. Brotas.
+1-BAS-84 atravessa Gr. Almada.
+1-BAS-84 atravessa Gr. Espírito Santo.
+1-BAS-128 atravessa Gr. Almada.
+1-BAS-128 atravessa Formação Taipus-Mirim.
+1-BAS-128 atravessa Gr. Camamu.
+1-BAS-128 atravessa Fm. Itaípe.
+1-BAS-128 atravessa Fm. Caravelas.
+1-BAS-128 atravessa Gr. Brotas.
+1-BAS-128 está localizado em MANATI.
+1-BAS-128 atravessa Fm. Morro do Barro.
+1-BAS-128 atravessa Formação Sergi.
+1-BAS-128 está localizado em CAMAMU-ALMADA.
+1-BAS-128 atravessa Fm. Rio de Contas.
+1-BAS-128 atravessa Fm. Algodões.
+1-BAS-128 atravessa Gr. Espírito Santo.
+1-NO-4-AM atravessa Fm. Nova Olinda.
+1-NO-4-AM atravessa Formação Oriximiná.
+1-NO-4-AM atravessa Formação Andirá.
+1-NO-4-AM atravessa Formação Monte Alegre.
+1-NO-4-AM atravessa Formação Curiri.
+1-NO-4-AM atravessa Fm. Ererê.
+1-NO-4-AM atravessa Fm. Itaituba.
+1-NO-4-AM atravessa Formação Alter do Chão.
+1-NO-4-AM atravessa Formação Barreirinha.
+1-NO-4-AM atravessa Fm. Maecuru.
+1-NO-4-AM está localizado em AMAZONAS.
+2-ALST-1-PA atravessa Fm. Nova Olinda.
+2-ALST-1-PA atravessa Fm. Itaituba.
+2-ALST-1-PA atravessa Formação Alter do Chão.
+2-ALST-1-PA atravessa Formação Faro.
+2-ALST-1-PA atravessa Formação Monte Alegre.
+2-ALST-1-PA atravessa Formação Oriximiná.
+2-ALST-1-PA está localizado em AMAZONAS.
+1-BAS-113 atravessa Gr. Almada.
+1-BAS-113 atravessa Fm. Rio de Contas.
+1-BAS-113 atravessa Fm. Morro do Barro.
+1-BAS-113 atravessa Fm. Itaípe.
+1-BAS-113 atravessa Gr. Espírito Santo.
+1-BAS-113 atravessa Formação Sergi.
+1-BAS-113 está localizado em CAMAMU-ALMADA.
+1-BAS-113 atravessa Gr. Brotas.
+2-VBST-1-BA atravessa Fm. Morro do Barro.
+2-VBST-1-BA está localizado em CAMAMU-ALMADA.
+2-VBST-1-BA atravessa Formação Sergi.
+2-VBST-1-BA atravessa Gr. Brotas.
+2-VBST-1-BA atravessa Formação Taipus-Mirim.
+2-VBST-1-BA atravessa Fm. Algodões.
+2-VBST-1-BA atravessa Gr. Almada.
+2-VBST-1-BA atravessa Fm. Afligidos.
+2-VBST-1-BA atravessa Formação Aliança.
+2-VBST-1-BA atravessa Fm. Itaípe.
+2-VBST-1-BA atravessa Gr. Camamu.
+Mb. Capianga está localizado em CAMAMU-ALMADA.
+Mb. Capianga tem idade geológica Dom_João.
+Mb. Capianga é constituído por folhelho.
+Mb. Capianga faz parte de Formação Aliança.
+Mb. Capianga é constituído por siltito.
+1-RCM-1-AM atravessa Fm. Ererê.
+1-RCM-1-AM está localizado em AMAZONAS.
+1-RCM-1-AM atravessa Fm. Nova Olinda.
+1-RCM-1-AM atravessa Fm. Itaituba.
+1-RCM-1-AM atravessa Formação Jatapu.
+1-RCM-1-AM atravessa Fm. Nhamundá.
+1-RCM-1-AM atravessa Fm. Pitinga.
+1-RCM-1-AM atravessa Fm. Maecuru.
+1-RCM-1-AM atravessa Fm. Solimões.
+1-RCM-1-AM atravessa Formação Manacapuru.
+1-RCM-1-AM atravessa Formação Alter do Chão.
+1-RCM-1-AM atravessa Formação Monte Alegre.
+1-RCM-1-AM atravessa Formação Barreirinha.
+1-IA-1-PA atravessa Formação Jatapu.
+1-IA-1-PA atravessa Fm. Nova Olinda.
+1-IA-1-PA atravessa Fm. Maecuru.
+1-IA-1-PA atravessa Fm. Pitinga.
+1-IA-1-PA atravessa Formação Manacapuru.
+1-IA-1-PA está localizado em AMAZONAS.
+1-IA-1-PA atravessa Formação Alter do Chão.
+1-IA-1-PA atravessa Formação Faro.
+1-IA-1-PA atravessa Formação Curiri.
+1-IA-1-PA atravessa Formação Barreirinha.
+1-IA-1-PA atravessa Fm. Itaituba.
+1-IA-1-PA atravessa Formação Oriximiná.
+1-IA-1-PA atravessa Fm. Ererê.
+1-IA-1-PA atravessa Formação Monte Alegre.
+2-MNST-1-AM atravessa Formação Manacapuru.
+2-MNST-1-AM atravessa Formação Alter do Chão.
+2-MNST-1-AM atravessa Fm. Nhamundá.
+2-MNST-1-AM atravessa Fm. Ererê.
+2-MNST-1-AM atravessa Formação Barreirinha.
+2-MNST-1-AM atravessa Formação Jatapu.
+2-MNST-1-AM atravessa Formação Monte Alegre.
+2-MNST-1-AM atravessa Fm. Itaituba.
+2-MNST-1-AM está localizado em AMAZONAS.
+2-MNST-1-AM atravessa Fm. Nova Olinda.
+2-MNST-1-AM atravessa Fm. Pitinga.
+2-MNST-1-AM atravessa Fm. Maecuru.
+1-BAS-75 atravessa Fm. Itaípe.
+1-BAS-75 atravessa Gr. Brotas.
+1-BAS-75 atravessa Gr. Almada.
+1-BAS-75 atravessa Fm. Algodões.
+1-BAS-75 atravessa Formação Taipus-Mirim.
+1-BAS-75 atravessa Gr. Espírito Santo.
+1-BAS-75 atravessa Formação Sergi.
+1-BAS-75 atravessa Gr. Camamu.
+1-BAS-75 está localizado em CAMAMU-ALMADA.
+1-BAS-75 atravessa Fm. Rio de Contas.
+1-BAS-75 atravessa Fm. Morro do Barro.
+Formação Acari é constituído por calcilutito.
+Formação Acari é constituído por folhelho.
+Formação Acari é constituído por arenito.
+Formação Acari é constituído por dolomito.
+Formação Acari faz parte de Gr. Purus.
+Formação Acari está localizado em AMAZONAS.
+Formação Acari é constituído por calcarenito.
+1-BAS-21 atravessa Fm. Rio de Contas.
+1-BAS-21 atravessa Fm. Algodões.
+1-BAS-21 atravessa Gr. Almada.
+1-BAS-21 atravessa Gr. Camamu.
+1-BAS-21 atravessa Formação Taipus-Mirim.
+1-BAS-21 atravessa Fm. Morro do Barro.
+1-BAS-21 está localizado em CAMAMU-ALMADA.
+1-BAS-21 atravessa Fm. Itaípe.
+1-BAS-21 atravessa Gr. Brotas.
+Fm. Itaituba faz parte de Gr. Tapajós.
+Fm. Itaituba tem idade geológica Bashkiriano.
+Fm. Itaituba é constituído por halita.
+Fm. Itaituba é constituído por gás não associado.
+Fm. Itaituba é constituído por marga.
+Fm. Itaituba é constituído por anidrita.
+Fm. Itaituba é constituído por diabásio.
+Fm. Itaituba é constituído por calcissiltito.
+Fm. Itaituba é constituído por folhelho.
+Fm. Itaituba é constituído por granito.
+Fm. Itaituba é constituído por arenito.
+Fm. Itaituba é constituído por metamórfica.
+Fm. Itaituba é constituído por calcarenito.
+Fm. Itaituba é constituído por dolomito.
+Fm. Itaituba é constituído por siltito.
+Fm. Itaituba é constituído por calcário cristalino.
+Fm. Itaituba é constituído por calcilutito.
+Fm. Itaituba está localizado em AMAZONAS.
+Fm. Itaituba é portador de Estratificação Plano Paralela Pouco Definida.
+Fm. Itaituba é portador de Fratura.
+Fm. Itaituba é portador de Maciça.
+Formação Oriximiná faz parte de Gr. Curuá.
+Formação Oriximiná tem idade geológica Tournaisiano.
+Formação Oriximiná é constituído por arenito.
+Formação Oriximiná é constituído por calcarenito.
+Formação Oriximiná é constituído por metamórfica.
+Formação Oriximiná é constituído por calcilutito.
+Formação Oriximiná é constituído por diabásio.
+Formação Oriximiná é constituído por areia.
+Formação Oriximiná é constituído por siltito.
+Formação Oriximiná é constituído por diamictito.
+Formação Oriximiná é constituído por gás não associado.
+Formação Oriximiná é constituído por folhelho.
+Formação Oriximiná está localizado em AMAZONAS.
+Formação Oriximiná é portador de Estratificação Cruzada de Baixo Ângulo.
+Formação Oriximiná é portador de Estratificação Plano Paralela.
+Formação Oriximiná é portador de Estrutura Lenticular (linsen).
+Formação Oriximiná é portador de Flaser.
+Formação Oriximiná é portador de Laminação Convoluta.
+Formação Oriximiná é portador de Estratificação Cruzada Tabular.
+Formação Oriximiná é portador de Maciça.
+Formação Oriximiná é portador de Estratificação Cruzada.
+1-UR-1-AM atravessa Formação Curiri.
+1-UR-1-AM atravessa Formação Oriximiná.
+1-UR-1-AM atravessa Formação Barreirinha.
+1-UR-1-AM atravessa Fm. Maecuru.
+1-UR-1-AM atravessa Formação Manacapuru.
+1-UR-1-AM atravessa Formação Alter do Chão.
+1-UR-1-AM atravessa Fm. Nhamundá.
+1-UR-1-AM atravessa Fm. Itaituba.
+1-UR-1-AM atravessa Formação Jatapu.
+1-UR-1-AM atravessa Fm. Nova Olinda.
+1-UR-1-AM está localizado em AMAZONAS.
+1-UR-1-AM atravessa Formação Monte Alegre.
+1-UR-1-AM atravessa Fm. Pitinga.
+1-UR-1-AM atravessa Fm. Ererê.
+1-LG-3-AM atravessa Formação Curiri.
+1-LG-3-AM atravessa Fm. Nova Olinda.
+1-LG-3-AM atravessa Fm. Ererê.
+1-LG-3-AM atravessa Fm. Itaituba.
+1-LG-3-AM atravessa Formação Monte Alegre.
+1-LG-3-AM atravessa Formação Alter do Chão.
+1-LG-3-AM está localizado em AMAZONAS.
+1-LG-3-AM atravessa Formação Barreirinha.
+1-AM-15-AM atravessa Formação Barreirinha.
+1-AM-15-AM atravessa Formação Curiri.
+1-AM-15-AM atravessa Formação Alter do Chão.
+1-AM-15-AM atravessa Fm. Itaituba.
+1-AM-15-AM atravessa Fm. Nova Olinda.
+1-AM-15-AM atravessa Formação Monte Alegre.
+1-AM-15-AM atravessa Fm. Ererê.
+1-AM-15-AM está localizado em AMAZONAS.
+Fm. Barreiras faz parte de Gr. Espírito Santo.
+1-TA-1-PA atravessa Fm. Nova Olinda.
+1-TA-1-PA atravessa Formação Andirá.
+1-TA-1-PA atravessa Formação Alter do Chão.
+1-TA-1-PA está localizado em AMAZONAS.
+2-NOST-1-AM atravessa Fm. Itaituba.
+2-NOST-1-AM atravessa Formação Monte Alegre.
+2-NOST-1-AM atravessa Formação Manacapuru.
+2-NOST-1-AM atravessa Fm. Prosperança.
+2-NOST-1-AM atravessa Fm. Nova Olinda.
+2-NOST-1-AM está localizado em AMAZONAS.
+2-NOST-1-AM atravessa Fm. Nhamundá.
+2-NOST-1-AM atravessa Formação Jatapu.
+2-NOST-1-AM atravessa Fm. Ererê.
+2-NOST-1-AM atravessa Fm. Pitinga.
+2-NOST-1-AM atravessa Fm. Autás Mirim.
+2-NOST-1-AM atravessa Formação Barreirinha.
+2-NOST-1-AM atravessa Fm. Maecuru.
+2-NOST-1-AM atravessa Formação Alter do Chão.
+1-RAN-1-AM atravessa Formação Oriximiná.
+1-RAN-1-AM atravessa Formação Monte Alegre.
+1-RAN-1-AM atravessa Formação Faro.
+1-RAN-1-AM atravessa Formação Alter do Chão.
+1-RAN-1-AM atravessa Fm. Nova Olinda.
+1-RAN-1-AM atravessa Fm. Itaituba.
+1-RAN-1-AM está localizado em AMAZONAS.
+1-RAN-1-AM atravessa Formação Curiri.
+JIRIBATUBA está localizado em CAMAMU-ALMADA.
+1-NO-1-AM está localizado em AMAZONAS.
+1-NO-1-AM atravessa Formação Oriximiná.
+1-NO-1-AM atravessa Fm. Nova Olinda.
+1-NO-1-AM atravessa Formação Andirá.
+1-NO-1-AM atravessa Formação Curiri.
+1-NO-1-AM atravessa Formação Barreirinha.
+1-NO-1-AM atravessa Fm. Itaituba.
+1-NO-1-AM atravessa Formação Monte Alegre.
+1-NO-1-AM atravessa Formação Alter do Chão.
+1-MU-3-AM atravessa Fm. Ererê.
+1-MU-3-AM atravessa Formação Monte Alegre.
+1-MU-3-AM atravessa Formação Jatapu.
+1-MU-3-AM atravessa Formação Alter do Chão.
+1-MU-3-AM atravessa Formação Manacapuru.
+1-MU-3-AM atravessa Fm. Pitinga.
+1-MU-3-AM está localizado em AMAZONAS.
+1-MU-3-AM atravessa Fm. Nova Olinda.
+1-MU-3-AM atravessa Fm. Itaituba.
+1-MU-3-AM atravessa Fm. Maecuru.
+1-MU-3-AM atravessa Formação Barreirinha.
+1-MU-3-AM atravessa Fm. Nhamundá.
+3-BRSA-141-BAS atravessa Formação Taipus-Mirim.
+3-BRSA-141-BAS atravessa Gr. Espírito Santo.
+3-BRSA-141-BAS atravessa Gr. Camamu.
+3-BRSA-141-BAS atravessa Fm. Morro do Barro.
+3-BRSA-141-BAS está localizado em MANATI.
+3-BRSA-141-BAS atravessa Fm. Itaípe.
+3-BRSA-141-BAS atravessa Formação Sergi.
+3-BRSA-141-BAS atravessa Fm. Algodões.
+3-BRSA-141-BAS atravessa Gr. Almada.
+3-BRSA-141-BAS atravessa Gr. Brotas.
+3-BRSA-141-BAS atravessa Fm. Rio de Contas.
+3-BRSA-141-BAS está localizado em CAMAMU-ALMADA.
+2-SLST-1-AM atravessa Formação Manacapuru.
+2-SLST-1-AM atravessa Fm. Pitinga.
+2-SLST-1-AM atravessa Fm. Nhamundá.
+2-SLST-1-AM está localizado em AMAZONAS.
+2-SLST-1-AM atravessa Formação Monte Alegre.
+2-SLST-1-AM atravessa Fm. Itaituba.
+2-SLST-1-AM atravessa Fm. Autás Mirim.
+2-SLST-1-AM atravessa Fm. Prosperança.
+2-SLST-1-AM atravessa Fm. Maecuru.
+2-SLST-1-AM atravessa Formação Alter do Chão.
+1-NO-6-AM atravessa Formação Andirá.
+1-NO-6-AM está localizado em AMAZONAS.
+1-NO-6-AM atravessa Formação Barreirinha.
+1-NO-6-AM atravessa Fm. Itaituba.
+1-NO-6-AM atravessa Formação Alter do Chão.
+1-NO-6-AM atravessa Formação Curiri.
+1-NO-6-AM atravessa Fm. Nova Olinda.
+1-NO-6-AM atravessa Formação Monte Alegre.
+1-NO-6-AM atravessa Fm. Maecuru.
+1-NO-6-AM atravessa Fm. Ererê.
+1-NO-6-AM atravessa Formação Oriximiná.
+1-IJU-1-AM atravessa Formação Monte Alegre.
+1-IJU-1-AM atravessa Fm. Nova Olinda.
+1-IJU-1-AM está localizado em AMAZONAS.
+1-IJU-1-AM atravessa Fm. Ererê.
+1-IJU-1-AM atravessa Formação Curiri.
+1-IJU-1-AM atravessa Formação Alter do Chão.
+1-IJU-1-AM atravessa Formação Barreirinha.
+1-IJU-1-AM atravessa Fm. Itaituba.
+1-BRSA-614-BAS está localizado em CAMAMU-ALMADA.
+1-BRSA-614-BAS atravessa Formação Taipus-Mirim.
+1-BRSA-614-BAS atravessa Fm. Algodões.
+1-BRSA-614-BAS atravessa Gr. Camamu.
+1-BRSA-614-BAS atravessa Gr. Espírito Santo.
+1-BRSA-614-BAS atravessa Formação Urucutuca.
+Fm. Autás Mirim faz parte de Gr. Trombetas.
+Fm. Autás Mirim é constituído por siltito.
+Fm. Autás Mirim é constituído por calcarenito.
+Fm. Autás Mirim é constituído por folhelho.
+Fm. Autás Mirim tem idade geológica Neo-ordoviciano.
+Fm. Autás Mirim é constituído por arenito.
+Fm. Autás Mirim está localizado em AMAZONAS.
+1-AQ-1-AM atravessa Fm. Nova Olinda.
+1-AQ-1-AM está localizado em AMAZONAS.
+1-AQ-1-AM atravessa Formação Alter do Chão.
+1-AQ-1-AM atravessa Formação Monte Alegre.
+1-AQ-1-AM atravessa Fm. Itaituba.
+1-AQ-1-AM atravessa Formação Andirá.
+1-TR-1-PA está localizado em AMAZONAS.
+1-TR-1-PA atravessa Fm. Nova Olinda.
+1-TR-1-PA atravessa Formação Monte Alegre.
+1-TR-1-PA atravessa Formação Faro.
+1-TR-1-PA atravessa Formação Alter do Chão.
+1-TR-1-PA atravessa Formação Oriximiná.
+1-TR-1-PA atravessa Formação Andirá.
+1-TR-1-PA atravessa Fm. Itaituba.
+Fm. Salvador faz parte de Gr. Santo Amaro.
+1-NO-2-AM atravessa Formação Curiri.
+1-NO-2-AM atravessa Formação Oriximiná.
+1-NO-2-AM atravessa Fm. Ererê.
+1-NO-2-AM atravessa Fm. Nova Olinda.
+1-NO-2-AM atravessa Formação Andirá.
+1-NO-2-AM está localizado em AMAZONAS.
+1-NO-2-AM atravessa Fm. Itaituba.
+1-NO-2-AM atravessa Formação Monte Alegre.
+1-NO-2-AM atravessa Formação Barreirinha.
+1-NO-2-AM atravessa Formação Alter do Chão.
+1-NO-2-AM atravessa Fm. Maecuru.
+1-PE-3-AM atravessa Fm. Itaituba.
+1-PE-3-AM atravessa Fm. Nova Olinda.
+1-PE-3-AM atravessa Formação Monte Alegre.
+1-PE-3-AM atravessa Formação Oriximiná.
+1-PE-3-AM atravessa Formação Curiri.
+1-PE-3-AM atravessa Formação Jatapu.
+1-PE-3-AM está localizado em AMAZONAS.
+1-PE-3-AM atravessa Formação Manacapuru.
+1-PE-3-AM atravessa Formação Alter do Chão.
+1-PE-3-AM atravessa Fm. Ererê.
+1-PE-3-AM atravessa Fm. Nhamundá.
+1-PE-3-AM atravessa Formação Barreirinha.
+1-PE-3-AM atravessa Fm. Maecuru.
+1-PE-3-AM atravessa Fm. Pitinga.
+1-GU-2-PA atravessa Fm. Maecuru.
+1-GU-2-PA atravessa Formação Manacapuru.
+1-GU-2-PA atravessa Formação Oriximiná.
+1-GU-2-PA atravessa Formação Curiri.
+1-GU-2-PA atravessa Formação Faro.
+1-GU-2-PA atravessa Formação Alter do Chão.
+1-GU-2-PA atravessa Formação Monte Alegre.
+1-GU-2-PA atravessa Formação Jatapu.
+1-GU-2-PA atravessa Fm. Nova Olinda.
+1-GU-2-PA atravessa Formação Barreirinha.
+1-GU-2-PA está localizado em AMAZONAS.
+1-GU-2-PA atravessa Fm. Ererê.
+1-GU-2-PA atravessa Fm. Itaituba.
+1-NO-3-AM atravessa Formação Curiri.
+1-NO-3-AM atravessa Formação Monte Alegre.
+1-NO-3-AM atravessa Fm. Maecuru.
+1-NO-3-AM atravessa Formação Manacapuru.
+1-NO-3-AM atravessa Fm. Nhamundá.
+1-NO-3-AM atravessa Fm. Pitinga.
+1-NO-3-AM atravessa Formação Jatapu.
+1-NO-3-AM atravessa Fm. Itaituba.
+1-NO-3-AM atravessa Fm. Nova Olinda.
+1-NO-3-AM está localizado em AMAZONAS.
+1-NO-3-AM atravessa Fm. Ererê.
+1-NO-3-AM atravessa Formação Andirá.
+1-NO-3-AM atravessa Formação Alter do Chão.
+1-NO-3-AM atravessa Formação Oriximiná.
+1-NO-3-AM atravessa Formação Barreirinha.
+1-BR-1-PA atravessa Formação Alter do Chão.
+1-BR-1-PA atravessa Formação Andirá.
+1-BR-1-PA está localizado em AMAZONAS.
+Formação Monte Alegre faz parte de Gr. Tapajós.
+Formação Monte Alegre tem idade geológica Bashkiriano.
+Formação Monte Alegre é constituído por diabásio.
+Formação Monte Alegre é constituído por arenito.
+Formação Monte Alegre é constituído por argila.
+Formação Monte Alegre é constituído por siltito.
+Formação Monte Alegre é constituído por dolomito.
+Formação Monte Alegre é constituído por granito.
+Formação Monte Alegre é constituído por meta-arenito.
+Formação Monte Alegre é constituído por anidrita.
+Formação Monte Alegre é constituído por conglomerado.
+Formação Monte Alegre é constituído por calcilutito.
+Formação Monte Alegre é constituído por metamórfica.
+Formação Monte Alegre é constituído por diamictito.
+Formação Monte Alegre é constituído por calcarenito.
+Formação Monte Alegre é constituído por folhelho.
+Formação Monte Alegre está localizado em AMAZONAS.
+Formação Monte Alegre é portador de Flaser.
+Formação Monte Alegre é portador de Estratificação Cruzada Tabular.
+Formação Monte Alegre é portador de Marca de Carga.
+Formação Monte Alegre é portador de Raiz.
+Formação Monte Alegre é portador de Estratificação Plano Paralela Pouco Definida.
+Formação Monte Alegre é portador de Laminação Cavalgante.
+Formação Monte Alegre é portador de Estrutura Lenticular (linsen).
+Formação Monte Alegre é portador de Fluidização.
+Formação Monte Alegre é portador de Falha.
+Formação Monte Alegre é portador de Estratificação Cruzada de Baixo Ângulo.
+Formação Monte Alegre é portador de Estratificação Cruzada Acanalada Festonada.
+Formação Monte Alegre é portador de Greta de Contração ou Ressecamento.
+Formação Monte Alegre é portador de Maciça.
+Formação Monte Alegre é portador de Estratificação Plano Paralela.
+Formação Monte Alegre é portador de Discordância.
+Formação Monte Alegre é portador de Filmes de Argila.
+Formação Monte Alegre é portador de Gradação Inversa.
+Formação Monte Alegre é portador de Fratura.
+Formação Monte Alegre é portador de Estratificação Cruzada.
+1-CD-1-PA atravessa Formação Faro.
+1-CD-1-PA atravessa Formação Alter do Chão.
+1-CD-1-PA atravessa Formação Monte Alegre.
+1-CD-1-PA está localizado em AMAZONAS.
+1-CD-1-PA atravessa Fm. Itaituba.
+2-XUST-1-PA atravessa Fm. Ererê.
+2-XUST-1-PA atravessa Formação Barreirinha.
+2-XUST-1-PA atravessa Formação Curiri.
+2-XUST-1-PA atravessa Formação Oriximiná.
+2-XUST-1-PA atravessa Fm. Maecuru.
+2-XUST-1-PA está localizado em AMAZONAS.
+2-XUST-1-PA atravessa Formação Alter do Chão.
+2-UA-4-AM atravessa Fm. Nova Olinda.
+2-UA-4-AM está localizado em AMAZONAS.
+2-UA-4-AM atravessa Formação Andirá.
+2-UA-4-AM atravessa Formação Alter do Chão.
+3-PAM-2D-AM atravessa Fm. Itaituba.
+3-PAM-2D-AM atravessa Fm. Ererê.
+3-PAM-2D-AM atravessa Formação Alter do Chão.
+3-PAM-2D-AM está localizado em AMAZONAS.
+3-PAM-2D-AM atravessa Formação Monte Alegre.
+3-PAM-2D-AM atravessa Formação Barreirinha.
+3-PAM-2D-AM atravessa Formação Curiri.
+3-PAM-2D-AM atravessa Fm. Nova Olinda.
+1-PAM-1-AM atravessa Fm. Ererê.
+1-PAM-1-AM atravessa Formação Alter do Chão.
+1-PAM-1-AM atravessa Fm. Nova Olinda.
+1-PAM-1-AM está localizado em AMAZONAS.
+1-PAM-1-AM atravessa Fm. Itaituba.
+1-PAM-1-AM atravessa Formação Barreirinha.
+1-PAM-1-AM atravessa Formação Monte Alegre.
+1-PAM-1-AM atravessa Formação Curiri.
+9-FZ-29-AM está localizado em AMAZONAS.
+9-FZ-29-AM atravessa Fm. Nova Olinda.
+9-FZ-29-AM atravessa Formação Alter do Chão.
+9-FZ-29-AM atravessa Formação Andirá.
+3-PAM-4D-AM está localizado em AMAZONAS.
+3-PAM-4D-AM atravessa Formação Alter do Chão.
+3-PAM-4D-AM atravessa Fm. Nova Olinda.
+3-PAM-4D-AM atravessa Fm. Ererê.
+3-PAM-4D-AM atravessa Formação Curiri.
+3-PAM-4D-AM atravessa Fm. Itaituba.
+3-PAM-4D-AM atravessa Formação Barreirinha.
+3-PAM-4D-AM atravessa Formação Monte Alegre.
+Fm. Solimões faz parte de Gr. Javari.
+Fm. Solimões tem idade geológica Quaternário.
+Fm. Solimões está localizado em AMAZONAS.
+Fm. Solimões é constituído por siltito.
+Fm. Solimões é constituído por argilito.
+Fm. Solimões é constituído por arenito.
+3-PAM-3D-AM atravessa Formação Monte Alegre.
+3-PAM-3D-AM atravessa Fm. Nova Olinda.
+3-PAM-3D-AM atravessa Formação Alter do Chão.
+3-PAM-3D-AM atravessa Formação Curiri.
+3-PAM-3D-AM atravessa Fm. Itaituba.
+3-PAM-3D-AM atravessa Fm. Ererê.
+3-PAM-3D-AM está localizado em AMAZONAS.
+3-PAM-3D-AM atravessa Formação Barreirinha.
+2-IOST-1-AM atravessa Formação Jatapu.
+2-IOST-1-AM atravessa Formação Alter do Chão.
+2-IOST-1-AM atravessa Fm. Itaituba.
+2-IOST-1-AM atravessa Fm. Pitinga.
+2-IOST-1-AM atravessa Fm. Nova Olinda.
+2-IOST-1-AM atravessa Formação Monte Alegre.
+2-IOST-1-AM atravessa Formação Barreirinha.
+2-IOST-1-AM está localizado em AMAZONAS.
+2-IOST-1-AM atravessa Formação Manacapuru.
+2-IOST-1-AM atravessa Fm. Maecuru.
+2-IOST-1-AM atravessa Fm. Nhamundá.
+2-IOST-1-AM atravessa Fm. Ererê.
+Formação Sergi faz parte de Gr. Brotas.
+Formação Sergi tem idade geológica Rio_da_Serra.
+Formação Sergi é constituído por siltito.
+Formação Sergi é constituído por calcário cristalino.
+Formação Sergi é constituído por calcarenito.
+Formação Sergi é constituído por argilito.
+Formação Sergi é constituído por arenito.
+Formação Sergi é constituído por folhelho.
+Formação Sergi está localizado em CAMAMU-ALMADA.
+1-LJ-1-AM atravessa Formação Barreirinha.
+1-LJ-1-AM atravessa Formação Manacapuru.
+1-LJ-1-AM atravessa Fm. Ererê.
+1-LJ-1-AM atravessa Fm. Nova Olinda.
+1-LJ-1-AM atravessa Fm. Maecuru.
+1-LJ-1-AM atravessa Formação Monte Alegre.
+1-LJ-1-AM está localizado em AMAZONAS.
+1-LJ-1-AM atravessa Formação Jatapu.
+1-LJ-1-AM atravessa Fm. Autás Mirim.
+1-LJ-1-AM atravessa Fm. Itaituba.
+1-LJ-1-AM atravessa Fm. Nhamundá.
+1-LJ-1-AM atravessa Fm. Pitinga.
+1-LJ-1-AM atravessa Formação Alter do Chão.
+9-FZ-22-AM atravessa Formação Alter do Chão.
+9-FZ-22-AM atravessa Fm. Nova Olinda.
+9-FZ-22-AM está localizado em AMAZONAS.
+9-FZ-22-AM atravessa Formação Andirá.
+MANATI está localizado em CAMAMU-ALMADA.
+9-FZ-18-AM atravessa Formação Alter do Chão.
+9-FZ-18-AM atravessa Fm. Nova Olinda.
+9-FZ-18-AM está localizado em AMAZONAS.
+9-FZ-18-AM atravessa Formação Andirá.
+2-CAST-1-AM atravessa Formação Manacapuru.
+2-CAST-1-AM atravessa Fm. Pitinga.
+2-CAST-1-AM atravessa Fm. Nhamundá.
+2-CAST-1-AM atravessa Formação Monte Alegre.
+2-CAST-1-AM atravessa Fm. Maecuru.
+2-CAST-1-AM atravessa Fm. Autás Mirim.
+2-CAST-1-AM atravessa Gr. Purus.
+2-CAST-1-AM atravessa Fm. Nova Olinda.
+2-CAST-1-AM atravessa Formação Jatapu.
+2-CAST-1-AM está localizado em AMAZONAS.
+2-CAST-1-AM atravessa Fm. Itaituba.
+2-CAST-1-AM atravessa Formação Barreirinha.
+2-CAST-1-AM atravessa Formação Alter do Chão.
+2-CAST-1-AM atravessa Fm. Ererê.
+9-FZ-8-AM está localizado em AMAZONAS.
+9-FZ-8-AM atravessa Formação Alter do Chão.
+9-FZ-8-AM atravessa Fm. Nova Olinda.
+9-FZ-8-AM atravessa Formação Andirá.
+2-AIST-2-AM atravessa Fm. Itaituba.
+2-AIST-2-AM atravessa Formação Jatapu.
+2-AIST-2-AM atravessa Formação Alter do Chão.
+2-AIST-2-AM atravessa Formação Acari.
+2-AIST-2-AM está localizado em AMAZONAS.
+2-AIST-2-AM atravessa Formação Manacapuru.
+2-AIST-2-AM atravessa Fm. Pitinga.
+2-AIST-2-AM atravessa Formação Monte Alegre.
+2-AIST-2-AM atravessa Fm. Nhamundá.
+2-AIST-2-AM atravessa Fm. Solimões.
+2-AIST-2-AM atravessa Fm. Autás Mirim.
+1-BP-10-BAS está localizado em CAMAMU-ALMADA.
+1-IMP-1-AM atravessa Formação Alter do Chão.
+1-IMP-1-AM está localizado em JAPIIM.
+1-IMP-1-AM atravessa Gr. Javari.
+1-IMP-1-AM atravessa Fm. Nova Olinda.
+1-IMP-1-AM atravessa Formação Faro.
+1-IMP-1-AM atravessa Formação Oriximiná.
+1-IMP-1-AM atravessa Fm. Itaituba.
+1-IMP-1-AM atravessa Formação Monte Alegre.
+1-IMP-1-AM está localizado em AMAZONAS.
+1-IMP-1-AM atravessa Gr. Curuá.
+1-IMP-1-AM atravessa Formação Curiri.
+1-IMP-1-AM atravessa Gr. Tapajós.
+Gr. Javari está localizado em AMAZONAS.
+Gr. Javari é constituído por metamórfica.
+Gr. Javari é constituído por diabásio.
+1-PC-2-AM atravessa Fm. Itaituba.
+1-PC-2-AM atravessa Fm. Ererê.
+1-PC-2-AM atravessa Fm. Nova Olinda.
+1-PC-2-AM atravessa Formação Jatapu.
+1-PC-2-AM atravessa Fm. Maecuru.
+1-PC-2-AM atravessa Formação Curiri.
+1-PC-2-AM atravessa Fm. Pitinga.
+1-PC-2-AM atravessa Formação Alter do Chão.
+1-PC-2-AM está localizado em AMAZONAS.
+1-PC-2-AM atravessa Formação Manacapuru.
+1-PC-2-AM atravessa Formação Monte Alegre.
+1-PC-2-AM atravessa Formação Barreirinha.
+1-PC-2-AM atravessa Fm. Nhamundá.
+9-FZ-15-AM está localizado em AMAZONAS.
+9-FZ-15-AM atravessa Fm. Nova Olinda.
+9-FZ-15-AM atravessa Formação Alter do Chão.
+9-FZ-15-AM atravessa Formação Andirá.
+1-COST-3-BAS está localizado em CAMAMU-ALMADA.
+1-COST-3-BAS atravessa Fm. Rio de Contas.
+1-COST-3-BAS atravessa Fm. Morro do Barro.
+1-COST-3-BAS atravessa Fm. Algodões.
+1-COST-3-BAS está localizado em SARDINHA.
+3-JI-2-BA está localizado em CAMAMU-ALMADA.
+3-JI-2-BA atravessa Fm. Morro do Barro.
+3-JI-2-BA atravessa Gr. Almada.
+3-JI-2-BA está localizado em JIRIBATUBA.
+9-FZ-10-AM está localizado em AMAZONAS.
+9-FZ-10-AM atravessa Fm. Nova Olinda.
+9-FZ-10-AM atravessa Formação Alter do Chão.
+9-FZ-10-AM atravessa Formação Andirá.
+Gr. Tapajós tem idade geológica Bashkiriano.
+Gr. Tapajós é constituído por siltito.
+Gr. Tapajós é constituído por arenito.
+Gr. Tapajós é constituído por halita.
+Gr. Tapajós é constituído por diabásio.
+Gr. Tapajós é constituído por calcarenito.
+Gr. Tapajós está localizado em AMAZONAS.
+Gr. Tapajós é constituído por metamórfica.
+Gr. Tapajós é constituído por folhelho.
+Gr. Tapajós é constituído por anidrita.
+1-MU-2-AM atravessa Fm. Nhamundá.
+1-MU-2-AM atravessa Fm. Maecuru.
+1-MU-2-AM atravessa Fm. Nova Olinda.
+1-MU-2-AM atravessa Fm. Ererê.
+1-MU-2-AM atravessa Formação Monte Alegre.
+1-MU-2-AM atravessa Formação Jatapu.
+1-MU-2-AM atravessa Formação Alter do Chão.
+1-MU-2-AM atravessa Fm. Pitinga.
+1-MU-2-AM atravessa Formação Manacapuru.
+1-MU-2-AM atravessa Fm. Itaituba.
+1-MU-2-AM está localizado em AMAZONAS.
+1-MU-2-AM atravessa Formação Barreirinha.
+3-MBX-1-BA atravessa Gr. Almada.
+3-MBX-1-BA está localizado em MORRO DO BARRO.
+3-MBX-1-BA está localizado em CAMAMU-ALMADA.
+3-MBX-1-BA atravessa Fm. Morro do Barro.
+3-MBX-1-BA atravessa Fm. Itaípe.
+3-MBX-1-BA atravessa Formação Sergi.
+1-BAS-127 está localizado em CAMAMU-ALMADA.
+9-PJ-3-PA atravessa Formação Alter do Chão.
+9-PJ-3-PA atravessa Formação Andirá.
+9-PJ-3-PA atravessa Fm. Nova Olinda.
+9-PJ-3-PA está localizado em AMAZONAS.
+1-AM-11-AM atravessa Formação Barreirinha.
+1-AM-11-AM atravessa Formação Monte Alegre.
+1-AM-11-AM atravessa Formação Alter do Chão.
+1-AM-11-AM está localizado em AMAZONAS.
+1-AM-11-AM atravessa Fm. Itaituba.
+1-AM-11-AM atravessa Fm. Nova Olinda.
+1-AM-11-AM atravessa Fm. Ererê.
+1-AM-11-AM atravessa Formação Curiri.
+2-MSST-2-AM atravessa Formação Oriximiná.
+2-MSST-2-AM atravessa Fm. Ererê.
+2-MSST-2-AM atravessa Formação Curiri.
+2-MSST-2-AM atravessa Formação Monte Alegre.
+2-MSST-2-AM atravessa Formação Jatapu.
+2-MSST-2-AM está localizado em AMAZONAS.
+2-MSST-2-AM atravessa Formação Barreirinha.
+2-MSST-2-AM atravessa Formação Alter do Chão.
+2-MSST-2-AM atravessa Fm. Nova Olinda.
+2-MSST-2-AM atravessa Fm. Itaituba.
+1-BAS-127A está localizado em CAMAMU-ALMADA.
+1-BAS-127A atravessa Fm. Rio de Contas.
+1-BAS-127A atravessa Fm. Morro do Barro.
+1-BAS-127A atravessa Gr. Almada.
+1-BAS-127A atravessa Gr. Espírito Santo.
+1-BAS-127A atravessa Fm. Rio Doce.
+1-LG-4-AM atravessa Fm. Itaituba.
+1-LG-4-AM atravessa Formação Barreirinha.
+1-LG-4-AM atravessa Formação Curiri.
+1-LG-4-AM atravessa Formação Alter do Chão.
+1-LG-4-AM atravessa Fm. Ererê.
+1-LG-4-AM está localizado em AMAZONAS.
+1-LG-4-AM atravessa Formação Monte Alegre.
+1-LG-4-AM atravessa Fm. Nova Olinda.
+9-AMR-2-AM atravessa Formação Alter do Chão.
+9-AMR-2-AM está localizado em AMAZONAS.
+1-BAS-5 atravessa Formação Taipus-Mirim.
+1-BAS-5 atravessa Gr. Espírito Santo.
+1-BAS-5 está localizado em CAMAMU-ALMADA.
+1-BAS-5 atravessa Gr. Almada.
+1-BAS-5 atravessa Gr. Brotas.
+1-BAS-5 atravessa Fm. Itaípe.
+1-BAS-5 atravessa Fm. Afligidos.
+1-BAS-5 atravessa Gr. Camamu.
+1-BAS-5 atravessa Fm. Morro do Barro.
+1-AM-13-AM está localizado em AMAZONAS.
+1-AM-13-AM atravessa Fm. Ererê.
+1-AM-13-AM atravessa Formação Curiri.
+1-AM-13-AM atravessa Fm. Itaituba.
+1-AM-13-AM atravessa Formação Alter do Chão.
+1-AM-13-AM atravessa Formação Barreirinha.
+1-AM-13-AM atravessa Formação Monte Alegre.
+1-AM-13-AM atravessa Fm. Maecuru.
+1-AM-13-AM atravessa Fm. Nova Olinda.
+1-AM-13-AM atravessa Fm. Pitinga.
+1-AM-13-AM atravessa Formação Manacapuru.
+1-AM-13-AM atravessa Formação Jatapu.
+1-AM-13-AM atravessa Fm. Nhamundá.
+1-BAS-140D atravessa Gr. Almada.
+1-BAS-140D está localizado em CAMAMU-ALMADA.
+1-BAS-140D atravessa Formação Urucutuca.
+1-BAS-140D atravessa Fm. Rio de Contas.
+1-BAS-140D atravessa Gr. Espírito Santo.
+1-BAS-140D atravessa Formação Taipus-Mirim.
+1-BAS-140D atravessa Fm. Morro do Barro.
+1-BAS-140D atravessa Gr. Camamu.
+1-BAS-72 está localizado em CAMAMU-ALMADA.
+1-BAS-72 atravessa Mb. Pedrão.
+1-BAS-72 atravessa Formação Aliança.
+1-BAS-72 atravessa Mb. Capianga.
+1-BAS-72 atravessa Mb. Cazumba.
+1-BAS-72 atravessa Gr. Brotas.
+1-BAS-72 atravessa Formação Sergi.
+1-BAS-72 atravessa Gr. Espírito Santo.
+1-BAS-72 atravessa Fm. Afligidos.
+1-BAS-72 atravessa Embasamento.
+1-BAS-72 atravessa Mb. Boipeba.
+1-MA-1-PA atravessa Formação Andirá.
+1-MA-1-PA está localizado em AMAZONAS.
+1-MA-1-PA atravessa Formação Faro.
+1-MA-1-PA atravessa Formação Barreirinha.
+1-MA-1-PA atravessa Formação Curiri.
+1-MA-1-PA atravessa Fm. Nova Olinda.
+1-MA-1-PA atravessa Formação Oriximiná.
+1-MA-1-PA atravessa Formação Monte Alegre.
+1-MA-1-PA atravessa Fm. Itaituba.
+1-MA-1-PA atravessa Formação Alter do Chão.
+1-AM-12-AM atravessa Formação Manacapuru.
+1-AM-12-AM atravessa Fm. Nhamundá.
+1-AM-12-AM atravessa Fm. Pitinga.
+1-AM-12-AM atravessa Fm. Nova Olinda.
+1-AM-12-AM está localizado em AMAZONAS.
+1-AM-12-AM atravessa Formação Alter do Chão.
+1-AM-12-AM atravessa Fm. Itaituba.
+1-BAS-32 atravessa Gr. Espírito Santo.
+1-BAS-32 atravessa Formação Urucutuca.
+1-BAS-32 atravessa Fm. Morro do Barro.
+1-BAS-32 está localizado em CAMAMU-ALMADA.
+1-BAS-32 atravessa Gr. Almada.
+1-BAS-32 atravessa Fm. Rio de Contas.
+1-AM-6-AM atravessa Fm. Nova Olinda.
+1-AM-6-AM está localizado em AMAZONAS.
+1-AM-6-AM atravessa Formação Alter do Chão.
+1-BAS-74 atravessa Formação Sergi.
+1-BAS-74 atravessa Fm. Algodões.
+1-BAS-74 está localizado em CAMAMU-ALMADA.
+1-BAS-74 atravessa Gr. Espírito Santo.
+1-BAS-74 atravessa Fm. Morro do Barro.
+1-BAS-74 atravessa Gr. Almada.
+1-BAS-74 está localizado em ÁREA BAS-064.
+1-BAS-74 atravessa Fm. Rio de Contas.
+1-BAS-74 atravessa Embasamento.
+1-BAS-74 atravessa Fm. Itaípe.
+1-BAS-74 atravessa Gr. Camamu.
+1-BAS-74 atravessa Gr. Brotas.
+1-BAS-74 atravessa Formação Taipus-Mirim.
+1-BAS-74 atravessa Formação Aliança.
+2-IGST-1-PA atravessa Formação Alter do Chão.
+2-IGST-1-PA atravessa Fm. Nova Olinda.
+2-IGST-1-PA está localizado em AMAZONAS.
+2-IGST-1-PA atravessa Formação Andirá.
+2-IGST-1-PA atravessa Fm. Itaituba.
+2-IGST-1-PA atravessa Formação Monte Alegre.
+1-LG-5-AM atravessa Formação Alter do Chão.
+1-LG-5-AM atravessa Fm. Itaituba.
+1-LG-5-AM está localizado em AMAZONAS.
+1-LG-5-AM atravessa Formação Monte Alegre.
+1-LG-5-AM atravessa Fm. Nova Olinda.
+1-LG-5-AM atravessa Formação Barreirinha.
+1-LG-5-AM atravessa Fm. Ererê.
+1-LG-5-AM atravessa Formação Curiri.
+1-BAS-73 atravessa Gr. Camamu.
+1-BAS-73 atravessa Fm. Itaípe.
+1-BAS-73 está localizado em ÁREA BAS-064.
+1-BAS-73 está localizado em CAMAMU-ALMADA.
+1-BAS-73 atravessa Fm. Rio de Contas.
+1-BAS-73 atravessa Formação Taipus-Mirim.
+1-BAS-73 atravessa Fm. Morro do Barro.
+1-BAS-73 atravessa Fm. Algodões.
+1-BAS-73 atravessa Gr. Brotas.
+1-BAS-73 atravessa Formação Sergi.
+1-BAS-73 atravessa Gr. Almada.
+1-BAS-73 atravessa Gr. Espírito Santo.
+1-CM-2-PA atravessa Formação Manacapuru.
+1-CM-2-PA está localizado em AMAZONAS.
+1-CM-2-PA atravessa Formação Oriximiná.
+1-CM-2-PA atravessa Fm. Maecuru.
+1-CM-2-PA atravessa Fm. Itaituba.
+1-CM-2-PA atravessa Fm. Pitinga.
+1-CM-2-PA atravessa Formação Monte Alegre.
+1-CM-2-PA atravessa Formação Barreirinha.
+1-CM-2-PA atravessa Embasamento.
+1-CM-2-PA atravessa Formação Jatapu.
+1-CM-2-PA atravessa Formação Alter do Chão.
+1-CM-2-PA atravessa Fm. Ererê.
+1-CM-2-PA atravessa Formação Curiri.
+1-BAS-20 atravessa Gr. Almada.
+1-BAS-20 atravessa Gr. Brotas.
+1-BAS-20 atravessa Fm. Rio de Contas.
+1-BAS-20 atravessa Gr. Camamu.
+1-BAS-20 atravessa Formação Taipus-Mirim.
+1-BAS-20 atravessa Fm. Itaípe.
+1-BAS-20 atravessa Gr. Espírito Santo.
+1-BAS-20 atravessa Fm. Morro do Barro.
+1-BAS-20 atravessa Formação Sergi.
+1-BAS-20 atravessa Fm. Algodões.
+1-BAS-20 está localizado em CAMAMU-ALMADA.
+3-BAS-111 atravessa Formação Taipus-Mirim.
+3-BAS-111 atravessa Gr. Almada.
+3-BAS-111 atravessa Fm. Morro do Barro.
+3-BAS-111 atravessa Gr. Camamu.
+3-BAS-111 atravessa Gr. Espírito Santo.
+3-BAS-111 está localizado em CAMAMU-ALMADA.
+3-BAS-111 atravessa Fm. Algodões.
+3-BAS-111 atravessa Fm. Rio de Contas.
+3-BAS-111 está localizado em SARDINHA.
+1-BR-1A-PA atravessa Formação Oriximiná.
+1-BR-1A-PA atravessa Fm. Nova Olinda.
+1-BR-1A-PA atravessa Formação Monte Alegre.
+1-BR-1A-PA atravessa Fm. Itaituba.
+1-BR-1A-PA está localizado em AMAZONAS.
+1-BR-1A-PA atravessa Formação Faro.
+1-BR-1A-PA atravessa Formação Andirá.
+1-BR-1A-PA atravessa Formação Alter do Chão.
+2-GUST-1-PA atravessa Formação Curiri.
+2-GUST-1-PA está localizado em AMAZONAS.
+2-GUST-1-PA atravessa Fm. Itaituba.
+2-GUST-1-PA atravessa Formação Oriximiná.
+2-GUST-1-PA atravessa Formação Monte Alegre.
+2-GUST-1-PA atravessa Formação Faro.
+2-GUST-1-PA atravessa Formação Alter do Chão.
+2-GUST-1-PA atravessa Fm. Nova Olinda.
+1-BAS-107 está localizado em SARDINHA.
+1-BAS-107 atravessa Gr. Almada.
+1-BAS-107 atravessa Fm. Rio de Contas.
+1-BAS-107 atravessa Gr. Espírito Santo.
+1-BAS-107 atravessa Formação Taipus-Mirim.
+1-BAS-107 está localizado em CAMAMU-ALMADA.
+1-BAS-107 atravessa Fm. Algodões.
+1-BAS-107 atravessa Fm. Morro do Barro.
+1-BAS-107 atravessa Gr. Camamu.
+2-UA-3-AM atravessa Fm. Nova Olinda.
+2-UA-3-AM atravessa Formação Alter do Chão.
+2-UA-3-AM está localizado em AMAZONAS.
+2-UA-3-AM atravessa Formação Andirá.
+2-UA-3-AM atravessa Fm. Itaituba.
+6-BAS-115 atravessa Fm. Morro do Barro.
+6-BAS-115 atravessa Gr. Camamu.
+6-BAS-115 está localizado em SARDINHA.
+6-BAS-115 atravessa Gr. Espírito Santo.
+6-BAS-115 atravessa Fm. Algodões.
+6-BAS-115 atravessa Formação Taipus-Mirim.
+6-BAS-115 atravessa Gr. Almada.
+6-BAS-115 está localizado em CAMAMU-ALMADA.
+2-CSST-2-AM atravessa Formação Alter do Chão.
+2-CSST-2-AM atravessa Fm. Prosperança.
+2-CSST-2-AM atravessa Fm. Solimões.
+2-CSST-2-AM atravessa Fm. Nova Olinda.
+2-CSST-2-AM atravessa Formação Monte Alegre.
+2-CSST-2-AM atravessa Fm. Itaituba.
+2-CSST-2-AM atravessa Fm. Autás Mirim.
+2-CSST-2-AM atravessa Fm. Nhamundá.
+2-CSST-2-AM está localizado em AMAZONAS.
+Fm. Prosperança é constituído por folhelho.
+Fm. Prosperança é constituído por arenito.
+Fm. Prosperança é constituído por siltito.
+Fm. Prosperança faz parte de Gr. Purus.
+Fm. Prosperança está localizado em AMAZONAS.
+Fm. Prosperança é constituído por metamórfica.
+Gr. Espírito Santo tem idade geológica Idade Mesoeoceno.
+Gr. Espírito Santo é constituído por arenito.
+Gr. Espírito Santo é constituído por dolomito.
+Gr. Espírito Santo é constituído por calcilutito.
+Gr. Espírito Santo é constituído por marga.
+Gr. Espírito Santo é constituído por conglomerado.
+Gr. Espírito Santo é constituído por calcarenito.
+Gr. Espírito Santo é constituído por grainstone.
+Gr. Espírito Santo é constituído por argila.
+Gr. Espírito Santo é constituído por siltito.
+Gr. Espírito Santo é constituído por areia.
+Gr. Espírito Santo é constituído por folhelho.
+Gr. Espírito Santo é constituído por argilito.
+Gr. Espírito Santo é constituído por calcirudito.
+Gr. Espírito Santo está localizado em CAMAMU-ALMADA.
+9-FZ-13-AM atravessa Formação Andirá.
+9-FZ-13-AM está localizado em AMAZONAS.
+9-FZ-13-AM atravessa Formação Alter do Chão.
+9-FZ-13-AM atravessa Fm. Nova Olinda.
+2-IGST-1-BA atravessa Formação Taipus-Mirim.
+2-IGST-1-BA atravessa Gr. Camamu.
+2-IGST-1-BA atravessa Embasamento.
+2-IGST-1-BA atravessa Fm. Afligidos.
+2-IGST-1-BA atravessa Formação Aliança.
+2-IGST-1-BA está localizado em CAMAMU-ALMADA.
+Mb. Germânia faz parte de Fm. Algodões.
+1-SO-1-AM está localizado em AMAZONAS.
+1-SO-1-AM atravessa Formação Curiri.
+1-SO-1-AM atravessa Fm. Maecuru.
+1-SO-1-AM atravessa Fm. Itaituba.
+1-SO-1-AM atravessa Formação Alter do Chão.
+1-SO-1-AM atravessa Fm. Ererê.
+1-SO-1-AM atravessa Formação Monte Alegre.
+1-SO-1-AM atravessa Formação Barreirinha.
+1-SO-1-AM atravessa Formação Andirá.
+1-SO-1-AM atravessa Fm. Nova Olinda.
+1-SO-1-AM atravessa Formação Oriximiná.
+1-CM-1-PA atravessa Formação Monte Alegre.
+1-CM-1-PA atravessa Formação Oriximiná.
+1-CM-1-PA atravessa Fm. Pitinga.
+1-CM-1-PA atravessa Embasamento.
+1-CM-1-PA atravessa Formação Jatapu.
+1-CM-1-PA atravessa Formação Alter do Chão.
+1-CM-1-PA atravessa Formação Curiri.
+1-CM-1-PA atravessa Fm. Ererê.
+1-CM-1-PA atravessa Formação Manacapuru.
+1-CM-1-PA atravessa Formação Barreirinha.
+1-CM-1-PA atravessa Fm. Itaituba.
+1-CM-1-PA está localizado em AMAZONAS.
+1-CM-1-PA atravessa Fm. Maecuru.
+9-FZ-16-AM está localizado em AMAZONAS.
+9-FZ-16-AM atravessa Fm. Nova Olinda.
+9-FZ-16-AM atravessa Formação Alter do Chão.
+9-FZ-16-AM atravessa Formação Andirá.
+3-BAS-108 atravessa Gr. Camamu.
+3-BAS-108 atravessa Gr. Espírito Santo.
+3-BAS-108 está localizado em SARDINHA.
+3-BAS-108 atravessa Fm. Morro do Barro.
+3-BAS-108 atravessa Fm. Rio de Contas.
+3-BAS-108 atravessa Fm. Algodões.
+3-BAS-108 atravessa Gr. Almada.
+3-BAS-108 está localizado em CAMAMU-ALMADA.
+3-BAS-108 atravessa Formação Taipus-Mirim.
+1-RJP-1-AM atravessa Fm. Itaituba.
+1-RJP-1-AM atravessa Formação Alter do Chão.
+1-RJP-1-AM atravessa Formação Oriximiná.
+1-RJP-1-AM está localizado em AMAZONAS.
+1-RJP-1-AM atravessa Formação Faro.
+1-RJP-1-AM atravessa Formação Monte Alegre.
+1-RJP-1-AM atravessa Formação Andirá.
+1-RJP-1-AM atravessa Fm. Nova Olinda.
+1-RO-1-AM atravessa Formação Andirá.
+1-RO-1-AM atravessa Formação Alter do Chão.
+1-RO-1-AM atravessa Formação Curiri.
+1-RO-1-AM atravessa Fm. Itaituba.
+1-RO-1-AM atravessa Fm. Maecuru.
+1-RO-1-AM atravessa Formação Monte Alegre.
+1-RO-1-AM atravessa Formação Barreirinha.
+1-RO-1-AM atravessa Fm. Nova Olinda.
+1-RO-1-AM está localizado em AMAZONAS.
+1-RO-1-AM atravessa Fm. Ererê.
+1-RO-1-AM atravessa Formação Oriximiná.
+1-AD-1A-AM atravessa Formação Monte Alegre.
+1-AD-1A-AM atravessa Fm. Nova Olinda.
+1-AD-1A-AM atravessa Fm. Itaituba.
+1-AD-1A-AM atravessa Formação Oriximiná.
+1-AD-1A-AM atravessa Formação Andirá.
+1-AD-1A-AM atravessa Formação Alter do Chão.
+1-AD-1A-AM está localizado em AMAZONAS.
+1-AD-1A-AM atravessa Formação Faro.
+1-AD-1A-AM atravessa Formação Curiri.
+3-BAS-110 atravessa Fm. Algodões.
+3-BAS-110 atravessa Fm. Morro do Barro.
+3-BAS-110 atravessa Formação Taipus-Mirim.
+3-BAS-110 atravessa Gr. Espírito Santo.
+3-BAS-110 está localizado em CAMAMU-ALMADA.
+3-BAS-110 atravessa Gr. Almada.
+3-BAS-110 está localizado em SARDINHA.
+3-BAS-110 atravessa Gr. Camamu.
+1-AD-1-AM atravessa Formação Andirá.
+1-AD-1-AM está localizado em AMAZONAS.
+1-AD-1-AM atravessa Formação Alter do Chão.
+Formação Faro tem idade geológica Viseano.
+Formação Faro é constituído por diamictito.
+Formação Faro é constituído por siltito.
+Formação Faro é constituído por folhelho.
+Formação Faro é constituído por arenito.
+Formação Faro é constituído por anidrita.
+Formação Faro é constituído por calcário cristalino.
+Formação Faro é constituído por metamórfica.
+Formação Faro é constituído por calcarenito.
+Formação Faro é constituído por diabásio.
+Formação Faro está localizado em AMAZONAS.
+9-FZ-27-AM atravessa Fm. Nova Olinda.
+9-FZ-27-AM atravessa Formação Andirá.
+9-FZ-27-AM atravessa Formação Alter do Chão.
+9-FZ-27-AM está localizado em AMAZONAS.
+2-SOL-2-BA está localizado em CAMAMU-ALMADA.
+2-SOL-2-BA atravessa Embasamento.
+2-SOL-2-BA atravessa Fm. Morro do Barro.
+2-SOL-2-BA atravessa Formação Aliança.
+2-SOL-2-BA atravessa Formação Sergi.
+2-SOL-2-BA atravessa Gr. Almada.
+2-SOL-2-BA atravessa Formação Taipus-Mirim.
+9-FZ-12-AM atravessa Formação Andirá.
+9-FZ-12-AM está localizado em AMAZONAS.
+9-FZ-12-AM atravessa Fm. Nova Olinda.
+9-FZ-12-AM atravessa Formação Alter do Chão.
+1-ITP-1-AM atravessa Formação Monte Alegre.
+1-ITP-1-AM atravessa Formação Curiri.
+1-ITP-1-AM está localizado em AMAZONAS.
+1-ITP-1-AM atravessa Formação Alter do Chão.
+1-ITP-1-AM atravessa Fm. Nova Olinda.
+1-ITP-1-AM atravessa Formação Andirá.
+1-ITP-1-AM atravessa Fm. Itaituba.
+1-ITP-1-AM atravessa Formação Faro.
+1-ITP-1-AM atravessa Formação Oriximiná.
+1-PFJ-3-AM está localizado em AMAZONAS.
+1-PFJ-3-AM atravessa Formação Andirá.
+1-PFJ-3-AM atravessa Fm. Nova Olinda.
+1-PFJ-3-AM atravessa Formação Monte Alegre.
+1-PFJ-3-AM atravessa Formação Faro.
+1-PFJ-3-AM atravessa Formação Alter do Chão.
+1-PFJ-3-AM atravessa Fm. Itaituba.
+AZULÃO está localizado em AMAZONAS.
+9-FZ-9-AM está localizado em AMAZONAS.
+9-FZ-9-AM atravessa Formação Andirá.
+9-FZ-9-AM atravessa Fm. Nova Olinda.
+9-FZ-9-AM atravessa Formação Alter do Chão.
+Formação Alter do Chão faz parte de Gr. Javari.
+Formação Alter do Chão tem idade geológica Campaniano.
+Formação Alter do Chão é constituído por argilito.
+Formação Alter do Chão é constituído por arenito.
+Formação Alter do Chão é constituído por argila.
+Formação Alter do Chão é constituído por carvão.
+Formação Alter do Chão é constituído por metassiltito.
+Formação Alter do Chão é constituído por areia.
+Formação Alter do Chão é constituído por metamórfica.
+Formação Alter do Chão é constituído por calcilutito.
+Formação Alter do Chão é constituído por folhelho.
+Formação Alter do Chão é constituído por calcarenito.
+Formação Alter do Chão é constituído por conglomerado.
+Formação Alter do Chão é constituído por silexito.
+Formação Alter do Chão é constituído por siltito.
+Formação Alter do Chão é constituído por diabásio.
+Formação Alter do Chão está localizado em AMAZONAS.
+7-MNT-1-BAS atravessa Gr. Brotas.
+7-MNT-1-BAS atravessa Fm. Itaípe.
+7-MNT-1-BAS atravessa Fm. Algodões.
+7-MNT-1-BAS atravessa Gr. Camamu.
+7-MNT-1-BAS está localizado em MANATI.
+7-MNT-1-BAS atravessa Fm. Rio de Contas.
+7-MNT-1-BAS atravessa Formação Taipus-Mirim.
+7-MNT-1-BAS atravessa Formação Sergi.
+7-MNT-1-BAS atravessa Fm. Morro do Barro.
+7-MNT-1-BAS está localizado em CAMAMU-ALMADA.
+7-MNT-1-BAS atravessa Gr. Almada.
+1-CS-3-AM atravessa Fm. Solimões.
+1-CS-3-AM está localizado em AMAZONAS.
+1-CS-3-AM atravessa Fm. Itaituba.
+1-CS-3-AM atravessa Fm. Nhamundá.
+1-CS-3-AM atravessa Fm. Nova Olinda.
+1-CS-3-AM atravessa Formação Alter do Chão.
+1-CS-3-AM atravessa Formação Monte Alegre.
+Fm. Maecuru faz parte de Gr. Urupadi.
+Fm. Maecuru tem idade geológica Eifeliano.
+Fm. Maecuru é constituído por siltito.
+Fm. Maecuru é constituído por metamórfica.
+Fm. Maecuru é constituído por arenito.
+Fm. Maecuru é constituído por folhelho.
+Fm. Maecuru é constituído por diabásio.
+Fm. Maecuru está localizado em AMAZONAS.
+Fm. Nova Olinda faz parte de Gr. Tapajós.
+Fm. Nova Olinda tem idade geológica Permiano.
+Fm. Nova Olinda é constituído por marga.
+Fm. Nova Olinda é constituído por taquidrita.
+Fm. Nova Olinda é constituído por arenito.
+Fm. Nova Olinda é constituído por silvinita.
+Fm. Nova Olinda é constituído por filito.
+Fm. Nova Olinda é constituído por silexito.
+Fm. Nova Olinda é constituído por areia.
+Fm. Nova Olinda é constituído por diabásio.
+Fm. Nova Olinda é constituído por metamórfica.
+Fm. Nova Olinda é constituído por calcarenito.
+Fm. Nova Olinda é constituído por meta-arenito.
+Fm. Nova Olinda é constituído por argilito.
+Fm. Nova Olinda é constituído por argila.
+Fm. Nova Olinda é constituído por material geológico inconsolidado.
+Fm. Nova Olinda é constituído por siltito.
+Fm. Nova Olinda é constituído por gipsita.
+Fm. Nova Olinda é constituído por coquina.
+Fm. Nova Olinda é constituído por calcissiltito.
+Fm. Nova Olinda é constituído por anidrita.
+Fm. Nova Olinda é constituído por dolomito.
+Fm. Nova Olinda é constituído por folhelho.
+Fm. Nova Olinda é constituído por calcilutito.
+Fm. Nova Olinda é constituído por calcário cristalino.
+Fm. Nova Olinda é constituído por halita.
+Fm. Nova Olinda é constituído por metassiltito.
+Fm. Nova Olinda é constituído por brecha.
+Fm. Nova Olinda é constituído por conglomerado.
+Fm. Nova Olinda está localizado em AMAZONAS.
+1-MS-6-AM atravessa Formação Oriximiná.
+1-MS-6-AM atravessa Fm. Ererê.
+1-MS-6-AM atravessa Formação Barreirinha.
+1-MS-6-AM atravessa Formação Curiri.
+1-MS-6-AM atravessa Formação Monte Alegre.
+1-MS-6-AM atravessa Formação Andirá.
+1-MS-6-AM atravessa Fm. Itaituba.
+1-MS-6-AM atravessa Formação Alter do Chão.
+1-MS-6-AM está localizado em AMAZONAS.
+1-MS-6-AM atravessa Fm. Nova Olinda.
+1-RPP-1-AM está localizado em AMAZONAS.
+1-RPP-1-AM atravessa Fm. Ererê.
+1-RPP-1-AM atravessa Formação Barreirinha.
+1-RPP-1-AM atravessa Formação Alter do Chão.
+1-RPP-1-AM atravessa Formação Curiri.
+1-RPP-1-AM atravessa Formação Monte Alegre.
+1-RPP-1-AM atravessa Fm. Itaituba.
+1-RPP-1-AM atravessa Formação Oriximiná.
+1-RPP-1-AM atravessa Fm. Nova Olinda.
+2-PLST-1-PA atravessa Formação Alter do Chão.
+2-PLST-1-PA está localizado em AMAZONAS.
+2-PLST-1-PA atravessa Embasamento.
+1-FO-1-PA está localizado em AMAZONAS.
+1-FO-1-PA atravessa Fm. Nhamundá.
+1-FO-1-PA atravessa Fm. Itaituba.
+1-FO-1-PA atravessa Formação Barreirinha.
+1-FO-1-PA atravessa Formação Monte Alegre.
+1-FO-1-PA atravessa Formação Jatapu.
+1-FO-1-PA atravessa Fm. Nova Olinda.
+1-FO-1-PA atravessa Fm. Maecuru.
+1-FO-1-PA atravessa Fm. Pitinga.
+1-FO-1-PA atravessa Embasamento.
+1-FO-1-PA atravessa Fm. Ererê.
+1-FO-1-PA atravessa Formação Curiri.
+2-TNST-1-AM atravessa Formação Curiri.
+2-TNST-1-AM atravessa Formação Monte Alegre.
+2-TNST-1-AM atravessa Fm. Itaituba.
+2-TNST-1-AM atravessa Fm. Solimões.
+2-TNST-1-AM atravessa Formação Manacapuru.
+2-TNST-1-AM está localizado em AMAZONAS.
+2-TNST-1-AM atravessa Fm. Maecuru.
+2-TNST-1-AM atravessa Formação Jatapu.
+2-TNST-1-AM atravessa Fm. Nova Olinda.
+2-TNST-1-AM atravessa Formação Barreirinha.
+2-TNST-1-AM atravessa Fm. Ererê.
+2-TNST-1-AM atravessa Formação Alter do Chão.
+2-BIST-1-AM atravessa Fm. Pitinga.
+2-BIST-1-AM atravessa Formação Monte Alegre.
+2-BIST-1-AM atravessa Formação Alter do Chão.
+2-BIST-1-AM atravessa Fm. Nova Olinda.
+2-BIST-1-AM atravessa Fm. Ererê.
+2-BIST-1-AM atravessa Fm. Itaituba.
+2-BIST-1-AM está localizado em AMAZONAS.
+2-BIST-1-AM atravessa Fm. Nhamundá.
+2-BIST-1-AM atravessa Fm. Maecuru.
+2-BIST-1-AM atravessa Formação Jatapu.
+2-BIST-1-AM atravessa Formação Manacapuru.
+Formação Barreirinha faz parte de Gr. Curuá.
+Formação Barreirinha tem idade geológica Neofamenniano.
+Formação Barreirinha é constituído por calcarenito.
+Formação Barreirinha é constituído por metamórfica.
+Formação Barreirinha é constituído por arenito.
+Formação Barreirinha é constituído por folhelho.
+Formação Barreirinha é constituído por diabásio.
+Formação Barreirinha é constituído por siltito.
+Formação Barreirinha está localizado em AMAZONAS.
+2-MMST-1-PA atravessa Formação Monte Alegre.
+2-MMST-1-PA atravessa Formação Faro.
+2-MMST-1-PA atravessa Formação Oriximiná.
+2-MMST-1-PA atravessa Formação Andirá.
+2-MMST-1-PA atravessa Formação Alter do Chão.
+2-MMST-1-PA atravessa Fm. Itaituba.
+2-MMST-1-PA atravessa Formação Curiri.
+2-MMST-1-PA atravessa Fm. Nova Olinda.
+2-MMST-1-PA está localizado em AMAZONAS.
+7-MNT-5D-BAS atravessa Gr. Brotas.
+7-MNT-5D-BAS está localizado em CAMAMU-ALMADA.
+7-MNT-5D-BAS atravessa Gr. Camamu.
+7-MNT-5D-BAS atravessa Gr. Almada.
+7-MNT-5D-BAS atravessa Gr. Espírito Santo.
+7-MNT-5D-BAS atravessa Fm. Algodões.
+7-MNT-5D-BAS atravessa Fm. Morro do Barro.
+7-MNT-5D-BAS atravessa Formação Taipus-Mirim.
+7-MNT-5D-BAS atravessa Fm. Rio de Contas.
+7-MNT-5D-BAS atravessa Fm. Itaípe.
+7-MNT-5D-BAS está localizado em MANATI.
+7-MNT-5D-BAS atravessa Formação Sergi.
+9-PJ-1-PA está localizado em AMAZONAS.
+9-PJ-1-PA atravessa Fm. Nova Olinda.
+9-PJ-1-PA atravessa Formação Alter do Chão.
+9-PJ-1-PA atravessa Formação Andirá.
+1-ATZ-1-AM atravessa Fm. Itaituba.
+1-ATZ-1-AM atravessa Formação Alter do Chão.
+1-ATZ-1-AM atravessa Formação Curiri.
+1-ATZ-1-AM atravessa Fm. Maecuru.
+1-ATZ-1-AM atravessa Formação Barreirinha.
+1-ATZ-1-AM atravessa Formação Andirá.
+1-ATZ-1-AM está localizado em AMAZONAS.
+1-ATZ-1-AM atravessa Fm. Nova Olinda.
+1-ATZ-1-AM atravessa Formação Oriximiná.
+1-ATZ-1-AM atravessa Formação Monte Alegre.
+1-ATZ-1-AM atravessa Fm. Ererê.
+1-ATZ-1-AM atravessa Fm. Solimões.
+9-PJ-2-PA atravessa Formação Andirá.
+9-PJ-2-PA atravessa Formação Alter do Chão.
+9-PJ-2-PA está localizado em AMAZONAS.
+9-PJ-2-PA atravessa Fm. Nova Olinda.
+1-SP-1-PA atravessa Fm. Ererê.
+1-SP-1-PA atravessa Formação Curiri.
+1-SP-1-PA atravessa Formação Monte Alegre.
+1-SP-1-PA atravessa Formação Faro.
+1-SP-1-PA atravessa Formação Oriximiná.
+1-SP-1-PA atravessa Formação Barreirinha.
+1-SP-1-PA atravessa Fm. Nova Olinda.
+1-SP-1-PA atravessa Fm. Itaituba.
+1-SP-1-PA atravessa Formação Andirá.
+1-SP-1-PA está localizado em AMAZONAS.
+1-SP-1-PA atravessa Formação Alter do Chão.
+1-AM-1-AM atravessa Fm. Ererê.
+1-AM-1-AM atravessa Formação Alter do Chão.
+1-AM-1-AM atravessa Fm. Pitinga.
+1-AM-1-AM atravessa Formação Barreirinha.
+1-AM-1-AM atravessa Fm. Itaituba.
+1-AM-1-AM atravessa Formação Jatapu.
+1-AM-1-AM atravessa Fm. Nova Olinda.
+1-AM-1-AM atravessa Formação Curiri.
+1-AM-1-AM atravessa Fm. Maecuru.
+1-AM-1-AM atravessa Formação Manacapuru.
+1-AM-1-AM atravessa Formação Monte Alegre.
+1-AM-1-AM está localizado em AMAZONAS.
+1-AM-1-AM atravessa Fm. Autás Mirim.
+1-AM-1-AM atravessa Fm. Nhamundá.
+1-AM-1-AM atravessa Embasamento.
+Formação Andirá faz parte de Gr. Tapajós.
+Formação Andirá tem idade geológica Permiano.
+Formação Andirá é constituído por argilito.
+Formação Andirá é constituído por calcarenito.
+Formação Andirá é constituído por diabásio.
+Formação Andirá é constituído por calcilutito.
+Formação Andirá é constituído por metamórfica.
+Formação Andirá é constituído por material geológico inconsolidado.
+Formação Andirá é constituído por arenito.
+Formação Andirá é constituído por argila.
+Formação Andirá é constituído por marga.
+Formação Andirá é constituído por halita.
+Formação Andirá é constituído por folhelho.
+Formação Andirá é constituído por siltito.
+Formação Andirá é constituído por anidrita.
+Formação Andirá é constituído por conglomerado.
+Formação Andirá é constituído por areia.
+Formação Andirá é constituído por calcissiltito.
+Formação Andirá é constituído por brecha.
+Formação Andirá está localizado em AMAZONAS.
+1-AM-3-AM atravessa Fm. Nova Olinda.
+1-AM-3-AM está localizado em AMAZONAS.
+1-AM-3-AM atravessa Fm. Itaituba.
+1-AM-3-AM atravessa Fm. Ererê.
+1-AM-3-AM atravessa Formação Curiri.
+1-AM-3-AM atravessa Formação Barreirinha.
+1-AM-3-AM atravessa Fm. Maecuru.
+1-AM-3-AM atravessa Formação Monte Alegre.
+1-AM-3-AM atravessa Formação Alter do Chão.
+1-MT-1-AM atravessa Fm. Nova Olinda.
+1-MT-1-AM atravessa Fm. Itaituba.
+1-MT-1-AM atravessa Formação Oriximiná.
+1-MT-1-AM atravessa Formação Monte Alegre.
+1-MT-1-AM atravessa Formação Alter do Chão.
+1-MT-1-AM atravessa Formação Barreirinha.
+1-MT-1-AM está localizado em AMAZONAS.
+1-MT-1-AM atravessa Fm. Ererê.
+1-MT-1-AM atravessa Formação Curiri.
+2-LFST-1-AM atravessa Formação Monte Alegre.
+2-LFST-1-AM atravessa Formação Barreirinha.
+2-LFST-1-AM atravessa Formação Curiri.
+2-LFST-1-AM atravessa Formação Andirá.
+2-LFST-1-AM está localizado em AMAZONAS.
+2-LFST-1-AM atravessa Fm. Maecuru.
+2-LFST-1-AM atravessa Formação Oriximiná.
+2-LFST-1-AM atravessa Fm. Nova Olinda.
+2-LFST-1-AM atravessa Fm. Itaituba.
+2-LFST-1-AM atravessa Formação Faro.
+2-LFST-1-AM atravessa Fm. Ererê.
+2-LFST-1-AM atravessa Formação Alter do Chão.
+Mb. Igrapiúna faz parte de Formação Taipus-Mirim.
+Mb. Igrapiúna está localizado em CAMAMU-ALMADA.
+Mb. Igrapiúna tem idade geológica Aptiano.
+Gr. Camamu tem idade geológica Cenomaniano.
+Gr. Camamu é constituído por calcário cristalino.
+Gr. Camamu é constituído por arenito.
+Gr. Camamu é constituído por argila.
+Gr. Camamu é constituído por brecha.
+Gr. Camamu é constituído por grainstone.
+Gr. Camamu é constituído por anidrita.
+Gr. Camamu é constituído por halita.
+Gr. Camamu é constituído por carnalita.
+Gr. Camamu é constituído por areia.
+Gr. Camamu é constituído por argilito.
+Gr. Camamu é constituído por calcilutito.
+Gr. Camamu é constituído por conglomerado.
+Gr. Camamu é constituído por gipsita.
+Gr. Camamu é constituído por calcarenito.
+Gr. Camamu é constituído por calcissiltito.
+Gr. Camamu é constituído por calcirudito.
+Gr. Camamu é constituído por siltito.
+Gr. Camamu é constituído por marga.
+Gr. Camamu é constituído por dolomito.
+Gr. Camamu é constituído por folhelho.
+Gr. Camamu está localizado em CAMAMU-ALMADA.
+Gr. Camamu é portador de Estratificação Plano Paralela.
+1-BAS-19 atravessa Formação Urucutuca.
+1-BAS-19 atravessa Embasamento.
+1-BAS-19 atravessa Formação Sergi.
+1-BAS-19 atravessa Gr. Brotas.
+1-BAS-19 atravessa Fm. Itaípe.
+1-BAS-19 atravessa Fm. Rio de Contas.
+1-BAS-19 atravessa Gr. Espírito Santo.
+1-BAS-19 atravessa Gr. Almada.
+1-BAS-19 está localizado em CAMAMU-ALMADA.
+1-AM-6A-AM está localizado em AMAZONAS.
+1-AM-6A-AM atravessa Fm. Ererê.
+1-AM-6A-AM atravessa Formação Alter do Chão.
+1-AM-6A-AM atravessa Formação Barreirinha.
+1-AM-6A-AM atravessa Fm. Itaituba.
+1-AM-6A-AM atravessa Fm. Nova Olinda.
+1-AM-6A-AM atravessa Formação Curiri.
+1-AM-6A-AM atravessa Fm. Maecuru.
+1-AM-6A-AM atravessa Formação Jatapu.
+1-AM-6A-AM atravessa Formação Monte Alegre.
+1-BRSA-1293-AM está localizado em AMAZONAS.
+1-BRSA-1293-AM atravessa Formação Monte Alegre.
+1-BRSA-1293-AM atravessa Formação Faro.
+1-BRSA-1293-AM atravessa Fm. Itaituba.
+1-BRSA-1293-AM atravessa Fm. Nova Olinda.
+1-BRSA-1293-AM atravessa Formação Alter do Chão.
+1-BRSA-1293-AM atravessa Formação Oriximiná.
+1-BRSA-1293-AM atravessa Formação Curiri.
+3-ICA-2-AM atravessa Formação Curiri.
+3-ICA-2-AM atravessa Formação Oriximiná.
+3-ICA-2-AM está localizado em AMAZONAS.
+3-ICA-2-AM atravessa Fm. Nova Olinda.
+3-ICA-2-AM atravessa Formação Alter do Chão.
+3-ICA-2-AM atravessa Formação Monte Alegre.
+3-ICA-2-AM atravessa Fm. Itaituba.
+1-ICA-1-AM atravessa Fm. Itaituba.
+1-ICA-1-AM atravessa Formação Barreirinha.
+1-ICA-1-AM atravessa Fm. Ererê.
+1-ICA-1-AM atravessa Formação Curiri.
+1-ICA-1-AM está localizado em AMAZONAS.
+1-ICA-1-AM atravessa Formação Alter do Chão.
+1-ICA-1-AM atravessa Formação Oriximiná.
+1-ICA-1-AM atravessa Formação Monte Alegre.
+1-ICA-1-AM atravessa Fm. Nova Olinda.
+Gr. Brotas tem idade geológica Rio_da_Serra.
+Gr. Brotas é constituído por calcário cristalino.
+Gr. Brotas é constituído por arenito.
+Gr. Brotas é constituído por argilito.
+Gr. Brotas é constituído por siltito.
+Gr. Brotas é constituído por marga.
+Gr. Brotas é constituído por calcilutito.
+Gr. Brotas é constituído por conglomerado.
+Gr. Brotas é constituído por folhelho.
+Gr. Brotas está localizado em CAMAMU-ALMADA.
+Gr. Brotas é portador de Estratificação Plano Paralela Pouco Definida.
+Gr. Brotas é portador de Estratificação Plano Paralela.
+Gr. Brotas é portador de Estratificação Cruzada Tabular.
+Gr. Brotas é portador de Imbricação de Seixos.
+Gr. Brotas é portador de Pilares.
+Gr. Brotas é portador de Estratificação Cruzada Tangencial.
+Gr. Brotas é portador de Dique de Arenito.
+Gr. Brotas é portador de Maciça.
+Formação Aliança é constituído por siltito.
+Formação Aliança é constituído por conglomerado.
+Formação Aliança é constituído por silexito.
+Formação Aliança tem idade geológica Dom_João.
+Formação Aliança é constituído por calcilutito.
+Formação Aliança é constituído por arenito.
+Formação Aliança é constituído por folhelho.
+Formação Aliança está localizado em CAMAMU-ALMADA.
+Formação Aliança é constituído por calcário cristalino.
+Formação Aliança faz parte de Gr. Brotas.
+3-IMP-2-AM atravessa Fm. Itaituba.
+3-IMP-2-AM está localizado em JAPIIM.
+3-IMP-2-AM está localizado em AMAZONAS.
+3-IMP-2-AM atravessa Formação Alter do Chão.
+3-IMP-2-AM atravessa Fm. Nova Olinda.
+1-AX-1-AM atravessa Formação Jatapu.
+1-AX-1-AM atravessa Formação Monte Alegre.
+1-AX-1-AM atravessa Formação Andirá.
+1-AX-1-AM atravessa Fm. Ererê.
+1-AX-1-AM está localizado em AMAZONAS.
+1-AX-1-AM atravessa Formação Barreirinha.
+1-AX-1-AM atravessa Formação Alter do Chão.
+1-AX-1-AM atravessa Formação Curiri.
+1-AX-1-AM atravessa Formação Oriximiná.
+1-AX-1-AM atravessa Fm. Maecuru.
+1-AX-1-AM atravessa Fm. Nova Olinda.
+1-AX-1-AM atravessa Fm. Itaituba.
+Fm. Rio de Contas faz parte de Gr. Almada.
+Fm. Rio de Contas tem idade geológica Neoaptiano.
+Fm. Rio de Contas é constituído por siltito.
+Fm. Rio de Contas é constituído por calcarenito.
+Fm. Rio de Contas é constituído por folhelho.
+Fm. Rio de Contas é constituído por arenito.
+Fm. Rio de Contas é constituído por conglomerado.
+Fm. Rio de Contas é constituído por calcilutito.
+Fm. Rio de Contas é constituído por marga.
+Fm. Rio de Contas é constituído por dolomito.
+Fm. Rio de Contas está localizado em CAMAMU-ALMADA.
+7-JI-9-BA está localizado em JIRIBATUBA.
+7-JI-9-BA atravessa Formação Sergi.
+7-JI-9-BA atravessa Fm. Itaípe.
+7-JI-9-BA atravessa Gr. Brotas.
+7-JI-9-BA atravessa Fm. Morro do Barro.
+7-JI-9-BA atravessa Gr. Almada.
+7-JI-9-BA está localizado em CAMAMU-ALMADA.
+2-LMST-1-AM atravessa Formação Barreirinha.
+2-LMST-1-AM atravessa Fm. Autás Mirim.
+2-LMST-1-AM atravessa Fm. Pitinga.
+2-LMST-1-AM atravessa Fm. Maecuru.
+2-LMST-1-AM atravessa Fm. Nhamundá.
+2-LMST-1-AM atravessa Fm. Ererê.
+2-LMST-1-AM atravessa Formação Alter do Chão.
+2-LMST-1-AM está localizado em AMAZONAS.
+2-LMST-1-AM atravessa Fm. Nova Olinda.
+2-LMST-1-AM atravessa Formação Manacapuru.
+2-LMST-1-AM atravessa Formação Jatapu.
+2-LMST-1-AM atravessa Formação Monte Alegre.
+2-LMST-1-AM atravessa Fm. Itaituba.
+1-MS-3-AM atravessa Fm. Ererê.
+1-MS-3-AM está localizado em AMAZONAS.
+1-MS-3-AM atravessa Formação Jatapu.
+1-MS-3-AM atravessa Fm. Itaituba.
+1-MS-3-AM atravessa Formação Alter do Chão.
+1-MS-3-AM atravessa Formação Curiri.
+1-MS-3-AM atravessa Formação Monte Alegre.
+1-MS-3-AM atravessa Formação Barreirinha.
+1-MS-3-AM atravessa Fm. Nova Olinda.
+1-MS-3-AM atravessa Fm. Pitinga.
+1-MS-3-AM atravessa Formação Oriximiná.
+1-MS-3-AM atravessa Formação Manacapuru.
+1-LIT-1-AM atravessa Formação Alter do Chão.
+1-LIT-1-AM atravessa Fm. Pitinga.
+1-LIT-1-AM está localizado em AMAZONAS.
+1-LIT-1-AM atravessa Formação Barreirinha.
+1-LIT-1-AM atravessa Formação Jatapu.
+1-LIT-1-AM atravessa Formação Oriximiná.
+1-LIT-1-AM atravessa Formação Monte Alegre.
+1-LIT-1-AM atravessa Fm. Itaituba.
+1-LIT-1-AM atravessa Fm. Ererê.
+1-LIT-1-AM atravessa Formação Curiri.
+1-LIT-1-AM atravessa Formação Manacapuru.
+1-LIT-1-AM atravessa Fm. Nhamundá.
+1-LIT-1-AM atravessa Fm. Nova Olinda.
+1-LIT-1-AM atravessa Fm. Maecuru.
+1-MS-4-AM atravessa Formação Oriximiná.
+1-MS-4-AM atravessa Fm. Itaituba.
+1-MS-4-AM atravessa Formação Barreirinha.
+1-MS-4-AM atravessa Formação Manacapuru.
+1-MS-4-AM está localizado em AMAZONAS.
+1-MS-4-AM atravessa Formação Curiri.
+1-MS-4-AM atravessa Fm. Ererê.
+1-MS-4-AM atravessa Formação Jatapu.
+1-MS-4-AM atravessa Formação Alter do Chão.
+1-MS-4-AM atravessa Fm. Pitinga.
+1-MS-4-AM atravessa Fm. Nova Olinda.
+1-MS-4-AM atravessa Formação Monte Alegre.
+1-BAS-102 atravessa Fm. Algodões.
+1-BAS-102 atravessa Formação Taipus-Mirim.
+1-BAS-102 atravessa Formação Urucutuca.
+1-BAS-102 atravessa Fm. Rio de Contas.
+1-BAS-102 atravessa Gr. Espírito Santo.
+1-BAS-102 está localizado em CAMAMU-ALMADA.
+1-BAS-102 atravessa Gr. Almada.
+1-BAS-102 atravessa Gr. Camamu.
+1-BAS-97 atravessa Fm. Algodões.
+1-BAS-97 atravessa Fm. Afligidos.
+1-BAS-97 está localizado em SARDINHA.
+1-BAS-97 atravessa Fm. Itaípe.
+1-BAS-97 atravessa Formação Taipus-Mirim.
+1-BAS-97 atravessa Embasamento.
+1-BAS-97 atravessa Formação Aliança.
+1-BAS-97 atravessa Fm. Morro do Barro.
+1-BAS-97 atravessa Fm. Rio de Contas.
+1-BAS-97 atravessa Gr. Espírito Santo.
+1-BAS-97 atravessa Gr. Camamu.
+1-BAS-97 atravessa Formação Sergi.
+1-BAS-97 atravessa Gr. Almada.
+1-BAS-97 atravessa Gr. Brotas.
+1-BAS-97 está localizado em CAMAMU-ALMADA.
+Mb. Sesmaria faz parte de Fm. Salvador.
+1-CAP-1-AM atravessa Formação Manacapuru.
+1-CAP-1-AM está localizado em AMAZONAS.
+1-CAP-1-AM atravessa Formação Curiri.
+1-CAP-1-AM atravessa Formação Oriximiná.
+1-CAP-1-AM atravessa Formação Monte Alegre.
+1-CAP-1-AM atravessa Formação Alter do Chão.
+1-CAP-1-AM atravessa Formação Jatapu.
+1-CAP-1-AM atravessa Fm. Itaituba.
+1-CAP-1-AM atravessa Fm. Ererê.
+1-CAP-1-AM atravessa Formação Barreirinha.
+1-CAP-1-AM atravessa Fm. Maecuru.
+1-CAP-1-AM atravessa Fm. Nova Olinda.
+1-SSB-1-AM atravessa Formação Faro.
+1-SSB-1-AM atravessa Fm. Nova Olinda.
+1-SSB-1-AM está localizado em AMAZONAS.
+1-SSB-1-AM atravessa Formação Alter do Chão.
+1-SSB-1-AM atravessa Formação Oriximiná.
+1-SSB-1-AM atravessa Fm. Itaituba.
+1-SSB-1-AM atravessa Formação Monte Alegre.
+Gr. Almada tem idade geológica Neoaptiano.
+Gr. Almada é constituído por arenito.
+Gr. Almada é constituído por basalto.
+Gr. Almada é constituído por dolomito.
+Gr. Almada é constituído por marga.
+Gr. Almada é constituído por folhelho.
+Gr. Almada é constituído por areia.
+Gr. Almada é constituído por argilito.
+Gr. Almada é constituído por siltito.
+Gr. Almada é constituído por calcilutito.
+Gr. Almada é constituído por calcário cristalino.
+Gr. Almada é constituído por conglomerado.
+Gr. Almada é constituído por calcarenito.
+Gr. Almada está localizado em CAMAMU-ALMADA.
+Membro Tinharé é constituído por folhelho.
+Membro Tinharé é constituído por siltito.
+Membro Tinharé está localizado em CAMAMU-ALMADA.
+Membro Tinharé é constituído por calcário cristalino.
+Membro Tinharé tem idade geológica Rio_da_Serra.
+Membro Tinharé faz parte de Fm. Morro do Barro.
+Membro Tinharé é constituído por arenito.
+Membro Tinharé é constituído por conglomerado.
+2-PEST-2-AM atravessa Fm. Nova Olinda.
+2-PEST-2-AM atravessa Fm. Maecuru.
+2-PEST-2-AM atravessa Formação Monte Alegre.
+2-PEST-2-AM atravessa Formação Barreirinha.
+2-PEST-2-AM atravessa Formação Alter do Chão.
+2-PEST-2-AM atravessa Fm. Ererê.
+2-PEST-2-AM atravessa Formação Jatapu.
+2-PEST-2-AM atravessa Fm. Itaituba.
+2-PEST-2-AM atravessa Formação Acari.
+2-PEST-2-AM atravessa Formação Curiri.
+2-PEST-2-AM atravessa Fm. Autás Mirim.
+2-PEST-2-AM atravessa Formação Manacapuru.
+2-PEST-2-AM está localizado em AMAZONAS.
+2-PEST-2-AM atravessa Fm. Pitinga.
+2-PEST-2-AM atravessa Fm. Nhamundá.
+3-LT-2-AM está localizado em AMAZONAS.
+3-LT-2-AM atravessa Fm. Nova Olinda.
+3-LT-2-AM atravessa Formação Monte Alegre.
+3-LT-2-AM atravessa Fm. Itaituba.
+3-LT-2-AM atravessa Formação Curiri.
+3-LT-2-AM atravessa Formação Alter do Chão.
+3-BAS-100 atravessa Fm. Algodões.
+3-BAS-100 atravessa Fm. Rio de Contas.
+3-BAS-100 atravessa Gr. Camamu.
+3-BAS-100 atravessa Gr. Espírito Santo.
+3-BAS-100 atravessa Formação Taipus-Mirim.
+3-BAS-100 está localizado em SARDINHA.
+3-BAS-100 atravessa Gr. Almada.
+3-BAS-100 atravessa Fm. Morro do Barro.
+3-BAS-100 está localizado em CAMAMU-ALMADA.
+Mb. Pedrão tem idade geológica Rio_da_Serra.
+Mb. Pedrão faz parte de Fm. Afligidos.
+Mb. Pedrão está localizado em CAMAMU-ALMADA.
+9-PA-1A-AM atravessa Formação Alter do Chão.
+9-PA-1A-AM atravessa Formação Andirá.
+9-PA-1A-AM está localizado em AMAZONAS.
+3-BAS-99 atravessa Fm. Morro do Barro.
+3-BAS-99 atravessa Fm. Algodões.
+3-BAS-99 atravessa Formação Taipus-Mirim.
+3-BAS-99 atravessa Gr. Almada.
+3-BAS-99 atravessa Gr. Camamu.
+3-BAS-99 atravessa Fm. Rio de Contas.
+3-BAS-99 está localizado em CAMAMU-ALMADA.
+3-BAS-99 atravessa Gr. Espírito Santo.
+3-BAS-99 está localizado em SARDINHA.
+1-BAS-118 atravessa Formação Urucutuca.
+1-BAS-118 atravessa Fm. Rio de Contas.
+1-BAS-118 está localizado em CAMAMU-ALMADA.
+1-BAS-118 atravessa Fm. Morro do Barro.
+1-BAS-118 atravessa Formação Taipus-Mirim.
+1-TM-1-BA atravessa Gr. Espírito Santo.
+1-TM-1-BA está localizado em CAMAMU-ALMADA.
+1-TM-1-BA atravessa Formação Taipus-Mirim.
+1-TM-1-BA atravessa Fm. Algodões.
+1-TM-1-BA atravessa Gr. Camamu.
+1-TM-1-BA atravessa Formação Sergi.
+1-TM-1-BA atravessa Embasamento.
+1-TM-1-BA atravessa Formação Aliança.
+1-TM-1-BA atravessa Fm. Afligidos.
+Mb. Quiepe faz parte de Fm. Algodões.
+1-LT-1-AM atravessa Formação Monte Alegre.
+1-LT-1-AM atravessa Fm. Pitinga.
+1-LT-1-AM atravessa Fm. Nova Olinda.
+1-LT-1-AM atravessa Formação Manacapuru.
+1-LT-1-AM atravessa Fm. Ererê.
+1-LT-1-AM atravessa Formação Jatapu.
+1-LT-1-AM está localizado em AMAZONAS.
+1-LT-1-AM atravessa Fm. Itaituba.
+1-LT-1-AM atravessa Fm. Maecuru.
+1-LT-1-AM atravessa Formação Curiri.
+1-LT-1-AM atravessa Fm. Nhamundá.
+1-LT-1-AM atravessa Formação Alter do Chão.
+1-LT-1-AM atravessa Formação Barreirinha.
+3-BAS-101 atravessa Gr. Almada.
+3-BAS-101 atravessa Gr. Espírito Santo.
+3-BAS-101 está localizado em SARDINHA.
+3-BAS-101 atravessa Fm. Algodões.
+3-BAS-101 atravessa Fm. Morro do Barro.
+3-BAS-101 atravessa Fm. Rio de Contas.
+3-BAS-101 atravessa Gr. Camamu.
+3-BAS-101 está localizado em CAMAMU-ALMADA.
+3-BAS-101 atravessa Formação Taipus-Mirim.
+2-SOL-1-BA atravessa Gr. Camamu.
+2-SOL-1-BA atravessa Fm. Rio Doce.
+2-SOL-1-BA está localizado em CAMAMU-ALMADA.
+2-SOL-1-BA atravessa Gr. Espírito Santo.
+2-SOL-1-BA atravessa Formação Taipus-Mirim.
+Mb. Tauá faz parte de Fm. Candeias.
+3-BAS-109 atravessa Fm. Morro do Barro.
+3-BAS-109 atravessa Gr. Camamu.
+3-BAS-109 está localizado em SARDINHA.
+3-BAS-109 atravessa Gr. Espírito Santo.
+3-BAS-109 atravessa Formação Taipus-Mirim.
+3-BAS-109 está localizado em CAMAMU-ALMADA.
+3-BAS-109 atravessa Fm. Algodões.
+3-BAS-109 atravessa Fm. Rio de Contas.
+3-BAS-109 atravessa Gr. Almada.
+1-LG-2-AM atravessa Fm. Nova Olinda.
+1-LG-2-AM atravessa Fm. Itaituba.
+1-LG-2-AM atravessa Formação Monte Alegre.
+1-LG-2-AM está localizado em AMAZONAS.
+1-LG-2-AM atravessa Formação Alter do Chão.
+1-LG-2-AM atravessa Formação Curiri.
+1-LG-2-AM atravessa Formação Barreirinha.
+4-ELPS-12-BAS está localizado em CAMAMU-ALMADA.
+1-PQ-1-PA atravessa Fm. Nova Olinda.
+1-PQ-1-PA atravessa Formação Oriximiná.
+1-PQ-1-PA está localizado em AMAZONAS.
+1-PQ-1-PA atravessa Formação Barreirinha.
+1-PQ-1-PA atravessa Fm. Itaituba.
+1-PQ-1-PA atravessa Formação Monte Alegre.
+1-PQ-1-PA atravessa Formação Curiri.
+1-PQ-1-PA atravessa Formação Alter do Chão.
+1-PQ-1-PA atravessa Formação Faro.
+4-BAS-116 atravessa Gr. Camamu.
+4-BAS-116 atravessa Gr. Espírito Santo.
+4-BAS-116 atravessa Fm. Rio de Contas.
+4-BAS-116 atravessa Formação Taipus-Mirim.
+4-BAS-116 atravessa Fm. Algodões.
+4-BAS-116 está localizado em CAMAMU-ALMADA.
+4-BAS-116 atravessa Gr. Almada.
+Mb. Boipeba faz parte de Formação Aliança.
+Mb. Boipeba está localizado em CAMAMU-ALMADA.
+Mb. Boipeba tem idade geológica Dom_João.
+2-SAST-1-AM atravessa Formação Jatapu.
+2-SAST-1-AM atravessa Fm. Maecuru.
+2-SAST-1-AM atravessa Fm. Itaituba.
+2-SAST-1-AM atravessa Formação Manacapuru.
+2-SAST-1-AM atravessa Formação Barreirinha.
+2-SAST-1-AM atravessa Fm. Ererê.
+2-SAST-1-AM atravessa Fm. Nova Olinda.
+2-SAST-1-AM atravessa Formação Alter do Chão.
+2-SAST-1-AM atravessa Fm. Pitinga.
+2-SAST-1-AM atravessa Formação Monte Alegre.
+2-SAST-1-AM atravessa Formação Curiri.
+2-SAST-1-AM está localizado em AMAZONAS.
+2-SAST-1-AM atravessa Fm. Nhamundá.
+4-ELPS-13-BAS está localizado em CAMAMU-ALMADA.
+1-RX-1-AM atravessa Formação Alter do Chão.
+1-RX-1-AM atravessa Formação Jatapu.
+1-RX-1-AM atravessa Fm. Nova Olinda.
+1-RX-1-AM atravessa Formação Manacapuru.
+1-RX-1-AM atravessa Formação Oriximiná.
+1-RX-1-AM atravessa Fm. Itaituba.
+1-RX-1-AM atravessa Formação Andirá.
+1-RX-1-AM atravessa Formação Curiri.
+1-RX-1-AM está localizado em AMAZONAS.
+1-RX-1-AM atravessa Formação Monte Alegre.
+1-RX-1-AM atravessa Fm. Ererê.
+1-RX-1-AM atravessa Formação Barreirinha.
+1-LG-1-AM atravessa Formação Curiri.
+1-LG-1-AM atravessa Fm. Nova Olinda.
+1-LG-1-AM atravessa Formação Monte Alegre.
+1-LG-1-AM atravessa Fm. Ererê.
+1-LG-1-AM está localizado em AMAZONAS.
+1-LG-1-AM atravessa Fm. Maecuru.
+1-LG-1-AM atravessa Formação Barreirinha.
+1-LG-1-AM atravessa Fm. Itaituba.
+1-LG-1-AM atravessa Formação Alter do Chão.
+2-SGMB-33-BA atravessa Gr. Camamu.
+2-SGMB-33-BA atravessa Gr. Brotas.
+2-SGMB-33-BA atravessa Formação Taipus-Mirim.
+2-SGMB-33-BA atravessa Formação Sergi.
+2-SGMB-33-BA atravessa Gr. Espírito Santo.
+2-SGMB-33-BA está localizado em CAMAMU-ALMADA.
+Mb. Jiribatuba é constituído por folhelho.
+Mb. Jiribatuba faz parte de Fm. Morro do Barro.
+Mb. Jiribatuba tem idade geológica Rio_da_Serra.
+Mb. Jiribatuba está localizado em CAMAMU-ALMADA.
+Mb. Jiribatuba é constituído por calcário cristalino.
+Mb. Jiribatuba é constituído por arenito.
+Mb. Jiribatuba é constituído por siltito.
+2-JUST-1-AM atravessa Fm. Pitinga.
+2-JUST-1-AM está localizado em AMAZONAS.
+2-JUST-1-AM atravessa Formação Jatapu.
+2-JUST-1-AM atravessa Formação Manacapuru.
+2-JUST-1-AM atravessa Formação Monte Alegre.
+2-JUST-1-AM atravessa Formação Barreirinha.
+2-JUST-1-AM atravessa Fm. Maecuru.
+2-JUST-1-AM atravessa Fm. Ererê.
+2-JUST-1-AM atravessa Fm. Nova Olinda.
+2-JUST-1-AM atravessa Formação Curiri.
+2-JUST-1-AM atravessa Formação Alter do Chão.
+2-JUST-1-AM atravessa Fm. Itaituba.
+2-JUST-1-AM atravessa Fm. Nhamundá.
+1-AM-5-AM atravessa Formação Alter do Chão.
+1-AM-5-AM atravessa Formação Barreirinha.
+1-AM-5-AM atravessa Formação Monte Alegre.
+1-AM-5-AM atravessa Formação Curiri.
+1-AM-5-AM atravessa Fm. Nova Olinda.
+1-AM-5-AM atravessa Fm. Itaituba.
+1-AM-5-AM está localizado em AMAZONAS.
+Mb. Fazendinha faz parte de Fm. Nova Olinda.
+1-BAS-67 atravessa Gr. Espírito Santo.
+1-BAS-67 atravessa Fm. Morro do Barro.
+1-BAS-67 atravessa Formação Aliança.
+1-BAS-67 está localizado em CAMAMU-ALMADA.
+1-BAS-67 atravessa Gr. Almada.
+1-BAS-67 atravessa Gr. Brotas.
+1-BAS-67 atravessa Fm. Itaípe.
+1-BAS-67 atravessa Formação Sergi.
+1-BAS-67 atravessa Fm. Afligidos.
+1-BAS-67 atravessa Formação Urucutuca.
+Mb. Arari faz parte de Fm. Nova Olinda.
+2-MAST-2-PA atravessa Fm. Itaituba.
+2-MAST-2-PA atravessa Fm. Nova Olinda.
+2-MAST-2-PA atravessa Formação Monte Alegre.
+2-MAST-2-PA está localizado em AMAZONAS.
+2-MAST-2-PA atravessa Formação Oriximiná.
+2-MAST-2-PA atravessa Formação Faro.
+2-MAST-2-PA atravessa Formação Alter do Chão.
+1-AM-14-AM atravessa Formação Monte Alegre.
+1-AM-14-AM atravessa Formação Alter do Chão.
+1-AM-14-AM atravessa Fm. Nova Olinda.
+1-AM-14-AM atravessa Fm. Itaituba.
+1-AM-14-AM está localizado em AMAZONAS.
+1-AM-14-AM atravessa Fm. Ererê.
+1-AM-14-AM atravessa Formação Curiri.
+1-AM-14-AM atravessa Formação Barreirinha.
+2-SGMB-48-BA atravessa Gr. Brotas.
+2-SGMB-48-BA atravessa Formação Sergi.
+2-SGMB-48-BA atravessa Gr. Camamu.
+2-SGMB-48-BA está localizado em CAMAMU-ALMADA.
+2-SGMB-48-BA atravessa Formação Taipus-Mirim.
+1-RX-6-AM atravessa Formação Alter do Chão.
+1-RX-6-AM atravessa Formação Curiri.
+1-RX-6-AM atravessa Fm. Itaituba.
+1-RX-6-AM atravessa Formação Monte Alegre.
+1-RX-6-AM atravessa Formação Oriximiná.
+1-RX-6-AM atravessa Fm. Nova Olinda.
+1-RX-6-AM atravessa Formação Andirá.
+1-RX-6-AM está localizado em AMAZONAS.
+2-IMST-1-PA atravessa Fm. Nova Olinda.
+2-IMST-1-PA atravessa Fm. Itaituba.
+2-IMST-1-PA atravessa Formação Curiri.
+2-IMST-1-PA atravessa Formação Oriximiná.
+2-IMST-1-PA atravessa Formação Andirá.
+2-IMST-1-PA atravessa Formação Alter do Chão.
+2-IMST-1-PA atravessa Formação Monte Alegre.
+2-IMST-1-PA atravessa Formação Faro.
+2-IMST-1-PA está localizado em AMAZONAS.
+Fm. Afligidos é constituído por conglomerado.
+Fm. Afligidos tem idade geológica Rio_da_Serra.
+Fm. Afligidos é constituído por folhelho.
+Fm. Afligidos é constituído por siltito.
+Fm. Afligidos é constituído por anidrita.
+Fm. Afligidos está localizado em CAMAMU-ALMADA.
+Fm. Afligidos é constituído por arenito.
+Fm. Afligidos é constituído por argilito.
+Fm. Afligidos é constituído por calcário cristalino.
+1-AM-8-AM atravessa Fm. Pitinga.
+1-AM-8-AM atravessa Formação Barreirinha.
+1-AM-8-AM atravessa Fm. Ererê.
+1-AM-8-AM atravessa Formação Monte Alegre.
+1-AM-8-AM atravessa Fm. Nhamundá.
+1-AM-8-AM atravessa Formação Curiri.
+1-AM-8-AM atravessa Fm. Maecuru.
+1-AM-8-AM atravessa Fm. Itaituba.
+1-AM-8-AM atravessa Fm. Nova Olinda.
+1-AM-8-AM atravessa Formação Jatapu.
+1-AM-8-AM atravessa Formação Manacapuru.
+1-AM-8-AM atravessa Formação Alter do Chão.
+1-AM-8-AM está localizado em AMAZONAS.
+7-MNT-2-BAS atravessa Formação Sergi.
+7-MNT-2-BAS atravessa Fm. Itaípe.
+7-MNT-2-BAS está localizado em CAMAMU-ALMADA.
+7-MNT-2-BAS atravessa Formação Taipus-Mirim.
+7-MNT-2-BAS atravessa Gr. Brotas.
+7-MNT-2-BAS atravessa Fm. Algodões.
+7-MNT-2-BAS atravessa Gr. Camamu.
+7-MNT-2-BAS atravessa Gr. Almada.
+7-MNT-2-BAS atravessa Gr. Espírito Santo.
+7-MNT-2-BAS atravessa Fm. Rio de Contas.
+7-MNT-2-BAS atravessa Fm. Morro do Barro.
+7-MNT-2-BAS está localizado em MANATI.
+2-IAST-1-PA atravessa Formação Manacapuru.
+2-IAST-1-PA atravessa Formação Alter do Chão.
+2-IAST-1-PA está localizado em AMAZONAS.
+2-IAST-1-PA atravessa Formação Jatapu.
+1-RX-3-AM atravessa Fm. Ererê.
+1-RX-3-AM atravessa Fm. Nova Olinda.
+1-RX-3-AM atravessa Formação Alter do Chão.
+1-RX-3-AM atravessa Formação Jatapu.
+1-RX-3-AM atravessa Formação Monte Alegre.
+1-RX-3-AM atravessa Formação Curiri.
+1-RX-3-AM está localizado em AMAZONAS.
+1-RX-3-AM atravessa Formação Oriximiná.
+1-RX-3-AM atravessa Formação Barreirinha.
+1-RX-3-AM atravessa Formação Andirá.
+1-RX-3-AM atravessa Fm. Itaituba.
+Formação Manacapuru faz parte de Gr. Trombetas.
+Formação Manacapuru tem idade geológica Lochkoviano.
+Formação Manacapuru é constituído por arenito.
+Formação Manacapuru é constituído por metamórfica.
+Formação Manacapuru é constituído por folhelho.
+Formação Manacapuru é constituído por calcarenito.
+Formação Manacapuru é constituído por areia.
+Formação Manacapuru é constituído por diabásio.
+Formação Manacapuru é constituído por siltito.
+Formação Manacapuru está localizado em AMAZONAS.
+Mb. Mutá faz parte de Fm. Rio de Contas.
+1-RX-4-AM atravessa Formação Monte Alegre.
+1-RX-4-AM atravessa Formação Oriximiná.
+1-RX-4-AM atravessa Fm. Nova Olinda.
+1-RX-4-AM atravessa Formação Barreirinha.
+1-RX-4-AM atravessa Fm. Ererê.
+1-RX-4-AM está localizado em AMAZONAS.
+1-RX-4-AM atravessa Formação Curiri.
+1-RX-4-AM atravessa Formação Alter do Chão.
+1-RX-4-AM atravessa Formação Jatapu.
+1-RX-4-AM atravessa Fm. Itaituba.
+1-RX-4-AM atravessa Formação Andirá.
+2-PR-1-PA atravessa Fm. Nova Olinda.
+2-PR-1-PA atravessa Formação Alter do Chão.
+2-PR-1-PA está localizado em AMAZONAS.
+2-PR-1-PA atravessa Formação Andirá.
+1-MI-3-AM atravessa Formação Monte Alegre.
+1-MI-3-AM atravessa Formação Alter do Chão.
+1-MI-3-AM atravessa Formação Manacapuru.
+1-MI-3-AM atravessa Formação Curiri.
+1-MI-3-AM atravessa Formação Barreirinha.
+1-MI-3-AM atravessa Fm. Pitinga.
+1-MI-3-AM está localizado em AMAZONAS.
+1-MI-3-AM atravessa Fm. Nhamundá.
+1-MI-3-AM atravessa Fm. Nova Olinda.
+1-MI-3-AM atravessa Fm. Ererê.
+1-MI-3-AM atravessa Fm. Itaituba.
+1-MI-3-AM atravessa Formação Jatapu.
+1-MI-3-AM atravessa Fm. Maecuru.

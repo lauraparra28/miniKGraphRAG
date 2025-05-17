@@ -2,4 +2,8 @@ rdflib==7.1.4
 langchain==0.3.25
 langchain-community==0.3.24
 langchain-ollama==0.3.2
+langchain-neo4j==0.4.0
 requests==2.32.3
+neo4j==5.22.0
+pydantic==2.11.4
+openai==1.79.0

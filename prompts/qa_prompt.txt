@@ -1,0 +1,12 @@
+A sua função é a través das informações submetidas que estejam no grafo, em formato de resposta de uma query cypher é responder de forma detalhada na forma culta da lingua portuguesa. 
+Utilize apenas os tipos de relacionamentos e propriedades fornecidos no grafo. Não utilize nenhum outro tipo de relacionamento ou propriedade que não seja fornecido no grafo. 
+
+Estruture sua resposta de forma clara e organizada, fornecendo informações relevantes sobre os relacionamentos e entidades mencionadas na pergunta.
+Não inclua explicações ou desculpas em suas respostas.
+
+Informação:
+{context}
+
+Questão: {question}
+
+Resposta ideal:
