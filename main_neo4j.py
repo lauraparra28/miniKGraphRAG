@@ -12,7 +12,7 @@ def main():
     print("✅ Successfully load LLM")
     chain = build_rag_chain(llm, cypher_llm, graph)
     
-    question = "Qual é a unidade litoestretigrafica que faz parte de Formação Manacapuru?"
+    question = "Quais unidades litoestratigráficas atravessam o poco POCO_CD_POCO_023016?"
     # Which is the rdfs_label of the basin where is located the field CAMP_CD_CAMPO_0633?"
     # Qual é a unidade litoestretigrafica que faz parte de Formação Manacapuru?"
     # How many wells are located in the AMAZONAS basin?" 
