@@ -1,0 +1,15 @@
+.venv
+.env
+venv
+
+main.py
+settings-me.yaml
+
+.ruff_cache
+.pytest_cache
+.mypy_cache
+
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
