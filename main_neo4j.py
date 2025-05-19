@@ -1,17 +1,24 @@
 from langchain_neo4j import Neo4jGraph
-from llm_ollama import load_llm
+from llm_ollama import load_llm, load_cypher_llm
 from rag_chain_neo4j import build_rag_chain
 
 def main():
     
     graph = Neo4jGraph( url="bolt://localhost:7687", username="neo4j",password="diripar8$")
-    print("✅ Conectado a Neo4j")
+    print("✅ Successfully connection to Neo4j Graph")
     
     llm = load_llm()
-    chain = build_rag_chain(llm, graph)
+    cypher_llm = load_cypher_llm()
+    print("✅ Successfully load LLM")
+    chain = build_rag_chain(llm, cypher_llm, graph)
     
-    question = "Quantos poços estão localizados na bacia chamada AMAZONAS?" # Which geological formations are composed of sandstone?
-    print("\n✅ Pregunta " + question)
+    question = "Qual é a unidade litoestretigrafica que faz parte de Formação Manacapuru?"
+    # Which is the rdfs_label of the basin where is located the field CAMP_CD_CAMPO_0633?"
+    # Qual é a unidade litoestretigrafica que faz parte de Formação Manacapuru?"
+    # How many wells are located in the AMAZONAS basin?" 
+    # Quantos poços estão localizados na bacia chamada AMAZONAS
+    # Which geological formations are composed of sandstone?
+    print("\n❓ " + question)
     
     result = chain.invoke({"query": question})
 
