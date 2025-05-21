@@ -7,3 +7,6 @@ requests==2.32.3
 neo4j==5.28.1
 pydantic==2.11.4
 openai==1.79.0
+sacrebleu==2.5.1
+scikit-learn==1.6.1
+tqdm==4.67.1

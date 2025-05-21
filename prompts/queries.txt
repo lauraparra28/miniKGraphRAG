@@ -1,8 +1,15 @@
-Which is the rdfs_label of the basin where is located the field CAMP_CD_CAMPO_0633?"
 ✅ Qual é a unidade litoestratigrafica que faz parte de Formação Manacapuru?"
 ✅ Quantos poços estão localizados na bacia AMAZONAS?
 ✅ Quantos poços estão localizados na bacia CAMAMU-ALMADA?
+
+Em que bacia está localizado o poço 9FZ2?
+Em que bacia está localizado o poço 1MD-0001-AM?
+Que unidades litoestratigráficas o poço 9FZ2 atravessa?
+Que unidades litoestratigráficas o poço 1-BAS-0074-BA atravessa que são constituídas por rochas do tipo sapropel?
+Que unidades litoestratigráficas o poço 1-LG-0003-AM atravessa que são constituídas por rochas do tipo arenito?
+
+Em que bacia está localizado o campo MORRO DO BARRO?
+Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?
 Whick fields are located in the AMAZONAS basin?
-How many wells are located in the AMAZONAS basin?" 
-Quantos poços estão localizados na bacia AMAZONAS?
+How many wells are located in the AMAZONAS basin?
 Which geological formations are composed of sandstone?

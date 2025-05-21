@@ -61,7 +61,33 @@ curl http://localhost:11434
 ```bash
 python main.py
 ```
+You can obtain something like this:
 
+```bash
+✅ Successfully connection to Neo4j Graph
+✅ Successfully load LLM
+
+❓ Em que bacia está localizado o campo MORRO DO BARRO?
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (c:field{rdfs_label: "MORRO DO BARRO"})-[:located_in]->(b:basin) 
+RETURN b.rdfs_label
+Full Context:
+[]
+
+> Finished chain.
+
+✅ Pregunta: Em que bacia está localizado o campo MORRO DO BARRO?
+
+✅ Respuesta gerada: 
+O campo MORRO DO BARRO está localizado na Bacia CAMAMU-ALMADA.
+
+✅ Cypher Generado:
+{'query': 'MATCH (c:field{rdfs_label: "MORRO DO BARRO"})-[:located_in]->(b:basin) \nRETURN b.rdfs_label'}
+
+✅ Contexto recuperado:{'context': []}
+```
 
 ## 🧩 Configuration
 
