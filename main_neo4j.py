@@ -9,7 +9,7 @@ CYPHER_GENERATION_TEMPLATE = bu.load_prompts()["cypher_prompt.txt"]
 CYPHER_GENERATION_PROMPT = PromptTemplate.from_template(CYPHER_GENERATION_TEMPLATE)
 # Prompt para a resposta da query
 QA_PROMPT = bu.load_prompts()["qa_prompt.txt"] 
-qa_prompt = PromptTemplate.from_template(QA_PROMPT)
+qa_prompt = PromptTemplate(template=QA_PROMPT, input_variables=["context", "question"], ) #from_template(QA_PROMPT)
 
 graph = Neo4jGraph( url="bolt://localhost:7687", username="neo4j",password="diripar8$")
 print("✅ Successfully connection to Neo4j Graph")
@@ -28,7 +28,7 @@ chain = build_rag_chain(
 
 def main():
     question = input("❓ Pergunta: ")
-    #question = "Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?"
+    #question = "Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?" Que unidades litoestratigráficas o poço POCO_CD_POCO_022712 atravessa?
      
     out = chain.invoke({ "query": question})
  
