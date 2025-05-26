@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "question": "Qual é o nome da bacia BASE_CD_BACIA_266?",
+        "answer": [
+            "Camamu-Almada",
+            "Bacia De Camamu-Almada",
+            "Almada Mar",
+            "Almada Terra",
+            "Camamu Mar",
+            "Camamu Terra"
+        ],
+        "context": "O nome da bacia BASE_CD_BACIA_266 é Camamu-Almada, ou Bacia De Camamu-Almada, ou Almada Mar, ou Almada Terra, ou Camamu Mar, ou Camamu Terra."
+    },
+    {
+        "id": 2,
+        "question": "Qual é o nome da bacia BASE_CD_BACIA_030?",
+        "answer": [
+            "Amazonas",
+            "Bacia De Amazonas"
+        ],
+        "context": "O nome da bacia BASE_CD_BACIA_030 é Amazonas, ou Bacia De Amazonas."
+    },
+    {
+        "id": 3,
+        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0131?",
+        "answer": [
+            "Azulão",
+            "Azulao",
+            "Rio Uatuma"
+        ],
+        "context": "O nome do campo CAMP_CD_CAMPO_0131 é Azulão, ou Azulao, ou Rio Uatuma."
+    },
+    {
+        "id": 4,
+        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0890?",
+        "answer": [
+            "Camarao Norte",
+            "Camarão Norte",
+            "Área Bas-131"
+        ],
+        "context": "O nome do campo CAMP_CD_CAMPO_0890 é Camarao Norte, ou Camarão Norte, ou Área Bas-131."
+    },
+    {
+        "id": 5,
+        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0888?",
+        "answer": [
+            "Manati",
+            "Área Do B128"
+        ],
+        "context": "O nome do campo CAMP_CD_CAMPO_0888 é Manati, ou Área Do B128."
+    },
+    {
+        "id": 6,
+        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0109?",
+        "answer": [
+            "Sardinha",
+            "Área Do B097"
+        ],
+        "context": "O nome do campo CAMP_CD_CAMPO_0109 é Sardinha, ou Área Do B097."
+    },
+    {
+        "id": 7,
+        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0108?",
+        "answer": [
+            "Área Bas-064",
+            "Area Do Bas-64"
+        ],
+        "context": "O nome do campo CAMP_CD_CAMPO_0108 é Área Bas-064, ou Area Do Bas-64."
+    },
+    {
+        "id": 8,
+        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0572?",
+        "answer": [
+            "Jiribatuba"
+        ],
+        "context": "O nome do campo CAMP_CD_CAMPO_0572 é Jiribatuba."
+    },
+    {
+        "id": 9,
+        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0721?",
+        "answer": [
+            "Morro Do Barro"
+        ],
+        "context": "O nome do campo CAMP_CD_CAMPO_0721 é Morro Do Barro."
+    },
+    {
+        "id": 10,
+        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0633?",
+        "answer": [
+            "Japiim",
+            "Igarapé Maripá"
+        ],
+        "context": "O nome do campo CAMP_CD_CAMPO_0633 é Japiim, ou Igarapé Maripá."
+    }
+]

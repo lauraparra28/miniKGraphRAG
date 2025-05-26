@@ -28,8 +28,7 @@ chain = build_rag_chain(
 
 def main():
     question = input("❓ Pergunta: ")
-    #question = "Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?" Que unidades litoestratigráficas o poço POCO_CD_POCO_022712 atravessa?
-     
+         
     out = chain.invoke({ "query": question})
  
     print("\n✅ Resposta:", out["result"])

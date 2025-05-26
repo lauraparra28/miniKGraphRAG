@@ -8,7 +8,7 @@ from main_neo4j import chain
 from utils import base_utils as bu
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["miniKGraph_text_dataset.json"]
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste.json"]
 test_examples = dataset_miniKGraph
 print("✅ Successfully load Dataset miniKGraph")
 
@@ -33,7 +33,7 @@ metrics = {
 }
 
 for ex in tqdm(test_examples):
-    q       = ex["question"]
+    question       = ex["question"]
     golds   = flatten_answers(ex["answer"])
     out     = chain.invoke({"query": question})
     pred    = normalize(out["result"]) 

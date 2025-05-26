@@ -20,7 +20,8 @@ Node‐label mapping:
 Matching rules for wells or fields:
 - If the question contains an internal code (e.g. “POCO_CD_POCO_XXXXX”), match on `well._id`.
 - If the question contains an internal code (e.g. “CAMP_CD_CAMPO_0633”), match on `field._id`.
-- If it contains a human-readable label (e.g. “1-MD-1-AM”), match on `well.rdfs_label`. rdfs_label: 
+- If the question ask for the name of a node, match on . rdfs_label.
+- If it contains a human-readable label or name (e.g. “1-MD-1-AM” or “AMAZONAS”), match on `well.rdfs_label`. rdfs_label.
 - If both appear, include **both** in your `MATCH` clause:
   ```cypher
   MATCH (w:well {{ _id: "POCO_CD_POCO_006025", rdfs_label: "3-BRSA-135-BAS" }})
@@ -69,7 +70,7 @@ MATCH (w:well)-[:located_in]->(b:basin {{rdfs_label:"AMAZONAS"}})
 RETURN COUNT (w) AS numero_de_pocos
 
 # Quais campos estao localizados na bacia AMAZONAS?
-MATCH (f:field)-[:located_in]->(b:basin {rdfs_label:"AMAZONAS"})
+MATCH (f:field)-[:located_in]->(b:basin {{rdfs_label:"AMAZONAS"}})
 RETURN f.rdfs_label
 
 The question is:

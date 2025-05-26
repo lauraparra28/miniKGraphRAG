@@ -1,4 +1,5 @@
 import os
+import json
 
 def read_file(ruta_archivo):
     with open(ruta_archivo, 'r', encoding='utf-8') as archivo:

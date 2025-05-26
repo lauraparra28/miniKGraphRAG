@@ -10,3 +10,5 @@ openai==1.79.0
 sacrebleu==2.5.1
 scikit-learn==1.6.1
 tqdm==4.67.1
+scipy==1.13.1
+matplotlib==3.9.4
