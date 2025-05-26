@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "question": "Qual é o nome da bacia BASE_CD_BACIA_266?",
+        "question": "Qual é o nome de BASE_CD_BACIA_266?",
         "answer": [
             "Camamu-Almada",
             "Bacia De Camamu-Almada",
@@ -14,7 +14,7 @@
     },
     {
         "id": 2,
-        "question": "Qual é o nome da bacia BASE_CD_BACIA_030?",
+        "question": "Qual é o nome de BASE_CD_BACIA_030?",
         "answer": [
             "Amazonas",
             "Bacia De Amazonas"
@@ -23,7 +23,7 @@
     },
     {
         "id": 3,
-        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0131?",
+        "question": "Qual é o nome de CAMP_CD_CAMPO_0131?",
         "answer": [
             "Azulão",
             "Azulao",
@@ -33,7 +33,7 @@
     },
     {
         "id": 4,
-        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0890?",
+        "question": "Qual é o nome de CAMP_CD_CAMPO_0890?",
         "answer": [
             "Camarao Norte",
             "Camarão Norte",
@@ -43,7 +43,7 @@
     },
     {
         "id": 5,
-        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0888?",
+        "question": "Qual é o nome de CAMP_CD_CAMPO_0888?",
         "answer": [
             "Manati",
             "Área Do B128"
@@ -52,7 +52,7 @@
     },
     {
         "id": 6,
-        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0109?",
+        "question": "Qual é o nome do CAMP_CD_CAMPO_0109?",
         "answer": [
             "Sardinha",
             "Área Do B097"
@@ -61,7 +61,7 @@
     },
     {
         "id": 7,
-        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0108?",
+        "question": "Qual é o nome do CAMP_CD_CAMPO_0108?",
         "answer": [
             "Área Bas-064",
             "Area Do Bas-64"
@@ -70,7 +70,7 @@
     },
     {
         "id": 8,
-        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0572?",
+        "question": "Qual é o nome do CAMP_CD_CAMPO_0572?",
         "answer": [
             "Jiribatuba"
         ],
@@ -78,7 +78,7 @@
     },
     {
         "id": 9,
-        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0721?",
+        "question": "Qual é o nome do CAMP_CD_CAMPO_0721?",
         "answer": [
             "Morro Do Barro"
         ],
@@ -86,7 +86,7 @@
     },
     {
         "id": 10,
-        "question": "Qual é o nome do campo CAMP_CD_CAMPO_0633?",
+        "question": "Qual é o nome do CAMP_CD_CAMPO_0633?",
         "answer": [
             "Japiim",
             "Igarapé Maripá"
