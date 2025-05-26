@@ -14,7 +14,7 @@ print("✅ Successfully load Dataset miniKGraph")
 
 # 2) Funções auxiliares
 def normalize(text: str) -> str:
-    return text.strip().capitalize()
+    return text.strip().lower()
 
 def flatten_answers(ans):
     # Ans vem como List[List[str]] ou List[str]
@@ -36,8 +36,12 @@ for ex in tqdm(test_examples):
     question       = ex["question"]
     golds   = flatten_answers(ex["answer"])
     out     = chain.invoke({"query": question})
+    print(f"✅ Question: {question}")
+    print(f"✅ Golds: {golds}")
+    print(f"Pred: {out['result']}")
+    # Normaliza a resposta do modelo
     pred    = normalize(out["result"]) 
-
+    
     # Exact-Match: pred exatamente igual a um dos golds?
     if pred in golds:
         metrics["answer_em"] += 1
@@ -54,7 +58,7 @@ for ex in tqdm(test_examples):
     metrics["answer_f1"].append(best_f1)
 
     # BLEU (corpus-bleu por sentença)
-    bleu = sacrebleu.sentence_bleu(pred, [golds])
+    bleu = sacrebleu.sentence_bleu(pred, golds)
     metrics["answer_bleu"].append(bleu.score)
 
 # 4) Agrega resultados

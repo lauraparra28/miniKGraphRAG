@@ -30,6 +30,10 @@ Examples: Here are a few examples of generated Cypher statements for particular 
 MATCH (p:well {{_id: "POCO_CD_POCO_022711", rdfs_label: "9-FZ-13-AM"}})-[:crosses]->(f:lithostratigraphic_unit)-[:constituted_by]->(m:silexite)
 RETURN f.rdfs_label
 
+# Qual é a idade geologica de Fm. Rio de Contas?
+MATCH (f:lithostratigraphic_unit {{rdfs_label: "Fm. Rio de Contas"}})-[:has_age]->(p)
+RETURN p.rdfs_label
+
 #Em que bacia está localizado o campo MORRO DO BARRO?
 MATCH (f:field{{rdfs_label: "MORRO DO BARRO"}})-[:located_in]->(b:basin) 
 RETURN b.rdfs_label

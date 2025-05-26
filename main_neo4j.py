@@ -28,16 +28,8 @@ chain = build_rag_chain(
 
 def main():
     question = input("❓ Pergunta: ")
-         
     out = chain.invoke({ "query": question})
- 
     print("\n✅ Resposta:", out["result"])
-
-    if "intermediate_steps" in out:
-        cypher_q, cypher_ctx = out["intermediate_steps"]
-        print("\n✅ Cypher Generado:")
-        print(cypher_q)
-        print("\n✅ Contexto recuperado:" + str(cypher_ctx))
-        
+      
 if __name__ == "__main__":
     main()
