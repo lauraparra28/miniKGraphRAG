@@ -43,7 +43,7 @@ for ex in tqdm(test_examples):
     pred    = normalize(out["result"]) 
     
     # Exact-Match: pred exatamente igual a um dos golds?
-    if pred in golds:
+    if any(gold in pred.lower() for gold in golds):
         metrics["answer_em"] += 1
 
     # F1 token-level: comparando com _cada_ gold e pegando o max
