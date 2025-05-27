@@ -1,5 +1,5 @@
 from langchain_neo4j import Neo4jGraph
-from llm_ollama import load_llm, load_cypher_llm
+from llm_ollama import load_llm, load_cypher_llm, load_llm_with_api_key
 from rag_chain_neo4j import build_rag_chain
 from utils import base_utils as bu
 from langchain.prompts import PromptTemplate
@@ -14,7 +14,7 @@ qa_prompt = PromptTemplate(template=QA_PROMPT, input_variables=["context", "ques
 graph = Neo4jGraph( url="bolt://localhost:7687", username="neo4j",password="diripar8$")
 print("✅ Successfully connection to Neo4j Graph")
     
-llm = load_llm()
+llm = load_llm_with_api_key() #load_llm()
 cypher_llm = load_cypher_llm()
 print("✅ Successfully load LLM")
 

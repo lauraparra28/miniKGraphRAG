@@ -17,10 +17,11 @@ Node‐label mapping:
    - “unidade litoestratigráfica”, “formação” → `:lithostratigraphic_unit`  
    - “estrutura geologica” → `:geological_structure`
 
-Matching rules for basin, wells or fields:
+Matching rules for basin, wells or fields, any node:
 - If the question contains an internal code (e.g. “POCO_CD_POCO_XXXXX”), only match on `well._id`.
 - If the question contains an internal code (e.g. “CAMP_CD_CAMPO_XXXX”), only match on `field._id`.
 - If the question contains an internal code (e.g. “BASE_CD_BACIA_XXX”), only match on `basin._id`.
+- If the question contains an internal code (e.g. “formacao_XXX”), only match on `lithostratigraphic_unit._id`.
 - If the question ask for the name of a node or entity, return on . rdfs_label.
 - Only if it contains a human-readable label or name (e.g. “1-MD-1-AM” or “AMAZONAS”), match on `well.rdfs_label` or `basin.rdfs_label` or . rdfs_label.
 
@@ -28,6 +29,10 @@ Examples: Here are a few examples of generated Cypher statements for particular 
 
 # Que unidades litoestratigráficas o poço 9-FZ-13-AM de URI POCO_CD_POCO_022711 atravessa que são constituídas por MATERIAL do tipo silexito?
 MATCH (p:well {{_id: "POCO_CD_POCO_022711", rdfs_label: "9-FZ-13-AM"}})-[:crosses]->(f:lithostratigraphic_unit)-[:constituted_by]->(m:silexite)
+RETURN f.rdfs_label
+
+# Qual é o nome da formacao_187?
+MATCH (f:lithostratigraphic_unit {{_id: "formacao_187"}})
 RETURN f.rdfs_label
 
 # Qual é a idade geologica de Fm. Rio de Contas?
