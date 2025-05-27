@@ -30,8 +30,9 @@ pip install -r requirements.txt
 
 ## 🚀 How to Run
 1. Make sure you have the following services running:
-    - **Neo4j**: Make sure you have the Neo4j database running with the RDF plugin enabled. You can use Docker to run Neo4j with RDF support.
+    - **Neo4j**: Make sure you have the Neo4j database running with the RDF plugin enabled. You can use Docker to run Neo4j using the imagen `neo4j:community`.
     - **Ollama**: Make sure you have the Ollama server running. You can install it from [Ollama's website](https://ollama.com/).
+    - **API KEY**: Make sure you have the API key OpenAI
 
 In a WSL terminal, run the following command to start the Ollama server:
 
