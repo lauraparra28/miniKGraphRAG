@@ -1,4 +1,5 @@
 26/26 73.41s/it
+model_name="gpt-4o-mini"
 Answer EM:   96.15%
 Answer F1:   55.57%
 Answer BLEU: 8.71

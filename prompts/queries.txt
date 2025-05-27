@@ -6,19 +6,9 @@
 ✅ Em que bacia está localizado o poço 9-FZ-27-AM? POCO_CD_POCO_022712
 ✅ Em que bacia está localizado o poço 1MD-0001-AM?
 ✅ Em que bacia está localizado o campo MORRO DO BARRO?
+✅ Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?
 ✅ Quais campos estao localizados na bacia AMAZONAS?
-
-Que unidades litoestratigráficas o poço 1-BAS-0074-BA atravessa que são constituídas por rochas do tipo sapropel?
-Que unidades litoestratigráficas o poço 1-LG-0003-AM atravessa que são constituídas por rochas do tipo arenito?
-
-
-cypher
-✅ Que unidades litoestratigráficas o poço POCO_CD_POCO_022712 atravessa?
+✅ Em que bacia está localizado o campo Rio Uatuma de ID CAMP_CD_CAMPO_0131?
+✅ Que unidades litoestratigráficas o poço 1-LG-0003-AM atravessa que são constituídas por rochas do tipo sandstone?
+✅✅ Que unidades litoestratigráficas atravessam o poço POCO_CD_POCO_022712?
 ✅ Quantos campos estao localizados nas bacias do grafo?
-✅ 
-
-
-Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?
-Whick fields are located in the AMAZONAS basin?
-How many wells are located in the AMAZONAS basin?
-Which geological formations are composed of sandstone?

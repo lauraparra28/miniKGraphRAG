@@ -234,5 +234,24 @@
             "Formação Rio de Contas"
         ],
         "context": "O nome da formação formacao_204 é Fm. Rio de Contas, ou Formação Rio de Contas."
+    },
+    {
+        "id": 26,
+        "question": "Em que BACIA está localizado o CAMPO Rio Uatuma de ID CAMP_CD_CAMPO_0131?",
+        "answer": [
+            "AMAZONAS",
+            "BACIA DE AMAZONAS"
+        ],
+        "context": "O campo Rio Uatuma de ID CAMP_CD_CAMPO_0131 está localizado na bacia do AMAZONAS."
+    },
+    {
+        "id": 27,
+        "question": "Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?",
+        "answer": [
+            "AMAZONAS",
+            "BACIA DE AMAZONAS"
+        ],
+        "context": "O campo CAMP_CD_CAMPO_0633 está localizado na bacia do AMAZONAS."
     }
+
 ]
