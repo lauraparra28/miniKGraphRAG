@@ -9,7 +9,6 @@ def load_llm_with_api_key(model_name="gpt-4o-mini"):
     return ChatOpenAI(
         model_name=model_name,
         temperature=0.0,
-        max_tokens=128,
         openai_api_key=os.getenv("OPENAI_API_KEY")
     )   
 

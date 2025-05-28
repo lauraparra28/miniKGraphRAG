@@ -9,6 +9,7 @@
 ✅ Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?
 ✅ Quais campos estao localizados na bacia AMAZONAS?
 ✅ Em que bacia está localizado o campo Rio Uatuma de ID CAMP_CD_CAMPO_0131?
-✅ Que unidades litoestratigráficas o poço 1-LG-0003-AM atravessa que são constituídas por rochas do tipo sandstone?
-✅✅ Que unidades litoestratigráficas atravessam o poço POCO_CD_POCO_022712?
+✅ Que unidades litoestratigráficas o poço 1-LG-3-AM atravessa que são constituídas por rochas do tipo sandstone?
+✅ Que UNIDADES LITOESTRATIGRÁFICAS o poço 1-LT-1-AM de URI POCO_CD_POCO_022819 atravessa que são constituídas por MATERIAL do tipo taquidrita?
+✅ Que unidades litoestratigráficas atravessam o poço POCO_CD_POCO_022712?
 ✅ Quantos campos estao localizados nas bacias do grafo?

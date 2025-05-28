@@ -31,6 +31,11 @@ Examples: Here are a few examples of generated Cypher statements for particular 
 MATCH (p:well {{_id: "POCO_CD_POCO_022711", rdfs_label: "9-FZ-13-AM"}})-[:crosses]->(f:lithostratigraphic_unit)-[:constituted_by]->(m:silexite)
 RETURN f.rdfs_label
 
+# Em quais campos estão as unidades litoestratigráficas que apresentam ESTRUTURA GEOLÓGICA Estratificação Cruzada Sigmoidal?
+MATCH (f:field)<-[r1:located_in]-(w:well)-[r2:crosses]->(n:lithostratigraphic_unit)
+-[c:carrier_of]->(g:geological_structure {{rdfs_label: "Estratificação Cruzada Sigmoidal"}})
+RETURN f.rdfs_label
+
 # Qual é o nome da formacao_187?
 MATCH (f:lithostratigraphic_unit {{_id: "formacao_187"}})
 RETURN f.rdfs_label
