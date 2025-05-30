@@ -13,3 +13,9 @@
 ✅ Que UNIDADES LITOESTRATIGRÁFICAS o poço 1-LT-1-AM de URI POCO_CD_POCO_022819 atravessa que são constituídas por MATERIAL do tipo taquidrita?
 ✅ Que unidades litoestratigráficas atravessam o poço POCO_CD_POCO_022712?
 ✅ Quantos campos estao localizados nas bacias do grafo?
+
+29-05-2025
+✅ Quais são os poços localizados no campo CAMP_CD_CAMPO_0888?
+✅ Qual é a localização de Formação Taipus-Mirim? 
+✅ Qual é a localização da formacao_343?
+✅ Que unidades litoestratigráficas o poço POCO_CD_POCO_022752 atravessa que são constituídas por material do tipo folhelho?

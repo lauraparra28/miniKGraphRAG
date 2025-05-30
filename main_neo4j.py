@@ -20,7 +20,7 @@ print("✅ Successfully load LLM")
 
 chain = build_rag_chain(
     llm=llm,
-    cypher_llm=cypher_llm,
+    cypher_llm=llm,
     graph=graph,
     cypher_prompt=CYPHER_GENERATION_PROMPT,
     qa_prompt=qa_prompt
