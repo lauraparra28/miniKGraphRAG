@@ -1,5 +1,7 @@
 # Avalia o desempenho do modelo RAG em um dataset de teste
 
+import unicodedata
+import re
 import json
 from tqdm import tqdm
 from sklearn.metrics import f1_score
@@ -13,8 +15,17 @@ test_examples = dataset_miniKGraph
 print("✅ Successfully load Dataset miniKGraph")
 
 # 2) Funções auxiliares
+# Normaliza as respostas, removendo espaços extras e convertendo para minúsculas
 def normalize(text: str) -> str:
-    return text.strip().lower()
+    # Eliminar acentos
+    text = unicodedata.normalize('NFD', text)
+    text = text.encode('ascii', 'ignore').decode('utf-8')
+    # Convertir a minúsculas
+    text = text.lower()
+    # Eliminar puntuación
+    text = re.sub(r'[^\w\s]', '', text)
+    # Eliminar espacios extra
+    return text.strip()
 
 def flatten_answers(ans):
     # Ans vem como List[List[str]] ou List[str]
@@ -36,15 +47,19 @@ for ex in tqdm(test_examples):
     question       = ex["question"]
     golds   = flatten_answers(ex["answer"])
     out     = chain.invoke({"query": question})
-    print(f"✅ Question: {question}")
-    print(f"✅ Golds: {golds}")
-    print(f"Pred: {out['result']}")
     # Normaliza a resposta do modelo
     pred    = normalize(out["result"]) 
+
+    print(f"✅ Question: {question}")
+    print(f"✅ Golds: {golds}")
+    print(f"Pred: {pred}")
     
     # Exact-Match: pred exatamente igual a um dos golds?
-    if any(gold in pred.lower() for gold in golds):
+    normalized_pred = normalize(pred)
+    if any(normalize(gold) in normalized_pred for gold in golds):
         metrics["answer_em"] += 1
+
+    print(f"✅ Exact Match: {metrics['answer_em']}")
 
     # F1 token-level: comparando com _cada_ gold e pegando o max
     best_f1 = 0

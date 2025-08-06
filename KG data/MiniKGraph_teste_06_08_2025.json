@@ -1,12 +1,5 @@
 [
     {
-        "id": 50,
-        "level": 1,
-        "question": "Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?",
-        "answer": "Amazonas",
-        "context": "O campo CAMP_CD_CAMPO_0633 está localizado na bacia Amazonas (BASE_CD_BACIA_030)."
-    },
-    {
         "id": 25,
         "question": "Quantos poços estão localizados na bacia AMAZONAS?",
         "answer": [
