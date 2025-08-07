@@ -10,7 +10,7 @@ from main_neo4j import chain
 from utils import base_utils as bu
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste.json"]
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste.json"] # Dataset de teste
 test_examples = dataset_miniKGraph
 print("✅ Successfully load Dataset miniKGraph")
 
@@ -42,6 +42,8 @@ metrics = {
     "answer_f1": [],
     "answer_bleu": []
 }
+
+results_log = []
 
 for ex in tqdm(test_examples):
     question       = ex["question"]
@@ -76,8 +78,23 @@ for ex in tqdm(test_examples):
     bleu = sacrebleu.sentence_bleu(pred, golds)
     metrics["answer_bleu"].append(bleu.score)
 
+    # Guarda resultado individual
+    results_log.append({
+        "question": question,
+        "gold": golds,
+        "pred": pred,
+        "exact_match": any(normalize(gold) in normalized_pred for gold in golds),
+        "f1_score": best_f1,
+        "bleu_score": bleu.score
+    })
+
 # 4) Agrega resultados
 n = len(test_examples)
 print(f"Answer EM:   {metrics['answer_em']/n:.2%}")
 print(f"Answer F1:   {sum(metrics['answer_f1'])/n:.2%}")
 print(f"Answer BLEU: {sum(metrics['answer_bleu'])/n:.2f}")
+
+# 5) Guarda resultados en archivo JSON
+with open("evaluation_results.json", "w", encoding="utf-8") as f:
+    json.dump(results_log, f, indent=4, ensure_ascii=False)
+print("✅ Resultados guardados en 'evaluation_results.json'")
