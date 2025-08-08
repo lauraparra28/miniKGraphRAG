@@ -19,3 +19,8 @@
 ✅ Qual é a localização de Formação Taipus-Mirim? 
 ✅ Qual é a localização da formacao_343?
 ✅ Que unidades litoestratigráficas o poço POCO_CD_POCO_022752 atravessa que são constituídas por material do tipo folhelho?
+
+06-08-2025
+✅ Que unidades litoestratigráficas o poço POCO_CD_POCO_005753 atravessa?
+✅ Que unidades litoestratigráficas o poço POCO_CD_POCO_022766 atravessa que são constituídas por material do tipo diabásio?
+✅ Em quais campos atravessam as unidades litoestratigraficas que apresentam a estrutura geológica Estratificação Cruzada?

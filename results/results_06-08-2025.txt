@@ -1,0 +1,309 @@
+✅ Successfully connection to Neo4j Graph
+✅ Successfully load LLM
+✅ Successfully load Dataset miniKGraph
+  0%|                                                                                                                      | 0/20 [00:00<?, ?it/s]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (w:well)-[:located_in]->(b:basin {rdfs_label:"AMAZONAS"})
+RETURN COUNT (w) AS numero_de_pocos
+Full Context:
+[{'numero_de_pocos': 220}]
+
+> Finished chain.
+✅ Question: Quantos poços estão localizados na bacia AMAZONAS?
+✅ Golds: ['220']
+Pred: na bacia amazonas estao localizados um total de 220 pocos
+✅ Exact Match: 1
+  5%|█████▌                                                                                                        | 1/20 [00:02<00:39,  2.10s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:lithostratigraphic_unit {rdfs_label: "Fm. Rio de Contas"})-[:has_age]->(p)
+RETURN p.rdfs_label
+Full Context:
+[{'p.rdfs_label': 'Neoaptiano'}]
+
+> Finished chain.
+✅ Question: Qual é a idade geologica de Fm. Rio de Contas?
+✅ Golds: ['neoaptiano']
+Pred: a formacao geologica conhecida como fm rio de contas e classificada como pertencente ao periodo neoaptiano este periodo e parte da era mesozoica mais especificamente dentro da epoca do cretaceo que se estende aproximadamente de 145 a 66 milhoes de anos atras portanto a idade geologica da fm rio de contas e atribuida ao intervalo temporal do neoaptiano que abrange uma parte significativa do cretaceo
+✅ Exact Match: 2
+ 10%|███████████                                                                                                   | 2/20 [00:05<00:50,  2.83s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (b:basin {_id: "BASE_CD_BACIA_266"}) RETURN b.rdfs_label
+Full Context:
+[{'b.rdfs_label': 'CAMAMU-ALMADA'}]
+
+> Finished chain.
+✅ Question: Qual é o nome de BASE_CD_BACIA_266?
+✅ Golds: ['camamualmada', 'bacia de camamualmada', 'almada mar', 'almada terra', 'camamu mar', 'camamu terra']
+Pred: o nome de base_cd_bacia_266 e camamualmada
+✅ Exact Match: 3
+ 15%|████████████████▌                                                                                             | 3/20 [00:07<00:42,  2.51s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (b:basin {_id: "BASE_CD_BACIA_030"}) RETURN b.rdfs_label
+Full Context:
+[{'b.rdfs_label': 'AMAZONAS'}]
+
+> Finished chain.
+✅ Question: Qual é o nome de BASE_CD_BACIA_030?
+✅ Golds: ['amazonas', 'bacia de amazonas']
+Pred: o nome de base_cd_bacia_030 e amazonas
+✅ Exact Match: 4
+ 20%|██████████████████████                                                                                        | 4/20 [00:10<00:42,  2.66s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:field {_id: "CAMP_CD_CAMPO_0131"})
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'AZULÃO'}]
+
+> Finished chain.
+✅ Question: Qual é o nome de CAMP_CD_CAMPO_0131?
+✅ Golds: ['azulao', 'azulao', 'rio uatuma']
+Pred: o nome de camp_cd_campo_0131 e azulao
+✅ Exact Match: 5
+ 25%|███████████████████████████▌                                                                                  | 5/20 [00:12<00:34,  2.32s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:field {_id: "CAMP_CD_CAMPO_0890"}) RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'CAMARAO NORTE'}]
+
+> Finished chain.
+✅ Question: Qual é o nome de CAMP_CD_CAMPO_0890?
+✅ Golds: ['camarao norte', 'camarao norte', 'area bas131']
+Pred: o nome de camp_cd_campo_0890 e camarao norte
+✅ Exact Match: 6
+ 30%|█████████████████████████████████                                                                             | 6/20 [00:14<00:30,  2.21s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:field {_id: "CAMP_CD_CAMPO_0888"}) RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'MANATI'}]
+
+> Finished chain.
+✅ Question: Qual é o nome de CAMP_CD_CAMPO_0888?
+✅ Golds: ['manati', 'area do b128']
+Pred: o nome de camp_cd_campo_0888 e manati
+✅ Exact Match: 7
+ 35%|██████████████████████████████████████▌                                                                       | 7/20 [00:15<00:25,  1.97s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:field {_id: "CAMP_CD_CAMPO_0109"})
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'SARDINHA'}]
+
+> Finished chain.
+✅ Question: Qual é o nome do CAMP_CD_CAMPO_0109?
+✅ Golds: ['sardinha', 'area do b097']
+Pred: o nome do camp_cd_campo_0109 e sardinha
+✅ Exact Match: 8
+ 40%|████████████████████████████████████████████                                                                  | 8/20 [00:17<00:22,  1.84s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:field {_id: "CAMP_CD_CAMPO_0108"})
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'ÁREA BAS-064'}]
+
+> Finished chain.
+✅ Question: Qual é o nome do CAMP_CD_CAMPO_0108?
+✅ Golds: ['area bas064', 'area do bas64']
+Pred: o nome do camp_cd_campo_0108 e area bas064
+✅ Exact Match: 9
+ 45%|█████████████████████████████████████████████████▌                                                            | 9/20 [00:18<00:18,  1.71s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:field {_id: "CAMP_CD_CAMPO_0572"}) RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'JIRIBATUBA'}]
+
+> Finished chain.
+✅ Question: Qual é o nome do CAMP_CD_CAMPO_0572?
+✅ Golds: ['jiribatuba']
+Pred: o nome do camp_cd_campo_0572 e jiribatuba
+✅ Exact Match: 10
+ 50%|██████████████████████████████████████████████████████▌                                                      | 10/20 [00:20<00:17,  1.71s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:field {_id: "CAMP_CD_CAMPO_0721"}) RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'MORRO DO BARRO'}]
+
+> Finished chain.
+✅ Question: Qual é o nome do CAMP_CD_CAMPO_0721?
+✅ Golds: ['morro do barro']
+Pred: o nome do camp_cd_campo_0721 e morro do barro
+✅ Exact Match: 11
+ 55%|███████████████████████████████████████████████████████████▉                                                 | 11/20 [00:21<00:14,  1.65s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:field {_id: "CAMP_CD_CAMPO_0633"}) RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'JAPIIM'}]
+
+> Finished chain.
+✅ Question: Qual é o nome do CAMP_CD_CAMPO_0633?
+✅ Golds: ['japiim', 'igarape maripa']
+Pred: o nome do camp_cd_campo_0633 e japiim
+✅ Exact Match: 12
+ 60%|█████████████████████████████████████████████████████████████████▍                                           | 12/20 [00:29<00:27,  3.39s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:lithostratigraphic_unit {_id: "formacao_086"})
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'Fm. Nhamundá'}]
+
+> Finished chain.
+✅ Question: Qual é o nome da formacao_086?
+✅ Golds: ['fm nhamunda', 'formacao nhamunda']
+Pred: o nome da formacao 086 e fm nhamunda
+✅ Exact Match: 13
+ 65%|██████████████████████████████████████████████████████████████████████▊                                      | 13/20 [00:30<00:19,  2.82s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:lithostratigraphic_unit {_id: "formacao_187"})
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'Fm. Itaituba'}]
+
+> Finished chain.
+✅ Question: Qual é o nome da formacao_187?
+✅ Golds: ['fm itaituba', 'formacao itaituba']
+Pred: o nome da formacao 187 e fm itaituba
+✅ Exact Match: 14
+ 70%|████████████████████████████████████████████████████████████████████████████▎                                | 14/20 [00:32<00:14,  2.47s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:lithostratigraphic_unit {_id: "formacao_232"})
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'Formação Monte Alegre'}]
+
+> Finished chain.
+✅ Question: Qual é o nome da formacao_232?
+✅ Golds: ['fm monte alegre', 'formacao monte alegre']
+Pred: o nome da formacao_232 e formacao monte alegre
+✅ Exact Match: 15
+ 75%|█████████████████████████████████████████████████████████████████████████████████▊                           | 15/20 [00:33<00:11,  2.20s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:lithostratigraphic_unit {_id: "formacao_171"})
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'Fm. Algodões'}]
+
+> Finished chain.
+✅ Question: Qual é o nome da formacao_171?
+✅ Golds: ['fm algodoes', 'formacao algodoes']
+Pred: o nome da formacao 171 e fm algodoes
+✅ Exact Match: 16
+ 80%|███████████████████████████████████████████████████████████████████████████████████████▏                     | 16/20 [00:35<00:08,  2.03s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (w:well {_id: "POCO_CD_POCO_005753"})-[:crosses]->(f:lithostratigraphic_unit) 
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'Fm. Algodões'}, {'f.rdfs_label': 'Formação Urucutuca'}, {'f.rdfs_label': 'Fm. Rio de Contas'}, {'f.rdfs_label': 'Gr. Almada'}, {'f.rdfs_label': 'Gr. Camamu'}, {'f.rdfs_label': 'Gr. Espírito Santo'}, {'f.rdfs_label': 'Formação Taipus-Mirim'}]
+
+> Finished chain.
+✅ Question: Que unidades litoestratigráficas o poço POCO_CD_POCO_005753 atravessa?
+✅ Golds: ['fm algodoes', 'formacao algodoes', 'fm rio de contas', 'formacao rio de contas', 'gr camamu', 'grupo camamu', 'formacao urucutuca', 'fm urucutuca', 'gr espirito santo', 'grupo espirito santo', 'grupo almada', 'gr almada', 'formacao taipusmirim', 'fm taipusmirim']
+Pred: o poco identificado como poco_cd_poco_005753 atravessa as seguintes unidades litoestratigraficas
+
+1 fm algodoes
+2 formacao urucutuca
+3 fm rio de contas
+4 gr almada
+5 gr camamu
+6 gr espirito santo
+7 formacao taipusmirim
+
+essas formacoes e grupos representam as diferentes unidades litoestratigraficas que compoem a estratigrafia da regiao onde o poco esta localizado cada uma delas possui caracteristicas geologicas especificas que contribuem para a compreensao da geologia local
+✅ Exact Match: 17
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████▋                | 17/20 [00:39<00:08,  2.69s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:field)<-[r1:located_in]-(w:well)-[r2:crosses]->(n:lithostratigraphic_unit)-[c:carrier_of]->(g:geological_structure {rdfs_label: "Estratificação Cruzada"})
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'AZULÃO'}, {'f.rdfs_label': 'AZULÃO'}, {'f.rdfs_label': 'JAPIIM'}, {'f.rdfs_label': 'AZULÃO'}, {'f.rdfs_label': 'AZULÃO'}, {'f.rdfs_label': 'AZULÃO'}, {'f.rdfs_label': 'AZULÃO'}, {'f.rdfs_label': 'JAPIIM'}, {'f.rdfs_label': 'AZULÃO'}]
+
+> Finished chain.
+✅ Question: Em quais campos atravessam as unidades litoestratigráficas que apresentam a estrutura geológica Estratificação Cruzada?
+✅ Golds: ['japiim', 'igarape maripa', 'azulao', 'azulao', 'rio uatuma']
+Pred: as unidades litoestratigraficas que apresentam a estrutura geologica de estratificacao cruzada sao representadas pelos elementos denominados azulao e japiim 
+
+os campos que atravessam essas unidades litoestratigraficas sao os seguintes
+
+1 azulao esta unidade litoestratigrafica e mencionada repetidamente indicando uma presenca significativa e possivelmente abrangente em diversas areas geologicas
+
+2 japiim esta unidade embora mencionada com menor frequencia tambem e relevante e pode estar associada a locais especificos onde a estratificacao cruzada e observada
+
+portanto os campos que atravessam as unidades litoestratigraficas com a estrutura de estratificacao cruzada incluem predominantemente as unidades azulao e japiim
+✅ Exact Match: 18
+ 90%|██████████████████████████████████████████████████████████████████████████████████████████████████           | 18/20 [00:47<00:08,  4.06s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (p:well {_id: "POCO_CD_POCO_022766"})-[:crosses]->(f:lithostratigraphic_unit)-[:constituted_by]->(m:diabase)
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': 'Fm. Nova Olinda'}, {'f.rdfs_label': 'Fm. Itaituba'}, {'f.rdfs_label': 'Formação Oriximiná'}, {'f.rdfs_label': 'Formação Monte Alegre'}, {'f.rdfs_label': 'Formação Alter do Chão'}, {'f.rdfs_label': 'Formação Barreirinha'}, {'f.rdfs_label': 'Fm. Ererê'}, {'f.rdfs_label': 'Formação Curiri'}]
+
+> Finished chain.
+✅ Question: Que unidades litoestratigráficas o poço POCO_CD_POCO_022766 atravessa que são constituídas por material do tipo diabásio?
+✅ Golds: ['fm itaituba', 'fm erere', 'fm curiri', 'fm barreirinha', 'fm oriximina', 'fm monte alegre', 'fm alter do chao', 'fm nova olinda']
+Pred: o poco identificado como poco_cd_poco_022766 atravessa as seguintes unidades litoestratigraficas constituidas por material do tipo diabasio
+
+1 fm nova olinda
+2 fm itaituba
+3 formacao oriximina
+4 formacao monte alegre
+5 formacao alter do chao
+6 formacao barreirinha
+7 fm erere
+8 formacao curiri
+
+essas formacoes representam diferentes contextos geologicos e litologicos sendo que o diabasio e uma rocha ignea intrusiva que pode estar presente em varias dessas unidades
+✅ Exact Match: 19
+ 95%|███████████████████████████████████████████████████████████████████████████████████████████████████████▌     | 19/20 [00:51<00:04,  4.14s/it]
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (f:field {_id: "CAMP_CD_CAMPO_0633"})-[:located_in]->(b:basin) 
+RETURN b.rdfs_label
+Full Context:
+[{'b.rdfs_label': 'AMAZONAS'}]
+
+> Finished chain.
+✅ Question: Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?
+✅ Golds: ['amazonas', 'bacia de amazonas']
+Pred: o campo camp_cd_campo_0633 esta localizado na bacia denominada amazonas
+✅ Exact Match: 20
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:53<00:00,  2.68s/it]
+Answer EM:   100.00%
+Answer F1:   100.00%
+Answer BLEU: 6.05

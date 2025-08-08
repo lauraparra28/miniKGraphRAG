@@ -1,5 +1,7 @@
 # Avalia o desempenho do modelo RAG em um dataset de teste
 
+import unicodedata
+import re
 import json
 from tqdm import tqdm
 from sklearn.metrics import f1_score
@@ -8,13 +10,22 @@ from main_neo4j import chain
 from utils import base_utils as bu
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste.json"]
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste.json"] # Dataset de teste
 test_examples = dataset_miniKGraph
 print("✅ Successfully load Dataset miniKGraph")
 
 # 2) Funções auxiliares
+# Normaliza as respostas, removendo espaços extras e convertendo para minúsculas
 def normalize(text: str) -> str:
-    return text.strip().lower()
+    # Eliminar acentos
+    text = unicodedata.normalize('NFD', text)
+    text = text.encode('ascii', 'ignore').decode('utf-8')
+    # Convertir a minúsculas
+    text = text.lower()
+    # Eliminar puntuación
+    text = re.sub(r'[^\w\s]', '', text)
+    # Eliminar espacios extra
+    return text.strip()
 
 def flatten_answers(ans):
     # Ans vem como List[List[str]] ou List[str]
@@ -32,19 +43,25 @@ metrics = {
     "answer_bleu": []
 }
 
+results_log = []
+
 for ex in tqdm(test_examples):
     question       = ex["question"]
     golds   = flatten_answers(ex["answer"])
     out     = chain.invoke({"query": question})
-    print(f"✅ Question: {question}")
-    print(f"✅ Golds: {golds}")
-    print(f"Pred: {out['result']}")
     # Normaliza a resposta do modelo
     pred    = normalize(out["result"]) 
+
+    print(f"✅ Question: {question}")
+    print(f"✅ Golds: {golds}")
+    print(f"Pred: {pred}")
     
     # Exact-Match: pred exatamente igual a um dos golds?
-    if any(gold in pred.lower() for gold in golds):
+    normalized_pred = normalize(pred)
+    if any(normalize(gold) in normalized_pred for gold in golds):
         metrics["answer_em"] += 1
+
+    print(f"✅ Exact Match: {metrics['answer_em']}")
 
     # F1 token-level: comparando com _cada_ gold e pegando o max
     best_f1 = 0
@@ -61,8 +78,23 @@ for ex in tqdm(test_examples):
     bleu = sacrebleu.sentence_bleu(pred, golds)
     metrics["answer_bleu"].append(bleu.score)
 
+    # Guarda resultado individual
+    results_log.append({
+        "question": question,
+        "gold": golds,
+        "pred": pred,
+        "exact_match": any(normalize(gold) in normalized_pred for gold in golds),
+        "f1_score": best_f1,
+        "bleu_score": bleu.score
+    })
+
 # 4) Agrega resultados
 n = len(test_examples)
 print(f"Answer EM:   {metrics['answer_em']/n:.2%}")
 print(f"Answer F1:   {sum(metrics['answer_f1'])/n:.2%}")
 print(f"Answer BLEU: {sum(metrics['answer_bleu'])/n:.2f}")
+
+# 5) Guarda resultados en archivo JSON
+with open("evaluation_results.json", "w", encoding="utf-8") as f:
+    json.dump(results_log, f, indent=4, ensure_ascii=False)
+print("✅ Resultados guardados en 'evaluation_results.json'")

@@ -1,12 +1,5 @@
 [
     {
-        "id": 50,
-        "level": 1,
-        "question": "Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?",
-        "answer": "Amazonas",
-        "context": "O campo CAMP_CD_CAMPO_0633 está localizado na bacia Amazonas (BASE_CD_BACIA_030)."
-    },
-    {
         "id": 25,
         "question": "Quantos poços estão localizados na bacia AMAZONAS?",
         "answer": [
@@ -229,46 +222,6 @@
             "BACIA DE AMAZONAS"
         ],
         "context": "O campo CAMP_CD_CAMPO_0633 está localizado na bacia do AMAZONAS."
-    },
-    {
-        "id": 5296,
-        "level": 2,
-        "question": "Que unidades litoestratigráficas o poço POCO_CD_POCO_022759 atravessa que são constituídas por material do tipo gipsita?",
-        "answer": [
-            "Fm. Nova Olinda"
-        ],
-        "context": "O poço POCO_CD_POCO_022759 (2CSST0002AM) atravessa as seguintes unidades litoestratigráficas constituídas pelo material do tipo gipsita: Fm. Nova Olinda (formacao_028)."
-    },
-    {
-        "id": 6567,
-        "level": 2,
-        "question": "Que unidades litoestratigráficas o poço POCO_CD_POCO_022802 atravessa que são constituídas por material do tipo calcilutito?",
-        "answer": [
-            "Fm. Monte Alegre",
-            "Fm. Alter do Chão",
-            "Fm. Nova Olinda",
-            "Fm. Itaituba"
-        ],
-        "context": "O poço 1-PC-2 de ID POCO_CD_POCO_022802 atravessa as seguintes unidades litoestratigráficas constituídas pelo material do tipo calcilutito: Fm. Monte Alegre (formacao_232), Fm. Alter do Chão (formacao_284), Fm. Nova Olinda (formacao_028), Fm. Itaituba (formacao_187)."
-    },
-    {
-        "id": 9610,
-        "level": 0,
-        "question": "Qual é o nome da estrutura geológica TEFR_CD_TIPO_EST_FISICA_ROCHA_055?",
-        "answer": [
-            "Dobra"
-        ],
-        "context": "O nome da estrutura geologica TEFR_CD_TIPO_EST_FISICA_ROCHA_055 é Dobra."
-    },
-    {
-        "id": 9739,
-        "level": 3,
-        "question": "Em quais campos estão as unidades litoestratigráficas que apresentam estrutura geológica Raiz (TEFR_CD_TIPO_EST_FISICA_ROCHA_199)?",
-        "answer": [
-            "Igarapé Maripá",
-            "Azulao"
-        ],
-        "context": "As unidades litoestratigráficas que apresentam a estrutura geológica Raiz (TEFR_CD_TIPO_EST_FISICA_ROCHA_199) estão nos seguintes campos: Igarapé Maripá, ou Azulao."
     }
 
 ]
