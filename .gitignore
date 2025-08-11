@@ -3,6 +3,8 @@
 venv
 
 main.py
+rag_chain.py
+retriever_owl.py
 settings-me.yaml
 
 .ruff_cache
