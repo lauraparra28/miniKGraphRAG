@@ -24,3 +24,10 @@
 ✅ Que unidades litoestratigráficas o poço POCO_CD_POCO_005753 atravessa?
 ✅ Que unidades litoestratigráficas o poço POCO_CD_POCO_022766 atravessa que são constituídas por material do tipo diabásio?
 ✅ Em quais campos atravessam as unidades litoestratigraficas que apresentam a estrutura geológica Estratificação Cruzada?
+
+12-08-2025
+✅ Quais sao os nomes da unidade litoestratigrafica membro_052?
+✅ Em que bacia está localizado o poço 1-MD-1-AM?
+✅ Quais sao os nomes do poço POCO_CD_POCO_022993?
+✅ Quais outros nomes possíveis para o poço BCST-1? 
+✅ Que unidades litoestratigráficas atravessa o poço 1AQ-1-AM (POCO_CD_POCO_022753) que são constituídas por material do tipo folhelho?
