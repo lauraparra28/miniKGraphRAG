@@ -10,9 +10,9 @@ from main_neo4j import chain
 from utils import base_utils as bu
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste.json"] # Dataset de teste
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_text_dataset.json"] # Dataset de teste
 test_examples = dataset_miniKGraph
-print("✅ Successfully load Dataset miniKGraph")
+print("✅ Successfully load Dataset miniKGraph for Evaluation")
 
 # 2) Funções auxiliares
 # Normaliza as respostas, removendo espaços extras e convertendo para minúsculas
@@ -95,6 +95,6 @@ print(f"Answer F1:   {sum(metrics['answer_f1'])/n:.2%}")
 print(f"Answer BLEU: {sum(metrics['answer_bleu'])/n:.2f}")
 
 # 5) Guarda resultados en archivo JSON
-with open("evaluation_results.json", "w", encoding="utf-8") as f:
+with open("evaluation_results_12_08_2025.json", "w", encoding="utf-8") as f:
     json.dump(results_log, f, indent=4, ensure_ascii=False)
 print("✅ Resultados guardados en 'evaluation_results.json'")

@@ -19,6 +19,6 @@ services:
     volumes:
       - ./neo4j/data:/data
       - ./neo4j/logs:/logs
-      #- "/mnt/c/Users/lauri/neo4j/plugins:/plugins"
+      #-"/mnt/c/Users/lauri/neo4j/imports:/import"
       # Montar tu OWL local dentro del contenedor
-      - "/mnt/c/Users/lauri/neo4j/import:/import"
+      - "/mnt/c/Users/lauraparra/neo4j/imports:/import"
