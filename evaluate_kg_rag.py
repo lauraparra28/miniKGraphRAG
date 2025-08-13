@@ -3,14 +3,20 @@
 import unicodedata
 import re
 import json
+import os
+from datetime import datetime
 from tqdm import tqdm
 from sklearn.metrics import f1_score
 import sacrebleu
 from main_neo4j import chain
 from utils import base_utils as bu
 
+# Generar nombre de archivo con fecha actual
+fecha_actual = datetime.now().strftime("%d_%m_%Y")
+output_file = os.path.join("results", f"evaluation_results_{fecha_actual}.jsonl")
+
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_text_dataset.json"] # Dataset de teste
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste.json"] # Dataset de teste MiniKGraph_text_dataset.json
 test_examples = dataset_miniKGraph
 print("✅ Successfully load Dataset miniKGraph for Evaluation")
 
@@ -43,7 +49,8 @@ metrics = {
     "answer_bleu": []
 }
 
-results_log = []
+# Limpia archivo si ya existía
+open(output_file, "w", encoding="utf-8").close()
 
 for ex in tqdm(test_examples):
     question       = ex["question"]
@@ -58,11 +65,11 @@ for ex in tqdm(test_examples):
     
     # Exact-Match: pred exatamente igual a um dos golds?
     normalized_pred = normalize(pred)
-    if any(normalize(gold) in normalized_pred for gold in golds):
+    exact_match = any(normalize(gold) in normalized_pred for gold in golds)
+    if exact_match:
         metrics["answer_em"] += 1
-
     print(f"✅ Exact Match: {metrics['answer_em']}")
-
+    
     # F1 token-level: comparando com _cada_ gold e pegando o max
     best_f1 = 0
     pred_tokens = pred.split()
@@ -78,23 +85,35 @@ for ex in tqdm(test_examples):
     bleu = sacrebleu.sentence_bleu(pred, golds)
     metrics["answer_bleu"].append(bleu.score)
 
-    # Guarda resultado individual
-    results_log.append({
+    # Guarda resultado inmediatamente en JSONL
+    result_data = {
         "question": question,
         "gold": golds,
         "pred": pred,
-        "exact_match": any(normalize(gold) in normalized_pred for gold in golds),
+        "exact_match": exact_match,
         "f1_score": best_f1,
         "bleu_score": bleu.score
-    })
+    }
+    with open(output_file, "a", encoding="utf-8") as f:
+        f.write(json.dumps(result_data, indent=4, ensure_ascii=False) + "\n")
 
 # 4) Agrega resultados
 n = len(test_examples)
+print(f" * * * MÉTRICAS FINALES * * *")
 print(f"Answer EM:   {metrics['answer_em']/n:.2%}")
 print(f"Answer F1:   {sum(metrics['answer_f1'])/n:.2%}")
 print(f"Answer BLEU: {sum(metrics['answer_bleu'])/n:.2f}")
+print(f"📁 Resultados guardados progresivamente en {output_file}")
 
-# 5) Guarda resultados en archivo JSON
-with open("evaluation_results_12_08_2025.json", "w", encoding="utf-8") as f:
-    json.dump(results_log, f, indent=4, ensure_ascii=False)
-print("✅ Resultados guardados en 'evaluation_results.json'")
+# 5) Guardar metricas finales en archivo JSONL
+final_metrics = {
+    "total_examples": n,
+    "answer_em": metrics['answer_em']/n,
+    "answer_f1": sum(metrics['answer_f1'])/n,
+    "answer_bleu": sum(metrics['answer_bleu'])/n
+}
+
+with open("final_metrics_13_08_2025.json", "w", encoding="utf-8") as f:
+    json.dump(final_metrics, f, indent=4, ensure_ascii=False)
+
+print("📁 Métricas finales guardadas en 'final_metrics.json'")
