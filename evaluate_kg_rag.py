@@ -14,9 +14,10 @@ from utils import base_utils as bu
 # Generar nombre de archivo con fecha actual
 fecha_actual = datetime.now().strftime("%d_%m_%Y")
 output_file = os.path.join("results", f"evaluation_results_{fecha_actual}.jsonl")
+final_metrics_file = os.path.join("results", f"final_metrics_{fecha_actual}.json")
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste.json"] # Dataset de teste MiniKGraph_text_dataset.json
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_text_dataset.json"] # Dataset de teste MiniKGraph_text_dataset.json
 test_examples = dataset_miniKGraph
 print("✅ Successfully load Dataset miniKGraph for Evaluation")
 
@@ -113,7 +114,7 @@ final_metrics = {
     "answer_bleu": sum(metrics['answer_bleu'])/n
 }
 
-with open("final_metrics_13_08_2025.json", "w", encoding="utf-8") as f:
+with open(final_metrics_file, "w", encoding="utf-8") as f:
     json.dump(final_metrics, f, indent=4, ensure_ascii=False)
 
-print("📁 Métricas finales guardadas en 'final_metrics.json'")
+print("📁 Métricas finales guardadas ✅")
