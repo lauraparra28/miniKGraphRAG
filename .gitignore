@@ -15,3 +15,5 @@ settings-me.yaml
 __pycache__/
 *.py[cod]
 
+# Ignorar carpetas completas
+neo4j/
