@@ -99,5 +99,10 @@ MATCH (f:field)-[:located_in]->(b:basin)
 WHERE "AMAZONAS" IN b.rdfs_label
 RETURN f.rdfs_label
 
+# Em quais campos atravessam as unidades litoestratigráficas que apresentam estrutura geológica TEFR_CD_TIPO_EST_FISICA_ROCHA_199?
+MATCH (f:field)<-[r1:located_in]-(w:well)-[r2:crosses]->(n:lithostratigraphic_unit)-[c:carrier_of]->(g:geological_structure)
+WHERE g._id CONTAINS "TEFR_CD_TIPO_EST_FISICA_ROCHA_199"
+RETURN f.rdfs_label
+
 The question is:
 {question}
