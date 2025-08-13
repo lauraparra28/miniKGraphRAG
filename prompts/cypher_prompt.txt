@@ -21,7 +21,8 @@ Matching rules for basin, wells or fields, any node:
 - If the question contains an internal code (e.g. “POCO_CD_POCO_XXXXX”), only match on `well._id`.
 - If the question contains an internal code (e.g. “CAMP_CD_CAMPO_XXXX”), only match on `field._id`.
 - If the question contains an internal code (e.g. “BASE_CD_BACIA_XXX”), only match on `basin._id`.
-- If the question contains an internal code (e.g. “formacao_XXX”), only match on `lithostratigraphic_unit._id`.
+- If the question contains an internal code (e.g. “formacao_XXX” or “grupo_XXX” or “membro_XXX”), only match on `lithostratigraphic_unit._id`.
+- If the the question contains an internal code (e.g. “TEFR_CD_TIPO_EST_FISICA_ROCHA__XXX”), only match on `geological_structure._id`.
 - If the question ask for the name of a node or entity, return on . rdfs_label.
 - Only if it contains a human-readable label or name (e.g. “1-MD-1-AM” or “AMAZONAS”), match on `well.rdfs_label` or `basin.rdfs_label` or . rdfs_label.
 
