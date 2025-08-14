@@ -104,5 +104,10 @@ MATCH (f:field)<-[r1:located_in]-(w:well)-[r2:crosses]->(n:lithostratigraphic_un
 WHERE g._id CONTAINS "TEFR_CD_TIPO_EST_FISICA_ROCHA_199"
 RETURN f.rdfs_label
 
+# O que é um(a) lapilito?
+MATCH (r:Class)
+WHERE "lapilito" IN r.rdfs_label
+RETURN r.definition
+
 The question is:
 {question}
