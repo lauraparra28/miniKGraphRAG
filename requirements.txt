@@ -1,4 +1,5 @@
 rdflib==7.1.4
+networkx
 langchain==0.3.25
 langchain-community==0.3.24
 langchain-ollama==0.3.2
@@ -13,3 +14,5 @@ tqdm==4.67.1
 scipy==1.13.1
 matplotlib==3.9.4
 langchain-openai==0.3.18
+transformers==4.55.2
+sentence_transformers==5.1.0
