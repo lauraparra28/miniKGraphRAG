@@ -1,0 +1,135 @@
+{
+    "question": "Descreva a unidade cronoestratigráfica Aegeano.",
+    "gold": [
+        "o egeu ou aegeano e uma subidade geocronologica que comeca com o base do triassico medio e e um intervalo dentro e termina o anisiano o egeu encontra o bitinico"
+    ],
+    "pred": "a unidade cronoestratigrafica aegeano tambem conhecida como egeu e uma subidade geocronologica que se inicia com a base do triassico medio este intervalo temporal e caracterizado por sua posicao dentro da escala geocronologica tendo como marco inicial a base do triassico medio e como marco final o anisiano o egeu portanto representa um periodo especifico na historia da terra situado entre esses dois pontos temporais e e reconhecido por suas caracteristicas geologicas e paleontologicas que o distinguem dentro da cronologia geologica",
+    "exact_match": false,
+    "f1_score": 0.9090909090909091,
+    "bleu_score": 12.894903410194317
+}
+{
+    "question": "Descreva a unidade cronoestratigráfica Aaleniano.",
+    "gold": [
+        "o aaleniano e uma idade geocronologica que tem inicio na base do jurassico medio tendo portanto um limite mais antigo de aproximadamente 1741 milhoes de anos atras e tem fim na base do bajociano tendo portanto um limite mais recente de aproximadamente 1703 million years ago\na idade aaleniana e um intervalo interior ao jurassico medio que encontra o bajociano e e encontrado por os intervalos jurassico inferior e toarciano o jurassico medio iniciase com o aaleniano"
+    ],
+    "pred": "a unidade cronoestratigrafica aaleniano e uma idade geocronologica que se inicia na base do jurassico medio estabelecendo um limite mais antigo de aproximadamente 1741 milhoes de anos atras o aaleniano se estende ate a base do bajociano o que define um limite mais recente de cerca de 1703 milhoes de anos atras \n\nessa idade e considerada um intervalo interior ao jurassico medio situandose entre os intervalos do jurassico inferior e do toarciano o jurassico medio por sua vez tem seu inicio marcado pelo aaleniano portanto o aaleniano desempenha um papel crucial na definicao e delimitacao temporal do jurassico medio sendo um marco importante na escala de tempo geologico",
+    "exact_match": false,
+    "f1_score": 0.9230769230769231,
+    "bleu_score": 30.880717231760972
+}
+{
+    "question": "Descreva a unidade cronoestratigráfica Idade Paibiana.",
+    "gold": [
+        "o paibiano e uma idade geocronologica que tem inicio na base do furongiano tendo portanto um limite mais antigo de aproximadamente 497 milhoes de anos atras e tem fim na base do jiangshaniano tendo um limite mais recente de aproximadamente 494 milhoes de anos atras\na idade do paibiano e um intervalo interior ao furongiano que encontra o jiangshaniano e e encontrado pelo guzhangiano e o miaolingiano o furongiano iniciase com o paibiano"
+    ],
+    "pred": "a idade paibiana e uma unidade cronoestratigrafica que se insere no contexto da geologia especificamente na escala de tempo geologico esta idade tem inicio na base do furongiano o que estabelece um limite mais antigo de aproximadamente 497 milhoes de anos atras por outro lado a idade paibiana se encerra na base do jiangshaniano definindo um limite mais recente de cerca de 494 milhoes de anos atras\n\ne importante ressaltar que a idade paibiana representa um intervalo que esta contido dentro do periodo furongiano alem disso ela se relaciona com outras idades geologicas sendo encontrada pelo guzhangiano e pelo miaolingiano e ao mesmo tempo e a idade que inicia o furongiano essa estrutura temporal e fundamental para a compreensao da evolucao da vida e das condicoes geologicas da terra durante o periodo em questao",
+    "exact_match": false,
+    "f1_score": 0.9104477611940298,
+    "bleu_score": 22.004893172183973
+}
+{
+    "question": "Descreva a unidade cronoestratigráfica Paibiano.",
+    "gold": [
+        "o paibiano e uma idade geocronologica que tem inicio na base do furongiano tendo portanto um limite mais antigo de aproximadamente 497 milhoes de anos atras e tem fim na base do jiangshaniano tendo um limite mais recente de aproximadamente 494 milhoes de anos atras\na idade do paibiano e um intervalo interior ao furongiano que encontra o jiangshaniano e e encontrado pelo guzhangiano e o miaolingiano o furongiano iniciase com o paibiano"
+    ],
+    "pred": "a unidade cronoestratigrafica paibiano e uma idade geocronologica que se caracteriza por um intervalo temporal especifico na historia da terra o paibiano tem inicio na base do furongiano estabelecendo assim um limite mais antigo de aproximadamente 497 milhoes de anos atras por outro lado o paibiano se estende ate a base do jiangshaniano o que define um limite mais recente de cerca de 494 milhoes de anos atras\n\ne importante ressaltar que a idade do paibiano e um intervalo que se insere dentro do periodo do furongiano nesse contexto o paibiano e encontrado pelo guzhangiano e pelo miaolingiano enquanto ele mesmo e um intervalo que precede o jiangshaniano assim o paibiano nao apenas marca um periodo significativo na cronologia geologica mas tambem estabelece conexoes importantes com outras unidades cronoestratigraficas evidenciando a complexidade da historia geologica da terra durante essa era",
+    "exact_match": false,
+    "f1_score": 0.9420289855072463,
+    "bleu_score": 28.176055919971972
+}
+{
+    "question": "Que unidades litoestratigráficas o poço POCO_CD_POCO_022802 atravessa que são constituídas por material do tipo mudstone?",
+    "gold": [
+        "fm monte alegre",
+        "fm alter do chao",
+        "fm nova olinda",
+        "fm itaituba"
+    ],
+    "pred": "o poco identificado como poco_cd_poco_022802 atravessa as seguintes unidades litoestratigraficas constituidas por material do tipo mudstone\n\n1 formacao monte alegre fm monte alegre esta formacao e caracterizada por sua composicao predominantemente de mudstone que e um tipo de rocha sedimentar argilosa\n\n2 formacao alter do chao fm alter do chao assim como a formacao monte alegre a formacao alter do chao tambem apresenta camadas de mudstone contribuindo para a diversidade litologica da regiao\n\n3 formacao itaituba fm itaituba esta formacao e reconhecida por incluir depositos de mudstone que sao relevantes para a compreensao da sedimentacao na area\n\n4 formacao nova olinda fm nova olinda a formacao nova olinda tambem e composta por mudstone adicionando mais uma unidade litoestratigrafica ao perfil do poco\n\nessas formacoes sao essenciais para a analise geologica e a compreensao dos processos sedimentares que ocorreram na regiao onde o poco esta localizado",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 2.755618389916152
+}
+{
+    "question": "Qual é o nome da estrutura geológica TEFR_CD_TIPO_EST_FISICA_ROCHA_055?",
+    "gold": [
+        "dobra"
+    ],
+    "pred": "a estrutura geologica identificada como tefr_cd_tipo_est_fisica_rocha_055 e denominada dobra",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 1.8160849415439309
+}
+{
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam estrutura geológica TEFR_CD_TIPO_EST_FISICA_ROCHA_199?",
+    "gold": [
+        "igarape maripa",
+        "azulao"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica identificada como tefr_cd_tipo_est_fisica_rocha_199 estao localizadas nos seguintes campos\n\n1 azulao azulao rio uatuma este campo e mencionado repetidamente indicando uma relevancia significativa na presenca da estrutura geologica em questao\n\n2 japiim igarape maripa este campo tambem e relevante apresentando a estrutura geologica tefr_cd_tipo_est_fisica_rocha_199\n\nesses campos sao essenciais para a compreensao da distribuicao das unidades litoestratigraficas associadas a estrutura geologica mencionada",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 0.8647536086031785
+}
+{
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam estrutura geológica Raiz?",
+    "gold": [
+        "igarape maripa",
+        "azulao"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica denominada raiz estao localizadas nos seguintes campos\n\n1 japiim tambem conhecido como igarape maripa\n2 azulao ou azulao referindose ao rio uatuma\n\nesses campos sao relevantes para a compreensao das caracteristicas geologicas e litoestratigraficas da regiao em questao",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 1.7590773942055664
+}
+{
+    "question": "Descreva a unidade cronoestratigráfica Subidade Pelsoniana.",
+    "gold": [
+        "o pelsoniano e uma subidade geocronologica que e um intervalo durante e dentro do anisiano o pelsoniano encontra o ilirico e e encontrado pelo bitinico"
+    ],
+    "pred": "a subidade pelsoniana e uma unidade cronoestratigrafica que se caracteriza por ser um intervalo geologico que ocorre durante e dentro do anisiano esta subidade e definida por sua posicao temporal e suas caracteristicas geologicas especificas\n\no pelsoniano e um intervalo que se encontra em relacao ao ilirico indicando que o pelsoniano precede o ilirico na escala de tempo geologico alem disso o pelsoniano e encontrado pelo bitinico o que sugere uma sequencia estratigrafica onde o pelsoniano e sucedido pelo bitinico\n\nem resumo a subidade pelsoniana e uma unidade importante para a compreensao da cronologia geologica situandose entre o anisiano e o ilirico e servindo como um marco para a identificacao de camadas geologicas subsequentes como o bitinico",
+    "exact_match": false,
+    "f1_score": 0.9795918367346939,
+    "bleu_score": 8.34769936519295
+}
+{
+    "question": "O que é um(a) basanito?",
+    "gold": [
+        "basanito e uma rocha vulcanica contendo plagioclasio sodico clinopiroxenio foides essenciais e olivina"
+    ],
+    "pred": "o basanito e uma rocha vulcanica que se caracteriza por conter plagioclasio sodico clinopiroxenio foides essenciais e olivina essa composicao mineralogica confere ao basanito suas propriedades especificas sendo classificado como um tipo de rocha ignea a presenca desses minerais e fundamental para a definicao e identificacao do basanito dentro das rochas vulcanicas",
+    "exact_match": false,
+    "f1_score": 0.96,
+    "bleu_score": 17.25522870186485
+}
+{
+    "question": "O que é um(a) bindstone?",
+    "gold": [
+        "bindstone e uma rocha carbonatica cujos componentes originais foram ligados durante a deposicao contendo organismos que incrustam e ligam"
+    ],
+    "pred": "o bindstone e uma rocha carbonatica cujos componentes originais foram ligados durante o processo de deposicao essa rocha e caracterizada pela presenca de organismos que desempenham o papel de incrustar e ligar os materiais que a compoem em resumo o bindstone e uma formacao geologica que resulta da interacao entre organismos e sedimentos resultando em uma estrutura coesa e consolidada",
+    "exact_match": false,
+    "f1_score": 0.9142857142857143,
+    "bleu_score": 18.13989476449569
+}
+{
+    "question": "O que é um(a) boundstone?",
+    "gold": [
+        "boundstone e uma rocha carbonatica cujos componentes originais foram ligados durante a deposicao contendo organismos que constroem uma estrutura rigida"
+    ],
+    "pred": "o boundstone e uma rocha carbonatica cujos componentes originais foram ligados durante o processo de deposicao essa rocha contem organismos que constroem uma estrutura rigida em resumo o boundstone e caracterizado pela sua formacao a partir da uniao de elementos durante a deposicao resultando em uma estrutura solida e organizada influenciada pela presenca de organismos",
+    "exact_match": false,
+    "f1_score": 0.9743589743589743,
+    "bleu_score": 27.92041666779912
+}
+{
+    "question": "O que é um(a) brecha?",
+    "gold": [
+        "brecha e uma rocha fragmentaria com fragmentos frequentemente angulares de varios tamanhos que predominam sobre a matriz mais fina que pode ter multiplas origens como vulcanica plutonica tectonica sedimentar ou causada por impacto de meteorito"
+    ],
+    "pred": "a brecha e uma rocha fragmentaria caracterizada por fragmentos frequentemente angulares de diversos tamanhos que predominam sobre uma matriz mais fina essa rocha pode ter multiplas origens incluindo processos vulcanicos plutonicos tectonicos sedimentares ou ate mesmo resultantes de impactos de meteoritos em resumo a brecha e uma formacao geologica que se distingue pela sua composicao fragmentada e pela variedade de processos que podem levar a sua formacao",
+    "exact_match": false,
+    "f1_score": 0.8333333333333334,
+    "bleu_score": 17.867850118121215
+}

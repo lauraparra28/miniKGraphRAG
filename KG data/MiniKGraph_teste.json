@@ -1,5 +1,27 @@
 [
     {
+        "id": 5005,
+        "level": 1,
+        "question": "Descreva a unidade cronoestratigráfica Aegeano.",
+        "answer": [
+            [
+                "O Egeu (ou Aegeano) é uma SUB-IDADE GEOCRONOLÓGICA que COMEÇA com o Base do Triássico Médio e é um INTERVALO DENTRO e TERMINA o Anisiano. O Egeu ENCONTRA o Bitínico."
+            ]
+        ],
+        "context": "O Egeu (ou Aegeano) é uma SUB-IDADE GEOCRONOLÓGICA que COMEÇA com o Base do Triássico Médio e é um INTERVALO DENTRO e TERMINA o Anisiano. O Egeu ENCONTRA o Bitínico."
+    },
+    {
+        "id": 5003,
+        "level": 1,
+        "question": "Descreva a unidade cronoestratigráfica Aaleniano.",
+        "answer": [
+            [
+                "O Aaleniano é uma IDADE GEOCRONOLÓGICA que TEM INÍCIO na Base do Jurássico Médio, tendo portanto um LIMITE MAIS ANTIGO de aproximadamente 174.1 milhões de anos atrás, e TEM FIM na Base do Bajociano, tendo portanto um LIMITE MAIS RECENTE de aproximadamente 170.3 million years ago.\nA Idade Aaleniana é um INTERVALO INTERIOR ao Jurássico Médio, que ENCONTRA o Bajociano e É ENCONTRADO POR os intervalos Jurássico Inferior e Toarciano. O Jurássico Médio INICIA-SE COM o Aaleniano."
+            ]
+        ],
+        "context": "O Aaleniano é uma IDADE GEOCRONOLÓGICA que TEM INÍCIO na Base do Jurássico Médio, tendo portanto um LIMITE MAIS ANTIGO de aproximadamente 174.1 milhões de anos atrás, e TEM FIM na Base do Bajociano, tendo portanto um LIMITE MAIS RECENTE de aproximadamente 170.3 million years ago.\nA Idade Aaleniana é um INTERVALO INTERIOR ao Jurássico Médio, que ENCONTRA o Bajociano e É ENCONTRADO POR os intervalos Jurássico Inferior e Toarciano. O Jurássico Médio INICIA-SE COM o Aaleniano."
+    },
+    {
         "id": 5475,
         "level": 1,
         "question": "Descreva a unidade cronoestratigráfica Idade Paibiana.",
@@ -73,6 +95,49 @@
         ],
         "context": "O Pelsoniano é uma SUB-IDADE GEOCRONOLÓGICA que é um INTERVALO DURANTE e DENTRO do Anisiano. O Pelsoniano ENCONTRA o Ilírico e é ENCONTRADO pelo Bitínico."
     },
-    
+    {
+        "id": 4735,
+        "level": 1,
+        "question": "O que é um(a) basanito?",
+        "answer": [
+            [
+                "Basanito é uma Rocha Vulcânica contendo plagioclásio sódico, clinopiroxênio, foides essenciais e olivina."
+            ]
+        ],
+        "context": "Basanito é uma Rocha Vulcânica contendo plagioclásio sódico, clinopiroxênio, foides essenciais e olivina."
+    },
+    {
+        "id": 4736,
+        "level": 1,
+        "question": "O que é um(a) bindstone?",
+        "answer": [
+            [
+                "Bindstone é uma Rocha Carbonática cujos componentes originais foram ligados durante a deposição, contendo organismos que incrustam e ligam."
+            ]
+        ],
+        "context": "Bindstone é uma Rocha Carbonática cujos componentes originais foram ligados durante a deposição, contendo organismos que incrustam e ligam."
+    },
+    {
+        "id": 4741,
+        "level": 1,
+        "question": "O que é um(a) boundstone?",
+        "answer": [
+            [
+                "Boundstone é uma Rocha Carbonática cujos componentes originais foram ligados durante a deposição, contendo organismos que constroem uma estrutura rígida."
+            ]
+        ],
+        "context": "Boundstone é uma Rocha Carbonática cujos componentes originais foram ligados durante a deposição, contendo organismos que constroem uma estrutura rígida."
+    },
+    {
+        "id": 4742,
+        "level": 1,
+        "question": "O que é um(a) brecha?",
+        "answer": [
+            [
+                "Brecha é uma rocha fragmentária com fragmentos frequentemente angulares de vários tamanhos que predominam sobre a matriz mais fina, que pode ter múltiplas origens, como vulcânica, plutônica, tectônica, sedimentar ou causada por impacto de meteorito."
+            ]
+        ],
+        "context": "Brecha é uma rocha fragmentária com fragmentos frequentemente angulares de vários tamanhos que predominam sobre a matriz mais fina, que pode ter múltiplas origens, como vulcânica, plutônica, tectônica, sedimentar ou causada por impacto de meteorito."
+    }
 
 ]

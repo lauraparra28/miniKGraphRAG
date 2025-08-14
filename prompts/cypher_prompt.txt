@@ -107,7 +107,14 @@ RETURN f.rdfs_label
 # O que é um(a) lapilito?
 MATCH (r:Class)
 WHERE "lapilito" IN r.rdfs_label
-RETURN r.definition
+WITH [x IN r.definition WHERE x ENDS WITH "@pt"] AS def_pt
+RETURN def_pt
+
+# Descreva a unidade cronoestratigráfica Paibiano.
+MATCH (u:geological_time_interval)
+WHERE "Paibiano" IN u.rdfs_label
+WITH [x IN u.definition WHERE x ENDS WITH "@pt"] AS def_pt
+RETURN def_pt
 
 The question is:
 {question}
