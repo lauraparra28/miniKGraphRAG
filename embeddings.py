@@ -48,7 +48,7 @@ def project_graph():
     )
     """
     with driver.session() as session:
-        #session.run("CALL gds.graph.drop('miniKGraph', false) YIELD graphName")  # Limpia si ya existe
+        session.run("CALL gds.graph.drop('miniKGraph', false) YIELD graphName")  # Limpia si ya existe
         session.run(query, node_labels=NODE_LABELS, rel_types=REL_TYPES)
     print("✅ Grafo proyectado en memoria.")
     
@@ -60,7 +60,7 @@ def run_node2vec_and_store():
     print("📌 Ejecutando Node2Vec...")
     query = """
     CALL gds.node2vec.stream('miniKGraph', {
-      embeddingDimension: 256,
+      embeddingDimension: 384,
       randomSeed: 42
     })
     YIELD nodeId, embedding
