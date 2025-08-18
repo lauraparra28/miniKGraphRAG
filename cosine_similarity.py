@@ -10,6 +10,7 @@ load_dotenv()
 
 # Obtener la API Key
 api_key = os.getenv("OPENAI_API_KEY")
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # ==========================
 # 1) Conexión a Neo4j
@@ -82,7 +83,7 @@ def encode_node_texts(texts_list):
 # -----------------------------
 # 4) Función de búsqueda híbrida
 # -----------------------------
-def hybrid_rag_search (user_query: str, top_k: int = 5, alpha: float = 0.5, beta: float = 0.5, SEED_M: int = 15):
+def hybrid_rag_search (user_query: str, top_k: int = 8, alpha: float = 0.5, beta: float = 0.5, SEED_M: int = 15):
     
     """
     Realiza una búsqueda híbrida combinando similitud semántica de texto
@@ -191,16 +192,24 @@ client = OpenAI(api_key=api_key)
 
 def ask_llm(context, user_query):
     prompt = f"""
-Contexto relevante extraído del grafo:
-{context}
+    Você é um assistente estritamente EXTRATIVO.
 
-Pregunta del usuario:
-{user_query}
+    REGRAS:
+    1) Use SOMENTE o conteúdo em "Contexto". NÃO use conhecimento externo.
+    2) Copie termos técnicos e números exatamente como estão.
+    3) Se a informação NÃO estiver no contexto, responda apenas: "Sem dados suficientes no contexto."
 
-Respuesta:
-"""
+    Pergunta:
+    {user_query}
+
+    Contexto relevante extraído del grafo:
+    {context}
+
+    Respuesta:
+    """
     response = client.chat.completions.create(
         model="gpt-4o-mini",
+        temperature=0.0,
         messages=[{"role": "user", "content": prompt}]
     )
     return response.choices[0].message.content
@@ -209,8 +218,10 @@ Respuesta:
 # Ejemplo de uso
 # -----------------------------
 if __name__ == "__main__":
-    user_question = "Descreva a unidade cronoestratigráfica Paibiano."
-    context, top_nodes = hybrid_rag_search(user_question, top_k=5, alpha=0.5, beta=0.5)
-    print("✅ Contexto obtenido:\n", context)
+    user_question = "O que é arcose?"
+    context, top_nodes = hybrid_rag_search(user_question, top_k=8, alpha=0.5, beta=0.5)
+    print("🔍 Resultados de la búsqueda híbrida:")
+    print("📝 Query:", user_question)
+    print("📝 Contexto obtenido:\n", context)
     answer = ask_llm(context, user_question)
     print("\n📝 Respuesta del LLM:\n", answer)
