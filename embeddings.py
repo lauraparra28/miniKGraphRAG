@@ -60,7 +60,7 @@ def run_node2vec_and_store():
     print("📌 Ejecutando Node2Vec...")
     query = """
     CALL gds.node2vec.stream('miniKGraph', {
-      embeddingDimension: 384,
+      embeddingDimension: 512,
       randomSeed: 42
     })
     YIELD nodeId, embedding

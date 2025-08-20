@@ -49,7 +49,7 @@ print("✅ Embeddings Node2Vec cargados:", node2vec_embeddings.shape)
 # -----------------------------
 # Modelo de embeddings de texto
 # -----------------------------
-text_model = SentenceTransformer('all-MiniLM-L6-v2')
+text_model = SentenceTransformer('distiluse-base-multilingual-cased-v2') #cambio de modelo
 embeddings_dim_text = text_model.get_sentence_embedding_dimension()
 # -----------------------------
 # 3) Utilidades
@@ -218,7 +218,7 @@ def ask_llm(context, user_query):
 # Ejemplo de uso
 # -----------------------------
 if __name__ == "__main__":
-    user_question = "O que é arcose?"
+    user_question = "Descreva a unidade cronoestratigráfica Paibian."
     context, top_nodes = hybrid_rag_search(user_question, top_k=8, alpha=0.5, beta=0.5)
     print("🔍 Resultados de la búsqueda híbrida:")
     print("📝 Query:", user_question)
