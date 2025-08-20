@@ -16,3 +16,4 @@ matplotlib==3.9.4
 langchain-openai==0.3.18
 transformers==4.55.2
 sentence_transformers==5.1.0
+pandas==2.3.1
