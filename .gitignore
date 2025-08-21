@@ -2,9 +2,7 @@
 .env
 venv
 
-main.py
-rag_chain.py
-retriever_owl.py
+embeddings.npy
 settings-me.yaml
 
 .ruff_cache
