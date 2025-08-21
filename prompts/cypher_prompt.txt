@@ -104,9 +104,9 @@ MATCH (f:field)<-[r1:located_in]-(w:well)-[r2:crosses]->(n:lithostratigraphic_un
 WHERE g._id CONTAINS "TEFR_CD_TIPO_EST_FISICA_ROCHA_199"
 RETURN f.rdfs_label
 
-# O que é um(a) lapilito?
+# O que é um(a) sandstone?
 MATCH (r:Class)
-WHERE "lapilito" IN r.rdfs_label
+WHERE ANY(label IN r.rdfs_label WHERE split(label,"@")[0] = "sandstone")
 WITH [x IN r.definition WHERE x ENDS WITH "@pt"] AS def_pt
 RETURN def_pt
 
