@@ -18,7 +18,7 @@ final_metrics_file = os.path.join("results", f"final_metrics_{fecha_actual}.json
 print("📁 Arquivos criados para guardar dados do teste")
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste.json"] # Dataset de teste MiniKGraph_text_dataset.json
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_text_dataset.json"] # Dataset de teste MiniKGraph_teste.json
 test_examples = dataset_miniKGraph
 print("✅ Successfully load Dataset miniKGraph for Evaluation")
 

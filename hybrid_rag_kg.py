@@ -111,11 +111,14 @@ def run_hybrid_rag(question: str,
     3) Merge both into a single extractive context
     4) Call your extractive ask_llm() to produce the final answer
     """
+    print("🔍 Running Hybrid RAG...")
+    print("📝 Semantic + Node2Vec fusion over node texts")
+
     # --- (1) Semantic + Node2Vec fusion over node texts ---
     context_text, top_nodes = hybrid_rag_search(
         question, top_k=top_k, alpha=alpha, beta=beta, SEED_M=seed_m
     )  # from cosine_similarity.py  :contentReference[oaicite:4]{index=4}
-
+    print("🔍 Context text:", context_text)
     top_ids = [t["node_id"] for t in top_nodes]
 
     # --- (2) Cypher QA chain over the KG ---
@@ -146,8 +149,8 @@ def run_hybrid_rag(question: str,
 # 5) Example
 # ----------------------------
 if __name__ == "__main__":
-    q = "O que é um(a) arcóseo?"
-    out = run_hybrid_rag(q, top_k=8, alpha=0.6, beta=0.4, seed_m=15, expand_neighbors=True)
+    q = "Descreva a unidade cronoestratigráfica Paibiano."
+    out = run_hybrid_rag(q, top_k=8, alpha=0.6, beta=0.4, seed_m=15, expand_neighbors=False)
     print("\n=== Final Answer ===\n", out["answer"])
     print("\n=== Top Nodes (hybrid) ===")
     for i, n in enumerate(out["hybrid_top_nodes"], 1):

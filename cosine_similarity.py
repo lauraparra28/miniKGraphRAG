@@ -51,6 +51,8 @@ print("✅ Embeddings Node2Vec cargados:", node2vec_embeddings.shape)
 # -----------------------------
 text_model = SentenceTransformer('distiluse-base-multilingual-cased-v2') #cambio de modelo
 embeddings_dim_text = text_model.get_sentence_embedding_dimension()
+print("✅ Modelo de texto cargado. Dimensión de embeddings:", embeddings_dim_text)
+
 # -----------------------------
 # 3) Utilidades
 # -----------------------------
@@ -218,7 +220,7 @@ def ask_llm(context, user_query):
 # Ejemplo de uso
 # -----------------------------
 if __name__ == "__main__":
-    user_question = "Descreva a unidade cronoestratigráfica Paibian."
+    user_question = "Descreva a unidade cronoestratigráfica Paibiano." #O que é um(a) sandstone?
     context, top_nodes = hybrid_rag_search(user_question, top_k=8, alpha=0.5, beta=0.5)
     print("🔍 Resultados de la búsqueda híbrida:")
     print("📝 Query:", user_question)
