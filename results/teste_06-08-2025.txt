@@ -1,0 +1,57 @@
+PREGUNTA: Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?
+
+✅ Successfully connection to Neo4j Graph Database
+✅ Node2Vec loaded: 2069 (2069, 512)
+✅ Embeddings Node2Vec cargados: (2069, 512)
+✅ Modelo de texto cargado. Dimensión de embeddings: 512
+✅ Successfully load LLM
+✅ Successfully connection to Neo4j Graph
+✅ Successfully build Cypher QA chain
+🔍 Running Hybrid RAG...
+📝 Semantic + Node2Vec fusion over node texts
+🔍 Iniciando búsqueda híbrida...
+✅ Embedding de la query generado: (512,)
+🔍 Context text: unidade litoestratigráfica@pt ; lithostratigraphic unit@en ; unidade litoestratigráfica ; un. litoestratigráfica ; unidade lito.: Unidade Litoestratigráfica é um Objeto Geológico constituído por quantidadades de Rocha ou Material Geológico não Consolidado, especificamente do tipo sedimentar, extrusivo, ígneo, metassedimentar ou metavulcânico.@pt Lithostratigraphic Unit is a Geological Object constituted by Amounts of Rock specifically sedimentary, extrusive, igneous, metasedimentary, or metavolcanic rocks.@en
+tephritic rock@en ; rocha tefritóidica@pt ; rocha tefritóidica ; tefritóide ; tefritóide@pt: Tephritic Rock is a Volcanic Rock that corresponds to the QAPF 'field' classification for volcanic rocks identified as tephrite.@en Roche tefritóidica (ou tefritóide) uma Rocha Vulcânica que corresponde à classificação 'campo' QAPF para rochas vulcânicas identificadas como tefrito.@pt
+granitóide@pt ; rocha granítica@pt ; granitic rock@en ; granitóide: Granitic rock is a Plutonic Rock that corresponds to the QAPF 'field' classification for plutonic rocks identified as granite, granodiorite or tonalite.@en Rocha Granítica (ou granitóide) é uma Rocha Plutônica que corresponde à classificação 'campo' QAPF para rochas plutônicas identificadas como granito, granodiorito ou tonalito.@pt
+rocha anortosítica@pt ; rocha anortosítica ; anorthositic rock@en: Anorthositic Rock is a Plutonic Rock that corresponds to the QAPF classification for plutonic rocks identified as anorthosite.@en Rocha Anortosítica é uma Rocha Plutônica que corresponde à classificação QAPF para rochas plutônicas identificadas como anortosito.@pt
+psefito@pt ; conglomerado ; conglomerado@pt ; rudito@pt ; psefito ; rudito ; conglomerate@en: Conglomerado (também conhecido como psefito ou rudito) é uma Rocha Siliciclástica que contém mais de 50% de fragmentos minerais e rochosos arredondados com um tamanho médio de grão maior que 2mm (o equivalente consolidado de cascalho).@pt Conglomerate is a Siliciclastic Rock that contains more than 50% rounded mineral and rock fragments with a median grain size greater than 2mm (the consolidated equivalent of gravel).@en
+
+
+> Entering new GraphCypherQAChain chain...
+Generated Cypher:
+MATCH (p:well)-[:crosses]->(f:lithostratigraphic_unit)-[:constituted_by]->(m:conglomerate)
+WHERE "2-CAST-0002-AM" IN p.rdfs_label
+RETURN f.rdfs_label
+Full Context:
+[{'f.rdfs_label': ['Fm. Monte Alegre', 'Formação Monte Alegre']}, {'f.rdfs_label': ['Fm. Alter do Chão', 'Formação Alter do Chão']}, {'f.rdfs_label': ['Fm. Curiri', 'Formação Curiri']}, {'f.rdfs_label': ['Fm. Nova Olinda', 'Formação Nova Olinda']}]
+
+> Finished chain.
+🔍 Cypher QA answer: O poço 2-CAST-0002-AM atravessa as seguintes unidades litoestratigráficas constituídas por rochas do tipo conglomerado:
+
+1. Formação Monte Alegre (Fm. Monte Alegre)
+2. Formação Alter do Chão (Fm. Alter do Chão)
+3. Formação Curiri (Fm. Curiri)
+4. Formação Nova Olinda (Fm. Nova Olinda)
+
+Essas formações são reconhecidas por suas características litológicas, incluindo a presença de conglomerados, que são rochas sedimentares compostas por fragmentos de rochas maiores, cimentados por matriz.
+
+=== Final Answer ===
+ Sem dados suficientes no contexto.
+
+=== Top Nodes (hybrid) ===
+01. unidade litoestratigráfica@pt ; lithostratigraphic unit@en ; unidade litoestratigráfica ; un. litoestratigráfica ; unidade lito.  (text=0.511, graph=0.313, final=4.745)
+02. tephritic rock@en ; rocha tefritóidica@pt ; rocha tefritóidica ; tefritóide ; tefritóide@pt  (text=0.471, graph=0.325, final=4.713)
+03. granitóide@pt ; rocha granítica@pt ; granitic rock@en ; granitóide  (text=0.495, graph=0.301, final=4.560)
+04. rocha anortosítica@pt ; rocha anortosítica ; anorthositic rock@en  (text=0.486, graph=0.277, final=4.288)
+05. psefito@pt ; conglomerado ; conglomerado@pt ; rudito@pt ; psefito ; rudito ; conglomerate@en  (text=0.478, graph=0.278, final=4.268)
+
+=== Cypher QA (short) ===
+ O poço 2-CAST-0002-AM atravessa as seguintes unidades litoestratigráficas constituídas por rochas do tipo conglomerado:
+
+1. Formação Monte Alegre (Fm. Monte Alegre)
+2. Formação Alter do Chão (Fm. Alter do Chão)
+3. Formação Curiri (Fm. Curiri)
+4. Formação Nova Olinda (Fm. Nova Olinda)
+
+Essas formações são reconhecidas por suas características litológicas, incluindo a presença de conglomerados, que são rochas sedimentares compostas por fragmentos de rochas maiores, cimentados por matriz.
