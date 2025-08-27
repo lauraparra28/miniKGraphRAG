@@ -12,7 +12,6 @@ QA_PROMPT = bu.load_prompts()["qa_prompt.txt"]
 qa_prompt = PromptTemplate(template=QA_PROMPT, input_variables=["context", "question"], ) #from_template(QA_PROMPT)
 
 graph = Neo4jGraph( url="bolt://localhost:7687", username="neo4j",password="diripar8$")
-print("✅ Successfully connection to Neo4j Graph")
     
 llm = load_llm_with_api_key() #load_llm()
 cypher_llm = load_cypher_llm()

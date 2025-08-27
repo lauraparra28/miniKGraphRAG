@@ -47,11 +47,11 @@ def _format_intermediate_steps(steps: List[Dict[str, Any]], max_rows: int = 12) 
     """
     blocks = []
     for s in steps:
-        if "cypher" in s:
-            blocks.append(f"[Cypher]\n{s['cypher']}")
-        if "result" in s:
-            # s["result"] is typically a list of dict rows
-            rows = s["result"] if isinstance(s["result"], list) else [s["result"]]
+        if "query" in s:
+            blocks.append(f"[Query in Cypher]\n{s['query']}")
+        if "context" in s:
+            # s["context"] is typically a list of dict rows
+            rows = s["context"] if isinstance(s["context"], list) else [s["context"]]
             header = []
             body = []
             # Build a simple table-ish text
@@ -63,7 +63,7 @@ def _format_intermediate_steps(steps: List[Dict[str, Any]], max_rows: int = 12) 
                 else:
                     body.append(str(row))
             if header:
-                blocks.append("[Results]\n" + " | ".join(header) + "\n" + "\n".join(body))
+                blocks.append("[Context]\n" + " | ".join(header) + "\n" + "\n".join(body))
     return "\n\n".join(blocks).strip()
 
 # ----------------------------
@@ -87,21 +87,21 @@ def run_hybrid_rag(question: str,
     context_text, top_nodes = hybrid_rag_search(
         question, top_k=top_k, alpha=alpha, beta=beta, SEED_M=seed_m
     )  # from cosine_similarity.py  :contentReference[oaicite:4]{index=4}
-    print("🔍 Context text:", context_text)
     top_ids = [t["node_id"] for t in top_nodes]
-
+    
     # --- (2) Cypher QA chain over the KG ---
     cypher_out = cypher_chain.invoke({"query": question})
     cypher_answer   = cypher_out.get("result", "")
     intermediate    = cypher_out.get("intermediate_steps", [])
     cypher_context  = _format_intermediate_steps(intermediate)
 
-    print("🔍 Cypher QA answer:", cypher_answer)
     # --- (3) Merge contexts and ask the LLM (strictly extractive) ---
     merged_context = "\n\n---\n".join(
         block for block in [cypher_context, context_text] if block
     ).strip()
 
+    print("🔍 Merged context:", merged_context)
+    
     final_answer = ask_llm(merged_context, question)  # from cosine_similarity.py  :contentReference[oaicite:5]{index=5}
 
     return {
@@ -116,10 +116,20 @@ def run_hybrid_rag(question: str,
 # 5) Example
 # ----------------------------
 if __name__ == "__main__":
-    q = "Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?" # Descreva a unidade cronoestratigráfica Paibiano.
+    q = "Em que bacia está localizado o campo MORRO DO BARRO?"
+    q2 = "Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?"
+    # Em que bacia está localizado o poço 1MD-0001-AM?
+    # O que é um sandstone?
+    # O que é um(a) quartzoarenito?
+    # Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?" 
+    # Descreva a unidade cronoestratigráfica Paibiano.
+    # Que unidades litoestratigráficas o poco POCO_CD_POCO_022749 atravessa?
+
     out = run_hybrid_rag(q, top_k=5, alpha=0.5, beta=0.5, seed_m=15)
-    print("\n=== Final Answer ===\n", out["answer"])
+    
     print("\n=== Top Nodes (hybrid) ===")
     for i, n in enumerate(out["hybrid_top_nodes"], 1):
         print(f"{i:02d}. {n['label']}  (text={n['score_text']:.3f}, graph={n['score_graph']:.3f}, final={n['score_final']:.3f})")
     print("\n=== Cypher QA (short) ===\n", out["cypher_answer"])
+
+    print("\n=== Final Answer ===\n", out["answer"])

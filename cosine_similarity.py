@@ -118,14 +118,22 @@ def hybrid_rag_search (user_query: str, top_k: int = 8, alpha: float = 0.5, beta
             MATCH (n)
             WHERE n.embedding IS NOT NULL
             RETURN elementId(n) AS nodeElementId,
-                   n.rdfs_label      AS label,
-                   coalesce(n.definition, n.rdfs_label) AS text
+                   n.rdfs_label  AS label,
+                   n.definition  AS definition,
+                   n.rdfs_label  AS rdfs_label
         ORDER BY nodeElementId
         """))
     
     node_ids_local = [r["nodeElementId"] for r in records]
     node_labels    = [ensure_list_of_str(r["label"]) for r in records]
-    node_texts     = [ensure_list_of_str(r["text"])  for r in records]  # ← siempre lista[str]
+    # combinar definición y rdfs_label en un solo texto por nodo
+    node_texts = []
+    
+    for r in records:
+        defn = ensure_list_of_str(r["definition"])
+        lbl  = ensure_list_of_str(r["rdfs_label"])
+        combined = defn + lbl if defn else lbl
+        node_texts.append(combined)
 
     # 4.2) Embeddings de texto (promedio por nodo)
     node_text_embs = encode_node_texts(node_texts)  # (N, D)
@@ -194,13 +202,14 @@ client = OpenAI(api_key=api_key)
 
 def ask_llm(context, user_query):
     prompt = f"""
-    Você é um assistente estritamente EXTRATIVO.
+    Você é um assistente estritamente EXTRATIVO que responde de forma detalhada na forma culta da lingua portuguesa. 
 
     REGRAS:
     1) Use SOMENTE o conteúdo em "Contexto". NÃO use conhecimento externo.
     2) Copie termos técnicos e números exatamente como estão.
     3) Se a informação NÃO estiver no contexto, responda apenas: "Sem dados suficientes no contexto."
-
+    4) Caso haja diferentes variações de nomes para a mesma unidade (ex.: abreviações como "Fm." e nomes completos como "Formação"), selecione e apresente SOMENTE a forma **completa** (ex.: "Formação Monte Alegre").
+    
     Pergunta:
     {user_query}
 
@@ -220,8 +229,11 @@ def ask_llm(context, user_query):
 # Ejemplo de uso
 # -----------------------------
 if __name__ == "__main__":
-    user_question = "Descreva a unidade cronoestratigráfica Paibiano." #O que é um(a) sandstone?
-    context, top_nodes = hybrid_rag_search(user_question, top_k=8, alpha=0.5, beta=0.5)
+    user_question = "Quantos poços estão localizados na bacia AMAZONAS?" 
+    #O que é um(a) sandstone?
+    # Que unidades litoestratigráficas o poco POCO_CD_POCO_022749 atravessa?
+    # Descreva a unidade cronoestratigráfica Paibiano.
+    context, top_nodes = hybrid_rag_search(user_question, top_k=5, alpha=0.5, beta=0.5)
     print("🔍 Resultados de la búsqueda híbrida:")
     print("📝 Query:", user_question)
     print("📝 Contexto obtenido:\n", context)
