@@ -31,3 +31,12 @@
 ✅ Quais sao os nomes do poço POCO_CD_POCO_022993?
 ✅ Quais outros nomes possíveis para o poço BCST-1? 
 ✅ Que unidades litoestratigráficas atravessa o poço 1AQ-1-AM (POCO_CD_POCO_022753) que são constituídas por material do tipo folhelho?
+
+28/08/2025 - hybrid_rag_KG.py
+    q2 = "Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?"
+    # Em que bacia está localizado o poço 1MD-0001-AM?
+    # O que é um sandstone?
+    # O que é um(a) quartzoarenito?
+    # Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?" 
+    # Descreva a unidade cronoestratigráfica Paibiano.
+    # Que unidades litoestratigráficas o poco POCO_CD_POCO_022749 atravessa?

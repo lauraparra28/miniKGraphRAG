@@ -27,6 +27,23 @@ Install the dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
+## 🗄️ Database Setup
+
+# Neo4j
+
+You can use the provided `docker-compose.yml` file to start a Neo4j container easily. Make sure Docker is installed on your system.
+
+1. Copy the example `docker-compose.yml` file to your project directory.
+2. Start the Neo4j container with:
+
+```bash
+docker-compose up -d
+```
+
+3. Access Neo4j at [http://localhost:7474](http://localhost:7474) with the default username and password (`neo4j` / `neo4j`). Change the password on first login.
+
+Make sure to enable the RDF plugin if required for your use case.
+
 
 ## 🚀 How to Run
 1. Make sure you have the following services running:
@@ -34,7 +51,7 @@ pip install -r requirements.txt
     - **Ollama**: Make sure you have the Ollama server running. You can install it from [Ollama's website](https://ollama.com/).
     - **API KEY**: Make sure you have the API key OpenAI
 
-In a WSL terminal, run the following command to start the Ollama server:
+If you are going to use Ollama, in a WSL terminal run the following command to start the Ollama server:
 
 ```bash
 ollama serve
@@ -60,34 +77,38 @@ curl http://localhost:11434
 6. Run the script:
 
 ```bash
-python main.py
+python hybrid_rag_kg.py
 ```
 You can obtain something like this:
 
 ```bash
-✅ Successfully connection to Neo4j Graph
+✅ Successfully connection to Neo4j Graph Database
+✅ Node2Vec loaded: 2069 (2069, 512)
+✅ Embeddings Node2Vec cargados: (2069, 512)
+✅ Modelo de texto cargado. Dimensión de embeddings: 512
 ✅ Successfully load LLM
+✅ Successfully connection to Neo4j Graph
+✅ Successfully build Cypher QA chain
+🔍 Running Hybrid RAG...
+📝 Semantic + Node2Vec fusion over node texts
 
-❓ Em que bacia está localizado o campo MORRO DO BARRO?
+❓ Em que bacia está localizado o campo JAPIIM?
 
 > Entering new GraphCypherQAChain chain...
 Generated Cypher:
-MATCH (c:field{rdfs_label: "MORRO DO BARRO"})-[:located_in]->(b:basin) 
+MATCH (f:field)-[:located_in]->(b:basin)
+WHERE "JAPIIM" IN f.rdfs_label
 RETURN b.rdfs_label
 Full Context:
-[]
+[{'b.rdfs_label': ['BACIA DE AMAZONAS', 'AMAZONAS']}]
 
 > Finished chain.
 
-✅ Pregunta: Em que bacia está localizado o campo MORRO DO BARRO?
+✅ Pregunta: Em que bacia está localizado o campo JAPIIM?
 
 ✅ Respuesta gerada: 
-O campo MORRO DO BARRO está localizado na Bacia CAMAMU-ALMADA.
+O campo MORRO DO BARRO está localizado na Bacia AMAZONAS.
 
-✅ Cypher Generado:
-{'query': 'MATCH (c:field{rdfs_label: "MORRO DO BARRO"})-[:located_in]->(b:basin) \nRETURN b.rdfs_label'}
-
-✅ Contexto recuperado:{'context': []}
 ```
 
 ## 🧩 Configuration

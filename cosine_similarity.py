@@ -139,6 +139,7 @@ def hybrid_rag_search (user_query: str, top_k: int = 8, alpha: float = 0.5, beta
     node_text_embs = encode_node_texts(node_texts)  # (N, D)
     
     # 4.3) Similitud textual
+    print("🔍 Calculando similitud textual...")
     sim_text = cosine_similarity([query_emb_text], node_text_embs)[0]  # (N,)
     
     # 4.4) Vector de grafo para la query: promedio de Node2Vec de top-M por texto
@@ -172,6 +173,7 @@ def hybrid_rag_search (user_query: str, top_k: int = 8, alpha: float = 0.5, beta
 
     sim_text_n  = _zscore(sim_text)
     sim_graph_n = _zscore(sim_graph)
+    print ("🔍 Calculando score híbrido...")
     final_score = alpha * sim_text_n + beta * sim_graph_n
 
     # 6️⃣ Seleccionar top-k
@@ -229,13 +231,15 @@ def ask_llm(context, user_query):
 # Ejemplo de uso
 # -----------------------------
 if __name__ == "__main__":
-    user_question = "Quantos poços estão localizados na bacia AMAZONAS?" 
-    #O que é um(a) sandstone?
-    # Que unidades litoestratigráficas o poco POCO_CD_POCO_022749 atravessa?
+    user_question = input("❓ Pergunta: ")
+    # O que é um(a) sandstone?
     # Descreva a unidade cronoestratigráfica Paibiano.
     context, top_nodes = hybrid_rag_search(user_question, top_k=5, alpha=0.5, beta=0.5)
     print("🔍 Resultados de la búsqueda híbrida:")
-    print("📝 Query:", user_question)
-    print("📝 Contexto obtenido:\n", context)
+    print("\n📝 Query:", user_question)
+    print("\n📝 Top Nodes (hybrid):")
+    for i, n in enumerate(top_nodes, 1):
+        print(f"{i:02d}. {n['label']}  (text={n['score_text']:.3f}, graph={n['score_graph']:.3f}, final={n['score_final']:.3f})")
+    print("\n📝 Contexto obtenido:\n", context)
     answer = ask_llm(context, user_question)
     print("\n📝 Respuesta del LLM:\n", answer)

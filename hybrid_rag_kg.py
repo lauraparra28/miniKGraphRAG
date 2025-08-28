@@ -66,14 +66,46 @@ def _format_intermediate_steps(steps: List[Dict[str, Any]], max_rows: int = 12) 
                 blocks.append("[Context]\n" + " | ".join(header) + "\n" + "\n".join(body))
     return "\n\n".join(blocks).strip()
 
+def _expand_neighbors_by_ids(node_element_ids: List[str], max_neighbors: int = 20) -> str:
+    """
+    Optional: fetch a small 1-hop neighborhood for the top nodes to enrich context with structured edges.
+    """
+    if not node_element_ids:
+        return ""
+    cypher = """
+    MATCH (n)-[r]-(m)
+    WHERE elementId(n) IN $ids
+    RETURN elementId(n) AS id,
+        n.rdfs_label AS n_label,
+        labels(n)     AS n_labels,
+        type(r)       AS relation,
+        labels(m)     AS m_labels,
+        m.rdfs_label AS m_label
+    LIMIT $limit
+    """
+    with driver.session() as session:
+        rows = session.run(cypher, ids=node_element_ids, limit=max_neighbors).data()
+
+    lines = []
+    for row in rows:
+        nlab = row.get("n_label") or ""
+        mlab = row.get("m_label") or ""
+        rel  = row.get("relation") or ""
+        lines.append(f"{nlab} -[{rel}]- {mlab}")
+    if not lines:
+        return ""
+    return "[Neighborhood]\n" + "\n".join(lines)
+
+
 # ----------------------------
 # 4) The orchestrator
 # ----------------------------
 def run_hybrid_rag(question: str,
-                   top_k: int = 8,
+                   top_k: int = 5,
                    alpha: float = 0.5,
                    beta: float = 0.5,
-                   seed_m: int = 15) -> Dict[str, Any]:
+                   seed_m: int = 15,
+                   expand_neighbors: bool = True) -> Dict[str, Any]:
     """
     1) Hybrid retrieve best nodes (semantic + Node2Vec)
     2) Run Cypher QA to fetch structured facts
@@ -88,18 +120,24 @@ def run_hybrid_rag(question: str,
         question, top_k=top_k, alpha=alpha, beta=beta, SEED_M=seed_m
     )  # from cosine_similarity.py  :contentReference[oaicite:4]{index=4}
     top_ids = [t["node_id"] for t in top_nodes]
-    
+    print(f"✅ Retrieved {len(top_nodes)} top nodes")
+    print(f"🔍 Top node IDs: {top_ids}")
+
     # --- (2) Cypher QA chain over the KG ---
     cypher_out = cypher_chain.invoke({"query": question})
     cypher_answer   = cypher_out.get("result", "")
     intermediate    = cypher_out.get("intermediate_steps", [])
     cypher_context  = _format_intermediate_steps(intermediate)
 
-    # --- (3) Merge contexts and ask the LLM (strictly extractive) ---
-    merged_context = "\n\n---\n".join(
-        block for block in [cypher_context, context_text] if block
-    ).strip()
+    # --- (3) Optional: 1-hop neighborhood to add relationship cues ---
+    neighborhood = _expand_neighbors_by_ids(top_ids) if expand_neighbors else ""
+    print(f"🔍 Neighborhood context obtained:\n{neighborhood}")
 
+    # --- (4) Merge contexts and ask the LLM (strictly extractive) ---
+    merged_context = "\n\n---\n".join(
+        block for block in [ context_text, neighborhood] if block
+    ).strip()
+    # cypher_context,
     print("🔍 Merged context:", merged_context)
     
     final_answer = ask_llm(merged_context, question)  # from cosine_similarity.py  :contentReference[oaicite:5]{index=5}
@@ -109,27 +147,17 @@ def run_hybrid_rag(question: str,
         "hybrid_top_nodes": top_nodes,
         "cypher_answer": cypher_answer,
         "cypher_steps": intermediate,
+        "neighborhood": neighborhood,
         "merged_context_preview": merged_context[:1500]  # for inspection/logging
     }
 
-# ----------------------------
-# 5) Example
-# ----------------------------
 if __name__ == "__main__":
-    q = "Em que bacia está localizado o campo MORRO DO BARRO?"
-    q2 = "Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?"
-    # Em que bacia está localizado o poço 1MD-0001-AM?
-    # O que é um sandstone?
-    # O que é um(a) quartzoarenito?
-    # Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?" 
-    # Descreva a unidade cronoestratigráfica Paibiano.
-    # Que unidades litoestratigráficas o poco POCO_CD_POCO_022749 atravessa?
+    q = "Em que bacia está localizado o campo SARDINHA?"
 
-    out = run_hybrid_rag(q, top_k=5, alpha=0.5, beta=0.5, seed_m=15)
-    
+    out = run_hybrid_rag(q, top_k=5, alpha=0.5, beta=0.5, seed_m=15, expand_neighbors=True)
+    print("\n 📝 Query:", q )
     print("\n=== Top Nodes (hybrid) ===")
     for i, n in enumerate(out["hybrid_top_nodes"], 1):
         print(f"{i:02d}. {n['label']}  (text={n['score_text']:.3f}, graph={n['score_graph']:.3f}, final={n['score_final']:.3f})")
-    print("\n=== Cypher QA (short) ===\n", out["cypher_answer"])
-
-    print("\n=== Final Answer ===\n", out["answer"])
+    print("\n=== Cypher QA (short) ===\n", out["cypher_answer"]) 
+    print("\n=== ✅ Final Answer ===\n", out["answer"])
