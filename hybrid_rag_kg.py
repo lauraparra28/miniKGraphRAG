@@ -135,9 +135,9 @@ def run_hybrid_rag(question: str,
 
     # --- (4) Merge contexts and ask the LLM (strictly extractive) ---
     merged_context = "\n\n---\n".join(
-        block for block in [ context_text, neighborhood] if block
+        block for block in [ cypher_context, context_text, neighborhood] if block
     ).strip()
-    # cypher_context,
+    
     print("🔍 Merged context:", merged_context)
     
     final_answer = ask_llm(merged_context, question)  # from cosine_similarity.py  :contentReference[oaicite:5]{index=5}
@@ -152,7 +152,7 @@ def run_hybrid_rag(question: str,
     }
 
 if __name__ == "__main__":
-    q = "Em que bacia está localizado o campo SARDINHA?"
+    q = input("❓ Pergunta: ")
 
     out = run_hybrid_rag(q, top_k=5, alpha=0.5, beta=0.5, seed_m=15, expand_neighbors=True)
     print("\n 📝 Query:", q )
