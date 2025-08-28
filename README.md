@@ -10,11 +10,15 @@ This project demonstrates how to implement a Retrieval-Augmented Generation (RAG
 - Gradio for the user interface (in future).
 - The project is designed to be modular and extensible, allowing for easy integration of new components or modifications to existing ones.
 
+## 🏛️ Architecture
+The RAG pipeline consists of the following key components:
+
+<img src="results/Images/HybridRAG_Architecture.jpg" alt="Hybrid KG-RAG Architecture" width="600"/>
+
 ## Components
 - **KG**: The Knowledge Graph in OWL format, which contains the structured data.
 - **Neo4j**: The graph database used to store and query the KG.
 - **Cypher Queries**: Used to extract triples from the KG.
-- **Natural Language Templates**: Used to convert triples into natural language sentences.
 - **LLMs**: Large Language Models used to generate answers based on the retrieved context.
 - **LangChain**: A framework for building applications with LLMs, used to orchestrate the entire pipeline.
 - **Gradio**: A library for building user interfaces, used to create a simple web interface for the application.
@@ -29,7 +33,7 @@ pip install -r requirements.txt
 ```
 ## 🗄️ Database Setup
 
-# Neo4j
+### Neo4j
 
 You can use the provided `docker-compose.yml` file to start a Neo4j container easily. Make sure Docker is installed on your system.
 
