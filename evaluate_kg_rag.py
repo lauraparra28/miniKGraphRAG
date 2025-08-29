@@ -18,13 +18,15 @@ final_metrics_file = os.path.join("results", f"final_metrics_{fecha_actual}.json
 print("📁 Arquivos criados para guardar dados do teste")
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_text_dataset.json"] # Dataset de teste MiniKGraph_teste.json
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_text_dataset_balanced_2908.json"] # Dataset de teste MiniKGraph_teste.json
 test_examples = dataset_miniKGraph
 print("✅ Successfully load Dataset miniKGraph for Evaluation")
 
 # 2) Funções auxiliares
 # Normaliza as respostas, removendo espaços extras e convertendo para minúsculas
 def normalize(text: str) -> str:
+    # Reemplazar saltos de línea y tabulaciones por espacio
+    text = text.replace("\n", " ").replace("\t", " ")
     # Eliminar acentos
     text = unicodedata.normalize('NFD', text)
     text = text.encode('ascii', 'ignore').decode('utf-8')
