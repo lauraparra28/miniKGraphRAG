@@ -94421,7 +94421,7 @@
     {
         "id": 4834,
         "level": 1,
-        "question": "O que é um(a) meta-arenito?",
+        "question": "O que é um(a) meta_arenito?",
         "answer": [
             [
                 "Meta-arenito é uma Rocha Metamórfica por origem que é originalmente um arenito, que mostra evidências de ter sido submetida a metamorfismo."
@@ -95686,7 +95686,7 @@
     {
         "id": 4949,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo metamórfica?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo metamórfica?",
         "answer": [
             [
                 "220"
@@ -95697,7 +95697,7 @@
     {
         "id": 4950,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcilutito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcilutito?",
         "answer": [
             [
                 "220"
@@ -95708,7 +95708,7 @@
     {
         "id": 4951,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo siltito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo siltito?",
         "answer": [
             [
                 "220"
@@ -95719,7 +95719,7 @@
     {
         "id": 4952,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo diamictito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo diamictito?",
         "answer": [
             [
                 "161"
@@ -95730,7 +95730,7 @@
     {
         "id": 4953,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo diabásio?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo diabásio?",
         "answer": [
             [
                 "220"
@@ -95741,7 +95741,7 @@
     {
         "id": 4954,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcarenito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcarenito?",
         "answer": [
             [
                 "220"
@@ -95752,7 +95752,7 @@
     {
         "id": 4955,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo folhelho?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo folhelho?",
         "answer": [
             [
                 "220"
@@ -95763,7 +95763,7 @@
     {
         "id": 4956,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo arenito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo arenito?",
         "answer": [
             [
                 "220"
@@ -95774,7 +95774,7 @@
     {
         "id": 4957,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo areia?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo areia?",
         "answer": [
             [
                 "220"
@@ -95785,7 +95785,7 @@
     {
         "id": 4958,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo gás não associado?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo gás não associado?",
         "answer": [
             [
                 "163"
@@ -95796,7 +95796,7 @@
     {
         "id": 4959,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo metassiltito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo metassiltito?",
         "answer": [
             [
                 "220"
@@ -95807,7 +95807,7 @@
     {
         "id": 4960,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo conglomerado?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo conglomerado?",
         "answer": [
             [
                 "220"
@@ -95818,7 +95818,7 @@
     {
         "id": 4961,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcário cristalino?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcário cristalino?",
         "answer": [
             [
                 "202"
@@ -95829,7 +95829,7 @@
     {
         "id": 4962,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo anidrita?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo anidrita?",
         "answer": [
             [
                 "207"
@@ -95840,7 +95840,7 @@
     {
         "id": 4963,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo marga?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo marga?",
         "answer": [
             [
                 "206"
@@ -95851,7 +95851,7 @@
     {
         "id": 4964,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcissiltito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcissiltito?",
         "answer": [
             [
                 "206"
@@ -95862,7 +95862,7 @@
     {
         "id": 4965,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo material geológico inconsolidado?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo material geológico inconsolidado?",
         "answer": [
             [
                 "199"
@@ -95873,7 +95873,7 @@
     {
         "id": 4966,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo halita?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo halita?",
         "answer": [
             [
                 "206"
@@ -95884,7 +95884,7 @@
     {
         "id": 4967,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo argila?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo argila?",
         "answer": [
             [
                 "220"
@@ -95895,7 +95895,7 @@
     {
         "id": 4968,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo brecha?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo brecha?",
         "answer": [
             [
                 "199"
@@ -95906,7 +95906,7 @@
     {
         "id": 4969,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo argilito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo argilito?",
         "answer": [
             [
                 "220"
@@ -95917,7 +95917,7 @@
     {
         "id": 4970,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo dolomito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo dolomito?",
         "answer": [
             [
                 "202"
@@ -95928,7 +95928,7 @@
     {
         "id": 4971,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo granito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo granito?",
         "answer": [
             [
                 "161"
@@ -95939,18 +95939,18 @@
     {
         "id": 4972,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo meta-arenito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo meta_arenito?",
         "answer": [
             [
                 "201"
             ]
         ],
-        "context": "Na bacia AMAZONAS, 201 poços atravessam unidades litoestratigráficas com rochas do tipo meta-arenito."
+        "context": "Na bacia AMAZONAS, 201 poços atravessam unidades litoestratigráficas com rochas do tipo meta_arenito."
     },
     {
         "id": 4973,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo carvão?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo carvão?",
         "answer": [
             [
                 "214"
@@ -95961,7 +95961,7 @@
     {
         "id": 4974,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo silexito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo silexito?",
         "answer": [
             [
                 "220"
@@ -95972,7 +95972,7 @@
     {
         "id": 4975,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo gipsita?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo gipsita?",
         "answer": [
             [
                 "194"
@@ -95983,7 +95983,7 @@
     {
         "id": 4976,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo taquidrita?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo taquidrita?",
         "answer": [
             [
                 "194"
@@ -95994,7 +95994,7 @@
     {
         "id": 4977,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo coquina?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo coquina?",
         "answer": [
             [
                 "194"
@@ -96005,7 +96005,7 @@
     {
         "id": 4978,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo filito?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo filito?",
         "answer": [
             [
                 "194"
@@ -96016,7 +96016,7 @@
     {
         "id": 4979,
         "level": 3,
-        "question": "Quantos poços da AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo silvinita?",
+        "question": "Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo silvinita?",
         "answer": [
             [
                 "194"
