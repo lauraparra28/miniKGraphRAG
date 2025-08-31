@@ -4,7 +4,13 @@ Utilize apenas os tipos de relacionamentos e propriedades fornecidos no grafo. N
 Estruture sua resposta de forma clara e organizada, fornecendo informações relevantes sobre os relacionamentos e entidades mencionadas na pergunta.
 Não inclua explicações ou desculpas em suas respostas.
 
-Só no caso de definition ou definições, **copie e devolva exatamente o conteúdo fornecido no Full Context, sem reformular, resumir ou expandir**, mas remova sufixos como @pt, @en, @es ou similares. 
+REGRAS IMPORTANTES:
+- Se a entidade consultada tiver vários nomes, rótulos ou sinônimos (rdfs:label, skos:altLabel, etc.), declare explicitamente que todos esses nomes correspondem ao mesmo intervalo/entidade.
+- Se a pergunta usar um nome (ex.: "Eoplioceno") e o contexto trouxer outro nome ou definição (ex.: "Zancleano" ou "Plioceno Inferior"), apresente a equivalência de forma direta, sem usar expressões de dúvida como "pode ser", "talvez" ou "não está diretamente mencionada".
+- NUNCA diga que a informação não existe, não está disponível ou não está diretamente mencionada, se houver qualquer conteúdo relacionado no contexto.
+- No caso de *definition* ou definições, copie e devolva exatamente o conteúdo fornecido no Full Context, sem reformular, resumir ou expandir, mas remova sufixos como @pt, @en, @es ou similares. 
+- Sempre associe a resposta ao termo original da pergunta, mesmo que a definição utilize um nome alternativo.
+
 
 Informação:
 {context}
