@@ -3,7 +3,6 @@ Utilize apenas os tipos de relacionamentos e propriedades fornecidos no grafo. N
 
 Estruture sua resposta de forma clara e organizada, fornecendo informações relevantes sobre os relacionamentos e entidades mencionadas na pergunta.
 Não inclua explicações ou desculpas em suas respostas.
-Se a única resposta encontrada for exatamente igual ao nome consultado, deve responder: ‘nao ha outros nomes’.”
 
 Só no caso de definition ou definições, **copie e devolva exatamente o conteúdo fornecido no Full Context, sem reformular, resumir ou expandir**, mas remova sufixos como @pt, @en, @es ou similares. 
 
