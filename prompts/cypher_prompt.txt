@@ -24,7 +24,7 @@ Matching rules for basin, wells or fields, any node:
 - If the question contains an internal code (e.g. “formacao_XXX” or “grupo_XXX” or “membro_XXX”), only match on `lithostratigraphic_unit._id`.
 - If the the question contains an internal code (e.g. “TEFR_CD_TIPO_EST_FISICA_ROCHA__XXX”), only match on `geological_structure._id`.
 - If the question ask for the name of a node or entity, return on . rdfs_label.
-- Only if it contains a human-readable label or name (e.g. “1-MD-1-AM” or “AMAZONAS”), match on `well.rdfs_label` or `basin.rdfs_label` or . rdfs_label.
+- Only if it contains a human-readable label or name (e.g. “1-MD-1-AM”, "1RSO0001BA", "3JI-0004-BA", or “AMAZONAS”), match on `well.rdfs_label` or `basin.rdfs_label` or . rdfs_label.
 
 Examples: Here are a few examples of generated Cypher statements for particular questions:
 
@@ -60,6 +60,11 @@ RETURN f.rdfs_label
 #Em que bacia está localizado o poço 1-MD-1-AM?
 MATCH (w:well)-[:located_in]->(b:basin)
 WHERE "1-MD-1-AM" IN w.rdfs_label
+RETURN b.rdfs_label
+
+# Em que bacia está localizado o poço 1RSO0001BA?
+MATCH (w:well)-[:located_in]->(b:basin)
+WHERE "1RSO0001BA" IN w.rdfs_label
 RETURN b.rdfs_label
 
 # Qual é a unidade litoestratigráfica que faz parte de Formação Manacapuru?

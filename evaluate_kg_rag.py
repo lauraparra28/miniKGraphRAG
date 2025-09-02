@@ -57,6 +57,7 @@ metrics = {
 open(output_file, "w", encoding="utf-8").close()
 
 for ex in tqdm(test_examples):
+    id = ex["id"]
     question       = ex["question"]
     golds   = flatten_answers(ex["answer"])
     out     = chain.invoke({"query": question})
@@ -65,7 +66,7 @@ for ex in tqdm(test_examples):
 
     print(f"✅ Question: {question}")
     print(f"✅ Golds: {golds}")
-    print(f"Pred: {pred}")
+    print(f"✅ Answer: {pred}")
     
     # Exact-Match: pred exatamente igual a um dos golds?
     normalized_pred = normalize(pred)
@@ -91,6 +92,7 @@ for ex in tqdm(test_examples):
 
     # Guarda resultado inmediatamente en JSONL
     result_data = {
+        "id": id,
         "question": question,
         "gold": golds,
         "pred": pred,
