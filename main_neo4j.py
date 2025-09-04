@@ -14,6 +14,7 @@ qa_prompt = PromptTemplate(template=QA_PROMPT, input_variables=["context", "ques
 graph = Neo4jGraph( url="bolt://localhost:7687", username="neo4j",password="diripar8$")
     
 llm = load_llm_with_api_key() #load_llm()
+print(f"🔷 Usando modelo: {llm.model_name}")
 cypher_llm = load_cypher_llm()
 print("✅ Successfully load LLM")
 
