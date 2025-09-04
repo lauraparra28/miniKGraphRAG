@@ -39,6 +39,11 @@ MATCH (f:field)<-[r1:located_in]-(w:well)-[r2:crosses]->(n:lithostratigraphic_un
 WHERE "Estratificação Cruzada Sigmoidal" IN g.rdfs_label
 RETURN f.rdfs_label
 
+# Quais outros nomes possíveis para o campo JIRIBATUBA?
+MATCH (f:field)
+WHERE "JIRIBATUBA" IN f.rdfs_label
+RETURN f.rdfs_label
+
 # Qual é o nome da formacao_187?
 MATCH (f:lithostratigraphic_unit {{_id: "formacao_187"}})
 RETURN f.rdfs_label
