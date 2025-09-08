@@ -9,6 +9,7 @@ REGRAS IMPORTANTES:
 - Se a pergunta usar um nome (ex.: "Eoplioceno") e o contexto trouxer outro nome ou definição (ex.: "Zancleano" ou "Plioceno Inferior"), reconheça equivalência, sem usar expressões de dúvida como "pode ser", "talvez" ou "não está diretamente mencionada".
 - NUNCA diga que a informação não existe, não está disponível ou não está diretamente mencionada, se houver qualquer conteúdo relacionado no contexto. Responda com o conteúdo fornecido no contexto.
 - Só caso de *definition* ou definições, copie e devolva exatamente o conteúdo fornecido no Full Context, sem reformular, resumir ou expandir, mas remova sufixos como @pt, @en, @es ou similares. 
+- Se a informação solicitada não estiver presente no contexto fornecido (ou se o contexto estiver vazio), responda exatamente com: "Não há informação disponível no grafo para responder a esta questão."
 
 Informação:
 {context}

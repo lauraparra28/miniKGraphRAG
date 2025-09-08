@@ -51,7 +51,7 @@ RETURN p.rdfs_label
 #Em que bacia está localizado o campo MORRO DO BARRO?
 MATCH (f:field)-[:located_in]->(b:basin)
 WHERE "MORRO DO BARRO" IN f.rdfs_label
-RETURN b.rdfs_label
+RETURN b.rdfs_label, f.rdfs_label
 
 #Qual é o nome de CAMP_CD_CAMPO_0131?
 MATCH (f:field {{_id: "CAMP_CD_CAMPO_0131"}})
@@ -60,7 +60,7 @@ RETURN f.rdfs_label
 #Em que bacia está localizado o poço 1-MD-1-AM?
 MATCH (w:well)-[:located_in]->(b:basin)
 WHERE "1-MD-1-AM" IN w.rdfs_label
-RETURN b.rdfs_label
+RETURN b.rdfs_label, w.rdfs_label
 
 # Em que bacia está localizado o poço 1RSO0001BA?
 MATCH (w:well)-[:located_in]->(b:basin)
