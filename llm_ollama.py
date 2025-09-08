@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-def load_llm_with_api_key(model_name="gpt-4o-mini"):
+def load_llm_with_api_key(model_name="gpt-4.1-mini-2025-04-14"): #gpt-4o-mini
     return ChatOpenAI(
         model_name=model_name,
         temperature=0.0,
