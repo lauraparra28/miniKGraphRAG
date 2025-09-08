@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-def load_llm_with_api_key(model_name="gpt-4.1-mini-2025-04-14"): #gpt-4o-mini
+def load_llm_with_api_key(model_name="gpt-4.1-2025-04-14"): #gpt-4o-mini
     return ChatOpenAI(
         model_name=model_name,
         temperature=0.0,
@@ -20,8 +20,17 @@ def load_llm(model_name="llama3:8b"): # MI PC: deepseek-r1:1.5b  qwen2.5:1.5b ge
         base_url="http://127.0.0.1:11434"
     )
     
-def load_cypher_llm(model_cypher="llama3:8b"): # MI PC: qwen2.5:1.5b funcionó para generación CYPHER
+def load_cypher_llm(model_cypher="gpt-4o-mini"): # MI PC: qwen2.5:1.5b funcionó para generación CYPHER
+    return ChatOpenAI(
+        model_name=model_cypher,
+        temperature=0.0,
+        openai_api_key=os.getenv("OPENAI_API_KEY")
+    )  
+
+def load_cypher_llm_ollama(model_cypher="llama3.2:3b"): # qwen2.5:1.5b  llama3:8b
     return OllamaLLM(
-        model=model_cypher, # Probar en el ICA con "ollama run codellama:7b # MUY PESADO"
-        temperature=0.0
+        model=model_cypher,
+        temperature=0.0,
+        max_tokens=128,
+        base_url="http://127.0.0.1:11434"
     )
