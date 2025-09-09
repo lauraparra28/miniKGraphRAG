@@ -8,7 +8,7 @@ import random
 g = rdflib.Graph()
 g.parse('miniOntoGeoLogicaInstanciasRelacoes_v2.owl', format='xml')
 G = nx.Graph()
-print("Successfully loaded Graph.")
+print("✅ Successfully loaded Graph.")
 
 for subj, pred, obj in g:
     G.add_edge(str(subj), str(obj), label=str(pred))
@@ -17,7 +17,8 @@ nodes_number = G.number_of_nodes()
 axis_number = G.number_of_edges()
 average_degree = axis_number*2/nodes_number
 density = nx.density(G)
-print(f'This graph has {nodes_number} nodes, {axis_number} axis, {density} density and {average_degree} average degree')
+print(f'This graph has {nodes_number} nodes, {axis_number} axis')
+print(f'Density:{density:.5f} and {average_degree:.3f} average degree')
 
 namespace_base = Namespace("http://www.semanticweb.org/bg40/ontologies/2022/5/untitled-ontology-2#")
 rdfs = Namespace("http://www.w3.org/2000/01/rdf-schema#")
@@ -162,23 +163,23 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
     for field_uri, info in fields.items():
         field_names = info["labels"]
         if field_names:
-            for idx, main_name in enumerate(field_names):
-                other_names = [n for i, n in enumerate(field_names) if i != idx]
-                id_counter += 1
-                if other_names:
-                    answer_text = [[name] for name in other_names]
-                    context_text = f"O campo {main_name} também é conhecido pelos seguintes nomes: {format_with_synonyms(other_names)}."
-                else:
-                    answer_text = [["Não há outros nomes."]]
-                    context_text = f"O campo {main_name} não possui outros nomes conhecidos além de {main_name}."
+            main_name = field_names[0]  # usa el primer label como principal
+            other_names = field_names[1:]  # los demás quedan como sinónimos
+            id_counter += 1
+            if other_names:
+                answer_text = [[name] for name in other_names]
+                context_text = f"O campo {main_name} também é conhecido pelos seguintes nomes: {format_with_synonyms(other_names)}."
+            else:
+                answer_text = [["Não há outros nomes."]]
+                context_text = f"O campo {main_name} não possui outros nomes conhecidos além de {main_name}."
 
-                questions.append({
+            questions.append({
                     "id": id_counter,
                     "level": 0,
                     "question": f"Quais outros nomes possíveis para o campo {main_name}?",
                     "answer": answer_text,
                     "context": context_text
-                })
+            })
 
 
 
@@ -278,23 +279,24 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
     for well_uri, info in wells.items():
         well_names = info["labels"]
         if well_names:
-            for idx, main_name in enumerate(well_names):
-                other_names = [n for i, n in enumerate(well_names) if i != idx]
-                id_counter += 1
-                if other_names:
-                    answer_text = [[name] for name in other_names]
-                    context_text = f"Além de {main_name}, o poço {well_uri} também é conhecido como {format_with_synonyms(other_names)}."
-                else:
-                    answer_text = [["Não há outros nomes."]]
-                    context_text = f"O poço {main_name} não possui outros nomes conhecidos além de {main_name}."
+            main_name = well_names[0]  # usa o primeiro label como principal
+            other_names = well_names[1:]  # os demais ficam como sinônimos
 
-                questions.append({
+            id_counter += 1
+            if other_names:
+                answer_text = [[name] for name in other_names]
+                context_text = f"Além de {main_name}, o poço {well_uri} também é conhecido como {format_with_synonyms(other_names)}."
+            else:
+                answer_text = [["Não há outros nomes."]]
+                context_text = f"O poço {main_name} não possui outros nomes conhecidos além de {main_name}."
+
+            questions.append({
                     "id": id_counter,
                     "level": 0,
                     "question": f"Quais outros nomes possíveis para o poço {main_name}?",
                     "answer": answer_text,
                     "context": context_text
-                })
+            })
                 
         # --- Bacias do poço (CORREGIDO) ---
         loc_uris = info["located_in"]
@@ -1088,13 +1090,15 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
 
 
 fields, basins, wells, formations = gen_info(g)
+
+print(f"✅ Generated info for {len(fields)} fields, {len(basins)} basins, {len(wells)} wells, {len(formations)} formations.")
 questions_balanced = gen_questions(fields, basins, wells, formations, g, random_sample=True)
 questions_unbalanced = gen_questions(fields, basins, wells, formations, g, random_sample=False)
 
-with open("MiniKGraph_text_dataset_balanced.json", "w", encoding='utf-8') as f:
+with open("MiniKGraph_text_dataset_balanced_0909.json", "w", encoding='utf-8') as f:
     json.dump(questions_balanced, f, ensure_ascii=False, indent=4)
 
-with open("MiniKGraph_text_dataset_unbalanced.json", "w", encoding='utf-8') as f:
+with open("MiniKGraph_text_dataset_unbalanced_0909.json", "w", encoding='utf-8') as f:
     json.dump(questions_unbalanced, f, ensure_ascii=False, indent=4)
 
 
