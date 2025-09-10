@@ -1,5 +1,205 @@
 [
     {
+        "id": 1,
+        "level": 0,
+        "question": "Quais outros nomes possíveis para o campo IGARAPÉ MARIPÁ?",
+        "answer": [
+            [
+                "JAPIIM"
+            ]
+        ],
+        "context": "O campo IGARAPÉ MARIPÁ também é conhecido pelos seguintes nomes: JAPIIM."
+    },
+    {
+        "id": 2,
+        "level": 1,
+        "question": "Em que bacia está localizado o campo IGARAPÉ MARIPÁ?",
+        "answer": [
+            [
+                "BACIA DE AMAZONAS",
+                "AMAZONAS"
+            ]
+        ],
+        "context": "O campo IGARAPÉ MARIPÁ está localizado na(s) bacia(s): BACIA DE AMAZONAS (AMAZONAS)."
+    },
+    {
+        "id": 3,
+        "level": 0,
+        "question": "Quais outros nomes possíveis para o campo AREA DO BAS-64?",
+        "answer": [
+            [
+                "ÁREA BAS-064"
+            ]
+        ],
+        "context": "O campo AREA DO BAS-64 também é conhecido pelos seguintes nomes: ÁREA BAS-064."
+    },
+    {
+        "id": 4,
+        "level": 1,
+        "question": "Em que bacia está localizado o campo AREA DO BAS-64?",
+        "answer": [
+            [
+                "CAMAMU TERRA",
+                "CAMAMU MAR",
+                "BACIA DE CAMAMU-ALMADA",
+                "ALMADA TERRA",
+                "ALMADA MAR",
+                "CAMAMU-ALMADA"
+            ]
+        ],
+        "context": "O campo AREA DO BAS-64 está localizado na(s) bacia(s): CAMAMU TERRA (CAMAMU MAR, BACIA DE CAMAMU-ALMADA, ALMADA TERRA, ALMADA MAR, CAMAMU-ALMADA)."
+    },
+    {
+        "id": 469,
+        "level": 2,
+        "question": "Que unidades litoestratigráficas o poço 1BAS4BA atravessa?",
+        "answer": [
+            [
+                "Gr. Almada",
+                "Grupo Almada"
+            ],
+            [
+                "Fm. Morro do Barro",
+                "Formação Morro do Barro"
+            ],
+            [
+                "Grupo Espírito Santo",
+                "Gr. Espírito Santo"
+            ]
+        ],
+        "context": "O poço 1BAS4BA atravessa: Gr. Almada (Grupo Almada), Fm. Morro do Barro (Formação Morro do Barro), Grupo Espírito Santo (Gr. Espírito Santo)."
+    },
+    {
+        "id": 861,
+        "level": 2,
+        "question": "Que unidades litoestratigráficas o poço 1-BAS-0077-BA atravessa?",
+        "answer": [
+            [
+                "Grupo Espírito Santo",
+                "Gr. Espírito Santo"
+            ],
+            [
+                "Gr. Brotas",
+                "Grupo Brotas"
+            ],
+            [
+                "Fm. Rio de Contas",
+                "Formação Rio de Contas"
+            ],
+            [
+                "Formação Sergi",
+                "Fm. Sergi"
+            ],
+            [
+                "Grupo Camamu",
+                "Gr. Camamu"
+            ],
+            [
+                "Fm. Itaípe",
+                "Formação Itaípe"
+            ],
+            [
+                "Formação Urucutuca",
+                "Fm. Urucutuca"
+            ],
+            [
+                "Formação Algodões",
+                "Fm. Algodões"
+            ],
+            [
+                "Gr. Almada",
+                "Grupo Almada"
+            ],
+            [
+                "Formação Taipus-Mirim",
+                "Fm. Taipus-Mirim"
+            ],
+            [
+                "Fm. Morro do Barro",
+                "Formação Morro do Barro"
+            ]
+        ],
+        "context": "O poço 1-BAS-0077-BA atravessa: Grupo Espírito Santo (Gr. Espírito Santo), Gr. Brotas (Grupo Brotas), Fm. Rio de Contas (Formação Rio de Contas), Formação Sergi (Fm. Sergi), Grupo Camamu (Gr. Camamu), Fm. Itaípe (Formação Itaípe), Formação Urucutuca (Fm. Urucutuca), Formação Algodões (Fm. Algodões), Gr. Almada (Grupo Almada), Formação Taipus-Mirim (Fm. Taipus-Mirim), Fm. Morro do Barro (Formação Morro do Barro)."
+    },
+    {
+        "id": 862,
+        "level": 0,
+        "question": "Quais outros nomes possíveis para o poço 1-BRSA-14?",
+        "answer": [
+            [
+                "BRSA-14-BAS"
+            ],
+            [
+                "BRSA-14"
+            ],
+            [
+                "1BAS128BA"
+            ],
+            [
+                "BAS-128"
+            ],
+            [
+                "1-BRSA-14-BAS"
+            ],
+            [
+                "1BAS128"
+            ],
+            [
+                "1-BAS-128"
+            ],
+            [
+                "1BAS0128BA"
+            ],
+            [
+                "1BAS-128-BA"
+            ],
+            [
+                "1BRSA14"
+            ],
+            [
+                "1BAS-0128-BA"
+            ],
+            [
+                "1BRSA14BAS"
+            ],
+            [
+                "1-BAS-128-BA"
+            ],
+            [
+                "1-BAS-0128-BA"
+            ]
+        ],
+        "context": "Além de 1-BRSA-14, o poço POCO_CD_POCO_005784 também é conhecido como BRSA-14-BAS (BRSA-14, 1BAS128BA, BAS-128, 1-BRSA-14-BAS, 1BAS128, 1-BAS-128, 1BAS0128BA, 1BAS-128-BA, 1BRSA14, 1BAS-0128-BA, 1BRSA14BAS, 1-BAS-128-BA, 1-BAS-0128-BA)."
+    },
+    {
+        "id": 863,
+        "level": 1,
+        "question": "Em que bacia está localizado o poço 1-BRSA-14?",
+        "answer": [
+            [
+                "ALMADA MAR",
+                "ALMADA TERRA",
+                "BACIA DE CAMAMU-ALMADA",
+                "CAMAMU MAR",
+                "CAMAMU TERRA",
+                "CAMAMU-ALMADA"
+            ]
+        ],
+        "context": "O poço 1-BRSA-14 está localizado na(s) bacia(s): ALMADA MAR (ALMADA TERRA, BACIA DE CAMAMU-ALMADA, CAMAMU MAR, CAMAMU TERRA, CAMAMU-ALMADA)."
+    },
+    {
+        "id": 864,
+        "level": 3,
+        "question": "Em que campo está localizado o poço 1-BRSA-14?",
+        "answer": [
+            [
+                "MANATI",
+                "ÁREA DO B128"
+            ]
+        ],
+        "context": "O poço 1-BRSA-14 está localizado no(s) campo(s): MANATI (ÁREA DO B128)."
+    },
+    {
         "id": 5005,
         "level": 1,
         "question": "Descreva a unidade cronoestratigráfica Aegeano.",
