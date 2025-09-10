@@ -1,0 +1,651 @@
+{
+    "id": 1,
+    "question": "Quais outros nomes possíveis para o campo IGARAPÉ MARIPÁ?",
+    "gold": [
+        "japiim"
+    ],
+    "pred": "os outros nomes possiveis para o campo igarape maripa sao japiim",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 3.7477767366779213
+}
+{
+    "id": 2,
+    "question": "Em que bacia está localizado o campo IGARAPÉ MARIPÁ?",
+    "gold": [
+        "bacia de amazonas",
+        "amazonas"
+    ],
+    "pred": "o campo igarape maripa esta localizado na bacia de amazonas tambem conhecida simplesmente como amazonas",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 9.78237574896145
+}
+{
+    "id": 3,
+    "question": "Quais outros nomes possíveis para o campo AREA DO BAS-64?",
+    "gold": [
+        "area bas064"
+    ],
+    "pred": "os outros nomes possiveis para o campo area do bas64 sao area bas064",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 6.178110636313396
+}
+{
+    "id": 4,
+    "question": "Em que bacia está localizado o campo AREA DO BAS-64?",
+    "gold": [
+        "camamu terra",
+        "camamu mar",
+        "bacia de camamualmada",
+        "almada terra",
+        "almada mar",
+        "camamualmada"
+    ],
+    "pred": "o campo area do bas64 esta localizado na bacia de camamualmada essa bacia e tambem conhecida por outros nomes como camamu mar camamu terra almada mar camamualmada e almada terra",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 7.517000197445844
+}
+{
+    "id": 5,
+    "question": "Quais outros nomes possíveis para o campo RIO UATUMA?",
+    "gold": [
+        "azulao",
+        "azulao"
+    ],
+    "pred": "os outros nomes possiveis para o campo rio uatuma sao azulao e azulao",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 3.0890553181566975
+}
+{
+    "id": 6,
+    "question": "Em que bacia está localizado o campo RIO UATUMA?",
+    "gold": [
+        "bacia de amazonas",
+        "amazonas"
+    ],
+    "pred": "o campo rio uatuma esta localizado na bacia de amazonas tambem conhecida simplesmente como amazonas",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 9.78237574896145
+}
+{
+    "id": 7,
+    "question": "Quais outros nomes possíveis para o campo ÁREA BAS-131?",
+    "gold": [
+        "camarao norte",
+        "camarao norte"
+    ],
+    "pred": "os outros nomes possiveis para o campo area bas131 sao camarao norte e camarao norte",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 5.255923420816887
+}
+{
+    "id": 8,
+    "question": "Em que bacia está localizado o campo ÁREA BAS-131?",
+    "gold": [
+        "camamu terra",
+        "camamu mar",
+        "bacia de camamualmada",
+        "almada terra",
+        "almada mar",
+        "camamualmada"
+    ],
+    "pred": "o campo area bas131 esta localizado na bacia de camamualmada",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 15.619699684601283
+}
+{
+    "id": 9,
+    "question": "Quais outros nomes possíveis para o campo MANATI?",
+    "gold": [
+        "area do b128"
+    ],
+    "pred": "os outros nomes possiveis para o campo manati sao area do b128",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 12.605968092174914
+}
+{
+    "id": 10,
+    "question": "Em que bacia está localizado o campo MANATI?",
+    "gold": [
+        "camamu terra",
+        "camamu mar",
+        "bacia de camamualmada",
+        "almada terra",
+        "almada mar",
+        "camamualmada"
+    ],
+    "pred": "o campo manati esta localizado na bacia de camamualmada",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 17.747405280050266
+}
+{
+    "id": 11,
+    "question": "Quais outros nomes possíveis para o campo SARDINHA?",
+    "gold": [
+        "area do b097"
+    ],
+    "pred": "os outros nomes possiveis para o campo sardinha sao area do b097",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 12.605968092174914
+}
+{
+    "id": 12,
+    "question": "Em que bacia está localizado o campo SARDINHA?",
+    "gold": [
+        "camamu terra",
+        "camamu mar",
+        "bacia de camamualmada",
+        "almada terra",
+        "almada mar",
+        "camamualmada"
+    ],
+    "pred": "o campo sardinha esta localizado na bacia de camamualmada essa bacia e tambem referida por outros nomes como camamu mar camamu terra almada mar camamualmada e almada terra",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 8.085298080223222
+}
+{
+    "id": 13,
+    "question": "Quais outros nomes possíveis para o campo JIRIBATUBA?",
+    "gold": [
+        "nao ha outros nomes"
+    ],
+    "pred": "os outros nomes possiveis para o campo jiribatuba sao os que estao associados ao rotulo fornecido que e jiribatuba nao ha informacoes adicionais sobre sinonimos ou variacoes desse nome no contexto apresentado portanto o unico nome identificado e jiribatuba",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 2.6678529804308106
+}
+{
+    "id": 14,
+    "question": "Em que bacia está localizado o campo JIRIBATUBA?",
+    "gold": [
+        "camamu terra",
+        "camamu mar",
+        "bacia de camamualmada",
+        "almada terra",
+        "almada mar",
+        "camamualmada"
+    ],
+    "pred": "o campo jiribatuba esta localizado na bacia de camamualmada essa bacia e tambem referida por outros nomes como camamu mar camamu terra almada mar e almada terra portanto jiribatuba pertence a essa bacia especifica",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 6.590656716747778
+}
+{
+    "id": 15,
+    "question": "Quais outros nomes possíveis para o campo MORRO DO BARRO?",
+    "gold": [
+        "nao ha outros nomes"
+    ],
+    "pred": "morro do barro e a unica denominacao disponivel no contexto fornecido nao ha outros nomes ou sinonimos associados a esta entidade",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 11.369306152454815
+}
+{
+    "id": 16,
+    "question": "Em que bacia está localizado o campo MORRO DO BARRO?",
+    "gold": [
+        "camamu terra",
+        "camamu mar",
+        "bacia de camamualmada",
+        "almada terra",
+        "almada mar",
+        "camamualmada"
+    ],
+    "pred": "o campo morro do barro esta localizado na bacia de camamualmada",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 13.950796967929138
+}
+{
+    "id": 17,
+    "question": "Quantos campos estão localizados na bacia Amazonas de URI BASE_CD_BACIA_030?",
+    "gold": [
+        "2"
+    ],
+    "pred": "na bacia amazonas conforme indicado estao localizados 2 campos",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 4.767707020457095
+}
+{
+    "id": 18,
+    "question": "Quantos campos estão localizados na bacia Camamu-Almada de URI BASE_CD_BACIA_266?",
+    "gold": [
+        "6"
+    ],
+    "pred": "na bacia camamualmada identificada pelo uri base_cd_bacia_266 estao localizados um total de 6 campos",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 1.9146030690102511
+}
+{
+    "id": 19,
+    "question": "Quais são os campos localizados na bacia Amazonas de URI BASE_CD_BACIA_030?",
+    "gold": [
+        "igarape maripa",
+        "rio uatuma"
+    ],
+    "pred": "os campos localizados na bacia amazonas de uri base_cd_bacia_030 sao japiim tambem conhecido como igarape maripa e azulao que pode ser referido como azulao ou rio uatuma",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 3.176605498590709
+}
+{
+    "id": 20,
+    "question": "Quais são os campos localizados na bacia Camamu-Almada de URI BASE_CD_BACIA_266?",
+    "gold": [
+        "area do bas64",
+        "area bas131",
+        "manati",
+        "sardinha",
+        "jiribatuba",
+        "morro do barro"
+    ],
+    "pred": "os campos localizados na bacia camamualmada de uri base_cd_bacia_266 sao os seguintes  1 morro do barro 2 area do b097 tambem conhecida como sardinha 3 area do bas64 ou area bas064 4 jiribatura 5 camarao norte tambem referido como camarao norte e area bas131 6 manati tambem conhecido como area do b128",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 4.451963616250483
+}
+{
+    "id": 21,
+    "question": "Quais outros nomes possíveis para o poço 3ELPS-0011-BAS?",
+    "gold": [
+        "3elps11",
+        "3elps0011bas",
+        "3elps11bas",
+        "3elps11",
+        "elps11",
+        "3elps11bas",
+        "3elps11bas",
+        "elps11bas",
+        "3elps0011bas"
+    ],
+    "pred": "os outros nomes possiveis para o poco 3elps0011bas incluem 3elps11bas 3elps0011bas 3elps0011bas 3elps11bas elps11bas 3elps11 3elps11bas e 3elps11",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 3.0372940354383413
+}
+{
+    "id": 22,
+    "question": "Em que bacia está localizado o poço 3ELPS-0011-BAS?",
+    "gold": [
+        "almada mar",
+        "almada terra",
+        "bacia de camamualmada",
+        "camamu mar",
+        "camamu terra",
+        "camamualmada"
+    ],
+    "pred": "o poco 3elps0011bas esta localizado na bacia de camamualmada que tambem e conhecida pelos nomes camamu mar camamu terra almada mar camamualmada e almada terra",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 9.119675426861832
+}
+{
+    "id": 23,
+    "question": "Que unidades litoestratigráficas o poço 3ELPS-0011-BAS atravessa?",
+    "gold": [
+        "fm morro do barro",
+        "formacao morro do barro",
+        "fm itaipe",
+        "formacao itaipe",
+        "formacao sergi",
+        "fm sergi"
+    ],
+    "pred": "o poco 3elps0011bas atravessa as seguintes unidades litoestratigraficas  1 formacao sergi fm sergi 2 formacao morro do barro fm morro do barro 3 formacao itaipe fm itaipe",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 16.805936904720333
+}
+{
+    "id": 24,
+    "question": "Quais outros nomes possíveis para o poço 9FZ-0023-AM?",
+    "gold": [
+        "9fz0023am",
+        "fz23",
+        "9fz0023am",
+        "9fz23am",
+        "9fz23am",
+        "fz23am",
+        "9fz23",
+        "9fz23",
+        "9fz23am"
+    ],
+    "pred": "os outros nomes possiveis para o poco 9fz0023am incluem 9fz23am 9fz23 9fz0023am 9fz23am 9fz23 fz23am e 9fz0023am",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 3.2342452920962157
+}
+{
+    "id": 25,
+    "question": "Em que bacia está localizado o poço 9FZ-0023-AM?",
+    "gold": [
+        "amazonas",
+        "bacia de amazonas"
+    ],
+    "pred": "o poco 9fz0023am esta localizado na bacia de amazonas que tambem e conhecida simplesmente como amazonas",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 9.103526405546068
+}
+{
+    "id": 26,
+    "question": "Que unidades litoestratigráficas o poço 9FZ-0023-AM atravessa?",
+    "gold": [
+        "formacao andira",
+        "fm andira",
+        "fm alter do chao",
+        "formacao alter do chao",
+        "fm nova olinda",
+        "formacao nova olinda"
+    ],
+    "pred": "o poco 9fz0023am atravessa as seguintes unidades litoestratigraficas  1 formacao nova olinda fm nova olinda 2 formacao alter do chao fm alter do chao 3 formacao andira fm andira",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 18.852104513558068
+}
+{
+    "id": 27,
+    "question": "Quais outros nomes possíveis para o poço 2-MSST-0001-AM?",
+    "gold": [
+        "msst1am",
+        "msst1",
+        "2msst1",
+        "2msst1am",
+        "2msst0001am",
+        "2msst1am",
+        "2msst1am",
+        "2msst0001am",
+        "2msst1"
+    ],
+    "pred": "os outros nomes possiveis para o poco 2msst0001am incluem 2msst0001am 2msst1am 2msst1am 2msst0001am 2msst1 msst1 e msst1am",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 3.4197980307804725
+}
+{
+    "id": 28,
+    "question": "Em que bacia está localizado o poço 2-MSST-0001-AM?",
+    "gold": [
+        "amazonas",
+        "bacia de amazonas"
+    ],
+    "pred": "o poco 2msst0001am esta localizado na bacia de amazonas que tambem e conhecida simplesmente como amazonas",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 9.103526405546068
+}
+{
+    "id": 29,
+    "question": "Que unidades litoestratigráficas o poço 2-MSST-0001-AM atravessa?",
+    "gold": [
+        "formacao andira",
+        "fm andira",
+        "fm jatapu",
+        "formacao jatapu",
+        "formacao oriximina",
+        "fm oriximina",
+        "fm pitinga",
+        "formacao pitinga",
+        "formacao erere",
+        "fm erere",
+        "fm alter do chao",
+        "formacao alter do chao",
+        "formacao itaituba",
+        "fm itaituba",
+        "fm monte alegre",
+        "formacao monte alegre",
+        "fm nova olinda",
+        "formacao nova olinda",
+        "fm barreirinha",
+        "formacao barreirinha",
+        "formacao manacapuru",
+        "fm manacapuru",
+        "fm curiri",
+        "formacao curiri",
+        "formacao nhamunda",
+        "fm nhamunda"
+    ],
+    "pred": "o poco 2msst0001am atravessa as seguintes unidades litoestratigraficas  1 formacao nova olinda fm nova olinda 2 formacao manacapuru fm manacapuru 3 formacao andira fm andira 4 formacao pitinga fm pitinga 5 formacao jatapu fm jatapu 6 formacao erere fm erere 7 formacao curiri fm curiri 8 formacao oriximina fm oriximina 9 formacao itaituba fm itaituba 10 formacao monte alegre fm monte alegre  essas formacoes representam as diferentes unidades litoestratigraficas que compoem a secao atravessada pelo poco mencionado",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 6.599269325534017
+}
+{
+    "id": 30,
+    "question": "Quais outros nomes possíveis para o poço 1UR1AM?",
+    "gold": [
+        "1ur0001am",
+        "ur1am",
+        "1ur0001am",
+        "1ur1",
+        "1ur1am",
+        "ur1",
+        "1ur0001am",
+        "1ur1am",
+        "1ur1"
+    ],
+    "pred": "os outros nomes possiveis para o poco 1ur1am incluem 1ur0001am 1ur0001am 1ur1 1ur1am 1ur0001am 1ur1 ur1 e ur1am",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 3.211547431691929
+}
+{
+    "id": 31,
+    "question": "Em que bacia está localizado o poço 1UR1AM?",
+    "gold": [
+        "amazonas",
+        "bacia de amazonas"
+    ],
+    "pred": "o poco 1ur1am esta localizado na bacia de amazonas que tambem e conhecida simplesmente como amazonas",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 9.103526405546068
+}
+{
+    "id": 32,
+    "question": "Que unidades litoestratigráficas o poço 1UR1AM atravessa?",
+    "gold": [
+        "fm pitinga",
+        "formacao pitinga",
+        "formacao erere",
+        "fm erere",
+        "fm alter do chao",
+        "formacao alter do chao",
+        "formacao itaituba",
+        "fm itaituba",
+        "fm monte alegre",
+        "formacao monte alegre",
+        "fm nova olinda",
+        "formacao nova olinda",
+        "fm barreirinha",
+        "formacao barreirinha",
+        "formacao manacapuru",
+        "fm manacapuru",
+        "formacao nhamunda",
+        "fm nhamunda",
+        "formacao maecuru",
+        "fm maecuru",
+        "fm curiri",
+        "formacao curiri",
+        "fm jatapu",
+        "formacao jatapu",
+        "formacao oriximina",
+        "fm oriximina"
+    ],
+    "pred": "o poco 1ur1am atravessa as seguintes unidades litoestratigraficas  1 formacao manacapuru fm manacapuru 2 formacao curiri fm curiri 3 formacao itaituba fm itaituba 4 formacao nova olinda fm nova olinda 5 formacao barreirinha fm barreirinha 6 formacao erere fm erere 7 formacao oriximina fm oriximina 8 formacao pitinga fm pitinga 9 formacao jatapu fm jatapu 10 formacao monte alegre fm monte alegre",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 8.235955310509395
+}
+{
+    "id": 33,
+    "question": "Quais outros nomes possíveis para o poço 9FZ18?",
+    "gold": [
+        "9fz0018am",
+        "9fz18",
+        "9fz0018am",
+        "9fz18am",
+        "9fz18am",
+        "9fz18am",
+        "fz18",
+        "fz18am",
+        "9fz0018am"
+    ],
+    "pred": "o poco 9fz18 possui os seguintes nomes possiveis fz18am 9fz18am 9fz0018am 9fz18am fz18 9fz18am 9fz0018am e 9fz0018am",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 3.4197980307804725
+}
+{
+    "id": 34,
+    "question": "Em que bacia está localizado o poço 9FZ18?",
+    "gold": [
+        "amazonas",
+        "bacia de amazonas"
+    ],
+    "pred": "o poco 9fz18 esta localizado na bacia de amazonas que tambem e conhecida simplesmente como amazonas",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 9.103526405546068
+}
+{
+    "id": 35,
+    "question": "Que unidades litoestratigráficas o poço 9FZ18 atravessa?",
+    "gold": [
+        "formacao andira",
+        "fm andira",
+        "fm alter do chao",
+        "formacao alter do chao",
+        "fm nova olinda",
+        "formacao nova olinda"
+    ],
+    "pred": "o poco 9fz18 atravessa as seguintes unidades litoestratigraficas  1 formacao alter do chao fm alter do chao 2 formacao nova olinda fm nova olinda 3 formacao andira fm andira",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 18.852104513558068
+}
+{
+    "id": 36,
+    "question": "Quais outros nomes possíveis para o poço 1-FZT-0001-BA?",
+    "gold": [
+        "fzt1",
+        "1fzt1ba",
+        "fzt1ba",
+        "1fzt1",
+        "1fzt1ba",
+        "1fzt0001ba",
+        "1fzt0001ba",
+        "1fzt1",
+        "1fzt1ba"
+    ],
+    "pred": "os outros nomes possiveis para o poco 1fzt0001ba incluem fzt1 1fzt1 1fzt0001ba 1fzt0001ba fzt1ba 1fzt1ba 1fzt1 1fzt1ba e 1fzt0001ba",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 3.0272532566104675
+}
+{
+    "id": 37,
+    "question": "Em que bacia está localizado o poço 1-FZT-0001-BA?",
+    "gold": [
+        "almada mar",
+        "almada terra",
+        "bacia de camamualmada",
+        "camamu mar",
+        "camamu terra",
+        "camamualmada"
+    ],
+    "pred": "o poco 1fzt0001ba esta localizado na bacia de camamualmada que tambem e conhecida pelos nomes camamu mar camamu terra almada mar e almada terra",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 9.525977696807738
+}
+{
+    "id": 38,
+    "question": "Que unidades litoestratigráficas o poço 1-FZT-0001-BA atravessa?",
+    "gold": [
+        "embasamento",
+        "gr almada",
+        "grupo almada",
+        "fm morro do barro",
+        "formacao morro do barro",
+        "gr brotas",
+        "grupo brotas",
+        "fm itaipe",
+        "formacao itaipe",
+        "formacao sergi",
+        "fm sergi"
+    ],
+    "pred": "o poco 1fzt0001ba atravessa as seguintes unidades litoestratigraficas  1 embasamento 2 grupo almada tambem conhecido como gr almada 3 formacao sergi referida como fm sergi 4 formacao itaipe denominada fm itaipe 5 formacao morro do barro identificada como fm morro do barro 6 grupo brotas tambem chamado de gr brotas",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 11.181553361211664
+}
+{
+    "id": 39,
+    "question": "Quais outros nomes possíveis para o poço 3-BRSA-599-BAS?",
+    "gold": [
+        "3brsa599dpbas",
+        "3brsa599dp",
+        "3mnt8dpbas",
+        "3mnt0008dpbas",
+        "mnt8dpbas",
+        "3brsa599dpbas",
+        "3mnt0008dpbas",
+        "mnt8dp",
+        "3mnt8bas",
+        "3mnt8dpbas",
+        "3mnt0008dpbas",
+        "3mnt8dpbas",
+        "3brsa599dp",
+        "brsa599dpbas",
+        "3mnt8dp",
+        "3mnt8dp",
+        "3mnt8dpbas",
+        "brsa599dp"
+    ],
+    "pred": "os outros nomes possiveis para o poco 3brsa599bas incluem 3mnt8dpbas 3brsa599dpbas 3mnt8bas 3mnt0008dpbas mnt8dp 3brsa599dpbas mnt8dpbas brsa599dpbas 3brsa599dp 3mnt8dp 3mnt8dpbas 3mnt8dpbas brsa599dp 3brsa599dp 3mnt8dp 3brsa599bas 3mnt0008dpbas 3mnt0008dpbas e 3mnt8dpbas",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 2.2881354051747342
+}
+{
+    "id": 40,
+    "question": "Em que bacia está localizado o poço 3-BRSA-599-BAS?",
+    "gold": [
+        "almada mar",
+        "almada terra",
+        "bacia de camamualmada",
+        "camamu mar",
+        "camamu terra",
+        "camamualmada"
+    ],
+    "pred": "o poco 3brsa599bas esta localizado na bacia de camamualmada que tambem e conhecida pelos nomes camamu mar camamu terra almada mar e almada terra",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 9.525977696807738
+}
+{
+    "id": 41,
+    "question": "Em que campo está localizado o poço 3-BRSA-599-BAS?",
+    "gold": [
+        "manati",
+        "area do b128"
+    ],
+    "pred": "o poco 3brsa599bas esta localizado na area denominada manati tambem referida como area do b128",
+    "exact_match": false,
+    "f1_score": 1.0,
+    "bleu_score": 10.511846841633776
+}

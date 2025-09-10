@@ -963,10 +963,19 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
     """
 
     results = graph.query(query_describe_rock)
+    results_list = list(results)
 
-    for row in results:
+    rock_data = {}
+
+    for row in results_list:
+        rock_uri = str(row.rock)
         rock_label = str(row.label_pt)
         rock_definition = str(row.definition_pt)
+
+        if rock_uri not in rock_data:
+            rock_data[rock_uri] = (rock_label, rock_definition)
+
+    for rock_uri, (rock_label, rock_definition) in rock_data.items():
 
         id_counter += 1
         questions.append({
@@ -1068,14 +1077,20 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
         FILTER(lang(?definition_pt) = "pt") .
     }
     """
-
-    results = graph.query(query_describe_chronounit)
+    results = graph.query(query_describe_chronounit) 
     results_list = list(results)
 
-    for i, row in enumerate(results_list, start=1):
-            
+    unit_to_data = {}
+
+    for row in results_list:
+        unit = str(row[0])
         label_pt = str(row[1])
-        definition_pt = str(row[2]) 
+        definition_pt = str(row[2])
+
+        if unit not in unit_to_data:
+            unit_to_data[unit] = (label_pt, definition_pt)
+
+    for unit, (label_pt, definition_pt) in unit_to_data.items():
 
         id_counter += 1
         questions.append({
@@ -1090,15 +1105,15 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
 
 
 fields, basins, wells, formations = gen_info(g)
-
+print("✅ Successfully loaded all graph components.")
 print(f"✅ Generated info for {len(fields)} fields, {len(basins)} basins, {len(wells)} wells, {len(formations)} formations.")
 questions_balanced = gen_questions(fields, basins, wells, formations, g, random_sample=True)
 questions_unbalanced = gen_questions(fields, basins, wells, formations, g, random_sample=False)
 
-with open("MiniKGraph_text_dataset_balanced_0909.json", "w", encoding='utf-8') as f:
+with open("MiniKGraph_text_dataset_balanced_1009.json", "w", encoding='utf-8') as f:
     json.dump(questions_balanced, f, ensure_ascii=False, indent=4)
 
-with open("MiniKGraph_text_dataset_unbalanced_0909.json", "w", encoding='utf-8') as f:
+with open("MiniKGraph_text_dataset_unbalanced_1009.json", "w", encoding='utf-8') as f:
     json.dump(questions_unbalanced, f, ensure_ascii=False, indent=4)
 
 
