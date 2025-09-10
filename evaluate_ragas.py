@@ -128,13 +128,59 @@ for ex in tqdm(dataset_miniKGraph):
     id = ex["id"]
     question       = ex["question"]
     golds = sorted(set(flatten_answers(ex["answer"])))   # dedupPara
+
+    references = golds[0] if golds else "" 
+
     out     = chain.invoke({"query": question})
     print("🛰️ Context Output del chain:")
     # Contexto
-    print(json.dumps(out["intermediate_steps"][1]["context"], indent=2, ensure_ascii=False))
     contexts = out["intermediate_steps"][1]["context"]
-    if isinstance(contexts, str):
-        contexts = [contexts]
+    # Procesa contextos a string
+    import json
+
+    def to_ctx_strings(ctx):
+        # SIEMPRE devolver List[str]
+        if ctx is None:
+            return []
+        if isinstance(ctx, str):
+            return [ctx]
+        if isinstance(ctx, list):
+            out = []
+            for item in ctx:
+                out.extend(to_ctx_strings(item))  # recursion: lista de cosas heterogéneas
+            # quita vacíos y dedup
+            out = [s for s in (x.strip() for x in out) if s]
+            return list(dict.fromkeys(out))
+        if isinstance(ctx, dict):
+            # intenta recoger valores "textuales"
+            parts = []
+            for v in ctx.values():
+                if isinstance(v, str):
+                    parts.append(v)
+                elif isinstance(v, list) and all(isinstance(x, str) for x in v):
+                    parts.extend(v)
+            if parts:
+                return ["; ".join(p for p in parts if p)]
+            # último recurso: volcar el dict como json
+            return [json.dumps(ctx, ensure_ascii=False)]
+        # último recurso para tipos raros
+        return [str(ctx)]
+
+    def to_ctx_strings_pretty(ctx):
+        # Caso conocido de KG: [{"f.rdfs_label": ["JAPIIM", "IGARAPÉ MARIPÁ"]}, ...]
+        if isinstance(ctx, list) and ctx and isinstance(ctx[0], dict) and "f.rdfs_label" in ctx[0]:
+            # une todos los labels de todos los items, dedup y ordena para que quede natural
+            labels = []
+            for d in ctx:
+                labels.extend(d.get("f.rdfs_label", []) or [])
+            labels = sorted(set(x for x in labels if isinstance(x, str) and x.strip()))
+            return ["; ".join(labels)] if labels else []
+        # Para todo lo demás, fallback genérico
+        return to_ctx_strings(ctx)
+
+
+    contexts = to_ctx_strings_pretty(contexts)
+    print(f"✅ Contexts: {contexts}")
     # Normaliza a resposta do modelo
     pred    = normalize(out["result"]) 
 
@@ -159,7 +205,7 @@ for ex in tqdm(dataset_miniKGraph):
     metrics["answer_F1"].append(best_f1)
 
     # BLEU (corpus-bleu por sentença)
-    bleu = sacrebleu.corpus_bleu(pred, golds)
+    bleu = sacrebleu.sentence_bleu(pred, golds)
     metrics["answer_bleu"].append(bleu.score)
 
     # ROUGE-L
@@ -173,10 +219,11 @@ for ex in tqdm(dataset_miniKGraph):
         "question": [question],
         "contexts": [contexts],
         "answer": [pred],
-        "ground_truth": [golds],
+        "ground_truth": [references],
     })
 
     # Métricas de RAGAS
+    ragas_results = []
     result_RAGAS = evaluate(ragas_data,
         metrics=[faithfulness, context_recall, context_precision]
     )
@@ -191,8 +238,12 @@ for ex in tqdm(dataset_miniKGraph):
         "exact_match": exact_match,
         "f1_score": best_f1,
         "bleu_score": bleu.score,
-        "rouge_l": rouge_l,
-        "ragas": result_RAGAS.to_dict()
+        "rouge_l": best_rouge,
+        "ragas": {
+            "faithfulness": result_RAGAS["faithfulness"],
+            "context_recall": result_RAGAS["context_recall"],
+            "context_precision": result_RAGAS["context_precision"]
+        }
     }
     with open(output_file, "a", encoding="utf-8") as f:
         f.write(json.dumps(result_data, indent=4, ensure_ascii=False) + "\n")
@@ -200,12 +251,12 @@ for ex in tqdm(dataset_miniKGraph):
 # 4) Agrega resultados
 n = len(dataset_miniKGraph)
 em_score = metrics['answer_em']/n
-f1_score_avg = sum(metrics['answer_f1'])/n
+f1_score_avg = sum(metrics['answer_F1'])/n
 bleu_score_avg = sum(metrics['answer_bleu'])/n
 rouge_l_avg = sum(metrics['answer_Rouge/L'])/n
 
 final_ragas = {}
-for m in ["context_relevancy", "faithfulness", "answer_relevancy", "context_recall"]:
+for m in ["faithfulness", "context_precision", "context_recall"]:
     final_ragas[m] = sum(r[m] for r in ragas_results) / len(ragas_results)
 
 # Imprime métricas finales de RAGAS

@@ -23,17 +23,6 @@
         "context": "O campo IGARAPÉ MARIPÁ está localizado na(s) bacia(s): BACIA DE AMAZONAS (AMAZONAS)."
     },
     {
-        "id": 3,
-        "level": 0,
-        "question": "Quais outros nomes possíveis para o campo AREA DO BAS-64?",
-        "answer": [
-            [
-                "ÁREA BAS-064"
-            ]
-        ],
-        "context": "O campo AREA DO BAS-64 também é conhecido pelos seguintes nomes: ÁREA BAS-064."
-    },
-    {
         "id": 4,
         "level": 1,
         "question": "Em que bacia está localizado o campo AREA DO BAS-64?",
@@ -122,56 +111,6 @@
         "context": "O poço 1-BAS-0077-BA atravessa: Grupo Espírito Santo (Gr. Espírito Santo), Gr. Brotas (Grupo Brotas), Fm. Rio de Contas (Formação Rio de Contas), Formação Sergi (Fm. Sergi), Grupo Camamu (Gr. Camamu), Fm. Itaípe (Formação Itaípe), Formação Urucutuca (Fm. Urucutuca), Formação Algodões (Fm. Algodões), Gr. Almada (Grupo Almada), Formação Taipus-Mirim (Fm. Taipus-Mirim), Fm. Morro do Barro (Formação Morro do Barro)."
     },
     {
-        "id": 862,
-        "level": 0,
-        "question": "Quais outros nomes possíveis para o poço 1-BRSA-14?",
-        "answer": [
-            [
-                "BRSA-14-BAS"
-            ],
-            [
-                "BRSA-14"
-            ],
-            [
-                "1BAS128BA"
-            ],
-            [
-                "BAS-128"
-            ],
-            [
-                "1-BRSA-14-BAS"
-            ],
-            [
-                "1BAS128"
-            ],
-            [
-                "1-BAS-128"
-            ],
-            [
-                "1BAS0128BA"
-            ],
-            [
-                "1BAS-128-BA"
-            ],
-            [
-                "1BRSA14"
-            ],
-            [
-                "1BAS-0128-BA"
-            ],
-            [
-                "1BRSA14BAS"
-            ],
-            [
-                "1-BAS-128-BA"
-            ],
-            [
-                "1-BAS-0128-BA"
-            ]
-        ],
-        "context": "Além de 1-BRSA-14, o poço POCO_CD_POCO_005784 também é conhecido como BRSA-14-BAS (BRSA-14, 1BAS128BA, BAS-128, 1-BRSA-14-BAS, 1BAS128, 1-BAS-128, 1BAS0128BA, 1BAS-128-BA, 1BRSA14, 1BAS-0128-BA, 1BRSA14BAS, 1-BAS-128-BA, 1-BAS-0128-BA)."
-    },
-    {
         "id": 863,
         "level": 1,
         "question": "Em que bacia está localizado o poço 1-BRSA-14?",
@@ -232,18 +171,7 @@
         ],
         "context": "O Paibiano é uma IDADE GEOCRONOLÓGICA que TEM INÍCIO na Base do Furongiano, tendo portanto um LIMITE MAIS ANTIGO de aproximadamente 497 milhões de anos atrás, e TEM FIM na Base do Jiangshaniano, tendo um LIMITE MAIS RECENTE de aproximadamente 494 milhões de anos atrás.\nA Idade do Paibiano é um INTERVALO INTERIOR ao Furongiano, que ENCONTRA o Jiangshaniano e É ENCONTRADO pelo Guzhangiano e o Miaolingiano. O Furongiano INICIA-SE COM o Paibiano."
     },
-    {
-        "id": 5476,
-        "level": 1,
-        "question": "Descreva a unidade cronoestratigráfica Paibiano.",
-        "answer": [
-            [
-                "O Paibiano é uma IDADE GEOCRONOLÓGICA que TEM INÍCIO na Base do Furongiano, tendo portanto um LIMITE MAIS ANTIGO de aproximadamente 497 milhões de anos atrás, e TEM FIM na Base do Jiangshaniano, tendo um LIMITE MAIS RECENTE de aproximadamente 494 milhões de anos atrás.\nA Idade do Paibiano é um INTERVALO INTERIOR ao Furongiano, que ENCONTRA o Jiangshaniano e É ENCONTRADO pelo Guzhangiano e o Miaolingiano. O Furongiano INICIA-SE COM o Paibiano."
-            ]
-        ],
-        "context": "O Paibiano é uma IDADE GEOCRONOLÓGICA que TEM INÍCIO na Base do Furongiano, tendo portanto um LIMITE MAIS ANTIGO de aproximadamente 497 milhões de anos atrás, e TEM FIM na Base do Jiangshaniano, tendo um LIMITE MAIS RECENTE de aproximadamente 494 milhões de anos atrás.\nA Idade do Paibiano é um INTERVALO INTERIOR ao Furongiano, que ENCONTRA o Jiangshaniano e É ENCONTRADO pelo Guzhangiano e o Miaolingiano. O Furongiano INICIA-SE COM o Paibiano."
-    },
-    {
+        {
         "id": 6567,
         "level": 2,
         "question": "Que unidades litoestratigráficas o poço POCO_CD_POCO_022802 atravessa que são constituídas por material do tipo mudstone?",
@@ -284,18 +212,7 @@
         ],
         "context": "As unidades litoestratigráficas que apresentam a estrutura geológica Raiz estão nos seguintes campos: Igarapé Maripá, ou Azulao."
     },
-    {
-        "id": 5489,
-        "level": 1,
-        "question": "Descreva a unidade cronoestratigráfica Subidade Pelsoniana.",
-        "answer": [
-            [
-                "O Pelsoniano é uma SUB-IDADE GEOCRONOLÓGICA que é um INTERVALO DURANTE e DENTRO do Anisiano. O Pelsoniano ENCONTRA o Ilírico e é ENCONTRADO pelo Bitínico."
-            ]
-        ],
-        "context": "O Pelsoniano é uma SUB-IDADE GEOCRONOLÓGICA que é um INTERVALO DURANTE e DENTRO do Anisiano. O Pelsoniano ENCONTRA o Ilírico e é ENCONTRADO pelo Bitínico."
-    },
-    {
+        {
         "id": 4735,
         "level": 1,
         "question": "O que é um(a) basanito?",
@@ -305,17 +222,6 @@
             ]
         ],
         "context": "Basanito é uma Rocha Vulcânica contendo plagioclásio sódico, clinopiroxênio, foides essenciais e olivina."
-    },
-    {
-        "id": 4736,
-        "level": 1,
-        "question": "O que é um(a) bindstone?",
-        "answer": [
-            [
-                "Bindstone é uma Rocha Carbonática cujos componentes originais foram ligados durante a deposição, contendo organismos que incrustam e ligam."
-            ]
-        ],
-        "context": "Bindstone é uma Rocha Carbonática cujos componentes originais foram ligados durante a deposição, contendo organismos que incrustam e ligam."
     },
     {
         "id": 4741,
