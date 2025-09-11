@@ -1,0 +1,621 @@
+{
+    "id": 1481,
+    "question": "O que é um(a) aglomerado?",
+    "gold": [
+        "aglomerado vulcanico e uma rocha piroclastica composta por mais de 75 de bombas vulcanicas diametro maior que 64 mm que foi pelo menos parcialmente derretida durante a formacao ou transporte"
+    ],
+    "pred": "conglomerado tambem conhecido como psefito ou rudito e uma rocha siliciclastica que contem mais de 50 de fragmentos minerais e rochosos arredondados com um tamanho medio de grao maior que 2mm sendo o equivalente consolidado de cascalho",
+    "exact_match": false,
+    "f1_score": 0.29850746268656714,
+    "bleu_score": 5.959978627465528,
+    "rouge_l": 0.23880597014925373,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            0.0
+        ],
+        "context_precision": [
+            0.0
+        ]
+    }
+}
+{
+    "id": 1482,
+    "question": "O que é um(a) anfibolito?",
+    "gold": [
+        "anfibolito e uma rocha metamorfica gnaissica ou granofelsica por composicao que consiste principalmente em anfibolio verde marrom ou preto e plagioclasio incluindo albita que combinados formam mais de 75 da rocha e ambos estao presentes como constituintes principais"
+    ],
+    "pred": "anfibolito e uma rocha metamorfica gnaissica ou granofelsica por composicao que consiste principalmente em anfibolio verde marrom ou preto e plagioclasio incluindo albita que combinados formam mais de 75 da rocha e ambos estao presentes como constituintes principais",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1483,
+    "question": "O que é um(a) anatexito?",
+    "gold": [
+        "anatexito e uma rocha migmatica de silicato composto que e amplamente heterogenea em uma escala meso a megascopica"
+    ],
+    "pred": "anatexito e uma rocha migmatica de silicato composto que e amplamente heterogenea em uma escala meso a megascopica",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1484,
+    "question": "O que é um(a) andesito?",
+    "gold": [
+        "andesito e uma rocha andesitica que e uma rocha vulcanica intermediaria composta essencialmente por plagioclasio frequentemente zoneado de labradorita a oligoclasio piroxenio hornblenda eou biotita"
+    ],
+    "pred": "andesito e uma rocha andesitica que e uma rocha vulcanica intermediaria composta essencialmente por plagioclasio frequentemente zoneado de labradorita a oligoclasio piroxenio hornblenda eou biotita",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1485,
+    "question": "O que é um(a) andesitóide?",
+    "gold": [
+        "rocha andesitica ou andesitoide e uma rocha vulcanica que corresponde a classificacao qapf para rochas vulcanicas identificadas como andesito"
+    ],
+    "pred": "rocha andesitica ou andesitoide e uma rocha vulcanica que corresponde a classificacao qapf para rochas vulcanicas identificadas como andesito",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1486,
+    "question": "O que é um(a) anidrita?",
+    "gold": [
+        "anidrita e um evaporito composto de mais de 50 de anidrita caso4 frequentemente associado a gesso e halita formando espessas camadas intercaladas com calcario e xisto"
+    ],
+    "pred": "anidrita e um evaporito composto de mais de 50 de anidrita caso4 frequentemente associado a gesso e halita formando espessas camadas intercaladas com calcario e xisto",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1487,
+    "question": "O que é um(a) anortosito?",
+    "gold": [
+        "anortosito e uma rocha plutonica leucocratica constituida essencialmente por plagioclasio calcico muitas vezes com pequenas quantidades de piroxenio"
+    ],
+    "pred": "anortosito e uma rocha plutonica leucocratica constituida essencialmente por plagioclasio calcico muitas vezes com pequenas quantidades de piroxenio",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1488,
+    "question": "O que é um(a) rocha anortosítica?",
+    "gold": [
+        "rocha anortositica e uma rocha plutonica que corresponde a classificacao qapf para rochas plutonicas identificadas como anortosito"
+    ],
+    "pred": "anortosito e uma rocha plutonica leucocratica constituida essencialmente por plagioclasio calcico muitas vezes com pequenas quantidades de piroxenio",
+    "exact_match": false,
+    "f1_score": 0.28571428571428575,
+    "bleu_score": 14.216645907653843,
+    "rouge_l": 0.22857142857142856,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            0.5
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1489,
+    "question": "O que é um(a) antracito?",
+    "gold": [
+        "antracito e o carvao de classificacao mais alta muito duro brilhante preto com brilho semimetalico e fratura semiconcoidal tem um teor fixo de carbono superior a 91 em base seca e isenta de materia mineral"
+    ],
+    "pred": "antracito e o carvao de classificacao mais alta caracterizado por ser muito duro brilhante de cor preta com brilho semimetalico e fratura semiconcoidal possui um teor fixo de carbono superior a 91 em base seca e e isento de materia mineral",
+    "exact_match": false,
+    "f1_score": 0.8421052631578947,
+    "bleu_score": 60.38420087906411,
+    "rouge_l": 0.8421052631578947,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1490,
+    "question": "O que é um(a) aplito?",
+    "gold": [
+        "aplito e uma rocha hipabissal de cor clara leucocratica caracterizada por uma textura granular alotriomorfica de grao fino geralmente com uma composicao granitica consistindo de quartzo feldspato alcalino e plagioclasio sodico"
+    ],
+    "pred": "aplito e uma rocha hipabissal de cor clara leucocratica caracterizada por uma textura granular alotriomorfica de grao fino geralmente com uma composicao granitica consistindo de quartzo feldspato alcalino e plagioclasio sodico",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1491,
+    "question": "O que é um(a) arcóseo?",
+    "gold": [
+        "arcosio ou arcoseo e um arenito com mais de 25 de feldspato e quartzo como principais constituintes tambem pode conter fragmentos liticos feldspato alcalino domina o feldspato total a maioria dos arcosios e derivada de granitos ou gnaisses"
+    ],
+    "pred": "arcosio ou arcoseo e um arenito com mais de 25 de feldspato sendo o quartzo um de seus principais constituintes alem disso pode conter fragmentos liticos o feldspato alcalino domina o total de feldspato presente a maioria dos arcosios e derivada de granitos ou gnaisses",
+    "exact_match": false,
+    "f1_score": 0.8433734939759038,
+    "bleu_score": 57.39639045571667,
+    "rouge_l": 0.8192771084337349,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1492,
+    "question": "O que é um(a) argilito?",
+    "gold": [
+        "argilito e uma rocha siliciclastica composta de particulas de argila compactadas"
+    ],
+    "pred": "argilito e uma rocha siliciclastica composta de particulas de argila compactadas",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1493,
+    "question": "O que é um(a) autobrecha?",
+    "gold": [
+        "autobrecha e uma rocha vulcanoclastica primaria gerada pela fragmentacao nao explosiva in situ de lava ou magma"
+    ],
+    "pred": "autobrecha e uma rocha vulcanoclastica primaria gerada pela fragmentacao nao explosiva in situ de lava ou magma",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1494,
+    "question": "O que é um(a) bafflestone?",
+    "gold": [
+        "bafflestone e uma rocha carbonatica cujos componentes originais foram ligados durante a deposicao contendo organismos que atuam como obstaculos"
+    ],
+    "pred": "bafflestone e uma rocha carbonatica cujos componentes originais foram ligados durante a deposicao contendo organismos que atuam como obstaculos",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1495,
+    "question": "O que é um(a) basalto?",
+    "gold": [
+        "basalto e uma rocha vulcanica composta essencialmente de plagioclasio calcico e piroxenio olivina foides menores e quartzo tambem podem estar presentes"
+    ],
+    "pred": "basalto e uma rocha vulcanica composta essencialmente de plagioclasio calcico e piroxenio olivina foides menores e quartzo tambem podem estar presentes",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1496,
+    "question": "O que é um(a) basaltóide?",
+    "gold": [
+        "rocha basaltica ou basaltoide e uma rocha vulcanica que corresponde a classificacao qapf para rochas vulcanicas identificadas como basalto"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "exact_match": false,
+    "f1_score": 0.13333333333333333,
+    "bleu_score": 2.153677533892338,
+    "rouge_l": 0.06666666666666667,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1497,
+    "question": "O que é um(a) basanito?",
+    "gold": [
+        "basanito e uma rocha vulcanica contendo plagioclasio sodico clinopiroxenio foides essenciais e olivina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "exact_match": false,
+    "f1_score": 0.0,
+    "bleu_score": 0.0,
+    "rouge_l": 0.0,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.0
+        ]
+    }
+}
+{
+    "id": 1498,
+    "question": "O que é um(a) bindstone?",
+    "gold": [
+        "bindstone e uma rocha carbonatica cujos componentes originais foram ligados durante a deposicao contendo organismos que incrustam e ligam"
+    ],
+    "pred": "bindstone e uma rocha carbonatica cujos componentes originais foram ligados durante a deposicao contendo organismos que incrustam e ligam",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            0.6666666666666666
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1499,
+    "question": "O que é um(a) bioacumulado?",
+    "gold": [
+        "bioacumulado e uma rocha carbonatica constituida pelo dominio de um tipo de organismo sem retrabalho in situ e tamanho de grao equivalente a areia ou maior"
+    ],
+    "pred": "bioacumulado e uma rocha carbonatica constituida pelo dominio de um tipo de organismo sem retrabalho in situ e tamanho de grao equivalente a areia ou maior",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1500,
+    "question": "O que é um(a) biolitito?",
+    "gold": [
+        "biolitito e uma rocha carbonatica que e constituida por massas recifais ou estruturas organicas desenvolvidas in situ"
+    ],
+    "pred": "biolitito e uma rocha carbonatica que e constituida por massas recifais ou estruturas organicas desenvolvidas in situ",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1501,
+    "question": "O que é um(a) xisto betuminoso?",
+    "gold": [
+        "xisto betuminoso e uma rocha siliciclastica de grao fino rica em materia organica contendo querogenio uma mistura solida de compostos quimicos organicos a partir da qual podem ser produzidos hidrocarbonetos liquidos"
+    ],
+    "pred": "xisto betuminoso e uma rocha siliciclastica de grao fino rica em materia organica contendo querogenio que e uma mistura solida de compostos quimicos organicos a partir do xisto betuminoso podem ser produzidos hidrocarbonetos liquidos",
+    "exact_match": false,
+    "f1_score": 0.8923076923076922,
+    "bleu_score": 74.71471808780879,
+    "rouge_l": 0.8923076923076922,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1502,
+    "question": "O que é um(a) xisto azul?",
+    "gold": [
+        "xisto azul e uma rocha metamorfica de alta pressao xisto com uma cor azulada devido a presenca de anfiboles sodicos por exemplo glaucofana crossita e lawsonita"
+    ],
+    "pred": "xisto azul e uma rocha metamorfica de alta pressao classificada como xisto que se caracteriza por sua coloracao azulada essa coloracao e atribuida a presenca de anfiboles sodicos como a glaucofana e a crossita alem da lawsonita",
+    "exact_match": false,
+    "f1_score": 0.6666666666666666,
+    "bleu_score": 33.58225348110519,
+    "rouge_l": 0.6031746031746031,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1503,
+    "question": "O que é um(a) boundstone?",
+    "gold": [
+        "boundstone e uma rocha carbonatica cujos componentes originais foram ligados durante a deposicao contendo organismos que constroem uma estrutura rigida"
+    ],
+    "pred": "boundstone e uma rocha carbonatica cujos componentes originais foram ligados durante a deposicao contendo organismos que constroem uma estrutura rigida",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            0.6666666666666666
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1504,
+    "question": "O que é um(a) brecha?",
+    "gold": [
+        "brecha e uma rocha fragmentaria com fragmentos frequentemente angulares de varios tamanhos que predominam sobre a matriz mais fina que pode ter multiplas origens como vulcanica plutonica tectonica sedimentar ou causada por impacto de meteorito"
+    ],
+    "pred": "brecha e uma rocha fragmentaria com fragmentos frequentemente angulares de varios tamanhos que predominam sobre a matriz mais fina essa rocha pode ter multiplas origens incluindo vulcanica plutonica tectonica sedimentar ou causada por impacto de meteorito",
+    "exact_match": false,
+    "f1_score": 0.9295774647887323,
+    "bleu_score": 82.07515273873132,
+    "rouge_l": 0.9295774647887323,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1505,
+    "question": "O que é um(a) rocha calciossilicática?",
+    "gold": [
+        "rocha calciossilicatica e uma rocha metacarbonatica que e principalmente composta de minerais calcsilicaticos contendo menos de 5 em volume de minerais carbonaticos calcita eou aragonita eou dolomita"
+    ],
+    "pred": "rocha calciossilicatica e uma rocha metacarbonatica que e principalmente composta de minerais calcsilicaticos contendo menos de 5 em volume de minerais carbonaticos calcita eou aragonita eou dolomita",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1506,
+    "question": "O que é um(a) calcarenito?",
+    "gold": [
+        "calciarenito ou calcarenito e uma rocha carbonatica que consiste predominantemente mais de 50 de particulas de calcita detritica arredondadas biogeneticas ou nao biogeneticas entre 0063mm e 2mm os intersticios sao preenchidos com lama carbonatica ou cimento"
+    ],
+    "pred": "calciarenito ou calcarenito e uma rocha carbonatica que consiste predominantemente mais de 50 de particulas de calcita detritica arredondadas que podem ser biogeneticas ou nao biogeneticas com tamanhos variando entre 0063 mm e 2 mm os intersticios dessa rocha sao preenchidos com lama carbonatica ou cimento",
+    "exact_match": false,
+    "f1_score": 0.8292682926829269,
+    "bleu_score": 59.16215730242419,
+    "rouge_l": 0.8292682926829269,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 1507,
+    "question": "O que é um(a) calcirudito?",
+    "gold": [
+        "calcirudito e uma rocha carbonatica que consiste predominantemente mais de 50 de particulas de calcita detritica arredondadas biogeneticas ou nao biogeneticas maiores que 2mm os intersticios sao preenchidos com lama carbonatica ou cimento"
+    ],
+    "pred": "calcirudito e uma rocha carbonatica que consiste predominantemente mais de 50 de particulas de calcita detritica arredondadas sejam elas biogeneticas ou nao biogeneticas com tamanhos superiores a 2 mm os intersticios dessa rocha sao preenchidos com lama carbonatica ou cimento",
+    "exact_match": false,
+    "f1_score": 0.821917808219178,
+    "bleu_score": 62.09265660913771,
+    "rouge_l": 0.821917808219178,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
