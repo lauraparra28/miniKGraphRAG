@@ -17,12 +17,12 @@ from ragas import evaluate
 
 # Generar nombre de archivo con fecha actual
 fecha_actual = datetime.now().strftime("%d_%m_%Y")
-output_file = os.path.join("results", f"evaluation_results_{fecha_actual}.jsonl")
-final_metrics_file = os.path.join("results", f"final_metrics_{fecha_actual}.json")
+output_file = os.path.join("results", f"Definition_evaluation_results_{fecha_actual}.jsonl")
+final_metrics_file = os.path.join("results", f"Definition_final_metrics_{fecha_actual}.json")
 print("📁 Arquivos criados para guardar dados do teste")
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste.json"] # xt_dataset_balanced_1009 Dataset de teste MiniKGraph_teste.json
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_text_dataset_definition.json"] # xt_dataset_balanced_1009 Dataset de teste MiniKGraph_teste.json
 print("✅ Successfully load Dataset miniKGraph for Evaluation")
 
 # 2) Funções auxiliares
@@ -124,6 +124,14 @@ metrics = {
 # Limpia archivo si ya existía
 open(output_file, "w", encoding="utf-8").close()
 
+ragas_results = {
+    "faithfulness": [],
+    "context_recall": [],
+    "context_precision": []
+}
+
+ragas_results_ = []
+
 for ex in tqdm(dataset_miniKGraph):
     id = ex["id"]
     question       = ex["question"]
@@ -223,11 +231,32 @@ for ex in tqdm(dataset_miniKGraph):
     })
 
     # Métricas de RAGAS
-    ragas_results = []
+    
     result_RAGAS = evaluate(ragas_data,
         metrics=[faithfulness, context_recall, context_precision]
     )
-    ragas_results.append(result_RAGAS)
+    # ragas_results_.append(result_RAGAS)
+
+    # print(f"✅ RAGAS Metrics: {result_RAGAS}")
+    # print("--------------------------------------------------")
+    # ragas_results["faithfulness"].append(result_RAGAS["faithfulness"])
+    # ragas_results["context_recall"].append(result_RAGAS["context_recall"])
+    # ragas_results["context_precision"].append(result_RAGAS["context_precision"])
+
+    # convertir a dict simple
+    ragas_metrics = result_RAGAS.to_pandas().iloc[0].to_dict()
+    ragas_results_.append(ragas_metrics)
+
+    print(f"✅ RAGAS Metrics: {ragas_metrics}")
+    print("--------------------------------------------------")
+
+    ragas_results["faithfulness"].append(ragas_metrics["faithfulness"])
+    ragas_results["context_recall"].append(ragas_metrics["context_recall"])
+    ragas_results["context_precision"].append(ragas_metrics["context_precision"])
+
+    print(f"Faithfulness (RAGAS): {ragas_results['faithfulness']}")
+    print(f"Context Recall (RAGAS): {ragas_results['context_recall']}")
+    print(f"Context Precision (RAGAS): {ragas_results['context_precision']}")
 
     # Guarda resultado inmediatamente en JSONL
     result_data = {
@@ -254,21 +283,22 @@ em_score = metrics['answer_em']/n
 f1_score_avg = sum(metrics['answer_F1'])/n
 bleu_score_avg = sum(metrics['answer_bleu'])/n
 rouge_l_avg = sum(metrics['answer_Rouge/L'])/n
-
-final_ragas = {}
-for m in ["faithfulness", "context_precision", "context_recall"]:
-    final_ragas[m] = sum(r[m] for r in ragas_results) / len(ragas_results)
-
-# Imprime métricas finales de RAGAS
-print(f" * * * MÉTRICAS FINALES DE RAGAS * * *")
-for m, v in final_ragas.items():
-    print(f"{m}: {v:.2f}")
+faithfulness_avg = sum(ragas_results['faithfulness'])/n
+context_recall_avg = sum(ragas_results['context_recall'])/n
+context_precision_avg = sum(ragas_results['context_precision'])/n
+# Calcula métricas finales de RAGAS
 
 print(f" * * * MÉTRICAS FINALES * * *")
 print(f"Answer EM (≥90% match):   {em_score:.2%}")
 print(f"Answer F1:   {f1_score_avg:.2%}")
 print(f"Answer BLEU: {bleu_score_avg:.2f}")
 print(f"Answer ROUGE-L: {rouge_l_avg:.2%}")
+
+print(f" * * * MÉTRICAS FINALES DE RAGAS * * *")
+print(f"Faithfulness: {faithfulness_avg:.2f}")
+print(f"Context Recall: {context_recall_avg:.2f}")
+print(f"Context Precision: {context_precision_avg:.2f}")
+
 print(f"📁 Resultados guardados progresivamente en {output_file}")
 
 # 5) Guardar metricas finales en archivo JSONL
@@ -277,7 +307,10 @@ final_metrics = {
     "Answer EM ": em_score,
     "Answer F1": f1_score_avg,
     "Answer BLEU": bleu_score_avg,
-    "Answer ROUGE-L": rouge_l_avg
+    "Answer ROUGE-L": rouge_l_avg,
+    "RAGAS Faithfulness": faithfulness_avg,
+    "RAGAS Context Recall": context_recall_avg,
+    "RAGAS Context Precision": context_precision_avg
 }
 
 with open(final_metrics_file, "w", encoding="utf-8") as f:
