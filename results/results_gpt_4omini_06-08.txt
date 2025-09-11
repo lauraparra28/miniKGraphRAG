@@ -1,6 +1,0 @@
-DATASET: MiniKGraph_text_dataset.json
-✅ Exact Match: 3251
-5714/5714 [4:46:08<00:00,  3.00s/it]
-Answer EM:   56.90%
-Answer F1:   66.26%
-Answer BLEU: 1.72

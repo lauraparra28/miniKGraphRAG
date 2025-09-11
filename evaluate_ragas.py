@@ -140,9 +140,9 @@ for ex in tqdm(dataset_miniKGraph):
     references = golds[0] if golds else "" 
 
     out     = chain.invoke({"query": question})
-    print("🛰️ Context Output del chain:")
+    #print("🛰️ Context Output del chain:")
     # Contexto
-    contexts = out["intermediate_steps"][1]["context"]
+    #contexts = out["intermediate_steps"][1]["context"]
     # Procesa contextos a string
     import json
 
@@ -188,7 +188,7 @@ for ex in tqdm(dataset_miniKGraph):
 
 
     contexts = to_ctx_strings_pretty(contexts)
-    print(f"✅ Contexts: {contexts}")
+    #print(f"✅ Contexts: {contexts}")
     # Normaliza a resposta do modelo
     pred    = normalize(out["result"]) 
 
@@ -247,16 +247,16 @@ for ex in tqdm(dataset_miniKGraph):
     ragas_metrics = result_RAGAS.to_pandas().iloc[0].to_dict()
     ragas_results_.append(ragas_metrics)
 
-    print(f"✅ RAGAS Metrics: {ragas_metrics}")
-    print("--------------------------------------------------")
+    # print(f"✅ RAGAS Metrics: {ragas_metrics}")
+    # print("--------------------------------------------------")
 
     ragas_results["faithfulness"].append(ragas_metrics["faithfulness"])
     ragas_results["context_recall"].append(ragas_metrics["context_recall"])
     ragas_results["context_precision"].append(ragas_metrics["context_precision"])
 
-    print(f"Faithfulness (RAGAS): {ragas_results['faithfulness']}")
-    print(f"Context Recall (RAGAS): {ragas_results['context_recall']}")
-    print(f"Context Precision (RAGAS): {ragas_results['context_precision']}")
+    # print(f"Faithfulness (RAGAS): {ragas_results['faithfulness']}")
+    # print(f"Context Recall (RAGAS): {ragas_results['context_recall']}")
+    # print(f"Context Precision (RAGAS): {ragas_results['context_precision']}")
 
     # Guarda resultado inmediatamente en JSONL
     result_data = {
