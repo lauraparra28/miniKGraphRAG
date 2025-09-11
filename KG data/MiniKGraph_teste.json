@@ -171,17 +171,19 @@
         ],
         "context": "O Paibiano é uma IDADE GEOCRONOLÓGICA que TEM INÍCIO na Base do Furongiano, tendo portanto um LIMITE MAIS ANTIGO de aproximadamente 497 milhões de anos atrás, e TEM FIM na Base do Jiangshaniano, tendo um LIMITE MAIS RECENTE de aproximadamente 494 milhões de anos atrás.\nA Idade do Paibiano é um INTERVALO INTERIOR ao Furongiano, que ENCONTRA o Jiangshaniano e É ENCONTRADO pelo Guzhangiano e o Miaolingiano. O Furongiano INICIA-SE COM o Paibiano."
     },
-        {
-        "id": 6567,
-        "level": 2,
-        "question": "Que unidades litoestratigráficas o poço POCO_CD_POCO_022802 atravessa que são constituídas por material do tipo mudstone?",
+    {
+        "id": 1206,
+        "level": 3,
+        "question": "Que unidades litoestratigráficas o poço 7-MNT-0001-BAS atravessa que são constituídas por rochas do tipo argila?",
         "answer": [
-            "Fm. Monte Alegre",
-            "Fm. Alter do Chão",
-            "Fm. Nova Olinda",
-            "Fm. Itaituba"
+            [
+                "Fm. Algodões",
+                "Fm. Morro do Barro",
+                "Gr. Camamu"
+            ]
         ],
-        "context": "O poço 1-PC-2 de ID POCO_CD_POCO_022802 atravessa as seguintes unidades litoestratigráficas constituídas pelo material do tipo mudstone: Fm. Monte Alegre (formacao_232), Fm. Alter do Chão (formacao_284), Fm. Nova Olinda (formacao_028), Fm. Itaituba (formacao_187)."
+        "context": "O poço 7-MNT-0001-BAS atravessa as seguintes unidades litoestratigráficas compostas por rochas do tipo argila: Fm. Algodões, Fm. Morro do Barro, Gr. Camamu.",
+        
     },
     {
         "id": 9610,

@@ -1,0 +1,434 @@
+{
+    "id": 1,
+    "question": "Quais outros nomes possíveis para o campo IGARAPÉ MARIPÁ?",
+    "gold": [
+        "japiim"
+    ],
+    "pred": "os outros nomes possiveis para o campo igarape maripa sao japiim",
+    "exact_match": true,
+    "f1_score": 0.16666666666666669,
+    "bleu_score": 3.7477767366779213,
+    "rouge_l": 0.16666666666666669,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 2,
+    "question": "Em que bacia está localizado o campo IGARAPÉ MARIPÁ?",
+    "gold": [
+        "amazonas",
+        "bacia de amazonas"
+    ],
+    "pred": "o campo igarape maripa esta localizado na bacia de amazonas",
+    "exact_match": true,
+    "f1_score": 0.4615384615384615,
+    "bleu_score": 15.619699684601283,
+    "rouge_l": 0.4615384615384615,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            0.0
+        ],
+        "context_precision": [
+            0.0
+        ]
+    }
+}
+{
+    "id": 4,
+    "question": "Em que bacia está localizado o campo AREA DO BAS-64?",
+    "gold": [
+        "almada mar",
+        "almada terra",
+        "bacia de camamualmada",
+        "camamu mar",
+        "camamu terra",
+        "camamualmada"
+    ],
+    "pred": "o campo area do bas64 esta localizado na bacia de camamualmada essa bacia e tambem conhecida por outros nomes como camamu mar camamu terra almada mar e almada terra portanto a bacia de camamualmada e a entidade que abriga o campo mencionado",
+    "exact_match": true,
+    "f1_score": 0.13333333333333333,
+    "bleu_score": 5.28768271133782,
+    "rouge_l": 0.13333333333333333,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            0.0
+        ],
+        "context_precision": [
+            0.0
+        ]
+    }
+}
+{
+    "id": 469,
+    "question": "Que unidades litoestratigráficas o poço 1BAS4BA atravessa?",
+    "gold": [
+        "fm morro do barro",
+        "formacao morro do barro",
+        "gr almada",
+        "gr espirito santo",
+        "grupo almada",
+        "grupo espirito santo"
+    ],
+    "pred": "o poco 1bas4ba atravessa as seguintes unidades litoestratigraficas 1 grupo almada tambem conhecido como gr almada 2 grupo espirito santo tambem conhecido como gr espirito santo 3 formacao morro do barro tambem referida como fm morro do barro",
+    "exact_match": true,
+    "f1_score": 0.1904761904761905,
+    "bleu_score": 15.013144370355699,
+    "rouge_l": 0.1904761904761905,
+    "ragas": {
+        "faithfulness": [
+            0.75
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 861,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0077-BA atravessa?",
+    "gold": [
+        "fm algodoes",
+        "fm itaipe",
+        "fm morro do barro",
+        "fm rio de contas",
+        "fm sergi",
+        "fm taipusmirim",
+        "fm urucutuca",
+        "formacao algodoes",
+        "formacao itaipe",
+        "formacao morro do barro",
+        "formacao rio de contas",
+        "formacao sergi",
+        "formacao taipusmirim",
+        "formacao urucutuca",
+        "gr almada",
+        "gr brotas",
+        "gr camamu",
+        "gr espirito santo",
+        "grupo almada",
+        "grupo brotas",
+        "grupo camamu",
+        "grupo espirito santo"
+    ],
+    "pred": "o poco 1bas0077ba atravessa as seguintes unidades litoestratigraficas 1 grupo camamu gr camamu 2 formacao morro do barro fm morro do barro 3 formacao taipusmirim fm taipusmirim 4 formacao algodoes fm algodoes 5 grupo espirito santo gr espirito santo 6 grupo almada gr almada 7 grupo brotas gr brotas 8 formacao itaipe fm itaipe 9 formacao urucutuca fm urucutuca 10 formacao sergi fm sergi",
+    "exact_match": true,
+    "f1_score": 0.11764705882352941,
+    "bleu_score": 12.654170371639985,
+    "rouge_l": 0.11764705882352941,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 863,
+    "question": "Em que bacia está localizado o poço 1-BRSA-14?",
+    "gold": [
+        "almada mar",
+        "almada terra",
+        "bacia de camamualmada",
+        "camamu mar",
+        "camamu terra",
+        "camamualmada"
+    ],
+    "pred": "o poco 1brsa14 esta localizado na bacia de camamualmada que tambem e conhecida pelos nomes camamu mar camamu terra almada mar camamualmada e almada terra",
+    "exact_match": true,
+    "f1_score": 0.21428571428571425,
+    "bleu_score": 9.119675426861832,
+    "rouge_l": 0.21428571428571425,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 864,
+    "question": "Em que campo está localizado o poço 1-BRSA-14?",
+    "gold": [
+        "area do b128",
+        "manati"
+    ],
+    "pred": "o poco 1brsa14 esta localizado na area denominada manati que tambem e referida como area do b128",
+    "exact_match": true,
+    "f1_score": 0.3,
+    "bleu_score": 9.147827112247601,
+    "rouge_l": 0.3,
+    "ragas": {
+        "faithfulness": [
+            0.5
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 5005,
+    "question": "Descreva a unidade cronoestratigráfica Aegeano.",
+    "gold": [
+        "o egeu ou aegeano e uma subidade geocronologica que comeca com o base do triassico medio e e um intervalo dentro e termina o anisiano o egeu encontra o bitinico"
+    ],
+    "pred": "o egeu ou aegeano e uma subidade geocronologica que se inicia com a base do triassico medio e representa um intervalo que termina no anisiano o egeu encontra o bitinico",
+    "exact_match": false,
+    "f1_score": 0.8000000000000002,
+    "bleu_score": 56.39503296872996,
+    "rouge_l": 0.8000000000000002,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 5003,
+    "question": "Descreva a unidade cronoestratigráfica Aaleniano.",
+    "gold": [
+        "o aaleniano e uma idade geocronologica que tem inicio na base do jurassico medio tendo portanto um limite mais antigo de aproximadamente 1741 milhoes de anos atras e tem fim na base do bajociano tendo portanto um limite mais recente de aproximadamente 1703 million years ago a idade aaleniana e um intervalo interior ao jurassico medio que encontra o bajociano e e encontrado por os intervalos jurassico inferior e toarciano o jurassico medio iniciase com o aaleniano"
+    ],
+    "pred": "o aaleniano e uma idade geocronologica que tem inicio na base do jurassico medio apresentando portanto um limite mais antigo de aproximadamente 1741 milhoes de anos atras seu termino ocorre na base do bajociano estabelecendo um limite mais recente de aproximadamente 1703 milhoes de anos atras a idade aaleniana e um intervalo interior ao jurassico medio que encontra o bajociano e e encontrado pelos intervalos do jurassico inferior e toarciano o jurassico medio iniciase com o aaleniano",
+    "exact_match": false,
+    "f1_score": 0.8571428571428571,
+    "bleu_score": 73.92529964288028,
+    "rouge_l": 0.8571428571428571,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 5475,
+    "question": "Descreva a unidade cronoestratigráfica Idade Paibiana.",
+    "gold": [
+        "o paibiano e uma idade geocronologica que tem inicio na base do furongiano tendo portanto um limite mais antigo de aproximadamente 497 milhoes de anos atras e tem fim na base do jiangshaniano tendo um limite mais recente de aproximadamente 494 milhoes de anos atras a idade do paibiano e um intervalo interior ao furongiano que encontra o jiangshaniano e e encontrado pelo guzhangiano e o miaolingiano o furongiano iniciase com o paibiano"
+    ],
+    "pred": "a idade paibiana e uma unidade cronoestratigrafica que se caracteriza por ter inicio na base do furongiano estabelecendo assim um limite mais antigo de aproximadamente 497 milhoes de anos atras o termino da idade paibiana ocorre na base do jiangshaniano o que confere a esta unidade um limite mais recente de aproximadamente 494 milhoes de anos atras e importante ressaltar que a idade paibiana representa um intervalo interior ao furongiano situandose entre o jiangshaniano e sendo encontrada pelo guzhangiano e o miaolingiano o furongiano por sua vez iniciase com a idade paibiana",
+    "exact_match": false,
+    "f1_score": 0.703030303030303,
+    "bleu_score": 42.264963699964326,
+    "rouge_l": 0.6424242424242426,
+    "ragas": {
+        "faithfulness": [
+            0.875
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 6567,
+    "question": "Que unidades litoestratigráficas o poço POCO_CD_POCO_022802 atravessa que são constituídas por material do tipo mudstone?",
+    "gold": [
+        "fm alter do chao",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "exact_match": false,
+    "f1_score": 0.0,
+    "bleu_score": 0.0,
+    "rouge_l": 0.0,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.0
+        ]
+    }
+}
+{
+    "id": 9610,
+    "question": "Qual é o nome da estrutura geológica TEFR_CD_TIPO_EST_FISICA_ROCHA_055?",
+    "gold": [
+        "dobra"
+    ],
+    "pred": "o nome da estrutura geologica tefr_cd_tipo_est_fisica_rocha_055 e dobra",
+    "exact_match": true,
+    "f1_score": 0.2222222222222222,
+    "bleu_score": 1.9146030690102511,
+    "rouge_l": 0.2222222222222222,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 9739,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam estrutura geológica TEFR_CD_TIPO_EST_FISICA_ROCHA_199?",
+    "gold": [
+        "azulao",
+        "igarape maripa"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "exact_match": false,
+    "f1_score": 0.0,
+    "bleu_score": 0.0,
+    "rouge_l": 0.0,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.0
+        ]
+    }
+}
+{
+    "id": 9740,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam estrutura geológica Raiz?",
+    "gold": [
+        "azulao",
+        "igarape maripa"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica raiz estao localizadas nos campos denominados japiim e azulao tambem conhecido como igarape maripa e rio uatuma respectivamente essas entidades estao interligadas por suas caracteristicas geologicas e nomenclaturas refletindo a diversidade e a complexidade das formacoes litoestratigraficas na regiao",
+    "exact_match": true,
+    "f1_score": 0.08163265306122448,
+    "bleu_score": 1.7203927233010683,
+    "rouge_l": 0.08163265306122448,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.0
+        ]
+    }
+}
+{
+    "id": 4735,
+    "question": "O que é um(a) basanito?",
+    "gold": [
+        "basanito e uma rocha vulcanica contendo plagioclasio sodico clinopiroxenio foides essenciais e olivina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "exact_match": false,
+    "f1_score": 0.0,
+    "bleu_score": 0.0,
+    "rouge_l": 0.0,
+    "ragas": {
+        "faithfulness": [
+            0.0
+        ],
+        "context_recall": [
+            0.0
+        ],
+        "context_precision": [
+            0.0
+        ]
+    }
+}
+{
+    "id": 4741,
+    "question": "O que é um(a) boundstone?",
+    "gold": [
+        "boundstone e uma rocha carbonatica cujos componentes originais foram ligados durante a deposicao contendo organismos que constroem uma estrutura rigida"
+    ],
+    "pred": "boundstone e uma rocha carbonatica cujos componentes originais foram ligados durante a deposicao contendo organismos que constroem uma estrutura rigida",
+    "exact_match": true,
+    "f1_score": 1.0,
+    "bleu_score": 100.00000000000004,
+    "rouge_l": 1.0,
+    "ragas": {
+        "faithfulness": [
+            0.6666666666666666
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}
+{
+    "id": 4742,
+    "question": "O que é um(a) brecha?",
+    "gold": [
+        "brecha e uma rocha fragmentaria com fragmentos frequentemente angulares de varios tamanhos que predominam sobre a matriz mais fina que pode ter multiplas origens como vulcanica plutonica tectonica sedimentar ou causada por impacto de meteorito"
+    ],
+    "pred": "brecha e uma rocha fragmentaria com fragmentos frequentemente angulares de varios tamanhos que predominam sobre a matriz mais fina essa rocha pode ter multiplas origens incluindo vulcanica plutonica tectonica sedimentar ou causada por impacto de meteorito",
+    "exact_match": false,
+    "f1_score": 0.9295774647887323,
+    "bleu_score": 82.07515273873132,
+    "rouge_l": 0.9295774647887323,
+    "ragas": {
+        "faithfulness": [
+            1.0
+        ],
+        "context_recall": [
+            1.0
+        ],
+        "context_precision": [
+            0.9999999999
+        ]
+    }
+}

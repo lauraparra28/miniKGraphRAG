@@ -249,7 +249,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
         id_counter += 1
         questions.append({
             "id": id_counter,
-            "level": 2,
+            "level": 2, # Nivel verificado 1-HOP
             "question": f"Quantos campos estão localizados na bacia {bacia_label} de URI {bacia_uri_id}?",
             "answer": [[str(count)]],
             "context": f"Existem {count} campos localizados na bacia {bacia_label}."
@@ -263,7 +263,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
         id_counter += 1
         questions.append({
             "id": id_counter,
-            "level": 2,
+            "level": 2, # Nivel verificado 1-HOP
             "question": f"Quais são os campos localizados na bacia {bacia_label} de URI {bacia_uri_id}?",
             "answer": campos_list,
             "context": (
@@ -365,7 +365,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 id_counter += 1
                 questions.append({
                     "id": id_counter,
-                    "level": 3,
+                    "level": 2, # Nivel verificado 1-HOP
                     "question": f"Em que campo está localizado o poço {well_name_principal}?",
                     "answer": fields_subanswers,
                     "context": f"O poço {well_name_principal} está localizado no(s) campo(s): {context_text}."
@@ -395,7 +395,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 id_counter += 1
                 questions.append({
                     "id": id_counter,
-                    "level": 2,
+                    "level": 2, # Nivel verificado 1-HOP
                     "question": f"Que unidades litoestratigráficas o poço {well_name_principal} atravessa?",
                     "answer": subanswers,
                     "context": f"O poço {well_name_principal} atravessa: {context_text}."
@@ -426,7 +426,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 id_counter += 1
                 questions.append({
                     "id": id_counter,
-                    "level": 2,
+                    "level": 2, # Nivel verificado 1-HOP
                     "question": f"Que estruturas geológicas são apresentadas por {formation_name_principal}?",
                     "answer": subanswers,
                     "context": (
@@ -479,7 +479,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             id_counter += 1
             questions.append({
                 "id": id_counter,
-                "level": 2,
+                "level": 2,  # Nivel verificado 1-HOP
                 "question": f"Quais são os poços localizados no campo {field_label_principal}?",
                 "answer": subanswers,
                 "context": (
@@ -527,7 +527,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
         id_counter += 1
         questions.append({
             "id": id_counter,         
-            "level": 2, 
+            "level": 2,  # Nivel verificado 1-HOP
             "question": f"Quantos poços estão localizados na bacia {bacia_label_principal}?",
             "answer": [[str(count_pozos)]],
             "context": f"Existem {count_pozos} poços localizados na bacia {bacia_label_principal}."
@@ -608,7 +608,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 units_text = ", ".join(unit_labels)
 
                 multihop_questions.append({
-                    "level": 3,
+                    "level": 3, # Nivel verificado MULTI-HOP
                     "question": (
                         f"Que unidades litoestratigráficas o poço {well_name_principal} atravessa "
                         f"que são constituídas por rochas do tipo {lithology_label}?"
@@ -619,18 +619,17 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                         f"compostas por rochas do tipo {lithology_label}: {units_text}."
                     )
                 })
-
+    print(f"Generated {len(multihop_questions)} multi-hop questions about lithology.")
     if random_sample:
         random.seed(2025)
-        multihop_questions = random.sample(multihop_questions, min(100, len(multihop_questions)))
+        multihop_questions = random.sample(multihop_questions, min(343, len(multihop_questions)))
+    print(f"After sampling: {len(multihop_questions)} multi-hop questions.")
 
     for q in multihop_questions:
         id_counter += 1
         q["id"] = id_counter
         questions.append(q)
-   
-
-
+    
 
     materials_to_formations = {}
     for fluid_class_uri_str in fluids_dict.keys():
@@ -681,7 +680,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 id_counter += 1
                 questions.append({
                     "id": id_counter,
-                    "level": 3,
+                    "level": 2, # Nivel verificado 1-HOP
                     "question": (
                         f"Que unidades litoestratigráficas são constituídas "
                         f"por fluido {fluid_name_formatted}?"
@@ -740,7 +739,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 id_counter += 1
                 questions.append({
                     "id": id_counter,
-                    "level": 3,
+                    "level": 3, # Nivel verificado MULTI-HOP
                     "question": (
                         f"Qual a idade geológica das unidades litoestratigráficas "
                         f"constituídas por {fluid_name_formatted}?"
@@ -772,7 +771,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             id_counter += 1
             questions.append({
                 "id": id_counter,
-                "level": 3,
+                "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Quantos poços atravessam unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
                 "answer": [[str(len(wells_set))]],
                 "context": f"Existem {len(wells_set)} poços que atravessam unidades litoestratigráficas constituídas por {fluid_name_formatted}."
@@ -808,7 +807,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             id_counter += 1
             questions.append({
                 "id": id_counter,
-                "level": 3,
+                "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Em quais bacias estão as unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
                 "answer": subanswers,
                 "context": f"As unidades litoestratigráficas constituídas por {fluid_name_formatted} estão localizadas na(s) bacia(s): {context_text}."
@@ -850,7 +849,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             id_counter += 1
             questions.append({
                 "id": id_counter,
-                "level": 3,
+                "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Em quais campos estão as unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
                 "answer": subanswers,
                 "context": f"As unidades litoestratigráficas constituídas por {fluid_name_formatted} estão nos seguintes campos: {context_text}."
@@ -870,7 +869,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             id_counter += 1
             questions.append({
                 "id": id_counter,
-                "level": 3,
+                "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Quais estruturas geológicas ocorrem nas unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
                 "answer": [[s] for s in struct_set],
                 "context": f"As unidades litoestratigráficas constituídas por {fluid_name_formatted} apresentam as seguintes estruturas geológicas: {context_text}."
@@ -928,7 +927,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             id_counter += 1
             questions.append({
                 "id": id_counter,
-                "level": 3,
+                "level": 3, # Nivel verificado MULTI-HOP
                 "question": (
                     f"Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica {struct_label_str}?"
                 ),
@@ -980,7 +979,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
         id_counter += 1
         questions.append({
             "id": id_counter,
-            "level": 1,
+            "level": 4, #definition verified
             "question": f"O que é um(a) {rock_label}?",
             "answer": [[rock_definition]],
             "context": rock_definition
@@ -1045,7 +1044,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 id_counter += 1
                 questions.append({
                     "id": id_counter,
-                    "level": 3,
+                    "level": 3, # Nivel verificado MULTI-HOP
                     "question": (
                         f"Quantos poços da bacia {basin_label} atravessam unidades litoestratigráficas "
                         f"que são constituídas por rochas do tipo {litologia}?"
@@ -1095,7 +1094,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
         id_counter += 1
         questions.append({
             "id": id_counter,
-            "level": 1,
+            "level": 4, # definition verified
             "question": f"Descreva a unidade cronoestratigráfica {label_pt}.",
             "answer": [[definition_pt]],
             "context": definition_pt
@@ -1110,10 +1109,10 @@ print(f"✅ Generated info for {len(fields)} fields, {len(basins)} basins, {len(
 questions_balanced = gen_questions(fields, basins, wells, formations, g, random_sample=True)
 questions_unbalanced = gen_questions(fields, basins, wells, formations, g, random_sample=False)
 
-with open("MiniKGraph_text_dataset_balanced_1009.json", "w", encoding='utf-8') as f:
+with open("MiniKGraph_text_dataset_balanced_1109.json", "w", encoding='utf-8') as f:
     json.dump(questions_balanced, f, ensure_ascii=False, indent=4)
 
-with open("MiniKGraph_text_dataset_unbalanced_1009.json", "w", encoding='utf-8') as f:
+with open("MiniKGraph_text_dataset_unbalanced_1109.json", "w", encoding='utf-8') as f:
     json.dump(questions_unbalanced, f, ensure_ascii=False, indent=4)
 
 
