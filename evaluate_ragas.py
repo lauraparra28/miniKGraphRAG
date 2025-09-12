@@ -17,12 +17,12 @@ from ragas import evaluate
 
 # Generar nombre de archivo con fecha actual
 fecha_actual = datetime.now().strftime("%d_%m_%Y")
-output_file = os.path.join("results", f"Definition_evaluation_results_{fecha_actual}.jsonl")
-final_metrics_file = os.path.join("results", f"Definition_final_metrics_{fecha_actual}.json")
+output_file = os.path.join("results", f"agreggation_evaluation_results_{fecha_actual}.jsonl")
+final_metrics_file = os.path.join("results", f"agreggation_final_metrics_{fecha_actual}.json")
 print("📁 Arquivos criados para guardar dados do teste")
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_text_dataset_definition.json"] # xt_dataset_balanced_1009 Dataset de teste MiniKGraph_teste.json
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_dataset_aggregation.json"] # xt_dataset_balanced_1009 Dataset de teste MiniKGraph_teste.json
 print("✅ Successfully load Dataset miniKGraph for Evaluation")
 
 # 2) Funções auxiliares
