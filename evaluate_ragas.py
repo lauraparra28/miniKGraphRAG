@@ -142,7 +142,7 @@ for ex in tqdm(dataset_miniKGraph):
     out     = chain.invoke({"query": question})
     #print("🛰️ Context Output del chain:")
     # Contexto
-    #contexts = out["intermediate_steps"][1]["context"]
+    contexts = out["intermediate_steps"][1]["context"]
     # Procesa contextos a string
     import json
 
