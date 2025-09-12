@@ -1102,6 +1102,23 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
 
     return questions
 
+def filter_level_zero(questions):
+    """Devuelve solo las preguntas con level=0."""
+    return [q for q in questions if q.get("level") == 0]
+
+def filter_one_hop(questions, levels=(1, 2)):
+    """Devuelve solo las preguntas cuyo level esté en los niveles indicados."""
+    return [q for q in questions if q.get("level") in levels]
+
+def filter_multi_hop(questions):
+    """Devuelve solo las preguntas con level=3."""
+    return [q for q in questions if q.get("level") == 3]
+
+def filter_definition(questions):
+    """Devuelve solo las preguntas con level=4."""
+    return [q for q in questions if q.get("level") == 4]
+
+
 
 fields, basins, wells, formations = gen_info(g)
 print("✅ Successfully loaded all graph components.")
@@ -1109,10 +1126,21 @@ print(f"✅ Generated info for {len(fields)} fields, {len(basins)} basins, {len(
 questions_balanced = gen_questions(fields, basins, wells, formations, g, random_sample=True)
 questions_unbalanced = gen_questions(fields, basins, wells, formations, g, random_sample=False)
 
-with open("MiniKGraph_text_dataset_balanced_1109.json", "w", encoding='utf-8') as f:
-    json.dump(questions_balanced, f, ensure_ascii=False, indent=4)
+#with open("MiniKGraph_text_dataset_balanced_complete_1109.json", "w", encoding='utf-8') as f:
+#    json.dump(questions_balanced, f, ensure_ascii=False, indent=4)
 
-with open("MiniKGraph_text_dataset_unbalanced_1109.json", "w", encoding='utf-8') as f:
-    json.dump(questions_unbalanced, f, ensure_ascii=False, indent=4)
+#with open("MiniKGraph_text_dataset_unbalanced_complete_1109.json", "w", encoding='utf-8') as f:
+#    json.dump(questions_unbalanced, f, ensure_ascii=False, indent=4)
+
+# 🔹 Filtramos solo las de level=0
+questions_balanced_level0 = filter_level_zero(questions_balanced)
+questions_balanced_one_hop = filter_one_hop(questions_balanced)
+questions_balanced_multi_hop = filter_multi_hop(questions_balanced)
+questions_balanced_definition = filter_definition(questions_balanced)
+
+with open("MiniKGraph_dataset_aggregation.json", "w", encoding='utf-8') as f:
+    json.dump(questions_balanced_level0, f, ensure_ascii=False, indent=4)
+
+
 
 
