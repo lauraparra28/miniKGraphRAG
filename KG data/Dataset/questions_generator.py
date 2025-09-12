@@ -1,12 +1,17 @@
 
+import os
 import json
 import rdflib
 from rdflib import Namespace, URIRef
 import networkx as nx
 import random
 
+parent_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(parent_dir, 'data')
+os.makedirs(data_dir, exist_ok=True)
+
 g = rdflib.Graph()
-g.parse('miniOntoGeoLogicaInstanciasRelacoes_v2.owl', format='xml')
+g.parse(os.path.join(parent_dir, 'ontology', 'miniOntoGeoLogicaInstanciasRelacoes_v2.owl'), format='xml')
 G = nx.Graph()
 print("✅ Successfully loaded Graph.")
 
@@ -619,11 +624,10 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                         f"compostas por rochas do tipo {lithology_label}: {units_text}."
                     )
                 })
-    print(f"Generated {len(multihop_questions)} multi-hop questions about lithology.")
+
     if random_sample:
         random.seed(2025)
         multihop_questions = random.sample(multihop_questions, min(343, len(multihop_questions)))
-    print(f"After sampling: {len(multihop_questions)} multi-hop questions.")
 
     for q in multihop_questions:
         id_counter += 1
@@ -1126,11 +1130,11 @@ print(f"✅ Generated info for {len(fields)} fields, {len(basins)} basins, {len(
 questions_balanced = gen_questions(fields, basins, wells, formations, g, random_sample=True)
 questions_unbalanced = gen_questions(fields, basins, wells, formations, g, random_sample=False)
 
-#with open("MiniKGraph_text_dataset_balanced_complete_1109.json", "w", encoding='utf-8') as f:
-#    json.dump(questions_balanced, f, ensure_ascii=False, indent=4)
+with open("MiniKGraph_text_dataset_balanced_complete.json", "w", encoding='utf-8') as f:
+    json.dump(questions_balanced, f, ensure_ascii=False, indent=4)
 
-#with open("MiniKGraph_text_dataset_unbalanced_complete_1109.json", "w", encoding='utf-8') as f:
-#    json.dump(questions_unbalanced, f, ensure_ascii=False, indent=4)
+with open("MiniKGraph_text_dataset_unbalanced_complete.json", "w", encoding='utf-8') as f:
+    json.dump(questions_unbalanced, f, ensure_ascii=False, indent=4)
 
 # 🔹 Filtramos solo las de level=0
 questions_balanced_level0 = filter_level_zero(questions_balanced)
@@ -1138,9 +1142,23 @@ questions_balanced_one_hop = filter_one_hop(questions_balanced)
 questions_balanced_multi_hop = filter_multi_hop(questions_balanced)
 questions_balanced_definition = filter_definition(questions_balanced)
 
-with open("MiniKGraph_dataset_aggregation.json", "w", encoding='utf-8') as f:
+output_path = os.path.join(data_dir, "MiniKGraph_dataset_aggregation.json")
+with open(output_path, "w", encoding='utf-8') as f:
     json.dump(questions_balanced_level0, f, ensure_ascii=False, indent=4)
+print(f"✅ Saved {len(questions_balanced_level0)} level=0 questions.")
 
+output_path_1hop = os.path.join(data_dir, "MiniKGraph_dataset_1hop.json")
+with open(output_path_1hop, "w", encoding='utf-8') as f:
+    json.dump(questions_balanced_one_hop, f, ensure_ascii=False, indent=4)
+print(f"✅ Saved {len(questions_balanced_one_hop)} 1-hop questions.")
 
+output_path_multi_hop = os.path.join(data_dir, "MiniKGraph_dataset_multi_hop.json")
+with open(output_path_multi_hop, "w", encoding='utf-8') as f:
+    json.dump(questions_balanced_multi_hop, f, ensure_ascii=False, indent=4)
+print(f"✅ Saved {len(questions_balanced_multi_hop)} multi-hop questions.")
 
+output_path_definition = os.path.join(data_dir, "MiniKGraph_dataset_definition.json")
+with open(output_path_definition, "w", encoding='utf-8') as f:
+    json.dump(questions_balanced_definition, f, ensure_ascii=False, indent=4)
+print(f"✅ Saved {len(questions_balanced_definition)} definition questions.")
 
