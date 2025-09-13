@@ -301,6 +301,10 @@ for ex in tqdm(dataset_miniKGraph):
         "ground_truth": [references],
     })
 
+    # Imprimir dataset del ragas
+    print("RAGAS Dataset for this example:")
+    print(ragas_data[0])
+
     # Métricas de RAGAS
     
     result_RAGAS = evaluate(ragas_data,
