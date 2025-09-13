@@ -1,5 +1,8 @@
 import os
+import sys
 import json
+
+parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 def read_file(ruta_archivo):
     with open(ruta_archivo, 'r', encoding='utf-8') as archivo:
@@ -8,9 +11,7 @@ def read_file(ruta_archivo):
 
 def load_prompts():
     prompts = {}
-    prompts_dir_MY_PC = '/home/laura/ICA/Projetos 2024/miniKGraphRAG/prompts'
-    prompts_dir = '/home/lauraparra85/ICA/miniKGraphRAG/prompts' #_PC_ICA
-    prompts_dir_PC_Diego = '/home/diego/laura/ICA/miniKGraphRAG/prompts'
+    prompts_dir = os.path.join(parent_dir, 'prompts')
     for filename in os.listdir(prompts_dir):
         if filename.endswith('.txt'):
             with open(os.path.join(prompts_dir, filename), 'r', encoding='utf-8') as file:
@@ -19,9 +20,7 @@ def load_prompts():
 
 def load_dataset():
     datasets = {}
-    dataset_dir = '/home/lauraparra85/ICA/miniKGraphRAG/KG data/' #_PC_ICA
-    dataset_dir_PC_Diego = '/home/diego/laura/ICA/miniKGraphRAG/KG data/'
-    
+    dataset_dir = os.path.join(parent_dir, 'KG data')
     for filename in os.listdir(dataset_dir):
         if filename.endswith('.json'):
             with open(os.path.join(dataset_dir, filename), 'r', encoding='utf-8') as file:
