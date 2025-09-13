@@ -1,0 +1,124 @@
+[
+    {
+        "id": 1,
+        "level": 0,
+        "question": "Quais outros nomes possíveis para o campo AZULÃO?",
+        "answer": [
+            [
+                "RIO UATUMA"
+            ],
+            [
+                "AZULAO"
+            ]
+        ],
+        "context": "O campo AZULÃO também é conhecido pelos seguintes nomes: RIO UATUMA (AZULAO)."
+    },
+    {
+        "id": 3,
+        "level": 0,
+        "question": "Quais outros nomes possíveis para o campo MANATI?",
+        "answer": [
+            [
+                "ÁREA DO B128"
+            ]
+        ],
+        "context": "O campo MANATI também é conhecido pelos seguintes nomes: ÁREA DO B128."
+    },
+    {
+        "id": 5,
+        "level": 0,
+        "question": "Quais outros nomes possíveis para o campo CAMARÃO NORTE?",
+        "answer": [
+            [
+                "CAMARAO NORTE"
+            ],
+            [
+                "ÁREA BAS-131"
+            ]
+        ],
+        "context": "O campo CAMARÃO NORTE também é conhecido pelos seguintes nomes: CAMARAO NORTE (ÁREA BAS-131)."
+    },
+    {
+        "id": 6,
+        "level": 0,
+        "question": "Quais outros nomes possíveis para o poço 9-FZ-4-AM?",
+        "answer": [
+            [
+                "FZ-4"
+            ],
+            [
+                "9FZ4AM"
+            ],
+            [
+                "9FZ-4-AM"
+            ],
+            [
+                "9FZ-0004-AM"
+            ],
+            [
+                "FZ-4-AM"
+            ],
+            [
+                "9FZ0004AM"
+            ],
+            [
+                "9FZ4"
+            ],
+            [
+                "9-FZ-0004-AM"
+            ],
+            [
+                "9-FZ-4"
+            ]
+        ],
+        "context": "Além de 9-FZ-4-AM, o poço POCO_CD_POCO_022788 também é conhecido como FZ-4 (9FZ4AM, 9FZ-4-AM, 9FZ-0004-AM, FZ-4-AM, 9FZ0004AM, 9FZ4, 9-FZ-0004-AM, 9-FZ-4)."
+    },
+    {
+        "id": 7,
+        "level": 0,
+        "question": "Que unidades litoestratigráficas o poço 1BAS20 atravessa?",
+        "answer": [
+            [
+                "Fm. Taipus-Mirim",
+                "Formação Taipus-Mirim"
+            ],
+            [
+                "Formação Algodões",
+                "Fm. Algodões"
+            ],
+            [
+                "Grupo Espírito Santo",
+                "Gr. Espírito Santo"
+            ],
+            [
+                "Formação Itaípe",
+                "Fm. Itaípe"
+            ],
+            [
+                "Formação Sergi",
+                "Fm. Sergi"
+            ],
+            [
+                "Formação Rio de Contas",
+                "Fm. Rio de Contas"
+            ],
+            [
+                "Fm. Morro do Barro",
+                "Formação Morro do Barro"
+            ],
+            [
+                "Gr. Almada",
+                "Grupo Almada"
+            ],
+            [
+                "Grupo Brotas",
+                "Gr. Brotas"
+            ],
+            [
+                "Grupo Camamu",
+                "Gr. Camamu"
+            ]
+        ],
+        "context": "O poço 1BAS20 atravessa: Fm. Taipus-Mirim (Formação Taipus-Mirim), Formação Algodões (Fm. Algodões), Grupo Espírito Santo (Gr. Espírito Santo), Formação Itaípe (Fm. Itaípe), Formação Sergi (Fm. Sergi), Formação Rio de Contas (Fm. Rio de Contas), Fm. Morro do Barro (Formação Morro do Barro), Gr. Almada (Grupo Almada), Grupo Brotas (Gr. Brotas), Grupo Camamu (Gr. Camamu)."
+    }
+]
