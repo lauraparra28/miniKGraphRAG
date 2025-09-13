@@ -11,7 +11,7 @@ from difflib import SequenceMatcher
 import sacrebleu
 from main_neo4j import chain
 from utils import base_utils as bu
-from ragas.metrics import faithfulness, context_recall, context_precision
+from ragas.metrics import faithfulness, context_recall, context_precision, answer_relevancy
 from datasets import Dataset
 from ragas import evaluate
 
@@ -22,7 +22,7 @@ final_metrics_file = os.path.join("results", f"agreggation_final_metrics_{fecha_
 print("📁 Arquivos criados para guardar dados do teste")
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_dataset_aggregation.json"] # xt_dataset_balanced_1009 Dataset de teste MiniKGraph_teste.json
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste_aggregation.json"] # xt_dataset_balanced_1009 Dataset de teste MiniKGraph_teste.json
 print("✅ Successfully load Dataset miniKGraph for Evaluation")
 
 # 2) Funções auxiliares
@@ -46,7 +46,7 @@ def normalize(text: str) -> str:
     # Colapsar espacios múltiples
     text = re.sub(r'\s+', ' ', text).strip()
     return text
-
+        
 def flatten_answers(ans):
     # Ans vem como List[List[str]] ou List[str]
     if isinstance(ans, list) and ans and isinstance(ans[0], list):
@@ -55,10 +55,6 @@ def flatten_answers(ans):
         return [normalize(a) for a in ans]
     else:
         return [normalize(ans)]
-
-def is_close_match(a: str, b: str, threshold: float = 0.85) -> bool:
-    """Retorna True si a y b son suficientemente similares según el threshold."""
-    return SequenceMatcher(None, a, b).ratio() >= threshold
 
 # ---------- Utilidades ----------
 def tokenize_norm(s: str): return normalize(s).split()
@@ -105,6 +101,72 @@ def lcs_len(a, b):
     return dp[m][n]
 
 
+# F1 a nivel de grupos (conceptual match)
+def f1_group(pred: str, gold_group: list[str]) -> float:
+    # Para un grupo de aliases, devuelve el mejor F1
+    return max(token_f1(pred, alias) for alias in gold_group) if gold_group else 0.0
+
+def avg_f1_per_question(pred: str, golds) -> float:
+    """
+    Calcula F1 promedio sobre todos los grupos de golds.
+    
+    pred: string con la predicción
+    golds:
+        - string
+        - list[string] (aliases)
+        - list[list[string]] (grupos de aliases)
+    """
+    # Caso gold simple
+    if isinstance(golds, str):
+        return token_f1(pred, golds)
+    
+    # Caso lista de aliases planos
+    if isinstance(golds, list) and all(isinstance(g, str) for g in golds):
+        gold_str = " ".join(golds)
+        return token_f1(pred, gold_str)
+    
+    # Caso lista de listas de aliases (grupos)
+    if isinstance(golds, list) and all(isinstance(g, list) for g in golds):
+        f1_scores = []
+        for alias_group in golds:
+            # Para cada grupo, tomar el mejor F1 entre los aliases
+            alias_f1s = [token_f1(pred, alias) for alias in alias_group]
+            f1_scores.append(max(alias_f1s))
+        # F1 promedio sobre todos los grupos
+        return sum(f1_scores) / len(f1_scores) if f1_scores else 0.0
+    raise ValueError("Formato de golds no reconocido")
+
+# ---------------------------
+# F1 por grupos (any-match)
+# ---------------------------
+def group_f1(pred: str, gold_groups: list[list[str]]) -> float:
+    ptoks = normalize(pred)
+    pred_entities = set(ptoks.split())  # ⚠️ aquí podrías usar regex o parser más fino
+    
+    matched_groups = 0
+    for group in gold_groups:
+        group_norm = [normalize(x) for x in group]
+        if any(g in ptoks for g in group_norm):  # basta con acertar 1 variante
+            matched_groups += 1
+    
+    if not pred_entities or not gold_groups:
+        return 0.0
+    # --- Definiciones para Precisión y Recall ---
+    tp = matched_groups  # Verdaderos Positivos
+    # Para este enfoque extractivo, el número total de "predicciones positivas"
+    # es simplemente la cantidad de grupos que encontramos. No hay falsos positivos.
+    total_predicted_positives = tp
+    total_actual_positives = len(gold_groups)
+
+    # precision = matched_groups / len(pred_entities)
+    # recall    = matched_groups / len(gold_groups)
+    precision = tp / total_predicted_positives if total_predicted_positives > 0 else 0.0
+    recall = tp / total_actual_positives if total_actual_positives > 0 else 0.0
+
+    print(f"TP: {matched_groups}, Pred entities: {len(pred_entities)}, Gold groups: {len(gold_groups)}")
+    print(f"Precision: {precision}, Recall: {recall}")
+    return 2 * precision * recall / (precision + recall)
+
 def rouge_l_f1(pred: str, gold: str) -> float:
     pt, gt = tokenize_norm(pred), tokenize_norm(gold)
     if not pt or not gt: return 0.0
@@ -116,7 +178,9 @@ def rouge_l_f1(pred: str, gold: str) -> float:
 # 3) Run e coleta de métricas
 metrics = {
     "answer_em": 0,
-    "answer_F1": [],
+    "answer_f1_score": [],
+    #"answer_avg_f1": [],
+    "answer_group_f1": [],
     "answer_bleu": [],
     "answer_Rouge/L": []
 }
@@ -127,7 +191,8 @@ open(output_file, "w", encoding="utf-8").close()
 ragas_results = {
     "faithfulness": [],
     "context_recall": [],
-    "context_precision": []
+    "context_precision": [],
+    "answer_relevancy": []
 }
 
 ragas_results_ = []
@@ -197,20 +262,26 @@ for ex in tqdm(dataset_miniKGraph):
     print(f"✅ Answer: {pred}")
     
     normalized_pred = normalize(pred)
-    # Exact-Match: flexible con SequenceMatcher
-    # exact_match = any(
-    # is_close_match(normalize(gold), normalized_pred, threshold=0.9) 
-    # for gold in golds
-    # )
+    # Exact Match
     exact_match = any(normalize(gold) in normalized_pred for gold in golds)
     if exact_match:
         metrics["answer_em"] += 1
     print(f"✅ Exact Match: {metrics['answer_em']}")
-    
+
     # Token-F1 (estilo SQuAD)
     # Superposición de tokens entre la predicción y la(s) referencia(s) tras una normalización simple.
     best_f1 = best_token_f1(pred, golds)
-    metrics["answer_F1"].append(best_f1)
+    metrics["answer_f1_score"].append(best_f1)
+
+    # F1 promedio sobre todas las referencias
+    #avg_f1 = avg_f1_per_question(pred, golds)
+    #metrics["answer_avg_f1"].append(avg_f1)
+
+    # F1 por grupos (any-match)
+    # Si golds = [[alias1, alias2], [alias3, alias4]], se evalúa si la predicción menciona al menos un alias de cada grupo
+    group_f1_score = group_f1(pred, golds)
+    metrics["answer_group_f1"].append(group_f1_score)
+    print(f"✅ Group F1: {group_f1_score:.2%}")
 
     # BLEU (corpus-bleu por sentença)
     bleu = sacrebleu.sentence_bleu(pred, golds)
@@ -233,7 +304,7 @@ for ex in tqdm(dataset_miniKGraph):
     # Métricas de RAGAS
     
     result_RAGAS = evaluate(ragas_data,
-        metrics=[faithfulness, context_recall, context_precision]
+        metrics=[faithfulness, context_recall, context_precision, answer_relevancy]
     )
     # ragas_results_.append(result_RAGAS)
 
@@ -253,6 +324,7 @@ for ex in tqdm(dataset_miniKGraph):
     ragas_results["faithfulness"].append(ragas_metrics["faithfulness"])
     ragas_results["context_recall"].append(ragas_metrics["context_recall"])
     ragas_results["context_precision"].append(ragas_metrics["context_precision"])
+    ragas_results["answer_relevancy"].append(ragas_metrics["answer_relevancy"])
 
     # print(f"Faithfulness (RAGAS): {ragas_results['faithfulness']}")
     # print(f"Context Recall (RAGAS): {ragas_results['context_recall']}")
@@ -266,12 +338,15 @@ for ex in tqdm(dataset_miniKGraph):
         "pred": pred,
         "exact_match": exact_match,
         "f1_score": best_f1,
+        #"avg_f1": avg_f1,
+        "group_f1": group_f1_score,
         "bleu_score": bleu.score,
         "rouge_l": best_rouge,
         "ragas": {
             "faithfulness": result_RAGAS["faithfulness"],
             "context_recall": result_RAGAS["context_recall"],
-            "context_precision": result_RAGAS["context_precision"]
+            "context_precision": result_RAGAS["context_precision"],
+            "answer_relevancy": result_RAGAS["answer_relevancy"]
         }
     }
     with open(output_file, "a", encoding="utf-8") as f:
@@ -280,24 +355,31 @@ for ex in tqdm(dataset_miniKGraph):
 # 4) Agrega resultados
 n = len(dataset_miniKGraph)
 em_score = metrics['answer_em']/n
-f1_score_avg = sum(metrics['answer_F1'])/n
+f1_score_avg = sum(metrics['answer_f1_score'])/n
+#avg_f1 = sum(metrics['answer_avg_f1'])/n
+group_f1_avg = sum(metrics['answer_group_f1'])/n
 bleu_score_avg = sum(metrics['answer_bleu'])/n
 rouge_l_avg = sum(metrics['answer_Rouge/L'])/n
 faithfulness_avg = sum(ragas_results['faithfulness'])/n
 context_recall_avg = sum(ragas_results['context_recall'])/n
 context_precision_avg = sum(ragas_results['context_precision'])/n
+answer_relevancy_avg = sum(ragas_results['answer_relevancy'])/n
 # Calcula métricas finales de RAGAS
 
 print(f" * * * MÉTRICAS FINALES * * *")
-print(f"Answer EM (≥90% match):   {em_score:.2%}")
+print(f"Answer EM:   {em_score:.2%}")
 print(f"Answer F1:   {f1_score_avg:.2%}")
+#print(f"Answer Avg F1: {avg_f1:.2%}")
+print(f"Answer Group F1: {group_f1_avg:.2%}")
 print(f"Answer BLEU: {bleu_score_avg:.2f}")
 print(f"Answer ROUGE-L: {rouge_l_avg:.2%}")
 
 print(f" * * * MÉTRICAS FINALES DE RAGAS * * *")
-print(f"Faithfulness: {faithfulness_avg:.2f}")
-print(f"Context Recall: {context_recall_avg:.2f}")
-print(f"Context Precision: {context_precision_avg:.2f}")
+print(f"Faithfulness: {faithfulness_avg:.3%}")
+print(f"Answer Relevancy: {answer_relevancy_avg:.3%}")
+print(f"Context Recall: {context_recall_avg:.3%}")
+print(f"Context Precision: {context_precision_avg:.3%}")
+
 
 print(f"📁 Resultados guardados progresivamente en {output_file}")
 
@@ -306,11 +388,14 @@ final_metrics = {
     "total_examples": n,
     "Answer EM ": em_score,
     "Answer F1": f1_score_avg,
+    "Answer Group F1": group_f1_avg,
     "Answer BLEU": bleu_score_avg,
     "Answer ROUGE-L": rouge_l_avg,
     "RAGAS Faithfulness": faithfulness_avg,
+    "RAGAS Answer Relevancy": answer_relevancy_avg,
     "RAGAS Context Recall": context_recall_avg,
     "RAGAS Context Precision": context_precision_avg
+    
 }
 
 with open(final_metrics_file, "w", encoding="utf-8") as f:
