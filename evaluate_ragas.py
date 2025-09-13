@@ -22,7 +22,7 @@ final_metrics_file = os.path.join("results", f"agreggation_final_metrics_{fecha_
 print("📁 Arquivos criados para guardar dados do teste")
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_teste_aggregation.json"] # xt_dataset_balanced_1009 Dataset de teste MiniKGraph_teste.json
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_dataset_aggregation.json"] # xt_dataset_balanced_1009 Dataset de teste MiniKGraph_teste.json
 print("✅ Successfully load Dataset miniKGraph for Evaluation")
 
 # 2) Funções auxiliares
@@ -163,8 +163,8 @@ def group_f1(pred: str, gold_groups: list[list[str]]) -> float:
     precision = tp / total_predicted_positives if total_predicted_positives > 0 else 0.0
     recall = tp / total_actual_positives if total_actual_positives > 0 else 0.0
 
-    print(f"TP: {matched_groups}, Pred entities: {len(pred_entities)}, Gold groups: {len(gold_groups)}")
-    print(f"Precision: {precision}, Recall: {recall}")
+    # print(f"TP: {matched_groups}, Pred entities: {len(pred_entities)}, Gold groups: {len(gold_groups)}")
+    # print(f"Precision: {precision}, Recall: {recall}")
     return 2 * precision * recall / (precision + recall)
 
 def rouge_l_f1(pred: str, gold: str) -> float:
@@ -201,8 +201,7 @@ for ex in tqdm(dataset_miniKGraph):
     id = ex["id"]
     question       = ex["question"]
     golds = sorted(set(flatten_answers(ex["answer"])))   # dedupPara
-
-    references = golds[0] if golds else "" 
+    print(f"Golds (normalized): {golds}")
 
     out     = chain.invoke({"query": question})
     #print("🛰️ Context Output del chain:")
@@ -281,7 +280,7 @@ for ex in tqdm(dataset_miniKGraph):
     # Si golds = [[alias1, alias2], [alias3, alias4]], se evalúa si la predicción menciona al menos un alias de cada grupo
     group_f1_score = group_f1(pred, golds)
     metrics["answer_group_f1"].append(group_f1_score)
-    print(f"✅ Group F1: {group_f1_score:.2%}")
+    # print(f"✅ Group F1: {group_f1_score:.2%}")
 
     # BLEU (corpus-bleu por sentença)
     bleu = sacrebleu.sentence_bleu(pred, golds)
@@ -293,12 +292,14 @@ for ex in tqdm(dataset_miniKGraph):
         best_rouge = max(best_rouge, rouge_l_f1(pred, g))
     metrics["answer_Rouge/L"].append(best_rouge)
 
+    ground_truth_str = ", ".join(golds)
+    print(f"✅ Gold String: {ground_truth_str}")
     # Construir dataset en formato HuggingFace
     ragas_data = Dataset.from_dict({
         "question": [question],
         "contexts": [contexts],
         "answer": [pred],
-        "ground_truth": [references],
+        "ground_truth": [ground_truth_str],
     })
 
     # Imprimir dataset del ragas
