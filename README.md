@@ -26,6 +26,13 @@ The RAG pipeline consists of the following key components:
 
 ## 🛠️ Requirements
 
+Create a virtual environment Ubuntu and activate it:
+
+```bash
+conda create -n miniKGraphRAG python=3.11 -y
+conda activate miniKGraphRAG
+```
+
 Install the dependencies with:
 
 ```bash
