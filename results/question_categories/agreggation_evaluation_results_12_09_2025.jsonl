@@ -198,7 +198,7 @@
     "pred": "os outros nomes possiveis para o campo jiribatuba sao os que estao associados ao rotulo fornecido que e jiribatuba nao ha mencao de sinonimos ou variacoes adicionais no contexto apresentado portanto o unico nome identificado e jiribatuba",
     "exact_match": false,
     "f1_score": 0.1951219512195122,
-    "group_f1": 1.0,
+    "group_f1": 0.0,
     "bleu_score": 2.8182998883818935,
     "rouge_l": 0.0975609756097561,
     "ragas": {

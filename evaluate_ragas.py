@@ -17,12 +17,12 @@ from ragas import evaluate
 
 # Generar nombre de archivo con fecha actual
 fecha_actual = datetime.now().strftime("%d_%m_%Y")
-output_file = os.path.join("results", f"multihop_evaluation_results_{fecha_actual}.jsonl")
-final_metrics_file = os.path.join("results", f"multihop_final_metrics_{fecha_actual}.json")
+output_file = os.path.join("results", f"onehop_evaluation_results_{fecha_actual}.jsonl")
+final_metrics_file = os.path.join("results", f"onehop_final_metrics_{fecha_actual}.json")
 print("📁 Arquivos criados para guardar dados do teste")
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_dataset_multi_hop.json"]
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_dataset_1hop.json"]
 print("✅ Successfully load Dataset miniKGraph for Evaluation")
 
 # 2) Funções auxiliares
@@ -87,19 +87,6 @@ def best_token_f1(pred: str, golds: list[str]) -> float:
 #                 dp[j] = max(dp[j], dp[j-1])
 #             prev = tmp
 #     return dp[m]
-
-def lcs_len(a, b):
-    # a, b son listas de tokens
-    m, n = len(a), len(b)
-    dp = [[0]*(n+1) for _ in range(m+1)]
-    for i in range(m):
-        for j in range(n):
-            if a[i] == b[j]:
-                dp[i+1][j+1] = dp[i][j] + 1
-            else:
-                dp[i+1][j+1] = max(dp[i][j+1], dp[i+1][j])
-    return dp[m][n]
-
 
 # F1 a nivel de grupos (conceptual match)
 def f1_group(pred: str, gold_group: list[str]) -> float:
@@ -167,6 +154,18 @@ def group_f1(pred: str, gold_groups: list[list[str]]) -> float:
     # print(f"Precision: {precision}, Recall: {recall}")
     return 2 * precision * recall / (precision + recall)
 
+def lcs_len(a, b):
+    # a, b son listas de tokens
+    m, n = len(a), len(b)
+    dp = [[0]*(n+1) for _ in range(m+1)]
+    for i in range(m):
+        for j in range(n):
+            if a[i] == b[j]:
+                dp[i+1][j+1] = dp[i][j] + 1
+            else:
+                dp[i+1][j+1] = max(dp[i][j+1], dp[i+1][j])
+    return dp[m][n]
+
 def rouge_l_f1(pred: str, gold: str) -> float:
     pt, gt = tokenize_norm(pred), tokenize_norm(gold)
     if not pt or not gt: return 0.0
@@ -175,6 +174,25 @@ def rouge_l_f1(pred: str, gold: str) -> float:
     if (prec+rec)==0: return 0.0
     return 2*prec*rec/(prec+rec)
 
+def rougeL_max_hf(pred: str, golds: list[str]) -> dict:
+    """
+    Calcula ROUGE-L con evaluate y devuelve el mejor puntaje (F1, P, R) contra una lista de golds.
+    """
+    rouge = evaluate.load("rouge")
+    pred_n = normalize(pred)
+    
+    best = {"rougeL_f": 0.0, "rougeL_p": 0.0, "rougeL_r": 0.0, "best_gold": None}
+    for g in golds:
+        g_n = normalize(g)
+        # evaluate.rouge espera listas paralelas de preds y refs
+        res = rouge.compute(predictions=[pred_n], references=[g_n], rouge_types=["rougeL"])
+        # 'rougeL' devuelve F1; precision y recall no vienen explícitos en evaluate
+        # (si necesitas P/R explícitos, usa la opción B de abajo)
+        f1 = res["rougeL"]
+        if f1 > best["rougeL_f"]:
+            best.update({"rougeL_f": f1, "best_gold": g})
+    return best
+
 # 3) Run e coleta de métricas
 metrics = {
     "answer_em": 0,
@@ -182,7 +200,8 @@ metrics = {
     #"answer_avg_f1": [],
     "answer_group_f1": [],
     "answer_bleu": [],
-    "answer_Rouge/L": []
+    "answer_Rouge/L": [],
+    "answer_rougeL_HF": []
 }
 
 # Limpia archivo si ya existía
@@ -291,6 +310,11 @@ for ex in tqdm(dataset_miniKGraph):
     for g in golds:
         best_rouge = max(best_rouge, rouge_l_f1(pred, g))
     metrics["answer_Rouge/L"].append(best_rouge)
+    
+    # ROUGE-L con evaluate (HF)
+    rougeL_hf = rougeL_max_hf(pred, golds)
+    metrics["answer_rougeL_HF"].append(rougeL_hf["rougeL_f"])
+    print(f"✅ ROUGE-L (HF): {rougeL_hf['rougeL_f']:.2%} (best gold: {rougeL_hf['best_gold']})")
 
     ground_truth_str = ", ".join(golds)
     print(f"✅ Gold String: {ground_truth_str}")
@@ -302,35 +326,22 @@ for ex in tqdm(dataset_miniKGraph):
         "ground_truth": [ground_truth_str],
     })
 
-    # Imprimir dataset del ragas
-    print("RAGAS Dataset for this example:")
-    print(ragas_data[0])
-
     # Métricas de RAGAS
-    
     result_RAGAS = evaluate(ragas_data,
         metrics=[faithfulness, context_recall, context_precision, answer_relevancy]
     )
-    # ragas_results_.append(result_RAGAS)
-
-    # print(f"✅ RAGAS Metrics: {result_RAGAS}")
-    # print("--------------------------------------------------")
-    # ragas_results["faithfulness"].append(result_RAGAS["faithfulness"])
-    # ragas_results["context_recall"].append(result_RAGAS["context_recall"])
-    # ragas_results["context_precision"].append(result_RAGAS["context_precision"])
 
     # convertir a dict simple
     ragas_metrics = result_RAGAS.to_pandas().iloc[0].to_dict()
     ragas_results_.append(ragas_metrics)
-
-    # print(f"✅ RAGAS Metrics: {ragas_metrics}")
-    # print("--------------------------------------------------")
 
     ragas_results["faithfulness"].append(ragas_metrics["faithfulness"])
     ragas_results["context_recall"].append(ragas_metrics["context_recall"])
     ragas_results["context_precision"].append(ragas_metrics["context_precision"])
     ragas_results["answer_relevancy"].append(ragas_metrics["answer_relevancy"])
 
+    # print(f"✅ RAGAS Metrics")
+    # print("--------------------------------------------------")
     # print(f"Faithfulness (RAGAS): {ragas_results['faithfulness']}")
     # print(f"Context Recall (RAGAS): {ragas_results['context_recall']}")
     # print(f"Context Precision (RAGAS): {ragas_results['context_precision']}")
@@ -347,6 +358,7 @@ for ex in tqdm(dataset_miniKGraph):
         "group_f1": group_f1_score,
         "bleu_score": bleu.score,
         "rouge_l": best_rouge,
+        "answer_rougeL_HF": rougeL_hf,
         "ragas": {
             "faithfulness": result_RAGAS["faithfulness"],
             "context_recall": result_RAGAS["context_recall"],
@@ -365,6 +377,7 @@ f1_score_avg = sum(metrics['answer_f1_score'])/n
 group_f1_avg = sum(metrics['answer_group_f1'])/n
 bleu_score_avg = sum(metrics['answer_bleu'])/n
 rouge_l_avg = sum(metrics['answer_Rouge/L'])/n
+answer_rougeL_HF = sum(metrics['answer_rougeL_HF'])/n
 faithfulness_avg = sum(ragas_results['faithfulness'])/n
 context_recall_avg = sum(ragas_results['context_recall'])/n
 context_precision_avg = sum(ragas_results['context_precision'])/n
@@ -378,6 +391,7 @@ print(f"Answer F1:   {f1_score_avg:.2%}")
 print(f"Answer Group F1: {group_f1_avg:.2%}")
 print(f"Answer BLEU: {bleu_score_avg:.2f}")
 print(f"Answer ROUGE-L: {rouge_l_avg:.2%}")
+print(f"Answer ROUGE-L (HF): {answer_rougeL_HF:.2%}")
 
 print(f" * * * MÉTRICAS FINALES DE RAGAS * * *")
 print(f"Faithfulness: {faithfulness_avg:.3%}")
