@@ -14,6 +14,7 @@ from utils import base_utils as bu
 from ragas.metrics import faithfulness, context_recall, context_precision, answer_relevancy
 from datasets import Dataset
 from ragas import evaluate
+# import evaluate
 
 # Generar nombre de archivo con fecha actual
 fecha_actual = datetime.now().strftime("%d_%m_%Y")
@@ -174,24 +175,24 @@ def rouge_l_f1(pred: str, gold: str) -> float:
     if (prec+rec)==0: return 0.0
     return 2*prec*rec/(prec+rec)
 
-def rougeL_max_hf(pred: str, golds: list[str]) -> dict:
-    """
-    Calcula ROUGE-L con evaluate y devuelve el mejor puntaje (F1, P, R) contra una lista de golds.
-    """
-    rouge = evaluate.load("rouge")
-    pred_n = normalize(pred)
+# def rougeL_max_hf(pred: str, golds: list[str]) -> dict:
+#     """
+#     Calcula ROUGE-L con evaluate y devuelve el mejor puntaje (F1, P, R) contra una lista de golds.
+#     """
+#     rouge = evaluate.load("rouge")
+#     pred_n = normalize(pred)
     
-    best = {"rougeL_f": 0.0, "rougeL_p": 0.0, "rougeL_r": 0.0, "best_gold": None}
-    for g in golds:
-        g_n = normalize(g)
-        # evaluate.rouge espera listas paralelas de preds y refs
-        res = rouge.compute(predictions=[pred_n], references=[g_n], rouge_types=["rougeL"])
-        # 'rougeL' devuelve F1; precision y recall no vienen explícitos en evaluate
-        # (si necesitas P/R explícitos, usa la opción B de abajo)
-        f1 = res["rougeL"]
-        if f1 > best["rougeL_f"]:
-            best.update({"rougeL_f": f1, "best_gold": g})
-    return best
+#     best = {"rougeL_f": 0.0, "rougeL_p": 0.0, "rougeL_r": 0.0, "best_gold": None}
+#     for g in golds:
+#         g_n = normalize(g)
+#         # evaluate.rouge espera listas paralelas de preds y refs
+#         res = rouge.compute(predictions=[pred_n], references=[g_n], rouge_types=["rougeL"])
+#         # 'rougeL' devuelve F1; precision y recall no vienen explícitos en evaluate
+#         # (si necesitas P/R explícitos, usa la opción B de abajo)
+#         f1 = res["rougeL"]
+#         if f1 > best["rougeL_f"]:
+#             best.update({"rougeL_f": f1, "best_gold": g})
+#     return best
 
 # 3) Run e coleta de métricas
 metrics = {
@@ -201,7 +202,7 @@ metrics = {
     "answer_group_f1": [],
     "answer_bleu": [],
     "answer_Rouge/L": [],
-    "answer_rougeL_HF": []
+    #"answer_rougeL_HF": []
 }
 
 # Limpia archivo si ya existía
@@ -312,9 +313,9 @@ for ex in tqdm(dataset_miniKGraph):
     metrics["answer_Rouge/L"].append(best_rouge)
     
     # ROUGE-L con evaluate (HF)
-    rougeL_hf = rougeL_max_hf(pred, golds)
-    metrics["answer_rougeL_HF"].append(rougeL_hf["rougeL_f"])
-    print(f"✅ ROUGE-L (HF): {rougeL_hf['rougeL_f']:.2%} (best gold: {rougeL_hf['best_gold']})")
+    # rougeL_hf = rougeL_max_hf(pred, golds)
+    # metrics["answer_rougeL_HF"].append(rougeL_hf["rougeL_f"])
+    # print(f"✅ ROUGE-L (HF): {rougeL_hf['rougeL_f']:.2%} (best gold: {rougeL_hf['best_gold']})")
 
     ground_truth_str = ", ".join(golds)
     print(f"✅ Gold String: {ground_truth_str}")
@@ -358,7 +359,7 @@ for ex in tqdm(dataset_miniKGraph):
         "group_f1": group_f1_score,
         "bleu_score": bleu.score,
         "rouge_l": best_rouge,
-        "answer_rougeL_HF": rougeL_hf,
+        #"answer_rougeL_HF": rougeL_hf,
         "ragas": {
             "faithfulness": result_RAGAS["faithfulness"],
             "context_recall": result_RAGAS["context_recall"],
@@ -377,7 +378,7 @@ f1_score_avg = sum(metrics['answer_f1_score'])/n
 group_f1_avg = sum(metrics['answer_group_f1'])/n
 bleu_score_avg = sum(metrics['answer_bleu'])/n
 rouge_l_avg = sum(metrics['answer_Rouge/L'])/n
-answer_rougeL_HF = sum(metrics['answer_rougeL_HF'])/n
+#answer_rougeL_HF = sum(metrics['answer_rougeL_HF'])/n
 faithfulness_avg = sum(ragas_results['faithfulness'])/n
 context_recall_avg = sum(ragas_results['context_recall'])/n
 context_precision_avg = sum(ragas_results['context_precision'])/n
@@ -391,7 +392,7 @@ print(f"Answer F1:   {f1_score_avg:.2%}")
 print(f"Answer Group F1: {group_f1_avg:.2%}")
 print(f"Answer BLEU: {bleu_score_avg:.2f}")
 print(f"Answer ROUGE-L: {rouge_l_avg:.2%}")
-print(f"Answer ROUGE-L (HF): {answer_rougeL_HF:.2%}")
+#print(f"Answer ROUGE-L (HF): {answer_rougeL_HF:.2%}")
 
 print(f" * * * MÉTRICAS FINALES DE RAGAS * * *")
 print(f"Faithfulness: {faithfulness_avg:.3%}")
