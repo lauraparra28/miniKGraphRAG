@@ -1,5 +1,27 @@
 [
     {
+        "id": 220,
+        "level": 2,
+        "question": "Em que campo está localizado o poço PAR-101?",
+        "answer": [
+            [
+                "Nao ha informaçao"
+            ]
+        ],
+        "context": "Nao ha informações no grafo."
+    },
+    {
+        "id": 22,
+        "level": 2,
+        "question": "Onde está localizada a Fm. Barra Velha?",
+        "answer": [
+            [
+                "Nao ha informaçao disponivel no grafo"
+            ]
+        ],
+        "context": "Nao ha informações no grafo."
+    },
+    {
         "id": 1,
         "level": 0,
         "question": "Quais outros nomes possíveis para o campo AZULÃO?",
@@ -18,6 +40,9 @@
         "level": 0,
         "question": "Quais outros nomes possíveis para o campo MANATI?",
         "answer": [
+            [
+                "os outros nomes possiveis"
+            ],
             [
                 "ÁREA DO B128"
             ]
@@ -131,17 +156,6 @@
             ]
         ],
         "context": "Existem 220 poços localizados na bacia Amazonas."
-    },
-    {
-        "id": 1106,
-        "level": 2,
-        "question": "Quantos poços estão localizados na bacia Camamu-Almada?",
-        "answer": [
-            [
-                "90"
-            ]
-        ],
-        "context": "Existem 90 poços localizados na bacia Camamu-Almada."
     },
     {
         "id": 1450,
