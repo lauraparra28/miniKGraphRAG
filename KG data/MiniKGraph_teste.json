@@ -120,5 +120,55 @@
             ]
         ],
         "context": "O poço 1BAS20 atravessa: Fm. Taipus-Mirim (Formação Taipus-Mirim), Formação Algodões (Fm. Algodões), Grupo Espírito Santo (Gr. Espírito Santo), Formação Itaípe (Fm. Itaípe), Formação Sergi (Fm. Sergi), Formação Rio de Contas (Fm. Rio de Contas), Fm. Morro do Barro (Formação Morro do Barro), Gr. Almada (Grupo Almada), Grupo Brotas (Gr. Brotas), Grupo Camamu (Gr. Camamu)."
+    },
+    {
+        "id": 1105,
+        "level": 2,
+        "question": "Quantos poços estão localizados na bacia Amazonas?",
+        "answer": [
+            [
+                "220"
+            ]
+        ],
+        "context": "Existem 220 poços localizados na bacia Amazonas."
+    },
+    {
+        "id": 1106,
+        "level": 2,
+        "question": "Quantos poços estão localizados na bacia Camamu-Almada?",
+        "answer": [
+            [
+                "90"
+            ]
+        ],
+        "context": "Existem 90 poços localizados na bacia Camamu-Almada."
+    },
+    {
+        "id": 1450,
+        "level": 2,
+        "question": "Que unidades litoestratigráficas são constituídas por fluido gás não associado (gás seco)?",
+        "answer": [
+            [
+                "Fm. Oriximiná",
+                "Formação Oriximiná"
+            ],
+            [
+                "Formação Itaituba",
+                "Fm. Itaituba"
+            ]
+        ],
+        "context": "As unidades litoestratigráficas constituídas por gás não associado (gás seco) são: Fm. Oriximiná (Formação Oriximiná), Formação Itaituba (Fm. Itaituba)."
+    },
+    {
+        "id": 221,
+        "level": 2,
+        "question": "Em que campo está localizado o poço BAS-101?",
+        "answer": [
+            [
+                "SARDINHA",
+                "ÁREA DO B097"
+            ]
+        ],
+        "context": "O poço BAS-101 está localizado no(s) campo(s): SARDINHA (ÁREA DO B097)."
     }
 ]

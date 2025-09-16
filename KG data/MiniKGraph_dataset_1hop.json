@@ -146,8 +146,10 @@
         "level": 2,
         "question": "Quais são os campos localizados na bacia Amazonas de URI BASE_CD_BACIA_030?",
         "answer": [
+            [
             "Azulão",
             "Igarapé Maripá"
+            ]
         ],
         "context": "Na bacia Amazonas de URI BASE_CD_BACIA_030 existem 2 campos: Azulão, Igarapé Maripá."
     },
@@ -156,12 +158,14 @@
         "level": 2,
         "question": "Quais são os campos localizados na bacia Camamu-Almada de URI BASE_CD_BACIA_266?",
         "answer": [
+            [
             "Manati",
             "Camarão Norte",
             "Morro Do Barro",
             "Area Do Bas-64",
             "Área Do B097",
             "Jiribatuba"
+            ]
         ],
         "context": "Na bacia Camamu-Almada de URI BASE_CD_BACIA_266 existem 6 campos: Manati, Camarão Norte, Morro Do Barro, Area Do Bas-64, Área Do B097, Jiribatuba."
     },
@@ -18053,10 +18057,10 @@
         "question": "Quantos poços estão localizados na bacia Amazonas?",
         "answer": [
             [
-                "218"
+                "220"
             ]
         ],
-        "context": "Existem 218 poços localizados na bacia Amazonas."
+        "context": "Existem 220 poços localizados na bacia Amazonas."
     },
     {
         "id": 1106,
