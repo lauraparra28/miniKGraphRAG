@@ -18,12 +18,12 @@ from ragas import evaluate
 
 # Generar nombre de archivo con fecha actual
 fecha_actual = datetime.now().strftime("%d_%m_%Y")
-output_file = os.path.join("results", f"onehop_evaluation_results_{fecha_actual}.jsonl")
-final_metrics_file = os.path.join("results", f"onehop_final_metrics_{fecha_actual}.json")
+output_file = os.path.join("results", f"Aggregation_evaluation_results_{fecha_actual}.jsonl")
+final_metrics_file = os.path.join("results", f"Aggregation_final_metrics_{fecha_actual}.json")
 print("📁 Arquivos criados para guardar dados do teste")
 
 # 1) Carrega o dataset
-dataset_miniKGraph = bu.load_dataset()["MiniKGraph_dataset_1hop.json"]
+dataset_miniKGraph = bu.load_dataset()["MiniKGraph_dataset_aggregation.json"]
 print("✅ Successfully load Dataset miniKGraph for Evaluation")
 
 # 2) Funções auxiliares
@@ -57,9 +57,16 @@ def flatten_answers(ans):
     else:
         return [normalize(ans)]
 
-# ---------- Utilidades ----------
+def normalize_nested_list(nested_list):
+    """Normaliza listas anidadas de strings conservando la estructura."""
+    return [
+        [normalize(item) for item in sublist]
+        for sublist in nested_list
+    ]
+    
 def tokenize_norm(s: str): return normalize(s).split()
 
+# ---------- Utilidades ----------
 def token_f1(pred: str, gold: str) -> float:
     ptoks = tokenize_norm(pred)
     gtoks = tokenize_norm(gold)
@@ -124,6 +131,19 @@ def avg_f1_per_question(pred: str, golds) -> float:
         return sum(f1_scores) / len(f1_scores) if f1_scores else 0.0
     raise ValueError("Formato de golds no reconocido")
 
+def to_group_format(ans):
+    # Caso string
+    if isinstance(ans, str):
+        return [[normalize(ans)]]
+    # Caso lista plana de strings
+    if isinstance(ans, list) and all(isinstance(x, str) for x in ans):
+        return [[x] for x in ans]
+    # Caso lista de listas (correcto ya)
+    if isinstance(ans, list) and all(isinstance(x, list) for x in ans):
+        return ans
+    # fallback
+    return [[normalize(ans)]]
+
 # ---------------------------
 # F1 por grupos (any-match)
 # ---------------------------
@@ -146,14 +166,13 @@ def group_f1(pred: str, gold_groups: list[list[str]]) -> float:
     total_predicted_positives = tp
     total_actual_positives = len(gold_groups)
 
-    # precision = matched_groups / len(pred_entities)
-    # recall    = matched_groups / len(gold_groups)
     precision = tp / total_predicted_positives if total_predicted_positives > 0 else 0.0
     recall = tp / total_actual_positives if total_actual_positives > 0 else 0.0
+    print(f"Precision: {precision}")
+    print(f"Recall: {recall}")
+    group_f1_score = 2 * precision * recall / (precision + recall) if precision + recall > 0 else 0.0
 
-    # print(f"TP: {matched_groups}, Pred entities: {len(pred_entities)}, Gold groups: {len(gold_groups)}")
-    # print(f"Precision: {precision}, Recall: {recall}")
-    return 2 * precision * recall / (precision + recall)
+    return group_f1_score
 
 def lcs_len(a, b):
     # a, b son listas de tokens
@@ -220,15 +239,11 @@ ragas_results_ = []
 for ex in tqdm(dataset_miniKGraph):
     id = ex["id"]
     question       = ex["question"]
-    golds = sorted(set(flatten_answers(ex["answer"])))   # dedupPara
+    golds = sorted(set(flatten_answers(ex["answer"]))) 
     print(f"Golds (normalized): {golds}")
 
-    out     = chain.invoke({"query": question})
-    #print("🛰️ Context Output del chain:")
-    # Contexto
+    out     = chain.invoke({"query": question}) 
     contexts = out["intermediate_steps"][1]["context"]
-    # Procesa contextos a string
-    import json
 
     def to_ctx_strings(ctx):
         # SIEMPRE devolver List[str]
@@ -296,11 +311,14 @@ for ex in tqdm(dataset_miniKGraph):
     #avg_f1 = avg_f1_per_question(pred, golds)
     #metrics["answer_avg_f1"].append(avg_f1)
 
-    # F1 por grupos (any-match)
-    # Si golds = [[alias1, alias2], [alias3, alias4]], se evalúa si la predicción menciona al menos un alias de cada grupo
-    group_f1_score = group_f1(pred, golds)
+    # Group F1 (any-match) ACTUALIZADA
+    gold_groups = to_group_format(ex["answer"]) # conserva grupos para group_f1
+    print(f"Golds (grouped): {gold_groups}")
+    gold_groups_norm = normalize_nested_list(gold_groups)
+    print(f"Gold groups (normalized): {gold_groups_norm}")
+    group_f1_score = group_f1(pred, gold_groups_norm)
     metrics["answer_group_f1"].append(group_f1_score)
-    # print(f"✅ Group F1: {group_f1_score:.2%}")
+    print(f"✅ Group F1: {group_f1_score:.2%}")
 
     # BLEU (corpus-bleu por sentença)
     bleu = sacrebleu.sentence_bleu(pred, golds)
