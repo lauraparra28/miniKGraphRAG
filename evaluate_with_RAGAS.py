@@ -7,7 +7,7 @@ Uso:
   python evaluate_with_RAGAS.py --ragas --tag 1hop
 
   # Sin RAGAS
-  python evaluate_ragas.py --no-ragas
+  python evaluate_ragas.py --no-ragas --tag 1hop
 """
 import os, re, unicodedata, json
 from collections import Counter
@@ -319,7 +319,8 @@ def main():
         print("\n(RAGAS deshabilitado: se omiten métricas RAGAS)")
 
     with open(final_metrics_file, "w", encoding="utf-8") as f:
-        json.dump(final_metrics, f, indent=2, ensure_ascii=False)
+        json.dump(final_metrics, f, indent=4, ensure_ascii=False)
+    
 
     print("\n📁 Resultados guardados en:")
     print("  - JSONL por ejemplo:", output_file)
