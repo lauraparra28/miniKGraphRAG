@@ -1,0 +1,133 @@
+{
+    "id": 1481,
+    "question": "O que é um(a) aglomerado?",
+    "gold": [
+        "aglomerado vulcanico e uma rocha piroclastica composta por mais de 75 de bombas vulcanicas diametro maior que 64 mm que foi pelo menos parcialmente derretida durante a formacao ou transporte"
+    ],
+    "pred": "um aglomerado ou aglomerado vulcanico e uma rocha piroclastica que e composta por mais de 75 de bombas vulcanicas as quais possuem um diametro maior que 64 mm essa rocha e caracterizada por ter sido pelo menos em parte parcialmente derretida durante o processo de formacao ou transporte",
+    "exact_match": false,
+    "f1_score": 0.7179487179487181,
+    "group_f1": 0.0,
+    "bleu_score": 37.07146817177405,
+    "rouge_l": 0.6923076923076923,
+    "ragas": {
+        "faithfulness": 0.75,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.9196728421167691
+    }
+}
+{
+    "id": 1488,
+    "question": "O que é um(a) rocha anortosítica?",
+    "gold": [
+        "rocha anortositica e uma rocha plutonica que corresponde a classificacao qapf para rochas plutonicas identificadas como anortosito"
+    ],
+    "pred": "a rocha anortositica e uma rocha plutonica que corresponde a classificacao qapf para rochas plutonicas identificadas como anortosito",
+    "exact_match": true,
+    "f1_score": 0.9714285714285714,
+    "group_f1": 1.0,
+    "bleu_score": 93.91044157537529,
+    "rouge_l": 0.9714285714285714,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.8670538257942919
+    }
+}
+{
+    "id": 1489,
+    "question": "O que é um(a) antracito?",
+    "gold": [
+        "antracito e o carvao de classificacao mais alta muito duro brilhante preto com brilho semimetalico e fratura semiconcoidal tem um teor fixo de carbono superior a 91 em base seca e isenta de materia mineral"
+    ],
+    "pred": "o antracito e o carvao de classificacao mais alta caracterizado por ser muito duro brilhante de cor preta com brilho semimetalico e fratura semiconcoidal possui um teor fixo de carbono superior a 91 em base seca e isento de materia mineral",
+    "exact_match": false,
+    "f1_score": 0.8421052631578947,
+    "group_f1": 0.0,
+    "bleu_score": 60.38420087906411,
+    "rouge_l": 0.8421052631578947,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.9456236678409925
+    }
+}
+{
+    "id": 2043,
+    "question": "Descreva a unidade cronoestratigráfica Subidade Yeadoniana.",
+    "gold": [
+        "o yeadoriano e uma subidade da europa ocidental que e um intervalo dentro e termina a idade namuriana o yeadoriano encontra o langsettiano e e encontrado pelo marsdeniano"
+    ],
+    "pred": "a subidade yeadoriana e uma unidade cronoestratigrafica que se insere na europa ocidental ela e caracterizada como um intervalo que se encontra dentro da idade namuriana tendo como particularidade o fato de que a subidade yeadoriana a termina alem disso essa subidade e descrita como se encontrando com a subidade langsettiana e sendo encontrada pelo marsdeniano",
+    "exact_match": false,
+    "f1_score": 0.5,
+    "group_f1": 0.0,
+    "bleu_score": 3.493170159567997,
+    "rouge_l": 0.3571428571428571,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.8158047548201797
+    }
+}
+{
+    "id": 2044,
+    "question": "Descreva a unidade cronoestratigráfica Eoceno Inferior.",
+    "gold": [
+        "o ypresian ou eoceno inferior e uma idade geocronologica que se estende de aproximadamente 56 milhoes de anos atras ate cerca de 478 milhoes de anos atras comeca na base do eoceno e termina na base do lutetiano o ypresian faz parte do eon eoceno e se encontra com o intervalo do lutetiano e precedido pelo paleoceno e seguido pelo thanetiano"
+    ],
+    "pred": "o ypresian tambem conhecido como eoceno inferior e uma unidade cronoestratigrafica que se estende de aproximadamente 56 milhoes de anos atras ate cerca de 478 milhoes de anos atras esta idade geocronologica iniciase na base do eoceno e termina na base do lutetiano o ypresian faz parte do eon eoceno e se encontra em um intervalo que se conecta com o lutetiano em termos de sucessao temporal e precedido pelo paleoceno e seguido pelo thanetiano",
+    "exact_match": false,
+    "f1_score": 0.8529411764705883,
+    "group_f1": 0.0,
+    "bleu_score": 62.79530226185207,
+    "rouge_l": 0.8088235294117647,
+    "ragas": {
+        "faithfulness": 0.75,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.7634858108062196
+    }
+}
+{
+    "id": 2045,
+    "question": "Descreva a unidade cronoestratigráfica Eoplioceno.",
+    "gold": [
+        "o zancleano ou plioceno inferior e uma idade geocronologica que dura de aproximadamente 5333 milhoes de anos atras ate cerca de 36 milhoes de anos atras comeca na base do plioceno e termina na base do piacenziano o zanclean faz parte do eon plioceno e se encontra com o intervalo do piacenziano e precedido pelo messiniano e pelo mioceno"
+    ],
+    "pred": "sem dados suficientes no contexto",
+    "exact_match": false,
+    "f1_score": 0.0,
+    "group_f1": 0.0,
+    "bleu_score": 0.0,
+    "rouge_l": 0.0,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.0
+    }
+}
+{
+    "id": 2046,
+    "question": "Descreva a unidade cronoestratigráfica Zechstein.",
+    "gold": [
+        "o zechstein e uma epoca da europa ocidental que termina com a base do mesozoico e e um intervalo dentro e termina o permiano o zechstein e encontrado pela epoca rotliegend"
+    ],
+    "pred": "a unidade cronoestratigrafica zechstein e uma epoca que se insere no contexto da europa ocidental ela e caracterizada por seu termino na base do mesozoico e e considerada um intervalo que se encontra dentro do permiano finalizando este periodo alem disso o zechstein e encontrado pela epoca rotliegend que o precede essa epoca e portanto um marco importante na cronologia geologica refletindo transicoes significativas na historia da terra",
+    "exact_match": false,
+    "f1_score": 0.5454545454545454,
+    "group_f1": 0.0,
+    "bleu_score": 20.31109633897588,
+    "rouge_l": 0.46464646464646475,
+    "ragas": {
+        "faithfulness": 0.7142857142857143,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.8512961433484542
+    }
+}

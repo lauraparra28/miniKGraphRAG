@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1481,
+        "level": 4,
+        "question": "O que é um(a) aglomerado?",
+        "answer": [
+            [
+                "Aglomerado Vulcânico é uma Rocha Piroclástica composta por mais de 75% de bombas vulcânicas (diâmetro maior que 64 mm), que foi pelo menos parcialmente derretida durante a formação ou transporte."
+            ]
+        ],
+        "context": "Aglomerado Vulcânico é uma Rocha Piroclástica composta por mais de 75% de bombas vulcânicas (diâmetro maior que 64 mm), que foi pelo menos parcialmente derretida durante a formação ou transporte."
+    },
+    {
+        "id": 1488,
+        "level": 4,
+        "question": "O que é um(a) rocha anortosítica?",
+        "answer": [
+            [
+                "Rocha Anortosítica é uma Rocha Plutônica que corresponde à classificação QAPF para rochas plutônicas identificadas como anortosito."
+            ]
+        ],
+        "context": "Rocha Anortosítica é uma Rocha Plutônica que corresponde à classificação QAPF para rochas plutônicas identificadas como anortosito."
+    },
+    {
+        "id": 1489,
+        "level": 4,
+        "question": "O que é um(a) antracito?",
+        "answer": [
+            [
+                "Antracito é o Carvão de classificação mais alta, muito duro, brilhante, preto, com brilho semimetálico e fratura semiconcoidal; tem um teor fixo de carbono superior a 91% em base seca e isenta de matéria mineral."
+            ]
+        ],
+        "context": "Antracito é o Carvão de classificação mais alta, muito duro, brilhante, preto, com brilho semimetálico e fratura semiconcoidal; tem um teor fixo de carbono superior a 91% em base seca e isenta de matéria mineral."
+    },
+    {
+        "id": 2043,
+        "level": 4,
+        "question": "Descreva a unidade cronoestratigráfica Subidade Yeadoniana.",
+        "answer": [
+            [
+                "O Yeadoriano é uma SUB-IDADE DA EUROPA OCIDENTAL que é um INTERVALO DENTRO e TERMINA a Idade Namuriana. O Yeadoriano ENCONTRA o Langsettiano e é ENCONTRADO pelo Marsdeniano."
+            ]
+        ],
+        "context": "O Yeadoriano é uma SUB-IDADE DA EUROPA OCIDENTAL que é um INTERVALO DENTRO e TERMINA a Idade Namuriana. O Yeadoriano ENCONTRA o Langsettiano e é ENCONTRADO pelo Marsdeniano."
+    },
+    {
+        "id": 2044,
+        "level": 4,
+        "question": "Descreva a unidade cronoestratigráfica Eoceno Inferior.",
+        "answer": [
+            [
+                "O Ypresian (ou Eoceno Inferior) é uma IDADE GEOCRONOLÓGICA que se estende de aproximadamente 56 milhões de anos atrás até cerca de 47,8 milhões de anos atrás. Começa na Base do Eoceno e termina na Base do Lutetiano. O Ypresian faz parte do éon Eoceno e se encontra com o intervalo do Lutetiano. É precedido pelo Paleoceno e seguido pelo Thanetiano."
+            ]
+        ],
+        "context": "O Ypresian (ou Eoceno Inferior) é uma IDADE GEOCRONOLÓGICA que se estende de aproximadamente 56 milhões de anos atrás até cerca de 47,8 milhões de anos atrás. Começa na Base do Eoceno e termina na Base do Lutetiano. O Ypresian faz parte do éon Eoceno e se encontra com o intervalo do Lutetiano. É precedido pelo Paleoceno e seguido pelo Thanetiano."
+    },
+    {
+        "id": 2045,
+        "level": 4,
+        "question": "Descreva a unidade cronoestratigráfica Eoplioceno.",
+        "answer": [
+            [
+                "O Zancleano (ou Plioceno Inferior) é uma IDADE GEOCRONOLÓGICA que dura de aproximadamente 5,333 milhões de anos atrás até cerca de 3,6 milhões de anos atrás. Começa na Base do Plioceno e termina na Base do Piacenziano. O Zanclean faz parte do éon Plioceno e se encontra com o intervalo do Piacenziano. É precedido pelo Messiniano e pelo Mioceno."
+            ]
+        ],
+        "context": "O Zancleano (ou Plioceno Inferior) é uma IDADE GEOCRONOLÓGICA que dura de aproximadamente 5,333 milhões de anos atrás até cerca de 3,6 milhões de anos atrás. Começa na Base do Plioceno e termina na Base do Piacenziano. O Zanclean faz parte do éon Plioceno e se encontra com o intervalo do Piacenziano. É precedido pelo Messiniano e pelo Mioceno."
+    },
+    {
+        "id": 2046,
+        "level": 4,
+        "question": "Descreva a unidade cronoestratigráfica Zechstein.",
+        "answer": [
+            [
+                "O Zechstein é uma ÉPOCA DA EUROPA OCIDENTAL que TERMINA com a Base do Mesozóico e é um INTERVALO DENTRO e TERMINA o Permiano. O Zechstein é ENCONTRADO pela Época Rotliegend."
+            ]
+        ],
+        "context": "O Zechstein é uma ÉPOCA DA EUROPA OCIDENTAL que TERMINA com a Base do Mesozóico e é um INTERVALO DENTRO e TERMINA o Permiano. O Zechstein é ENCONTRADO pela Época Rotliegend."
+    }
+]

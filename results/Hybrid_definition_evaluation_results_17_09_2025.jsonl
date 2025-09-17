@@ -1,0 +1,190 @@
+{
+    "id": 1481,
+    "question": "O que é um(a) aglomerado?",
+    "gold": [
+        "aglomerado vulcanico e uma rocha piroclastica composta por mais de 75 de bombas vulcanicas diametro maior que 64 mm que foi pelo menos parcialmente derretida durante a formacao ou transporte"
+    ],
+    "pred": "um aglomerado ou aglomerado vulcanico e uma rocha piroclastica que e composta por mais de 75 de bombas vulcanicas as quais possuem um diametro superior a 64 mm essa rocha e caracterizada por ter sido pelo menos em parte parcialmente derretida durante o processo de formacao ou transporte",
+    "exact_match": false,
+    "f1_score": 0.6923076923076923,
+    "group_f1": 0.0,
+    "bleu_score": 31.615460747729472,
+    "rouge_l": 0.6410256410256411,
+    "ragas": {
+        "faithfulness": 0.75,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.9197366077510364
+    }
+}
+{
+    "id": 1482,
+    "question": "O que é um(a) anfibolito?",
+    "gold": [
+        "anfibolito e uma rocha metamorfica gnaissica ou granofelsica por composicao que consiste principalmente em anfibolio verde marrom ou preto e plagioclasio incluindo albita que combinados formam mais de 75 da rocha e ambos estao presentes como constituintes principais"
+    ],
+    "pred": "o anfibolito e uma rocha metamorfica gnaissica ou granofelsica cuja composicao e predominantemente formada por anfibolio nas cores verde marrom ou preto e plagioclasio incluindo albita esses dois minerais juntos constituem mais de 75 da rocha sendo ambos considerados constituintes principais",
+    "exact_match": false,
+    "f1_score": 0.7088607594936709,
+    "group_f1": 0.0,
+    "bleu_score": 44.55259669294672,
+    "rouge_l": 0.6582278481012659,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.9191108364344305
+    }
+}
+{
+    "id": 1483,
+    "question": "O que é um(a) anatexito?",
+    "gold": [
+        "anatexito e uma rocha migmatica de silicato composto que e amplamente heterogenea em uma escala meso a megascopica"
+    ],
+    "pred": "anatexito e uma rocha migmatica de silicato composto que se caracteriza por ser amplamente heterogenea em uma escala meso a megascopica",
+    "exact_match": false,
+    "f1_score": 0.8717948717948718,
+    "group_f1": 0.0,
+    "bleu_score": 70.98232254187813,
+    "rouge_l": 0.8717948717948718,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.9797873340331248
+    }
+}
+{
+    "id": 1484,
+    "question": "O que é um(a) andesito?",
+    "gold": [
+        "andesito e uma rocha andesitica que e uma rocha vulcanica intermediaria composta essencialmente por plagioclasio frequentemente zoneado de labradorita a oligoclasio piroxenio hornblenda eou biotita"
+    ],
+    "pred": "o andesito e uma rocha andesitica classificada como uma rocha vulcanica intermediaria sua composicao e essencialmente formada por plagioclasio que frequentemente apresenta zonamento de labradorita a oligoclasio alem de conter piroxenio hornblenda eou biotita",
+    "exact_match": false,
+    "f1_score": 0.7796610169491526,
+    "group_f1": 0.0,
+    "bleu_score": 33.77854698776806,
+    "rouge_l": 0.711864406779661,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.9320961304768792
+    }
+}
+{
+    "id": 1485,
+    "question": "O que é um(a) andesitóide?",
+    "gold": [
+        "rocha andesitica ou andesitoide e uma rocha vulcanica que corresponde a classificacao qapf para rochas vulcanicas identificadas como andesito"
+    ],
+    "pred": "um andesitoide tambem conhecido como rocha andesitica e uma rocha vulcanica que se classifica segundo a classificacao qapf para rochas vulcanicas identificadas como andesito",
+    "exact_match": false,
+    "f1_score": 0.7906976744186046,
+    "group_f1": 0.0,
+    "bleu_score": 51.31275135405762,
+    "rouge_l": 0.744186046511628,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.8207386685119179
+    }
+}
+{
+    "id": 1486,
+    "question": "O que é um(a) anidrita?",
+    "gold": [
+        "anidrita e um evaporito composto de mais de 50 de anidrita caso4 frequentemente associado a gesso e halita formando espessas camadas intercaladas com calcario e xisto"
+    ],
+    "pred": "a anidrita e um evaporito composto de mais de 50 de anidrita caso4 frequentemente ela esta associada a gesso e halita formando espessas camadas intercaladas com calcario e xisto",
+    "exact_match": false,
+    "f1_score": 0.9090909090909091,
+    "group_f1": 0.0,
+    "bleu_score": 79.65020533851947,
+    "rouge_l": 0.9090909090909091,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.909122064631068
+    }
+}
+{
+    "id": 1487,
+    "question": "O que é um(a) anortosito?",
+    "gold": [
+        "anortosito e uma rocha plutonica leucocratica constituida essencialmente por plagioclasio calcico muitas vezes com pequenas quantidades de piroxenio"
+    ],
+    "pred": "anortosito e uma rocha plutonica leucocratica constituida essencialmente por plagioclasio calcico frequentemente apresentando pequenas quantidades de piroxenio",
+    "exact_match": false,
+    "f1_score": 0.8571428571428571,
+    "group_f1": 0.0,
+    "bleu_score": 71.89085812023326,
+    "rouge_l": 0.8571428571428571,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.977288607611747
+    }
+}
+{
+    "id": 1488,
+    "question": "O que é um(a) rocha anortosítica?",
+    "gold": [
+        "rocha anortositica e uma rocha plutonica que corresponde a classificacao qapf para rochas plutonicas identificadas como anortosito"
+    ],
+    "pred": "a rocha anortositica e uma rocha plutonica que corresponde a classificacao qapf para rochas plutonicas identificadas como anortosito",
+    "exact_match": true,
+    "f1_score": 0.9714285714285714,
+    "group_f1": 1.0,
+    "bleu_score": 93.91044157537529,
+    "rouge_l": 0.9714285714285714,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.8754781399205674
+    }
+}
+{
+    "id": 1489,
+    "question": "O que é um(a) antracito?",
+    "gold": [
+        "antracito e o carvao de classificacao mais alta muito duro brilhante preto com brilho semimetalico e fratura semiconcoidal tem um teor fixo de carbono superior a 91 em base seca e isenta de materia mineral"
+    ],
+    "pred": "o antracito e o carvao de classificacao mais alta caracterizado por ser muito duro brilhante de coloracao preta com um brilho semimetalico e fratura semiconcoidal possui um teor fixo de carbono superior a 91 em base seca e isento de materia mineral",
+    "exact_match": false,
+    "f1_score": 0.8311688311688312,
+    "group_f1": 0.0,
+    "bleu_score": 56.797106917360225,
+    "rouge_l": 0.8311688311688312,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.9175981020870373
+    }
+}
+{
+    "id": 1490,
+    "question": "O que é um(a) aplito?",
+    "gold": [
+        "aplito e uma rocha hipabissal de cor clara leucocratica caracterizada por uma textura granular alotriomorfica de grao fino geralmente com uma composicao granitica consistindo de quartzo feldspato alcalino e plagioclasio sodico"
+    ],
+    "pred": "um aplito e uma rocha hipabissal de cor clara leucocratica caracterizada por uma textura granular alotriomorfica de grao fino geralmente possui uma composicao granitica que consiste em quartzo feldspato alcalino e plagioclasio sodico",
+    "exact_match": false,
+    "f1_score": 0.875,
+    "group_f1": 0.0,
+    "bleu_score": 73.88084666564076,
+    "rouge_l": 0.875,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.99999999995,
+        "answer_relevancy": 0.9419491074584126
+    }
+}

@@ -68,8 +68,8 @@ def run_intelligent_hybrid_rag(query: str, top_k: int = 3):
         data = [record for record in results]
     
     print(f"✅ Cypher encontró {len(data)} nodos candidatos.")
-    if not data:
-        return "El LLM no pudo generar una consulta Cypher válida o no se encontraron resultados estructurales en el grafo para su pregunta."
+    if not data or len(data) == 0:
+        return "El LLM no pudo generar una consulta Cypher válida o no se encontraron resultados estructurales en el grafo para su pregunta.", []
 
     # --- PASO 3: Búsqueda vectorial sobre los candidatos (lógica de FAISS) ---
     print("\n🚀 Paso 3: Realizando búsqueda vectorial con FAISS sobre los candidatos...")
@@ -77,7 +77,7 @@ def run_intelligent_hybrid_rag(query: str, top_k: int = 3):
     node_names = [r["name"] for r in data if r.get("definition")]
     
     if not texts:
-        return "Los nodos encontrados no tienen una propiedad 'definition' para la búsqueda semántica."
+        return "Los nodos encontrados no tienen una propiedad 'definition' para la búsqueda semántica.", []
 
     embeddings = sentence_model.encode(texts)
     index = faiss.IndexFlatL2(embeddings.shape[1])
@@ -97,9 +97,10 @@ def run_intelligent_hybrid_rag(query: str, top_k: int = 3):
 
     REGRAS:
     1) Responda exclusivamente com base na informação detalhada fornecida.
-    2) Se a informação NÃO estiver no contexto, responda apenas: "Sem dados suficientes no contexto."
-    
-    Información detallada de los nodos más relevantes del grafo:
+    2) Não forneça informações adicionais que não estejam no contexto.
+    3) Se a informação NÃO estiver no contexto, responda apenas: "Sem dados suficientes no contexto."
+
+    Informação detalhada dos nós mais relevantes do grafo:
     {retrieved_texts}
     
     Responda a seguinte pergunta com precisão: {query}
@@ -110,15 +111,16 @@ def run_intelligent_hybrid_rag(query: str, top_k: int = 3):
         temperature=0.0,
         messages=[{"role": "user", "content": prompt}]
     )
-    return response.choices[0].message.content
+
+    final_answer = response.choices[0].message.content
+
+    return final_answer, retrieved_texts
 
 # --- 4️⃣ Ejecución ---
 if __name__ == "__main__":
-    pregunta_compleja = "Que unidades litoestratigráficas o poço 9-FZ-0024-AM atravessa?"
-    #pregunta_compleja = "O que é um(a) sandstone?"
-    #pregunta_compleja = "Descreva a unidade cronoestratigráfica Idade Bartoniana"
-    
-    respuesta_final = run_intelligent_hybrid_rag(pregunta_compleja)
-    
+    question = input("❓ Pergunta: ")
+
+    respuesta_final, retrieved_texts = run_intelligent_hybrid_rag(question)
+
     print("\n\n✅✅✅ Respuesta Final del Sistema Integrado ✅✅✅")
     print(respuesta_final)

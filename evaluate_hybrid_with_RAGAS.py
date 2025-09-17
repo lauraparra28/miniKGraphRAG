@@ -4,10 +4,10 @@ RAGAS opcional (faithfulness, context_recall, context_precision, answer_relevanc
 
 Uso:
   # Con RAGAS (por defecto)
-  python evaluate_with_RAGAS.py --ragas --tag 1hop
+  python evaluate_hybrid_with_RAGAS.py --ragas --tag definition #hybrid_test
 
   # Sin RAGAS
-  python evaluate_ragas.py --no-ragas --tag 1hop
+  python evaluate_hybrid_with_RAGAS.py --no-ragas --tag 1hop
 """
 import os, re, unicodedata, json
 from collections import Counter
@@ -15,7 +15,7 @@ from datetime import datetime
 from tqdm import tqdm
 from sklearn.metrics import f1_score
 import sacrebleu
-from main_neo4j import chain
+from hybrid_cypher import run_intelligent_hybrid_rag 
 from utils import base_utils as bu
 import argparse
 from typing import Any, Dict, List  
@@ -194,8 +194,8 @@ def main():
     ensure_dir(args.results_dir)
 
     fecha = now_tag()
-    output_file = os.path.join(args.results_dir, f"{args.tag}_evaluation_results_{fecha}.jsonl")
-    final_metrics_file = os.path.join(args.results_dir, f"{args.tag}_final_metrics_{fecha}.json")
+    output_file = os.path.join(args.results_dir, f"Hybrid_{args.tag}_evaluation_results_{fecha}.jsonl")
+    final_metrics_file = os.path.join(args.results_dir, f"Hybrid_{args.tag}_final_metrics_{fecha}.json")
     print("📁 Archivos preparados:", output_file, "|", final_metrics_file)
     print(f"⚙️  RAGAS habilitado: {args.ragas}")
 
@@ -218,14 +218,18 @@ def main():
         qid = ex["id"]
         question = ex["question"]
         golds_flat = sorted(set(flatten_answers(ex["answer"])))
+        print (f"\n❓ Pregunta: {question}")
 
         # Llama a tu cadena
-        out = chain.invoke({"query": question})
-        contexts_raw = out["intermediate_steps"][1]["context"]
+        respuesta_final, retrieved_texts = run_intelligent_hybrid_rag(question)
+        print (f"🟢 Respuesta: {respuesta_final}")
+        # print (f"📚 Contextos: {retrieved_texts}")
+
+        contexts_raw = retrieved_texts if isinstance(retrieved_texts, list) else [retrieved_texts]
         contexts = to_ctx_strings_pretty(contexts_raw)
 
         # Pred normalizada
-        pred = normalize(out["result"])
+        pred = normalize(respuesta_final)
 
         # EM
         exact_match = any(normalize(g) in pred for g in golds_flat)

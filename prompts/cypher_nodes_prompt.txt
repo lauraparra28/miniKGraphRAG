@@ -120,7 +120,7 @@ RETURN f.rdfs_label AS name
 
 # O que é um(a) sandstone?
 MATCH (r:Class)
-WHERE ANY(label IN r.rdfs_label WHERE split(label,"@")[0] = "sandstone")
+WHERE ANY(label IN r.rdfs_label WHERE split(label,"@")[0] CONTAINS "sandstone")
 RETURN r.rdfs_label AS name, r.definition AS definition
 
 # Descreva a unidade cronoestratigráfica Paibiano.
