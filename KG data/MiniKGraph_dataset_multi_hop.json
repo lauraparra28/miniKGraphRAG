@@ -36,14 +36,14 @@
     },
     {
         "level": 3,
-        "question": "Que unidades litoestratigráficas o poço 1-BAS-0113-BA atravessa que são constituídas por rochas do tipo ooze?",
+        "question": "Que unidades litoestratigráficas o poço 1-BAS-0113-BA atravessa que são constituídas por rochas do tipo argila?",
         "answer": [
             [
                 "Fm. Morro do Barro",
                 "Gr. Espírito Santo"
             ]
         ],
-        "context": "O poço 1-BAS-0113-BA atravessa as seguintes unidades litoestratigráficas compostas por rochas do tipo ooze: Fm. Morro do Barro, Gr. Espírito Santo.",
+        "context": "O poço 1-BAS-0113-BA atravessa as seguintes unidades litoestratigráficas compostas por rochas do tipo argila: Fm. Morro do Barro, Gr. Espírito Santo.",
         "id": 1109
     },
     {
@@ -73,7 +73,7 @@
     },
     {
         "level": 3,
-        "question": "Que unidades litoestratigráficas o poço 1-BAS-0144-BA atravessa que são constituídas por rochas do tipo ooze?",
+        "question": "Que unidades litoestratigráficas o poço 1-BAS-0144-BA atravessa que são constituídas por rochas do tipo argila?",
         "answer": [
             [
                 "Fm. Algodões",
@@ -83,7 +83,7 @@
                 "Gr. Camamu"
             ]
         ],
-        "context": "O poço 1-BAS-0144-BA atravessa as seguintes unidades litoestratigráficas compostas por rochas do tipo ooze: Fm. Algodões, Fm. Urucutuca, Fm. Morro do Barro, Gr. Espírito Santo, Gr. Camamu.",
+        "context": "O poço 1-BAS-0144-BA atravessa as seguintes unidades litoestratigráficas compostas por rochas do tipo argila: Fm. Algodões, Fm. Urucutuca, Fm. Morro do Barro, Gr. Espírito Santo, Gr. Camamu.",
         "id": 1112
     },
     {
@@ -183,7 +183,7 @@
     },
     {
         "level": 3,
-        "question": "Que unidades litoestratigráficas o poço 9-FZ-0002-AM atravessa que são constituídas por rochas do tipo ooze?",
+        "question": "Que unidades litoestratigráficas o poço 9-FZ-0002-AM atravessa que são constituídas por rochas do tipo clay?",
         "answer": [
             [
                 "Fm. Nova Olinda",
@@ -192,7 +192,7 @@
                 "Fm. Alter do Chão"
             ]
         ],
-        "context": "O poço 9-FZ-0002-AM atravessa as seguintes unidades litoestratigráficas compostas por rochas do tipo ooze: Fm. Nova Olinda, Fm. Andirá, Fm. Monte Alegre, Fm. Alter do Chão.",
+        "context": "O poço 9-FZ-0002-AM atravessa as seguintes unidades litoestratigráficas compostas por rochas do tipo clay: Fm. Nova Olinda, Fm. Andirá, Fm. Monte Alegre, Fm. Alter do Chão.",
         "id": 1120
     },
     {
@@ -770,7 +770,7 @@
     },
     {
         "level": 3,
-        "question": "Que unidades litoestratigráficas o poço 1-AM-0004-AM atravessa que são constituídas por rochas do tipo ooze?",
+        "question": "Que unidades litoestratigráficas o poço 1-AM-0004-AM atravessa que são constituídas por rochas do tipo argila?",
         "answer": [
             [
                 "Fm. Nova Olinda",
@@ -778,7 +778,7 @@
                 "Fm. Alter do Chão"
             ]
         ],
-        "context": "O poço 1-AM-0004-AM atravessa as seguintes unidades litoestratigráficas compostas por rochas do tipo ooze: Fm. Nova Olinda, Fm. Monte Alegre, Fm. Alter do Chão.",
+        "context": "O poço 1-AM-0004-AM atravessa as seguintes unidades litoestratigráficas compostas por rochas do tipo argila: Fm. Nova Olinda, Fm. Monte Alegre, Fm. Alter do Chão.",
         "id": 1161
     },
     {
