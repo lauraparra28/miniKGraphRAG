@@ -49,7 +49,7 @@ text_to_cypher_chain = build_text_to_cypher_chain(
 )
 
 # --- 3️⃣ La Función de RAG Híbrido Integrado ---
-def run_intelligent_hybrid_rag(query: str, top_k: int = 3):
+def run_intelligent_hybrid_rag(query: str, top_k: int = 10):
     """
     Orquesta el flujo completo: Text-to-Cypher -> Búsqueda Vectorial -> Respuesta.
     """
@@ -59,7 +59,7 @@ def run_intelligent_hybrid_rag(query: str, top_k: int = 3):
     print("🧠 Paso 1: Generando consulta Cypher con LLM...")
     langchain_result = text_to_cypher_chain.invoke({"query": query})
     generated_cypher = langchain_result["intermediate_steps"][0]["query"]
-    print(f"✅ Cypher generado:\n{generated_cypher}")
+    #print(f"✅ Cypher generado:\n{generated_cypher}")
 
     # --- PASO 2: Ejecutar el Cypher y obtener los nodos candidatos ---
     print("\n➡️ Paso 2: Ejecutando Cypher en Neo4j para filtrar nodos...")
@@ -69,15 +69,36 @@ def run_intelligent_hybrid_rag(query: str, top_k: int = 3):
     
     print(f"✅ Cypher encontró {len(data)} nodos candidatos.")
     if not data or len(data) == 0:
-        return "El LLM no pudo generar una consulta Cypher válida o no se encontraron resultados estructurales en el grafo para su pregunta.", []
+        return "O LLM não conseguiu gerar a consulta Cypher válida ou não se encontraram resultados estruturales no grafo para sua pergunta.", []
 
     # --- PASO 3: Búsqueda vectorial sobre los candidatos (lógica de FAISS) ---
     print("\n🚀 Paso 3: Realizando búsqueda vectorial con FAISS sobre los candidatos...")
-    texts = [r["definition"] for r in data if r.get("definition")]
-    node_names = [r["name"] for r in data if r.get("definition")]
+    #texts = [r["definition"] for r in data if r.get("definition")]
+    #node_names = [r["name"] for r in data if r.get("definition")]
+
+    #texts = [r.get("definition", r.get("name", "")) for r in data if r.get("definition") or r.get("name")]
+    #node_names = [r.get("name", "N/A") for r in data if r.get("definition") or r.get("name")]
+
+    texts = []
+    node_names = []
+    for r in data:
+        if r.get("definition"):
+            val = r["definition"]
+            if isinstance(val, list):
+                val = ", ".join(val)
+            texts.append(val)
+            node_names.append(" ".join(r.get("name", [])) if isinstance(r.get("name"), list) else r.get("name", "N/A"))
+        elif r.get("name"):
+            val = r["name"]
+            if isinstance(val, list):
+                val = ", ".join(val)
+            texts.append(val)
+            node_names.append(val)
     
     if not texts:
-        return "Los nodos encontrados no tienen una propiedad 'definition' para la búsqueda semántica.", []
+        langchain_result = text_to_cypher_chain.invoke({"query": query})
+        langchain_result = langchain_result["result"]
+        return langchain_result, []
 
     embeddings = sentence_model.encode(texts)
     index = faiss.IndexFlatL2(embeddings.shape[1])
@@ -86,9 +107,18 @@ def run_intelligent_hybrid_rag(query: str, top_k: int = 3):
     query_emb = sentence_model.encode([query])
     _, I = index.search(np.array(query_emb), top_k)
     
-    retrieved_texts = [texts[i] for i in I[0]]
-    retrieved_nodes = [node_names[i] for i in I[0]]
+    #retrieved_texts = [texts[i] for i in I[0]]
+    #retrieved_nodes = [node_names[i] for i in I[0]]
+    
+    retrieved_texts, retrieved_nodes = [], []
+    for i in I[0]:
+        if texts[i] not in retrieved_texts:  # evitar repetidos
+            retrieved_texts.append(texts[i])
+            retrieved_nodes.append(node_names[i])
+            
     print(f"✅ Nodos más relevantes según FAISS: {retrieved_nodes}")
+
+    context_str = "; ".join(retrieved_texts)
 
     # --- PASO 4: Generar la respuesta final ---
     print("\n✍️ Paso 4: Generando respuesta final con el contexto refinado...")
@@ -96,12 +126,14 @@ def run_intelligent_hybrid_rag(query: str, top_k: int = 3):
     Você é um assistente que responde de forma detalhada na forma culta da lingua portuguesa. 
 
     REGRAS:
-    1) Responda exclusivamente com base na informação detalhada fornecida.
+    1) Responda exclusivamente com base na informação detalhada fornecida no contexto.
     2) Não forneça informações adicionais que não estejam no contexto.
-    3) Se a informação NÃO estiver no contexto, responda apenas: "Sem dados suficientes no contexto."
+    3) Utilize SEMPRE TODA A informação no contexto para responder com precisão.
+    4) Se a informação estiver no contexto, responda com detalhes.
+    5) Se houver vários nomes no contexto, considere que são variantes do mesmo nó e utilize o nome mais completo ou oficial para responder.
 
-    Informação detalhada dos nós mais relevantes do grafo:
-    {retrieved_texts}
+    Contexto relevante (cada item é um valor possível):
+    {context_str}
     
     Responda a seguinte pergunta com precisão: {query}
     """
@@ -121,6 +153,9 @@ if __name__ == "__main__":
     question = input("❓ Pergunta: ")
 
     respuesta_final, retrieved_texts = run_intelligent_hybrid_rag(question)
+
+    print("\n\n📚 Contextos Recuperados:")
+    print(f"{retrieved_texts}")
 
     print("\n\n✅✅✅ Respuesta Final del Sistema Integrado ✅✅✅")
     print(respuesta_final)

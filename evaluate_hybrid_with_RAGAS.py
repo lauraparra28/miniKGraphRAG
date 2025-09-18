@@ -227,6 +227,7 @@ def main():
 
         contexts_raw = retrieved_texts if isinstance(retrieved_texts, list) else [retrieved_texts]
         contexts = to_ctx_strings_pretty(contexts_raw)
+        print(f"📚 Contextos ({len(contexts)}): {contexts}")
 
         # Pred normalizada
         pred = normalize(respuesta_final)
