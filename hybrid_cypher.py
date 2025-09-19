@@ -100,6 +100,8 @@ def run_intelligent_hybrid_rag(query: str, top_k: int = 10):
         langchain_result = langchain_result["result"]
         return langchain_result, []
 
+    top_k = len(data)
+
     embeddings = sentence_model.encode(texts)
     index = faiss.IndexFlatL2(embeddings.shape[1])
     index.add(np.array(embeddings))
@@ -129,7 +131,8 @@ def run_intelligent_hybrid_rag(query: str, top_k: int = 10):
     1) Responda exclusivamente com base na informação detalhada fornecida no contexto.
     2) Não forneça informações adicionais que não estejam no contexto.
     3) Utilize SEMPRE TODA A informação no contexto para responder com precisão.
-    4) Se a informação estiver no contexto, responda com detalhes.
+    4) Se houver múltiplos itens no contexto, SEM OMITIR NENHUM, você deve LISTAR TODOS ELES na resposta final.
+    6) Liste absolutamente todos os itens fornecidos no contexto, mesmo que não pareçam formações típicas.
     5) Se houver vários nomes no contexto, considere que são variantes do mesmo nó e utilize o nome mais completo ou oficial para responder.
 
     Contexto relevante (cada item é um valor possível):
