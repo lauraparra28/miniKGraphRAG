@@ -1,0 +1,12 @@
+{
+    "total_examples": 757,
+    "Answer EM": 0.988110964332893,
+    "Answer F1": 0.31393443768797585,
+    "Answer Group F1": 0.9865697930427125,
+    "Answer BLEU": 14.974827834338399,
+    "Answer ROUGE-L": 0.31393443768797585,
+    "RAGAS Faithfulness": 0.26432280841131567,
+    "RAGAS Answer Relevancy": 0.8771979280288416,
+    "RAGAS Context Recall": 0.9228221769346708,
+    "RAGAS Context Precision": 0.6722763005298866
+}

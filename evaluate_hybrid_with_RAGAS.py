@@ -4,7 +4,7 @@ RAGAS opcional (faithfulness, context_recall, context_precision, answer_relevanc
 
 Uso:
   # Con RAGAS (por defecto)
-  python evaluate_hybrid_with_RAGAS.py --ragas --tag definition #hybrid_test
+  python evaluate_hybrid_with_RAGAS.py --ragas --tag aggregation definition #hybrid_test
 
   # Sin RAGAS
   python evaluate_hybrid_with_RAGAS.py --no-ragas --tag 1hop
@@ -309,16 +309,17 @@ def main():
         answer_relevancy_avg  = sum(ragas_acc["answer_relevancy"])/n
 
         print("\n * * * MÉTRICAS FINALES (RAGAS) * * *")
-        print(f"Faithfulness:      {faithfulness_avg:.3%}")
-        print(f"Answer Relevancy:  {answer_relevancy_avg:.3%}")
         print(f"Context Recall:    {context_recall_avg:.3%}")
         print(f"Context Precision: {context_precision_avg:.3%}")
+        print(f"Faithfulness:      {faithfulness_avg:.3%}")
+        print(f"Answer Relevancy:  {answer_relevancy_avg:.3%}")
 
         final_metrics.update({
-            "RAGAS Faithfulness": faithfulness_avg,
-            "RAGAS Answer Relevancy": answer_relevancy_avg,
+
             "RAGAS Context Recall": context_recall_avg,
             "RAGAS Context Precision": context_precision_avg,
+            "RAGAS Faithfulness": faithfulness_avg,
+            "RAGAS Answer Relevancy": answer_relevancy_avg,
         })
     else:
         print("\n(RAGAS deshabilitado: se omiten métricas RAGAS)")
