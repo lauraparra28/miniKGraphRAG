@@ -1151,18 +1151,18 @@ questions_balanced_definition = filter_definition(questions_balanced)
 print(f"✅ Filtered {len(questions_balanced_level0)} level=0 questions.")
 
 
-output_path = os.path.join(data_dir, "MiniKGraph_dataset_aggregation.json")
+output_path = os.path.join(data_dir, "MiniKGraph_dataset_gold_cypher_aggregation.json")
 with open(output_path, "w", encoding='utf-8') as f:
     json.dump(questions_balanced_level0, f, ensure_ascii=False, indent=4)
 print(f"✅ Saved {len(questions_balanced_level0)} level=0 questions.")  
 
 '''
-output_path_1hop = os.path.join(data_dir, "MiniKGraph_dataset_1hop.json")
+output_path_1hop = os.path.join(data_dir, "MiniKGraph_dataset_gold_cypher_1hop.json")
 with open(output_path_1hop, "w", encoding='utf-8') as f:
     json.dump(questions_balanced_one_hop, f, ensure_ascii=False, indent=4)
 print(f"✅ Saved {len(questions_balanced_one_hop)} 1-hop questions.")
 
-output_path_multi_hop = os.path.join(data_dir, "MiniKGraph_dataset_multi_hop.json")
+output_path_multi_hop = os.path.join(data_dir, "MiniKGraph_dataset_gold_cypher_multi_hop.json")
 with open(output_path_multi_hop, "w", encoding='utf-8') as f:
     json.dump(questions_balanced_multi_hop, f, ensure_ascii=False, indent=4)
 print(f"✅ Saved {len(questions_balanced_multi_hop)} multi-hop questions.")
