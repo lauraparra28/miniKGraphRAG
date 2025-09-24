@@ -92,12 +92,12 @@ RETURN f.rdfs_label AS name
 
 # Quantos campos estao localizados nas bacias do grafo?
 MATCH (f:field)-[:located_in]->(b:basin)
-RETURN COUNT (f) AS numero_de_campos
+RETURN COUNT(DISTINCT f) AS numero_de_campos
 
 # Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo filito?
 MATCH (b:basin)<-[:located_in]-(w:well)-[:crosses]->(u:lithostratigraphic_unit)-[:constituted_by]->(m:phyllite)
 WHERE "AMAZONAS" IN b.rdfs_label
-RETURN COUNT(w) AS numero_de_pocos
+RETURN COUNT(DISTINCT w) AS numero_de_pocos
 
 # Qual a idade geológica das unidades litoestratigráficas constituídas por gás seco?
 MATCH (p:dry_gas)<-[r1:constituted_by]-(n:lithostratigraphic_unit)-[r:has_age]->(l)
@@ -106,7 +106,7 @@ RETURN l.rdfs_label AS name
 # Quantos poços estão localizados na bacia AMAZONAS?
 MATCH (w:well)-[:located_in]->(b:basin)
 WHERE "AMAZONAS" IN b.rdfs_label
-RETURN COUNT (w) AS numero_de_pocos
+RETURN COUNT(DISTINCT w) AS numero_de_pocos
 
 # Quais campos estao localizados na bacia AMAZONAS?
 MATCH (f:field)-[:located_in]->(b:basin)
