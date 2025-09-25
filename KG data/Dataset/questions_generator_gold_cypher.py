@@ -217,7 +217,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                     "level": 1,
                     "question": f"Em que bacia está localizado o campo {field_name_principal}?",
                     "answer": subanswers,
-                    "context": f"O campo {field_name_principal} está localizado na(s) bacia(s): {context_text}."
+                    "context": f"O campo {field_name_principal} está localizado na(s) bacia(s): {context_text}.",
+                    "gold_cypher": (f"MATCH (f:field)-[:located_in]->(b:basin) WHERE '{field_name_principal}' IN f.rdfs_label RETURN b.rdfs_label")
                 })
 
 
@@ -258,7 +259,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             "level": 2, # Nivel verificado 1-HOP
             "question": f"Quantos campos estão localizados na bacia {bacia_label} de URI {bacia_uri_id}?",
             "answer": [[str(count)]],
-            "context": f"Existem {count} campos localizados na bacia {bacia_label}."
+            "context": f"Existem {count} campos localizados na bacia {bacia_label}.",
+            "gold_cypher": (f"MATCH (b:basin)<-[:located_in]-(f:field) WHERE '{bacia_label}' IN b.rdfs_label RETURN COUNT(DISTINCT f) AS numero_de_campos")
         })
 
     for bacia_label, data in campos_por_bacia.items():
@@ -275,6 +277,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             "context": (
                 f"Na bacia {bacia_label} de URI {bacia_uri_id} existem {len(campos_list)} "
                 f"campos: {campos_joined}."
+            ),
+            "gold_cypher": (f"MATCH (b:basin)<-[:located_in]-(f:field) WHERE '{bacia_label}' IN b.rdfs_label RETURN f.rdfs_label"
             )
         })
 
@@ -342,7 +346,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                     "level": 1,
                     "question": f"Em que bacia está localizado o poço {well_name_principal}?",
                     "answer": basins_subanswers,
-                    "context": f"O poço {well_name_principal} está localizado na(s) bacia(s): {context_text}."
+                    "context": f"O poço {well_name_principal} está localizado na(s) bacia(s): {context_text}.",
+                    "gold_cypher": (f"MATCH (w:well)-[:located_in]->(b:basin) WHERE '{well_name_principal}' IN w.rdfs_label RETURN b.rdfs_label")
                 })
 
 
@@ -375,7 +380,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                     "level": 2, # Nivel verificado 1-HOP
                     "question": f"Em que campo está localizado o poço {well_name_principal}?",
                     "answer": fields_subanswers,
-                    "context": f"O poço {well_name_principal} está localizado no(s) campo(s): {context_text}."
+                    "context": f"O poço {well_name_principal} está localizado no(s) campo(s): {context_text}.",
+                    "gold_cypher": (f"MATCH (w:well)-[:located_in]->(f:field) WHERE '{well_name_principal}' IN w.rdfs_label RETURN f.rdfs_label")
                 })
 
         # --- Formations crossed by the well ---
@@ -405,7 +411,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                     "level": 2, # Nivel verificado 1-HOP
                     "question": f"Que unidades litoestratigráficas o poço {well_name_principal} atravessa?",
                     "answer": subanswers,
-                    "context": f"O poço {well_name_principal} atravessa: {context_text}."
+                    "context": f"O poço {well_name_principal} atravessa: {context_text}.",
+                    "gold_cypher": (f"MATCH (w:well)-[:crosses]->(u:lithostratigraphic_unit) WHERE '{well_name_principal}' IN w.rdfs_label RETURN u.rdfs_label")
                 })
 
     # ===============================================================
@@ -439,7 +446,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                     "context": (
                         f"{formation_name_principal} apresenta as seguintes estruturas geológicas: "
                         + context_text + "."
-                    )
+                    ),
+                    "gold_cypher": (f"MATCH (u:lithostratigraphic_unit)-[:carrier_of]->(s:geological_structure) WHERE '{formation_name_principal}' IN u.rdfs_label RETURN s.rdfs_label")
                 })
 
     # ===============================================================
@@ -491,7 +499,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 "answer": subanswers,
                 "context": (
                     f"No campo {field_label_principal} estão localizados os poços: {context_text}."
-                )
+                ),
+                "gold_cypher": (f"MATCH (f:field)<-[:located_in]-(w:well) WHERE '{field_label_principal}' IN f.rdfs_label RETURN w.rdfs_label")
             })
 
     # ===============================================================
@@ -537,7 +546,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             "level": 2,  # Nivel verificado 1-HOP
             "question": f"Quantos poços estão localizados na bacia {bacia_label_principal}?",
             "answer": [[str(count_pozos)]],
-            "context": f"Existem {count_pozos} poços localizados na bacia {bacia_label_principal}."
+            "context": f"Existem {count_pozos} poços localizados na bacia {bacia_label_principal}.",
+            "gold_cypher": (f"MATCH (b:basin)<-[:located_in]-(w:well) WHERE '{bacia_label_principal}' IN b.rdfs_label RETURN COUNT(DISTINCT w) AS numero_de_pocos")
         })
 
 
@@ -624,8 +634,9 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                     "context": (
                         f"O poço {well_name_principal} atravessa as seguintes unidades litoestratigráficas "
                         f"compostas por rochas do tipo {lithology_label}: {units_text}."
-                    )
-                })
+                    ),
+                    "gold_cypher": (f"MATCH (w:well)-[:crosses]->(f:lithostratigraphic_unit)-[:constituted_by]->(m:NamedIndividual) WHERE '{well_name_principal}' IN w.rdfs_label AND '{lithology_label}' IN m.rdfs_label RETURN f.rdfs_label")
+                })                  
 
     if random_sample:
         random.seed(2025)
@@ -695,7 +706,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                     "context": (
                         f"As unidades litoestratigráficas constituídas por {fluid_name_formatted} "
                         f"são: {context_text}."
-                    )
+                    ),
+                    "gold_cypher": (f"MATCH (m:'{fluid_name_formatted}')<-[:constituted_by]-(u:lithostratigraphic_unit) RETURN DISTINCT u.rdfs_label")
                 })
 
 
@@ -754,8 +766,10 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                     "context": (
                         f"A idade geológica das formações {formations_str} constituídas por {fluid_name_formatted} "
                         f"é {all_ages}."
-                    )
-                })
+                    ),
+                    "gold_cypher": (f"MATCH (m:'{fluid_name_formatted}')<-[:constituted_by]-(u:lithostratigraphic_unit)-[:has_age]->(a) RETURN DISTINCT a.rdfs_label")
+                })                  
+
 
     for fluid_uri_str, formation_labels_set in materials_to_formations.items():
         fluid_synonyms = fluids_dict.get(fluid_uri_str, [])
@@ -780,7 +794,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Quantos poços atravessam unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
                 "answer": [[str(len(wells_set))]],
-                "context": f"Existem {len(wells_set)} poços que atravessam unidades litoestratigráficas constituídas por {fluid_name_formatted}."
+                "context": f"Existem {len(wells_set)} poços que atravessam unidades litoestratigráficas constituídas por {fluid_name_formatted}.",
+                "gold_cypher": (f"MATCH (w:well)-[:crosses]->(u:lithostratigraphic_unit)-[:constituted_by]->(m:NamedIndividual) WHERE '{fluid_name_formatted}' IN m.rdfs_label RETURN COUNT(DISTINCT w) AS num_wells")
             })
 
         # 2. Em quais bacias
@@ -816,7 +831,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Em quais bacias estão as unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
                 "answer": subanswers,
-                "context": f"As unidades litoestratigráficas constituídas por {fluid_name_formatted} estão localizadas na(s) bacia(s): {context_text}."
+                "context": f"As unidades litoestratigráficas constituídas por {fluid_name_formatted} estão localizadas na(s) bacia(s): {context_text}.",
+                "gold_cypher": (f"MATCH (b:basin)<-[:located_in]-(f:lithostratigraphic_unit)-[:constituted_by]->(m:NamedIndividual) WHERE '{fluid_name_formatted}' IN m.rdfs_label  RETURN DISTINCT b.rdfs_label")
             })
 
         # 3. Em quais campos
@@ -858,7 +874,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Em quais campos estão as unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
                 "answer": subanswers,
-                "context": f"As unidades litoestratigráficas constituídas por {fluid_name_formatted} estão nos seguintes campos: {context_text}."
+                "context": f"As unidades litoestratigráficas constituídas por {fluid_name_formatted} estão nos seguintes campos: {context_text}.",
+                "gold_cypher": (f"MATCH (f:field)<-[:located_in]-(w:well)-[:crosses]->(u:lithostratigraphic_unit)-[:constituted_by]->(m:NamedIndividual) WHERE '{fluid_name_formatted}' IN m.rdfs_label RETURN DISTINCT f.rdfs_label")
             })
 
         # 4. Quais estruturas geológicas
@@ -878,7 +895,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Quais estruturas geológicas ocorrem nas unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
                 "answer": [[s] for s in struct_set],
-                "context": f"As unidades litoestratigráficas constituídas por {fluid_name_formatted} apresentam as seguintes estruturas geológicas: {context_text}."
+                "context": f"As unidades litoestratigráficas constituídas por {fluid_name_formatted} apresentam as seguintes estruturas geológicas: {context_text}.",
+                "gold_cypher": (f"MATCH (s:geological_structure)<-[:carrier_of]-(u:lithostratigraphic_unit)-[:constituted_by]->(m:NamedIndividual) WHERE '{fluid_name_formatted}' IN m.rdfs_label  RETURN DISTINCT s.rdfs_label")
             })
 
 
@@ -941,8 +959,9 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 "context": (
                     f"As unidades litoestratigráficas que apresentam a estrutura geológica {struct_label_str} "
                     f"estão nos seguintes campos: {fields_text}."
-                )
-            })
+                ),
+                "gold_cypher": (f"MATCH (f:field)<-[:located_in]-(w:well)-[:crosses]->(u:lithostratigraphic_unit)-[:carrier_of]->(g:geological_structure) WHERE '{struct_label_str}' IN g.rdfs_label RETURN DISTINCT f.rdfs_label")
+            })               
 
 
     # ===============================================================
@@ -1061,8 +1080,8 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                     "context": (
                         f"Na bacia {basin_label}, {wells_count} poços atravessam unidades litoestratigráficas "
                         f"com rochas do tipo {litologia}." ),
-                    "gold_cypher": (f"MATCH (b:basin)<-[:located_in]-(w:well)-[:crosses]->(u:lithostratigraphic_unit)-[:constituted_by]->(m:'{litologia}') WHERE '{basin_label}' IN b.rdfs_label RETURN COUNT(DISTINCT w) AS numero_de_pocos")
-                })
+                    "gold_cypher": (f"MATCH (b:basin)<-[:located_in]-(w:well)-[:crosses]->(u:lithostratigraphic_unit)-[:constituted_by]->(m:NamedIndividual) WHERE '{basin_label}' IN b.rdfs_label AND '{litologia}' IN m.rdfs_label RETURN COUNT(DISTINCT w) AS numero_de_pocos")
+                })           
 
 
     # ===============================================================
@@ -1148,20 +1167,19 @@ questions_balanced_level0 = filter_level_zero(questions_balanced)
 questions_balanced_one_hop = filter_one_hop(questions_balanced)
 questions_balanced_multi_hop = filter_multi_hop(questions_balanced)
 questions_balanced_definition = filter_definition(questions_balanced)
-print(f"✅ Filtered {len(questions_balanced_level0)} level=0 questions.")
 
-
+'''
 output_path = os.path.join(data_dir, "MiniKGraph_dataset_gold_cypher_aggregation.json")
 with open(output_path, "w", encoding='utf-8') as f:
     json.dump(questions_balanced_level0, f, ensure_ascii=False, indent=4)
 print(f"✅ Saved {len(questions_balanced_level0)} level=0 questions.")  
 
 '''
-output_path_1hop = os.path.join(data_dir, "MiniKGraph_dataset_gold_cypher_1hop.json")
+output_path_1hop = os.path.join(data_dir, "MiniKGraph_dataset_gold_cypher_one_hop.json")
 with open(output_path_1hop, "w", encoding='utf-8') as f:
     json.dump(questions_balanced_one_hop, f, ensure_ascii=False, indent=4)
 print(f"✅ Saved {len(questions_balanced_one_hop)} 1-hop questions.")
-
+'''
 output_path_multi_hop = os.path.join(data_dir, "MiniKGraph_dataset_gold_cypher_multi_hop.json")
 with open(output_path_multi_hop, "w", encoding='utf-8') as f:
     json.dump(questions_balanced_multi_hop, f, ensure_ascii=False, indent=4)
