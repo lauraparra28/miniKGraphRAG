@@ -1,0 +1,4729 @@
+{
+    "id": 1107,
+    "question": "Que unidades litoestratigráficas o poço 1-TM-0001-BA atravessa que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "embasamento",
+        "fm afligidos",
+        "fm algodoes",
+        "fm alianca",
+        "fm sergi",
+        "fm taipusmirim",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1108,
+    "question": "Que unidades litoestratigráficas o poço 1-RO-0001-AM atravessa que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm barreirinha",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1109,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0113-BA atravessa que são constituídas por rochas do tipo ooze?",
+    "gold": [
+        "fm morro do barro",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1110,
+    "question": "Que unidades litoestratigráficas o poço 1-BRSA-1301 atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm andira",
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1111,
+    "question": "Que unidades litoestratigráficas o poço 3-PAM-0003D-AM atravessa que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "fm alter do chao",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1112,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0144-BA atravessa que são constituídas por rochas do tipo ooze?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "fm urucutuca",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1113,
+    "question": "Que unidades litoestratigráficas o poço 2-UMST-0001-AM atravessa que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "fm alter do chao",
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1114,
+    "question": "Que unidades litoestratigráficas o poço 3-BRSA-164 atravessa que são constituídas por rochas do tipo dolerito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1115,
+    "question": "Que unidades litoestratigráficas o poço 1-AX-0001-AM atravessa que são constituídas por rochas do tipo psefito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1116,
+    "question": "Que unidades litoestratigráficas o poço 2-NAST-0001-PA atravessa que são constituídas por rochas do tipo gás não associado?",
+    "gold": [
+        "fm itaituba",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1117,
+    "question": "Que unidades litoestratigráficas o poço 1-AB-0001-PA atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1118,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0004-AM atravessa que são constituídas por rochas do tipo siltito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm maecuru",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "as unidades litoestratigraficas atravessadas pelo poco 1am0004am que sao constituidas por rochas do tipo siltito sao formacao alter do chao tambem denominada fm alter do chao formacao monte alegre tambem denominada fm monte alegre formacao maecuru tambem denominada fm maecuru formacao curiri tambem denominada fm curiri formacao barreirinha tambem denominada fm barreirinha formacao nova olinda tambem denominada fm nova olinda formacao erere tambem denominada fm erere e formacao itaituba tambem denominada fm itaituba todas essas unidades apresentam siltito em sua constituicao litoestratigrafica",
+    "execution_accuracy": 1
+}
+{
+    "id": 1119,
+    "question": "Que unidades litoestratigráficas o poço 1-PB-0001-PA atravessa que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1120,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0002-AM atravessa que são constituídas por rochas do tipo ooze?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1121,
+    "question": "Que unidades litoestratigráficas o poço 9-PFJ-0001-AM atravessa que são constituídas por rochas do tipo marga?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1122,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0005-AM atravessa que são constituídas por rochas do tipo dolerito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1123,
+    "question": "Que unidades litoestratigráficas o poço 3-ICA-0002-AM atravessa que são constituídas por rochas do tipo metassiltito?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1124,
+    "question": "Que unidades litoestratigráficas o poço 1-FC-0001-PA atravessa que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "as unidades litoestratigraficas atravessadas pelo poco 1fc0001pa que sao constituidas por rochas do tipo arenito sao formacao itaituba tambem denominada fm itaituba formacao monte alegre tambem denominada fm monte alegre formacao alter do chao tambem denominada fm alter do chao formacao curiri tambem denominada fm curiri formacao oriximina tambem denominada fm oriximina formacao nova olinda tambem denominada fm nova olinda e formacao faro tambem denominada fm faro todas essas unidades apresentam equivalencia de nomes conforme os rotulos fornecidos no grafo",
+    "execution_accuracy": 1
+}
+{
+    "id": 1125,
+    "question": "Que unidades litoestratigráficas o poço 1-AX-0001-AM atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1126,
+    "question": "Que unidades litoestratigráficas o poço 9-PJ-0001-PA atravessa que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "as unidades litoestratigraficas atravessadas pelo poco 9pj0001pa que sao constituidas por rochas do tipo arenito sao a formacao andira tambem denominada fm andira a formacao alter do chao tambem denominada fm alter do chao e a formacao nova olinda tambem denominada fm nova olinda",
+    "execution_accuracy": 1
+}
+{
+    "id": 1127,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0021-AM atravessa que são constituídas por rochas do tipo rudito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1128,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0010-AM atravessa que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm maecuru",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1129,
+    "question": "Que unidades litoestratigráficas o poço 1-IU-0001-PA atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1130,
+    "question": "Que unidades litoestratigráficas o poço 1-PB-0001-PA atravessa que são constituídas por rochas do tipo rocha metamórfica?",
+    "gold": [
+        "embasamento",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1131,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0074-BA atravessa que são constituídas por rochas do tipo sapropel?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1132,
+    "question": "Que unidades litoestratigráficas o poço 2-VBST-0001-BA atravessa que são constituídas por rochas do tipo psamito?",
+    "gold": [
+        "fm afligidos",
+        "fm algodoes",
+        "fm alianca",
+        "fm itaipe",
+        "fm morro do barro",
+        "fm sergi",
+        "fm taipusmirim",
+        "gr almada",
+        "gr brotas",
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 0
+}
+{
+    "id": 1133,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0003-AM atravessa que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1134,
+    "question": "Que unidades litoestratigráficas o poço 1-TR-0001-PA atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm andira",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1135,
+    "question": "Que unidades litoestratigráficas o poço 2-NOST-0001-AM atravessa que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1136,
+    "question": "Que unidades litoestratigráficas o poço 2-CAST-0001-AM atravessa que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "fm alter do chao",
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1137,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0133-BA atravessa que são constituídas por rochas do tipo calcirudito?",
+    "gold": [
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1138,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0005A-AM atravessa que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1139,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0129-BA atravessa que são constituídas por rochas do tipo rudito?",
+    "gold": [
+        "fm taipusmirim",
+        "fm urucutuca",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1140,
+    "question": "Que unidades litoestratigráficas o poço 3-AZU-0001-AM atravessa que são constituídas por rochas do tipo dolomito?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1141,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0007-AM atravessa que são constituídas por rochas do tipo rocha metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1142,
+    "question": "Que unidades litoestratigráficas o poço 1-CAP-0001-AM atravessa que são constituídas por rochas do tipo dolomito?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1143,
+    "question": "Que unidades litoestratigráficas o poço 9-PA-0001A-AM atravessa que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1144,
+    "question": "Que unidades litoestratigráficas o poço 1-RX-0002-AM atravessa que são constituídas por rochas do tipo metassiltito?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1145,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0013-BA atravessa que são constituídas por rochas do tipo psefito?",
+    "gold": [
+        "fm rio de contas",
+        "fm taipusmirim",
+        "fm urucutuca",
+        "gr almada",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1146,
+    "question": "Que unidades litoestratigráficas o poço 2-JUST-0001-AM atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm manacapuru",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1147,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0108-BA atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm algodoes",
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1148,
+    "question": "Que unidades litoestratigráficas o poço 1-BR-0001A-PA atravessa que são constituídas por rochas do tipo taquidrita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1149,
+    "question": "Que unidades litoestratigráficas o poço 2-NAST-0001-PA atravessa que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1150,
+    "question": "Que unidades litoestratigráficas o poço 1-AD-0001A-AM atravessa que são constituídas por rochas do tipo psamito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1151,
+    "question": "Que unidades litoestratigráficas o poço 1-AQ-0001-AM atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1152,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0084-BA atravessa que são constituídas por rochas do tipo rudito?",
+    "gold": [
+        "fm morro do barro",
+        "fm rio de contas",
+        "gr almada",
+        "gr brotas",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1153,
+    "question": "Que unidades litoestratigráficas o poço 1-MS-0004-AM atravessa que são constituídas por rochas do tipo psamito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm jatapu",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1154,
+    "question": "Que unidades litoestratigráficas o poço 1-ICA-0001-AM atravessa que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1155,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0014-AM atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1156,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0020-BA atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm algodoes",
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1157,
+    "question": "Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1158,
+    "question": "Que unidades litoestratigráficas o poço 2-MSST-0001-AM atravessa que são constituídas por rochas do tipo calciarenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm barreirinha",
+        "fm itaituba",
+        "fm jatapu",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1159,
+    "question": "Que unidades litoestratigráficas o poço 3-AZU-0001-AM atravessa que são constituídas por rochas do tipo gás seco?",
+    "gold": [
+        "fm itaituba",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1160,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0007-AM atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1161,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0004-AM atravessa que são constituídas por rochas do tipo ooze?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1162,
+    "question": "Que unidades litoestratigráficas o poço 1-RX-0003-AM atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm andira",
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1163,
+    "question": "Que unidades litoestratigráficas o poço 1-JUT-0001-PA atravessa que são constituídas por rochas do tipo gás seco?",
+    "gold": [
+        "fm itaituba",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1164,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0009-AM atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "a unidade litoestratigrafica atravessada pelo poco 1am0009am constituida por rochas do tipo gipsita e a formacao nova olinda tambem conhecida como fm nova olinda",
+    "execution_accuracy": 1
+}
+{
+    "id": 1165,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0139-BA atravessa que são constituídas por rochas do tipo carnalita?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1166,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0008-AM atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1167,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0079-BA atravessa que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "fm algodoes",
+        "fm rio de contas",
+        "fm taipusmirim",
+        "fm urucutuca",
+        "gr almada",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "o poco 1bas0079ba atravessa as seguintes unidades litoestratigraficas constituidas por rochas do tipo arenito formacao algodoes tambem denominada fm algodoes formacao urucutuca tambem denominada fm urucutuca formacao rio de contas tambem denominada fm rio de contas grupo almada tambem denominado gr almada formacao taipusmirim tambem denominada fm taipusmirim grupo camamu tambem denominado gr camamu e grupo espirito santo tambem denominado gr espirito santo todas essas unidades apresentam arenito como litologia caracteristica",
+    "execution_accuracy": 1
+}
+{
+    "id": 1168,
+    "question": "Que unidades litoestratigráficas o poço 1-RX-0004-AM atravessa que são constituídas por rochas do tipo material geológico inconsolidado?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1169,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0097-BA atravessa que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "fm rio de contas",
+        "fm sergi",
+        "gr almada",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1170,
+    "question": "Que unidades litoestratigráficas o poço 2-LQST-0001-AM atravessa que são constituídas por rochas do tipo coquina?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 2lqst0001am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem conhecida como fm nova olinda que e constituida por rochas do tipo coquina",
+    "execution_accuracy": 1
+}
+{
+    "id": 1171,
+    "question": "Que unidades litoestratigráficas o poço 3-AZU-0001-AM atravessa que são constituídas por rochas do tipo sapropel?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1172,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0004-AM atravessa que são constituídas por rochas do tipo carvão?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1173,
+    "question": "Que unidades litoestratigráficas o poço 1-RM-0001-AM atravessa que são constituídas por rochas do tipo calciarenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm itaituba",
+        "fm jatapu",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1174,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0002-AM atravessa que são constituídas por rochas do tipo gás não associado?",
+    "gold": [
+        "fm itaituba"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1175,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0012-AM atravessa que são constituídas por rochas do tipo dolomito?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 9fz0012am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo dolomito",
+    "execution_accuracy": 1
+}
+{
+    "id": 1176,
+    "question": "Que unidades litoestratigráficas o poço 1-JI-0001-BA atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm morro do barro",
+        "gr almada",
+        "gr espirito santo"
+    ],
+    "pred": "o poco 1ji0001ba atravessa as seguintes unidades litoestratigraficas constituidas por rochas do tipo areia grupo espirito santo tambem denominado gr espirito santo grupo almada tambem denominado gr almada e formacao morro do barro tambem denominada fm morro do barro todas essas unidades apresentam em sua constituicao rochas do tipo areia",
+    "execution_accuracy": 1
+}
+{
+    "id": 1177,
+    "question": "Que unidades litoestratigráficas o poço 2-CPST-0002-PA atravessa que são constituídas por rochas do tipo gás seco?",
+    "gold": [
+        "fm itaituba"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1178,
+    "question": "Que unidades litoestratigráficas o poço 1-BL-0001-PA atravessa que são constituídas por rochas do tipo metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm maecuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1179,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0003-AM atravessa que são constituídas por rochas do tipo brecha?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1180,
+    "question": "Que unidades litoestratigráficas o poço 2-SLST-0001-AM atravessa que são constituídas por rochas do tipo diamictito?",
+    "gold": [
+        "fm monte alegre"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1181,
+    "question": "Que unidades litoestratigráficas o poço 1-AQ-0001-AM atravessa que são constituídas por rochas do tipo unconsolidated earth material?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1182,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0006-AM atravessa que são constituídas por rochas do tipo coquina?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 1am0006am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo coquina",
+    "execution_accuracy": 1
+}
+{
+    "id": 1183,
+    "question": "Que unidades litoestratigráficas o poço 1-AR-0001A-AM atravessa que são constituídas por rochas do tipo sedimento?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "o poco 1ar0001aam atravessa as unidades litoestratigraficas denominadas formacao nova olinda tambem referida como fm nova olinda e formacao andira tambem referida como fm andira ambas constituidas por rochas do tipo sedimento",
+    "execution_accuracy": 1
+}
+{
+    "id": 1184,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0100-BA atravessa que são constituídas por rochas do tipo sapropel?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1185,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0132-BA atravessa que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1186,
+    "question": "Que unidades litoestratigráficas o poço 1-NB-0002-BA atravessa que são constituídas por rochas do tipo marga?",
+    "gold": [
+        "fm rio de contas",
+        "fm urucutuca",
+        "gr almada",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1187,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0011-AM atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1188,
+    "question": "Que unidades litoestratigráficas o poço 1-MA-0001-PA atravessa que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1189,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0017-AM atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1190,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0003-AM atravessa que são constituídas por rochas do tipo sapropel?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1191,
+    "question": "Que unidades litoestratigráficas o poço 1-RL-0001-AM atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1192,
+    "question": "Que unidades litoestratigráficas o poço 1-RM-0001-AM atravessa que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "fm alter do chao",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1193,
+    "question": "Que unidades litoestratigráficas o poço 1-ATZ-0001-AM atravessa que são constituídas por rochas do tipo rocha metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm maecuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1194,
+    "question": "Que unidades litoestratigráficas o poço 2-AP-0001-PA atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1195,
+    "question": "Que unidades litoestratigráficas o poço 3-MB-0005-BA atravessa que são constituídas por rochas do tipo siltito?",
+    "gold": [
+        "fm morro do barro",
+        "gr almada"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1196,
+    "question": "Que unidades litoestratigráficas o poço 1-JUT-0001-PA atravessa que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1197,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0108-BA atravessa que são constituídas por rochas do tipo psamito?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "fm rio de contas",
+        "fm taipusmirim",
+        "gr almada",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "o poco 3bas0108ba atravessa as seguintes unidades litoestratigraficas constituidas por rochas do tipo psamito formacao algodoes fm algodoes formacao morro do barro fm morro do barro formacao rio de contas fm rio de contas grupo almada gr almada formacao taipusmirim fm taipusmirim grupo camamu gr camamu e grupo espirito santo gr espirito santo todas essas unidades apresentam entre seus constituintes rochas do tipo psamito ressaltase que os diferentes nomes e rotulos apresentados como fm para formacao e gr para grupo referemse as mesmas entidades litoestratigraficas",
+    "execution_accuracy": 1
+}
+{
+    "id": 1198,
+    "question": "Que unidades litoestratigráficas o poço 1-JUT-0001-PA atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm andira",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1199,
+    "question": "Que unidades litoestratigráficas o poço 1-CM-0003-PA atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm itaituba"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1200,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0129-BA atravessa que são constituídas por rochas do tipo argilito?",
+    "gold": [
+        "fm urucutuca",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1201,
+    "question": "Que unidades litoestratigráficas o poço 2-RPST-0001-PA atravessa que são constituídas por rochas do tipo diabásio?",
+    "gold": [
+        "fm alter do chao",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1202,
+    "question": "Que unidades litoestratigráficas o poço 2-UMST-0001-AM atravessa que são constituídas por rochas do tipo rocha metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm maecuru",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1203,
+    "question": "Que unidades litoestratigráficas o poço 1-LIT-0001-AM atravessa que são constituídas por rochas do tipo halita?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1204,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0132-BA atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1205,
+    "question": "Que unidades litoestratigráficas o poço 2-SGMB-0033-BA atravessa que são constituídas por rochas do tipo calciarenito?",
+    "gold": [
+        "fm sergi",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1206,
+    "question": "Que unidades litoestratigráficas o poço 7-MNT-0001-BAS atravessa que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1207,
+    "question": "Que unidades litoestratigráficas o poço 1-MS-0003-AM atravessa que são constituídas por rochas do tipo granito?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1208,
+    "question": "Que unidades litoestratigráficas o poço 4-BAS-0116-BA atravessa que são constituídas por rochas do tipo siltito?",
+    "gold": [
+        "fm algodoes",
+        "fm rio de contas",
+        "fm taipusmirim",
+        "gr almada",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1209,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0063-BA atravessa que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1210,
+    "question": "Que unidades litoestratigráficas o poço 1-GU-0002-PA atravessa que são constituídas por rochas do tipo gás não associado?",
+    "gold": [
+        "fm itaituba",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1211,
+    "question": "Que unidades litoestratigráficas o poço 1-FA-0001-AM atravessa que são constituídas por rochas do tipo material geológico inconsolidado?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1212,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0074-BA atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm algodoes",
+        "fm alianca",
+        "fm itaipe",
+        "fm morro do barro",
+        "fm rio de contas",
+        "fm taipusmirim",
+        "gr almada",
+        "gr brotas",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1213,
+    "question": "Que unidades litoestratigráficas o poço 1-MD-0001-AM atravessa que são constituídas por rochas do tipo metassiltito?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1214,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0006-AM atravessa que são constituídas por rochas do tipo metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1215,
+    "question": "Que unidades litoestratigráficas o poço 1-AD-0001-AM atravessa que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1216,
+    "question": "Que unidades litoestratigráficas o poço 2-UA-0004-AM atravessa que são constituídas por rochas do tipo argilito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1217,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0028-AM atravessa que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1218,
+    "question": "Que unidades litoestratigráficas o poço 2-MSST-0002-AM atravessa que são constituídas por rochas do tipo gás não associado?",
+    "gold": [
+        "fm itaituba",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1219,
+    "question": "Que unidades litoestratigráficas o poço 2-LMST-0001-AM atravessa que são constituídas por rochas do tipo rocha metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm erere",
+        "fm itaituba",
+        "fm maecuru",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1220,
+    "question": "Que unidades litoestratigráficas o poço 3-MB-0004-BA atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm itaipe",
+        "fm morro do barro",
+        "gr almada",
+        "gr brotas"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1221,
+    "question": "Que unidades litoestratigráficas o poço 1-RCM-0001-AM atravessa que são constituídas por rochas do tipo gás não associado?",
+    "gold": [
+        "fm itaituba"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1222,
+    "question": "Que unidades litoestratigráficas o poço 1-UA-0002-AM atravessa que são constituídas por rochas do tipo halita?",
+    "gold": [
+        "fm andira",
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1223,
+    "question": "Que unidades litoestratigráficas o poço 2-SAST-0001-AM atravessa que são constituídas por rochas do tipo carvão?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1224,
+    "question": "Que unidades litoestratigráficas o poço 1-MS-0003-AM atravessa que são constituídas por rochas do tipo metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1225,
+    "question": "Que unidades litoestratigráficas o poço 2-OAST-0001-PA atravessa que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "fm faro",
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1226,
+    "question": "Que unidades litoestratigráficas o poço 2-NAST-0001-PA atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1227,
+    "question": "Que unidades litoestratigráficas o poço 2-PR-0001-PA atravessa que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1228,
+    "question": "Que unidades litoestratigráficas o poço 1-FC-0001-PA atravessa que são constituídas por rochas do tipo sapropel?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1229,
+    "question": "Que unidades litoestratigráficas o poço 2-AP-0001A-PA atravessa que são constituídas por rochas do tipo argilito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1230,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0126-BA atravessa que são constituídas por rochas do tipo psefito?",
+    "gold": [
+        "fm taipusmirim",
+        "fm urucutuca",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1231,
+    "question": "Que unidades litoestratigráficas o poço 1-RX-0006-AM atravessa que são constituídas por rochas do tipo metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1232,
+    "question": "Que unidades litoestratigráficas o poço 1-CM-0001-PA atravessa que são constituídas por rochas do tipo gás seco?",
+    "gold": [
+        "fm itaituba",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1233,
+    "question": "Que unidades litoestratigráficas o poço 9-PFJ-0002-AM atravessa que são constituídas por rochas do tipo marga?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1234,
+    "question": "Que unidades litoestratigráficas o poço 1-CS-0003-AM atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1235,
+    "question": "Que unidades litoestratigráficas o poço 2-VBST-0001-BA atravessa que são constituídas por rochas do tipo calcilutito?",
+    "gold": [
+        "fm algodoes",
+        "fm alianca",
+        "fm itaipe",
+        "fm morro do barro",
+        "fm taipusmirim",
+        "gr almada",
+        "gr brotas",
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 0
+}
+{
+    "id": 1236,
+    "question": "Que unidades litoestratigráficas o poço 1-CM-0001-PA atravessa que são constituídas por rochas do tipo microgabro?",
+    "gold": [
+        "embasamento",
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm jatapu",
+        "fm maecuru",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm oriximina",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1237,
+    "question": "Que unidades litoestratigráficas o poço 1-ITP-0001-AM atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1238,
+    "question": "Que unidades litoestratigráficas o poço 1-LPU-0001-AM atravessa que são constituídas por rochas do tipo granito?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1239,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0010-AM atravessa que são constituídas por rochas do tipo siltito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1240,
+    "question": "Que unidades litoestratigráficas o poço 1-TR-0001-PA atravessa que são constituídas por rochas do tipo unconsolidated earth material?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1241,
+    "question": "Que unidades litoestratigráficas o poço 2-JCST-0001-PA atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1242,
+    "question": "Que unidades litoestratigráficas o poço 3-PAM-0003D-AM atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm alter do chao",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1243,
+    "question": "Que unidades litoestratigráficas o poço 2-LIST-0001R-AP atravessa que são constituídas por rochas do tipo carvão?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1244,
+    "question": "Que unidades litoestratigráficas o poço 1-NO-0006-AM atravessa que são constituídas por rochas do tipo sedimento?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "o poco 1no0006am atravessa as unidades litoestratigraficas denominadas formacao nova olinda tambem referida como fm nova olinda e formacao andira tambem referida como fm andira ambas constituidas por rochas do tipo sedimento",
+    "execution_accuracy": 1
+}
+{
+    "id": 1245,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0064-BA atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1246,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0029-AM atravessa que são constituídas por rochas do tipo dolerito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1247,
+    "question": "Que unidades litoestratigráficas o poço 1-CS-0003-AM atravessa que são constituídas por rochas do tipo metassiltito?",
+    "gold": [
+        "fm alter do chao",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1248,
+    "question": "Que unidades litoestratigráficas o poço 2-PEST-0001-AM atravessa que são constituídas por rochas do tipo carvão?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1249,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0014-AM atravessa que são constituídas por rochas do tipo ooze?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1250,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0132-BA atravessa que são constituídas por rochas do tipo carnalita?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1251,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0088-BA atravessa que são constituídas por rochas do tipo sapropel?",
+    "gold": [
+        "fm morro do barro",
+        "fm urucutuca",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1252,
+    "question": "Que unidades litoestratigráficas o poço 2-IOST-0001-AM atravessa que são constituídas por rochas do tipo filito?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1253,
+    "question": "Que unidades litoestratigráficas o poço 2-IGST-0001-BA atravessa que são constituídas por rochas do tipo halita?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1254,
+    "question": "Que unidades litoestratigráficas o poço 1-LPU-0001-AM atravessa que são constituídas por rochas do tipo unconsolidated earth material?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1255,
+    "question": "Que unidades litoestratigráficas o poço 9-PFJ-0002-AM atravessa que são constituídas por rochas do tipo halita?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1256,
+    "question": "Que unidades litoestratigráficas o poço 1-JAB-0001-AM atravessa que são constituídas por rochas do tipo rudito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1257,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0005A-AM atravessa que são constituídas por rochas do tipo silvinita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 9fz0005aam atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo silvinita",
+    "execution_accuracy": 1
+}
+{
+    "id": 1258,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0032-BA atravessa que são constituídas por rochas do tipo psefito?",
+    "gold": [
+        "fm morro do barro",
+        "fm rio de contas",
+        "fm urucutuca",
+        "gr almada",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1259,
+    "question": "Que unidades litoestratigráficas o poço 1-MS-0003-AM atravessa que são constituídas por rochas do tipo ooze?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1260,
+    "question": "Que unidades litoestratigráficas o poço 1-TU-0001-PA atravessa que são constituídas por rochas do tipo material geológico inconsolidado?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1261,
+    "question": "Que unidades litoestratigráficas o poço 1-RU-0002-AM atravessa que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm barreirinha",
+        "fm itaituba",
+        "fm jatapu",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1262,
+    "question": "Que unidades litoestratigráficas o poço 2-VBST-0001-BA atravessa que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "fm afligidos",
+        "fm algodoes",
+        "fm alianca",
+        "fm itaipe",
+        "fm morro do barro",
+        "fm sergi",
+        "fm taipusmirim",
+        "gr almada",
+        "gr brotas",
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1263,
+    "question": "Que unidades litoestratigráficas o poço 1-FA-0001-AM atravessa que são constituídas por rochas do tipo coquina?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 1fa0001am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo coquina",
+    "execution_accuracy": 1
+}
+{
+    "id": 1264,
+    "question": "Que unidades litoestratigráficas o poço 1-NO-0001-AM atravessa que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "fm alter do chao",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1265,
+    "question": "Que unidades litoestratigráficas o poço 2-ITST-0001-PA atravessa que são constituídas por rochas do tipo psamito?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1266,
+    "question": "Que unidades litoestratigráficas o poço 1-FZ-0001-AM atravessa que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1267,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0029-AM atravessa que são constituídas por rochas do tipo marga?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1268,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0019-BA atravessa que são constituídas por rochas do tipo calcirudito?",
+    "gold": [
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1269,
+    "question": "Que unidades litoestratigráficas o poço 2-JIST-0001-PA atravessa que são constituídas por rochas do tipo argilito?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1270,
+    "question": "Que unidades litoestratigráficas o poço 1-JI-0001-BA atravessa que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "fm alianca",
+        "fm morro do barro",
+        "gr almada",
+        "gr brotas",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1271,
+    "question": "Que unidades litoestratigráficas o poço 1-RX-0003-AM atravessa que são constituídas por rochas do tipo gás não associado?",
+    "gold": [
+        "fm itaituba",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1272,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0029-BA atravessa que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "fm algodoes",
+        "fm urucutuca",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1273,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0005A-AM atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1274,
+    "question": "Que unidades litoestratigráficas o poço 1-IA-0001-PA atravessa que são constituídas por rochas do tipo dolerito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm faro",
+        "fm itaituba",
+        "fm jatapu",
+        "fm maecuru",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1275,
+    "question": "Que unidades litoestratigráficas o poço 2-LMST-0001-AM atravessa que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1276,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0083-BA atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1277,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0128-BA atravessa que são constituídas por rochas do tipo grainstone?",
+    "gold": [
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1278,
+    "question": "Que unidades litoestratigráficas o poço 1-BR-0001-PA atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1279,
+    "question": "Que unidades litoestratigráficas o poço 3-LT-0002-AM atravessa que são constituídas por rochas do tipo silvinita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1280,
+    "question": "Que unidades litoestratigráficas o poço 2-IPST-0001-AM atravessa que são constituídas por rochas do tipo sedimento?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 2ipst0001am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo sedimento",
+    "execution_accuracy": 1
+}
+{
+    "id": 1281,
+    "question": "Que unidades litoestratigráficas o poço 1-BR-0001-PA atravessa que são constituídas por rochas do tipo marga?",
+    "gold": [
+        "fm andira"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1282,
+    "question": "Que unidades litoestratigráficas o poço 1-BRSA-1285 atravessa que são constituídas por rochas do tipo rudito?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1283,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0018-AM atravessa que são constituídas por rochas do tipo marga?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1284,
+    "question": "Que unidades litoestratigráficas o poço 1-CS-0003-AM atravessa que são constituídas por rochas do tipo taquidrita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1285,
+    "question": "Que unidades litoestratigráficas o poço 1-LJ-0001-AM atravessa que são constituídas por rochas do tipo calciarenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm autas mirim",
+        "fm barreirinha",
+        "fm itaituba",
+        "fm jatapu",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1286,
+    "question": "Que unidades litoestratigráficas o poço 2-RPST-0001-PA atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm alter do chao",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1287,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0028-AM atravessa que são constituídas por rochas do tipo argilito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1288,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0109-BA atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1289,
+    "question": "Que unidades litoestratigráficas o poço 3-JI-0006-BA atravessa que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "fm itaipe",
+        "fm morro do barro",
+        "fm sergi",
+        "gr almada",
+        "gr brotas"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1290,
+    "question": "Que unidades litoestratigráficas o poço 1-UI-0002-AM atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm curiri",
+        "fm manacapuru",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1291,
+    "question": "Que unidades litoestratigráficas o poço 2-AIST-0002-AM atravessa que são constituídas por rochas do tipo rudito?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1292,
+    "question": "Que unidades litoestratigráficas o poço 1-RO-0001-AM atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "a unidade litoestratigrafica atravessada pelo poco 1ro0001am constituida por rochas do tipo gipsita e a formacao nova olinda tambem conhecida como fm nova olinda",
+    "execution_accuracy": 1
+}
+{
+    "id": 1293,
+    "question": "Que unidades litoestratigráficas o poço 1-FMB-0001-BA atravessa que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "fm sergi",
+        "fm urucutuca",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1294,
+    "question": "Que unidades litoestratigráficas o poço 1-MD-0001-AM atravessa que são constituídas por rochas do tipo diamictito?",
+    "gold": [
+        "fm curiri",
+        "fm monte alegre",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1295,
+    "question": "Que unidades litoestratigráficas o poço 2-CPST-0001-PA atravessa que são constituídas por rochas do tipo ooze?",
+    "gold": [
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1296,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0003-AM atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1297,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0003-AM atravessa que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1298,
+    "question": "Que unidades litoestratigráficas o poço 3-ICA-0002-AM atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1299,
+    "question": "Que unidades litoestratigráficas o poço 1-NO-0003-AM atravessa que são constituídas por rochas do tipo filito?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1300,
+    "question": "Que unidades litoestratigráficas o poço 3-ELPS-0006-BAS atravessa que são constituídas por rochas do tipo rudito?",
+    "gold": [
+        "fm morro do barro",
+        "fm rio de contas",
+        "fm taipusmirim",
+        "gr almada",
+        "gr camamu",
+        "mb tinhare"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1301,
+    "question": "Que unidades litoestratigráficas o poço 1-PFJ-0003-AM atravessa que são constituídas por rochas do tipo coquina?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 1pfj0003am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo coquina",
+    "execution_accuracy": 1
+}
+{
+    "id": 1302,
+    "question": "Que unidades litoestratigráficas o poço 1-RPP-0001-AM atravessa que são constituídas por rochas do tipo taquidrita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1303,
+    "question": "Que unidades litoestratigráficas o poço 3-BRSA-170 atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1304,
+    "question": "Que unidades litoestratigráficas o poço 1-MU-0003-AM atravessa que são constituídas por rochas do tipo taquidrita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1305,
+    "question": "Que unidades litoestratigráficas o poço 1-AB-0001-PA atravessa que são constituídas por rochas do tipo marga?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1306,
+    "question": "Que unidades litoestratigráficas o poço 7-MNT-0006D-BAS atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1307,
+    "question": "Que unidades litoestratigráficas o poço 2-RPST-0001-PA atravessa que são constituídas por rochas do tipo calciarenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1308,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0077-BA atravessa que são constituídas por rochas do tipo calcilutito?",
+    "gold": [
+        "fm algodoes",
+        "fm itaipe",
+        "fm morro do barro",
+        "fm rio de contas",
+        "fm taipusmirim",
+        "fm urucutuca",
+        "gr almada",
+        "gr brotas",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 0
+}
+{
+    "id": 1309,
+    "question": "Que unidades litoestratigráficas o poço 3-JI-0004-BA atravessa que são constituídas por rochas do tipo rudito?",
+    "gold": [
+        "fm morro do barro",
+        "gr almada"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1310,
+    "question": "Que unidades litoestratigráficas o poço 1-MU-0004-AM atravessa que são constituídas por rochas do tipo brecha?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1311,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0097-BA atravessa que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "fm alianca"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1312,
+    "question": "Que unidades litoestratigráficas o poço 1-AD-0001-AM atravessa que são constituídas por rochas do tipo siltito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1313,
+    "question": "Que unidades litoestratigráficas o poço 3-MBX-0001-BA atravessa que são constituídas por rochas do tipo calciarenito?",
+    "gold": [
+        "fm morro do barro",
+        "fm sergi",
+        "gr almada"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1314,
+    "question": "Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo dolerito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm jatapu",
+        "fm maecuru",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1315,
+    "question": "Que unidades litoestratigráficas o poço 2-LFST-0001-AM atravessa que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "fm faro",
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1316,
+    "question": "Que unidades litoestratigráficas o poço 1-TU-0001-PA atravessa que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1317,
+    "question": "Que unidades litoestratigráficas o poço 1-FO-0001-PA atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1318,
+    "question": "Que unidades litoestratigráficas o poço 1-MI-0003-AM atravessa que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1319,
+    "question": "Que unidades litoestratigráficas o poço 1-NO-0002-AM atravessa que são constituídas por rochas do tipo diamictito?",
+    "gold": [
+        "fm curiri",
+        "fm monte alegre",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1320,
+    "question": "Que unidades litoestratigráficas o poço 1-SO-0001-AM atravessa que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm maecuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1321,
+    "question": "Que unidades litoestratigráficas o poço 2-SLST-0001-AM atravessa que são constituídas por rochas do tipo diabásio?",
+    "gold": [
+        "fm alter do chao",
+        "fm itaituba",
+        "fm maecuru",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1322,
+    "question": "Que unidades litoestratigráficas o poço 2-TNST-0001-AM atravessa que são constituídas por rochas do tipo gás seco?",
+    "gold": [
+        "fm itaituba"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1323,
+    "question": "Que unidades litoestratigráficas o poço 1-AD-0001A-AM atravessa que são constituídas por rochas do tipo rocha metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1324,
+    "question": "Que unidades litoestratigráficas o poço 2-UA-0004-AM atravessa que são constituídas por rochas do tipo carvão?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1325,
+    "question": "Que unidades litoestratigráficas o poço 1-BRSA-1301 atravessa que são constituídas por rochas do tipo gás seco?",
+    "gold": [
+        "fm itaituba",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1326,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0004-AM atravessa que são constituídas por rochas do tipo calcilutito?",
+    "gold": [
+        "fm alter do chao",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 0
+}
+{
+    "id": 1327,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0014-AM atravessa que são constituídas por rochas do tipo calcilutito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 0
+}
+{
+    "id": 1328,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0020-AM atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1329,
+    "question": "Que unidades litoestratigráficas o poço 2-IBST-0001-PA atravessa que são constituídas por rochas do tipo carvão?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1330,
+    "question": "Que unidades litoestratigráficas o poço 2-BIST-0001-AM atravessa que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1331,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0143-BA atravessa que são constituídas por rochas do tipo dolomito?",
+    "gold": [
+        "fm rio de contas",
+        "gr almada",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1332,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0002-AM atravessa que são constituídas por rochas do tipo calcilutito?",
+    "gold": [
+        "fm alter do chao",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 0
+}
+{
+    "id": 1333,
+    "question": "Que unidades litoestratigráficas o poço 1-PE-0003-AM atravessa que são constituídas por rochas do tipo meta-arenito?",
+    "gold": [
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1334,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0141-BA atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm morro do barro",
+        "fm urucutuca",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1335,
+    "question": "Que unidades litoestratigráficas o poço 1-IU-0001-PA atravessa que são constituídas por rochas do tipo microgabro?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm faro",
+        "fm itaituba",
+        "fm jatapu",
+        "fm maecuru",
+        "fm monte alegre",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1336,
+    "question": "Que unidades litoestratigráficas o poço 1-RSO-0001-BA atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm morro do barro",
+        "gr almada"
+    ],
+    "pred": "o poco 1rso0001ba atravessa as seguintes unidades litoestratigraficas constituidas por rochas do tipo areia grupo almada tambem denominado gr almada e formacao morro do barro tambem denominada fm morro do barro ambas as unidades apresentam em sua composicao rochas do tipo areia conforme indicado em seus rotulos e equivalencias",
+    "execution_accuracy": 1
+}
+{
+    "id": 1337,
+    "question": "Que unidades litoestratigráficas o poço 3-AZU-0001-AM atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "o poco 3azu0001am atravessa as seguintes unidades litoestratigraficas constituidas por rochas do tipo barro formacao alter do chao formacao monte alegre formacao andira e formacao nova olinda todas essas unidades tambem podem ser referidas por seus nomes alternativos fm alter do chao fm monte alegre fm andira e fm nova olinda respectivamente",
+    "execution_accuracy": 1
+}
+{
+    "id": 1338,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0029-BA atravessa que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "fm algodoes",
+        "fm rio de contas",
+        "fm taipusmirim",
+        "fm urucutuca",
+        "gr almada",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1339,
+    "question": "Que unidades litoestratigráficas o poço 1-MD-0001-AM atravessa que são constituídas por rochas do tipo granito?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1340,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0012-AM atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1341,
+    "question": "Que unidades litoestratigráficas o poço 2-SGMB-0033-BA atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1342,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0003-AM atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1343,
+    "question": "Que unidades litoestratigráficas o poço 1-MU-0002-AM atravessa que são constituídas por rochas do tipo granito?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1344,
+    "question": "Que unidades litoestratigráficas o poço 1-SP-0001-PA atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "a formacao nova olinda tambem conhecida como fm nova olinda e uma unidade litoestratigrafica atravessada pelo poco 1sp0001pa e e constituida por rochas do tipo gipsita",
+    "execution_accuracy": 1
+}
+{
+    "id": 1345,
+    "question": "Que unidades litoestratigráficas o poço 3-MB-0005-BA atravessa que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "fm morro do barro",
+        "gr almada"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1346,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0022-AM atravessa que são constituídas por rochas do tipo silvinita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1347,
+    "question": "Que unidades litoestratigráficas o poço 1-BR-0001A-PA atravessa que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1348,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0004-AM atravessa que são constituídas por rochas do tipo silvinita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1349,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0024-AM atravessa que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 9fz0024am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo calcario cristalino",
+    "execution_accuracy": 1
+}
+{
+    "id": 1350,
+    "question": "Que unidades litoestratigráficas o poço 1-RSO-0001-BA atravessa que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "fm morro do barro",
+        "fm sergi",
+        "gr almada"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1351,
+    "question": "Que unidades litoestratigráficas o poço 1-STAT-0007-BAS atravessa que são constituídas por rochas do tipo calciarenito?",
+    "gold": [
+        "fm urucutuca"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1352,
+    "question": "Que unidades litoestratigráficas o poço 3-MBX-0001-BA atravessa que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "fm morro do barro"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1353,
+    "question": "Que unidades litoestratigráficas o poço 1-IA-0001-PA atravessa que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm faro",
+        "fm itaituba",
+        "fm jatapu",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1354,
+    "question": "Que unidades litoestratigráficas o poço 3-LT-0002-AM atravessa que são constituídas por rochas do tipo filito?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1355,
+    "question": "Que unidades litoestratigráficas o poço 1-MI-0003-AM atravessa que são constituídas por rochas do tipo dolerito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm jatapu",
+        "fm maecuru",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1356,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0132-BA atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm algodoes",
+        "gr camamu"
+    ],
+    "pred": "o poco 3bas0132ba atravessa as seguintes unidades litoestratigraficas constituidas por rochas do tipo calcissiltito grupo camamu gr camamu e formacao algodoes fm algodoes formacao algodoes",
+    "execution_accuracy": 1
+}
+{
+    "id": 1357,
+    "question": "Que unidades litoestratigráficas o poço 2-IGST-0001-BA atravessa que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1358,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0108-BA atravessa que são constituídas por rochas do tipo calcirudito?",
+    "gold": [
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1359,
+    "question": "Que unidades litoestratigráficas o poço 1-AX-0001-AM atravessa que são constituídas por rochas do tipo gás seco?",
+    "gold": [
+        "fm itaituba",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1360,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0005-AM atravessa que são constituídas por rochas do tipo sedimento?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 1lg0005am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo sedimento",
+    "execution_accuracy": 1
+}
+{
+    "id": 1361,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0073-BA atravessa que são constituídas por rochas do tipo ooze?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1362,
+    "question": "Que unidades litoestratigráficas o poço 2-RPST-0001-PA atravessa que são constituídas por rochas do tipo taquidrita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1363,
+    "question": "Que unidades litoestratigráficas o poço 1-BRSA-1338 atravessa que são constituídas por rochas do tipo carvão?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1364,
+    "question": "Que unidades litoestratigráficas o poço 2-SGMB-0048-BA atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm taipusmirim",
+        "gr brotas",
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1365,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0083-BA atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm urucutuca",
+        "gr almada",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1366,
+    "question": "Que unidades litoestratigráficas o poço 9-PJ-0001-PA atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1367,
+    "question": "Que unidades litoestratigráficas o poço 3-MBX-0001R-BA atravessa que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "fm morro do barro",
+        "gr almada"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1368,
+    "question": "Que unidades litoestratigráficas o poço 2-CAST-0003-AM atravessa que são constituídas por rochas do tipo taquidrita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 2cast0003am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo taquidrita",
+    "execution_accuracy": 1
+}
+{
+    "id": 1369,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0002-AM atravessa que são constituídas por rochas do tipo meta-arenito?",
+    "gold": [
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1370,
+    "question": "Que unidades litoestratigráficas o poço 1-MI-0003-AM atravessa que são constituídas por rochas do tipo marga?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1371,
+    "question": "Que unidades litoestratigráficas o poço 1-FZ-0001-AM atravessa que são constituídas por rochas do tipo halita?",
+    "gold": [
+        "fm andira",
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1372,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0009-AM atravessa que são constituídas por rochas do tipo dolerito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm maecuru",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1373,
+    "question": "Que unidades litoestratigráficas o poço 1-LSA-0001-AM atravessa que são constituídas por rochas do tipo metassiltito?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1374,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0023-AM atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1375,
+    "question": "Que unidades litoestratigráficas o poço 1-LSA-0001-AM atravessa que são constituídas por rochas do tipo halita?",
+    "gold": [
+        "fm andira",
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1376,
+    "question": "Que unidades litoestratigráficas o poço 9-PJ-0001-PA atravessa que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1377,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0083-BA atravessa que são constituídas por rochas do tipo sapropel?",
+    "gold": [
+        "fm algodoes",
+        "fm urucutuca",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1378,
+    "question": "Que unidades litoestratigráficas o poço 1-RO-0001-AM atravessa que são constituídas por rochas do tipo silvinita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "a unidade litoestratigrafica atravessada pelo poco 1ro0001am constituida por rochas do tipo silvinita e a formacao nova olinda tambem conhecida como fm nova olinda ambos os nomes referemse a mesma unidade litoestratigrafica",
+    "execution_accuracy": 1
+}
+{
+    "id": 1379,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0132-BA atravessa que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "fm algodoes",
+        "fm caravelas",
+        "fm itaipe",
+        "fm morro do barro",
+        "fm rio de contas",
+        "fm sergi",
+        "fm taipusmirim",
+        "gr almada",
+        "gr brotas",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1380,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0100-BA atravessa que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "fm rio de contas",
+        "fm taipusmirim",
+        "gr almada",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1381,
+    "question": "Que unidades litoestratigráficas o poço 2-IPST-0001-AM atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1382,
+    "question": "Que unidades litoestratigráficas o poço 1-AC-0001-PA atravessa que são constituídas por rochas do tipo sedimento?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1383,
+    "question": "Que unidades litoestratigráficas o poço 1-SO-0001-AM atravessa que são constituídas por rochas do tipo psefito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "com base nas informacoes fornecidas as seguintes unidades litoestratigraficas atravessadas pelo poco 1so0001am sao identificadas formacao andira fm andira formacao monte alegre fm monte alegre formacao alter do chao fm alter do chao formacao curiri fm curiri e formacao nova olinda fm nova olinda todas essas formacoes correspondem a unidades litoestratigraficas presentes no contexto no entanto nao ha especificacao no contexto sobre quais dessas formacoes sao constituidas por rochas do tipo psefito portanto com base apenas nas informacoes fornecidas nao e possivel determinar quais dessas unidades litoestratigraficas sao compostas por psefito",
+    "execution_accuracy": 1
+}
+{
+    "id": 1384,
+    "question": "Que unidades litoestratigráficas o poço 3-BRSA-170 atravessa que são constituídas por rochas do tipo meta-arenito?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1385,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0004-AM atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 1lg0004am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo gipsita",
+    "execution_accuracy": 1
+}
+{
+    "id": 1386,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0079-BA atravessa que são constituídas por rochas do tipo basalto?",
+    "gold": [
+        "gr almada"
+    ],
+    "pred": "o poco 1bas0079ba atravessa unidades litoestratigraficas constituidas por rochas do tipo basalto pertencentes ao grupo almada tambem referido como gr almada",
+    "execution_accuracy": 1
+}
+{
+    "id": 1387,
+    "question": "Que unidades litoestratigráficas o poço 2-BUST-0001-PA atravessa que são constituídas por rochas do tipo brecha?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1388,
+    "question": "Que unidades litoestratigráficas o poço 1-AR-0001-AM atravessa que são constituídas por rochas do tipo material geológico inconsolidado?",
+    "gold": [
+        "fm andira"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1389,
+    "question": "Que unidades litoestratigráficas o poço 2-AIST-0002-AM atravessa que são constituídas por rochas do tipo microgabro?",
+    "gold": [
+        "fm alter do chao",
+        "fm itaituba",
+        "fm jatapu",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1390,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0001-AM atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1391,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0110-BA atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "com base nas informacoes fornecidas as unidades litoestratigraficas presentes no contexto que possuem relacao com rochas do tipo barro sao a formacao morro do barro tambem denominada fm morro do barro e a formacao algodoes tambem denominada fm algodoes essas formacoes sao reconhecidas por seus nomes equivalentes conforme estabelecido nas regras e correspondem a unidades litoestratigraficas atravessadas pelo poco 3bas0110ba que sao constituidas por rochas do tipo barro",
+    "execution_accuracy": 1
+}
+{
+    "id": 1392,
+    "question": "Que unidades litoestratigráficas o poço 7-JI-0011-BA atravessa que são constituídas por rochas do tipo psefito?",
+    "gold": [
+        "fm afligidos",
+        "fm alianca",
+        "gr brotas"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1393,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0024-AM atravessa que são constituídas por rochas do tipo taquidrita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1394,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0028-AM atravessa que são constituídas por rochas do tipo psamito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1395,
+    "question": "Que unidades litoestratigráficas o poço 2-CUST-0001-PA atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm curiri",
+        "fm manacapuru",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1396,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0006-AM atravessa que são constituídas por rochas do tipo meta-arenito?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1397,
+    "question": "Que unidades litoestratigráficas o poço 1-RPP-0001-AM atravessa que são constituídas por rochas do tipo psefito?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1398,
+    "question": "Que unidades litoestratigráficas o poço 1-CS-0003-AM atravessa que são constituídas por rochas do tipo material geológico inconsolidado?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1399,
+    "question": "Que unidades litoestratigráficas o poço 1-MU-0002-AM atravessa que são constituídas por rochas do tipo sedimento?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 1mu0002am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo sedimento",
+    "execution_accuracy": 1
+}
+{
+    "id": 1400,
+    "question": "Que unidades litoestratigráficas o poço 1-AD-0001-AM atravessa que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1401,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0036-BA atravessa que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "fm itaipe",
+        "fm morro do barro",
+        "fm sergi",
+        "gr almada",
+        "gr brotas"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1402,
+    "question": "Que unidades litoestratigráficas o poço 2-JUST-0001-AM atravessa que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "fm alter do chao",
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1403,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0141-BA atravessa que são constituídas por rochas do tipo basalto?",
+    "gold": [
+        "gr almada"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1404,
+    "question": "Que unidades litoestratigráficas o poço 3-MB-0004-BA atravessa que são constituídas por rochas do tipo argilito?",
+    "gold": [
+        "fm sergi",
+        "gr almada",
+        "gr brotas"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1405,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0022-AM atravessa que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1406,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0014-AM atravessa que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1407,
+    "question": "Que unidades litoestratigráficas o poço 7-JI-0009-BA atravessa que são constituídas por rochas do tipo ooze?",
+    "gold": [
+        "fm morro do barro"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1408,
+    "question": "Que unidades litoestratigráficas o poço 2-CSST-0002-AM atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1409,
+    "question": "Que unidades litoestratigráficas o poço 1-MA-0001-PA atravessa que são constituídas por rochas do tipo dolerito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm barreirinha",
+        "fm curiri",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1410,
+    "question": "Que unidades litoestratigráficas o poço 1-MI-0002-AM atravessa que são constituídas por rochas do tipo siltito?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm jatapu",
+        "fm maecuru",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1411,
+    "question": "Que unidades litoestratigráficas o poço 2-IAST-0001-PA atravessa que são constituídas por rochas do tipo psefito?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "o poco 2iast0001pa atravessa a unidade litoestratigrafica denominada formacao alter do chao tambem referida como fm alter do chao a qual e constituida por rochas do tipo psefito",
+    "execution_accuracy": 1
+}
+{
+    "id": 1412,
+    "question": "Que unidades litoestratigráficas o poço 1-UR-0001-AM atravessa que são constituídas por rochas do tipo microgabro?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm erere",
+        "fm itaituba",
+        "fm jatapu",
+        "fm maecuru",
+        "fm manacapuru",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1413,
+    "question": "Que unidades litoestratigráficas o poço 3-BRSA-599-BAS atravessa que são constituídas por rochas do tipo basalto?",
+    "gold": [
+        "gr almada"
+    ],
+    "pred": "o poco 3brsa599bas atravessa a unidade litoestratigrafica denominada grupo almada tambem referida como gr almada a qual e constituida por rochas do tipo basalto",
+    "execution_accuracy": 1
+}
+{
+    "id": 1414,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0025-AM atravessa que são constituídas por rochas do tipo rocha metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1415,
+    "question": "Que unidades litoestratigráficas o poço 1-RO-0002-AM atravessa que são constituídas por rochas do tipo material geológico inconsolidado?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1416,
+    "question": "Que unidades litoestratigráficas o poço 3-MBX-0001-BA atravessa que são constituídas por rochas do tipo sapropel?",
+    "gold": [
+        "fm morro do barro"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1417,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0010-AM atravessa que são constituídas por rochas do tipo psefito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1418,
+    "question": "Que unidades litoestratigráficas o poço 1-PQ-0001-PA atravessa que são constituídas por rochas do tipo metamórfica?",
+    "gold": [
+        "fm alter do chao",
+        "fm barreirinha",
+        "fm curiri",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "com base nas informacoes fornecidas nao ha indicacao de que as unidades litoestratigraficas atravessadas pelo poco 1pq0001pa sejam constituidas por rochas do tipo metamorfica as unidades mencionadas no contexto sao formacao faro fm faro formacao nova olinda fm nova olinda formacao barreirinha fm barreirinha formacao oriximina fm oriximina formacao curiri fm curiri formacao alter do chao fm alter do chao formacao monte alegre fm monte alegre e formacao itaituba fm itaituba nao ha referencia no contexto apresentado ao tipo de rocha dessas formacoes tampouco a presenca de rochas metamorficas nessas unidades",
+    "execution_accuracy": 1
+}
+{
+    "id": 1419,
+    "question": "Que unidades litoestratigráficas o poço 3-PAM-0002D-AM atravessa que são constituídas por rochas do tipo halita?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1420,
+    "question": "Que unidades litoestratigráficas o poço 3-BAS-0136-BA atravessa que são constituídas por rochas do tipo carnalita?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1421,
+    "question": "Que unidades litoestratigráficas o poço 2-CAST-0001-AM atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1422,
+    "question": "Que unidades litoestratigráficas o poço 7-MNT-0005D-BAS atravessa que são constituídas por rochas do tipo barro?",
+    "gold": [
+        "fm algodoes",
+        "fm morro do barro",
+        "gr camamu",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1423,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0003-AM atravessa que são constituídas por rochas do tipo psefito?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1424,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0127A-BA atravessa que são constituídas por rochas do tipo calcilutito?",
+    "gold": [
+        "fm morro do barro",
+        "fm rio de contas",
+        "gr almada",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 0
+}
+{
+    "id": 1425,
+    "question": "Que unidades litoestratigráficas o poço 1-CAP-0001-AM atravessa que são constituídas por rochas do tipo coquina?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 1cap0001am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo coquina",
+    "execution_accuracy": 1
+}
+{
+    "id": 1426,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0004-BA atravessa que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "fm morro do barro",
+        "gr almada"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1427,
+    "question": "Que unidades litoestratigráficas o poço 1-LG-0002-AM atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1428,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0014-AM atravessa que são constituídas por rochas do tipo brecha?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1429,
+    "question": "Que unidades litoestratigráficas o poço 1-FA-0001-AM atravessa que são constituídas por rochas do tipo dolomito?",
+    "gold": [
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1430,
+    "question": "Que unidades litoestratigráficas o poço 1-IU-0001-PA atravessa que são constituídas por rochas do tipo ooze?",
+    "gold": [
+        "fm alter do chao",
+        "fm monte alegre"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1431,
+    "question": "Que unidades litoestratigráficas o poço 1-RCM-0001-AM atravessa que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 1rcm0001am atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda a qual e constituida por rochas do tipo gipsita",
+    "execution_accuracy": 1
+}
+{
+    "id": 1432,
+    "question": "Que unidades litoestratigráficas o poço 1-MT-0001-AM atravessa que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "fm itaituba",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1433,
+    "question": "Que unidades litoestratigráficas o poço 1-PB-0001-PA atravessa que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "fm nova olinda",
+        "fm pitinga"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1434,
+    "question": "Que unidades litoestratigráficas o poço 3-MBX-0001R-BA atravessa que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "fm morro do barro",
+        "gr almada"
+    ],
+    "pred": "o poco 3mbx0001rba atravessa as seguintes unidades litoestratigraficas constituidas por rochas do tipo conglomerado formacao morro do barro tambem denominada fm morro do barro e grupo almada tambem denominado gr almada ambas as unidades apresentam conglomerados em sua composicao litologica",
+    "execution_accuracy": 1
+}
+{
+    "id": 1435,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0113-BA atravessa que são constituídas por rochas do tipo mudstone?",
+    "gold": [
+        "fm itaipe",
+        "fm morro do barro",
+        "fm rio de contas",
+        "gr almada",
+        "gr brotas",
+        "gr espirito santo"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1436,
+    "question": "Que unidades litoestratigráficas o poço 1-BRSA-1301 atravessa que são constituídas por rochas do tipo psamito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1437,
+    "question": "Que unidades litoestratigráficas o poço 1-BRSA-1269 atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "fm andira",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1438,
+    "question": "Que unidades litoestratigráficas o poço 1-TU-0001-PA atravessa que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1439,
+    "question": "Que unidades litoestratigráficas o poço 2-IMST-0001-PA atravessa que são constituídas por rochas do tipo dolerito?",
+    "gold": [
+        "fm alter do chao",
+        "fm andira",
+        "fm curiri",
+        "fm faro",
+        "fm itaituba",
+        "fm monte alegre",
+        "fm nova olinda",
+        "fm oriximina"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1440,
+    "question": "Que unidades litoestratigráficas o poço 1-NO-0004-AM atravessa que são constituídas por rochas do tipo unconsolidated earth material?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1441,
+    "question": "Que unidades litoestratigráficas o poço 2-PEST-0002-AM atravessa que são constituídas por rochas do tipo diamictito?",
+    "gold": [
+        "fm curiri",
+        "fm monte alegre"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1442,
+    "question": "Que unidades litoestratigráficas o poço 2-MAST-0002-PA atravessa que são constituídas por rochas do tipo filito?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1443,
+    "question": "Que unidades litoestratigráficas o poço 2-CPST-0002-PA atravessa que são constituídas por rochas do tipo unconsolidated earth material?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "o poco 2cpst0002pa atravessa a unidade litoestratigrafica denominada formacao nova olinda tambem referida como fm nova olinda que e constituida por rochas do tipo unconsolidated earth material",
+    "execution_accuracy": 1
+}
+{
+    "id": 1444,
+    "question": "Que unidades litoestratigráficas o poço 1-BAS-0071-BA atravessa que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "gr camamu"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1445,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0017-AM atravessa que são constituídas por rochas do tipo filito?",
+    "gold": [
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1446,
+    "question": "Que unidades litoestratigráficas o poço 2-AP-0001-PA atravessa que são constituídas por rochas do tipo brecha?",
+    "gold": [
+        "fm andira",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1447,
+    "question": "Que unidades litoestratigráficas o poço 3-ICA-0002-AM atravessa que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "fm alter do chao",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1448,
+    "question": "Que unidades litoestratigráficas o poço 9-FZ-0005-AM atravessa que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "fm alter do chao"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1449,
+    "question": "Que unidades litoestratigráficas o poço 1-AM-0004-AM atravessa que são constituídas por rochas do tipo rudito?",
+    "gold": [
+        "fm alter do chao",
+        "fm curiri",
+        "fm monte alegre",
+        "fm nova olinda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1451,
+    "question": "Qual a idade geológica das unidades litoestratigráficas constituídas por gás não associado (gás seco)?",
+    "gold": [
+        "bashkiriano",
+        "tournaisiano"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 0
+}
+{
+    "id": 1452,
+    "question": "Quantos poços atravessam unidades litoestratigráficas constituídas por gás não associado (gás seco)?",
+    "gold": [
+        "163"
+    ],
+    "pred": "o numero de pocos que atravessam unidades litoestratigraficas constituidas por gas nao associado gas seco e 163",
+    "execution_accuracy": 0
+}
+{
+    "id": 1453,
+    "question": "Em quais bacias estão as unidades litoestratigráficas constituídas por gás não associado (gás seco)?",
+    "gold": [
+        "amazonas",
+        "bacia de amazonas"
+    ],
+    "pred": "as unidades litoestratigraficas constituidas por gas nao associado gas seco estao localizadas na bacia de amazonas tambem denominada amazonas",
+    "execution_accuracy": 0
+}
+{
+    "id": 1454,
+    "question": "Em quais campos estão as unidades litoestratigráficas constituídas por gás não associado (gás seco)?",
+    "gold": [
+        "azulao",
+        "igarape maripa",
+        "japiim",
+        "rio uatuma"
+    ],
+    "pred": "no contexto fornecido as entidades azulao azulao e rio uatuma correspondem a mesma unidade assim como japiim e igarape maripa representam outra unidade considerando os nomes apresentados as unidades litoestratigraficas constituidas por gas nao associado gas seco estao localizadas nos campos azulao tambem denominado azulao ou rio uatuma e japiim tambem denominado igarape maripa",
+    "execution_accuracy": 0
+}
+{
+    "id": 1455,
+    "question": "Quais estruturas geológicas ocorrem nas unidades litoestratigráficas constituídas por gás não associado (gás seco)?",
+    "gold": [
+        "estratificacao cruzada",
+        "estratificacao cruzada de baixo angulo",
+        "estratificacao cruzada tabular",
+        "estratificacao plano paralela",
+        "estratificacao plano paralela pouco definida",
+        "estrutura lenticular linsen",
+        "flaser",
+        "fratura",
+        "laminacao convoluta",
+        "macica"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1456,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Maciça?",
+    "gold": [
+        "area bas131",
+        "area do b097",
+        "area do bas64",
+        "azulao",
+        "japiim",
+        "jiribatuba",
+        "manati",
+        "morro do barro"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica macica estao localizadas nos campos denominados morro do barro japiim tambem conhecido como igarape maripa e azulao tambem referido como azulao ou rio uatuma todos esses nomes correspondem aos respectivos campos onde se encontram tais unidades",
+    "execution_accuracy": 1
+}
+{
+    "id": 1457,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Flaser?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica flaser estao localizadas nos campos denominados japiim tambem conhecido como igarape maripa e azulao tambem referido como azulao ou rio uatuma todos esses nomes correspondem aos mesmos campos conforme indicado pelos rotulos fornecidos no grafo",
+    "execution_accuracy": 1
+}
+{
+    "id": 1458,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Laminação Convoluta?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1459,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Estrutura Lenticular (linsen)?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica denominada estrutura lenticular linsen estao localizadas nos campos japiim tambem conhecido como igarape maripa e azulao tambem denominado azulao ou rio uatuma todos esses nomes referemse aos mesmos campos conforme indicado pelos rotulos fornecidos no grafo",
+    "execution_accuracy": 1
+}
+{
+    "id": 1460,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Estratificação Cruzada?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "com base nas informacoes fornecidas as unidades litoestratigraficas associadas a estrutura geologica denominada estratificacao cruzada estao presentes nos campos denominados japiim tambem conhecido como igarape maripa e azulao tambem referido como azulao ou rio uatuma todos esses nomes correspondem aos mesmos campos conforme os rotulos apresentados no grafo",
+    "execution_accuracy": 1
+}
+{
+    "id": 1461,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Estratificação Plano Paralela?",
+    "gold": [
+        "area bas131",
+        "area do b097",
+        "area do bas64",
+        "azulao",
+        "japiim",
+        "jiribatuba",
+        "manati",
+        "morro do barro"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica estratificacao plano paralela estao localizadas nos seguintes campos morro do barro japiim tambem denominado igarape maripa e azulao tambem denominado azulao ou rio uatuma todos esses nomes referemse aos respectivos campos onde se encontram as referidas unidades litoestratigraficas",
+    "execution_accuracy": 1
+}
+{
+    "id": 1462,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Estratificação Cruzada de Baixo Ângulo?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica denominada estratificacao cruzada de baixo angulo estao localizadas nos campos japiim tambem conhecido como igarape maripa e azulao tambem referido como azulao ou rio uatuma todos esses nomes correspondem aos mesmos campos conforme indicado pelos rotulos fornecidos no grafo",
+    "execution_accuracy": 1
+}
+{
+    "id": 1463,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Estratificação Cruzada Tabular?",
+    "gold": [
+        "area bas131",
+        "area do b097",
+        "area do bas64",
+        "azulao",
+        "japiim",
+        "jiribatuba",
+        "manati",
+        "morro do barro"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica denominada estratificacao cruzada tabular estao localizadas nos seguintes campos morro do barro japiim tambem conhecido como igarape maripa e azulao tambem referido como azulao ou rio uatuma todos esses nomes correspondem aos mesmos respectivos campos conforme indicado pelos diferentes rotulos presentes no grafo",
+    "execution_accuracy": 1
+}
+{
+    "id": 1464,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Fratura?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica fratura estao localizadas nos campos denominados japiim tambem conhecido como igarape maripa e azulao tambem conhecido como azulao ou rio uatuma todos esses nomes referemse aos mesmos campos conforme indicado pelos diferentes rotulos associados a cada entidade no grafo",
+    "execution_accuracy": 1
+}
+{
+    "id": 1465,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Estratificação Plano Paralela Pouco Definida?",
+    "gold": [
+        "area bas131",
+        "area do b097",
+        "area do bas64",
+        "azulao",
+        "japiim",
+        "jiribatuba",
+        "manati",
+        "morro do barro"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica denominada estratificacao plano paralela pouco definida estao localizadas nos seguintes campos morro do barro japiim tambem conhecido como igarape maripa e azulao tambem denominado azulao ou rio uatuma todos esses nomes referemse aos respectivos campos onde tal estrutura geologica foi identificada",
+    "execution_accuracy": 1
+}
+{
+    "id": 1466,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Greta de Contração ou Ressecamento?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1467,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Fluidização?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1468,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Discordância?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1469,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Gradação Inversa?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1470,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Marca de Carga?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1471,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Filmes de Argila?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1472,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Raiz?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1473,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Estratificação Cruzada Acanalada Festonada?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "no contexto fornecido as entidades presentes sao japiim tambem denominada igarape maripa e azulao tambem denominada azulao ou rio uatuma essas entidades correspondem a unidades litoestratigraficas portanto as unidades litoestratigraficas que apresentam a estrutura geologica denominada estratificacao cruzada acanalada festonada estao localizadas nos campos japiim igarape maripa e azulao azulao rio uatuma",
+    "execution_accuracy": 1
+}
+{
+    "id": 1474,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Falha?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "no contexto fornecido estao presentes as seguintes entidades japiim tambem denominada igarape maripa e azulao tambem denominada azulao ou rio uatuma essas entidades correspondem a campos nos quais se encontram unidades litoestratigraficas que apresentam a estrutura geologica falha portanto as unidades litoestratigraficas com estrutura de falha estao localizadas nos campos japiim igarape maripa e azulao azulao rio uatuma",
+    "execution_accuracy": 1
+}
+{
+    "id": 1475,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Laminação Cavalgante?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1
+}
+{
+    "id": 1476,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Dique de Arenito?",
+    "gold": [
+        "area bas131",
+        "area do b097",
+        "area do bas64",
+        "jiribatuba",
+        "manati",
+        "morro do barro"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica dique de arenito estao localizadas nos seguintes campos morro do barro area do b097 tambem denominada sardinha area do bas64 tambem denominada area bas064 e jiribatuba todos os nomes apresentados correspondem aos mesmos campos considerando as variacoes de rotulos e sinonimos fornecidos no grafo",
+    "execution_accuracy": 1
+}
+{
+    "id": 1477,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Estratificação Cruzada Tangencial?",
+    "gold": [
+        "area bas131",
+        "area do b097",
+        "area do bas64",
+        "jiribatuba",
+        "manati",
+        "morro do barro"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica denominada estratificacao cruzada tangencial estao localizadas nos seguintes campos morro do barro area do b097 tambem conhecida como sardinha area bas064 tambem referida como area do bas64 e jiribatuba todos os nomes e variacoes apresentados correspondem aos mesmos campos conforme indicado pelos rotulos fornecidos no grafo",
+    "execution_accuracy": 1
+}
+{
+    "id": 1478,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Imbricação de Seixos?",
+    "gold": [
+        "area bas131",
+        "area do b097",
+        "area do bas64",
+        "jiribatuba",
+        "manati",
+        "morro do barro"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica denominada imbricacao de seixos estao localizadas nos seguintes campos morro do barro area do b097 tambem conhecida como sardinha area do bas64 tambem denominada area bas064 e jiribatuba todos os nomes apresentados referemse aos respectivos campos onde essa estrutura foi identificada",
+    "execution_accuracy": 1
+}
+{
+    "id": 1479,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Pilares?",
+    "gold": [
+        "area bas131",
+        "area do b097",
+        "area do bas64",
+        "jiribatuba",
+        "manati",
+        "morro do barro"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica pilares estao localizadas nos seguintes campos morro do barro area do b097 tambem denominada sardinha area do bas64 tambem denominada area bas064 e jiribatuba",
+    "execution_accuracy": 1
+}
+{
+    "id": 1480,
+    "question": "Em quais campos estão as unidades litoestratigráficas que apresentam a estrutura geológica Estratificação Cruzada Sigmoidal?",
+    "gold": [
+        "azulao",
+        "japiim"
+    ],
+    "pred": "as unidades litoestratigraficas que apresentam a estrutura geologica denominada estratificacao cruzada sigmoidal estao localizadas nos campos japiim tambem conhecido como igarape maripa e azulao tambem denominado azulao ou rio uatuma",
+    "execution_accuracy": 1
+}
+{
+    "id": 1664,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo siltito?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo siltito e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1665,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo diabásio?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo diabasio e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1666,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo metamórfica?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo metamorfica e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1667,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo arenito e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1668,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo folhelho e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1669,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo marga?",
+    "gold": [
+        "206"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo marga e 206",
+    "execution_accuracy": 1
+}
+{
+    "id": 1670,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcilutito?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo calcilutito e 206",
+    "execution_accuracy": 0
+}
+{
+    "id": 1671,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "202"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo calcario cristalino e 202",
+    "execution_accuracy": 1
+}
+{
+    "id": 1672,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo argilito?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo argilito e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1673,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo calcarenito e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1674,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "220"
+    ],
+    "pred": "na bacia denominada bacia de amazonas ha um total de 220 pocos que atravessam unidades litoestratigraficas constituidas por rochas do tipo conglomerado",
+    "execution_accuracy": 1
+}
+{
+    "id": 1675,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo argila e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1676,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo brecha?",
+    "gold": [
+        "199"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo brecha e 199",
+    "execution_accuracy": 1
+}
+{
+    "id": 1677,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo areia e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1678,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo material geológico inconsolidado?",
+    "gold": [
+        "199"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo material geologico inconsolidado e 199",
+    "execution_accuracy": 1
+}
+{
+    "id": 1679,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "207"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo anidrita e 207",
+    "execution_accuracy": 1
+}
+{
+    "id": 1680,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "206"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo calcissiltito e 206",
+    "execution_accuracy": 1
+}
+{
+    "id": 1681,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo halita?",
+    "gold": [
+        "206"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo halita e 206",
+    "execution_accuracy": 1
+}
+{
+    "id": 1682,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo silexito e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1683,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo metassiltito?",
+    "gold": [
+        "220"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo metassiltito e 220",
+    "execution_accuracy": 1
+}
+{
+    "id": 1684,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo dolomito?",
+    "gold": [
+        "202"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo dolomito e 202",
+    "execution_accuracy": 1
+}
+{
+    "id": 1685,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo diamictito?",
+    "gold": [
+        "161"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo diamictito e 161",
+    "execution_accuracy": 1
+}
+{
+    "id": 1686,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo gás não associado?",
+    "gold": [
+        "163"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo gas nao associado e 163",
+    "execution_accuracy": 1
+}
+{
+    "id": 1687,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo granito?",
+    "gold": [
+        "161"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo granito e 161",
+    "execution_accuracy": 1
+}
+{
+    "id": 1688,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo meta-arenito?",
+    "gold": [
+        "201"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo metaarenito e 201",
+    "execution_accuracy": 1
+}
+{
+    "id": 1689,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "194"
+    ],
+    "pred": "o numero de pocos da bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo gipsita e 194",
+    "execution_accuracy": 1
+}
+{
+    "id": 1690,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo filito?",
+    "gold": [
+        "194"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo filito e 194",
+    "execution_accuracy": 1
+}
+{
+    "id": 1691,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo coquina?",
+    "gold": [
+        "194"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo coquina e 194",
+    "execution_accuracy": 1
+}
+{
+    "id": 1692,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo taquidrita?",
+    "gold": [
+        "194"
+    ],
+    "pred": "o numero de pocos da bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo taquidrita e 194",
+    "execution_accuracy": 1
+}
+{
+    "id": 1693,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo silvinita?",
+    "gold": [
+        "194"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo silvinita e 194",
+    "execution_accuracy": 1
+}
+{
+    "id": 1694,
+    "question": "Quantos poços da bacia BACIA DE AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo carvão?",
+    "gold": [
+        "214"
+    ],
+    "pred": "o numero de pocos da bacia bacia de amazonas que atravessam unidades litoestratigraficas constituidas por rochas do tipo carvao e 214",
+    "execution_accuracy": 1
+}
+{
+    "id": 1695,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo siltito?",
+    "gold": [
+        "109"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo siltito e 109",
+    "execution_accuracy": 1
+}
+{
+    "id": 1696,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo arenito?",
+    "gold": [
+        "109"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo arenito e 109",
+    "execution_accuracy": 1
+}
+{
+    "id": 1697,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo folhelho?",
+    "gold": [
+        "109"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo folhelho e 109",
+    "execution_accuracy": 1
+}
+{
+    "id": 1698,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo marga?",
+    "gold": [
+        "109"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo marga e 109",
+    "execution_accuracy": 1
+}
+{
+    "id": 1699,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcilutito?",
+    "gold": [
+        "109"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo calcilutito e 58",
+    "execution_accuracy": 0
+}
+{
+    "id": 1700,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcário cristalino?",
+    "gold": [
+        "107"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo calcario cristalino e 107",
+    "execution_accuracy": 1
+}
+{
+    "id": 1701,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo argilito?",
+    "gold": [
+        "108"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo argilito e 108",
+    "execution_accuracy": 1
+}
+{
+    "id": 1702,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcarenito?",
+    "gold": [
+        "109"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo calcarenito e 109",
+    "execution_accuracy": 1
+}
+{
+    "id": 1703,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo conglomerado?",
+    "gold": [
+        "109"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo conglomerado e 109",
+    "execution_accuracy": 1
+}
+{
+    "id": 1704,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo argila?",
+    "gold": [
+        "108"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo argila e 108",
+    "execution_accuracy": 1
+}
+{
+    "id": 1705,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo brecha?",
+    "gold": [
+        "57"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo brecha e 57",
+    "execution_accuracy": 1
+}
+{
+    "id": 1706,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo areia?",
+    "gold": [
+        "108"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo areia e 108",
+    "execution_accuracy": 1
+}
+{
+    "id": 1707,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo anidrita?",
+    "gold": [
+        "62"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo anidrita e 62",
+    "execution_accuracy": 1
+}
+{
+    "id": 1708,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcissiltito?",
+    "gold": [
+        "58"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo calcissiltito e 58",
+    "execution_accuracy": 1
+}
+{
+    "id": 1709,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo halita?",
+    "gold": [
+        "57"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo halita e 57",
+    "execution_accuracy": 1
+}
+{
+    "id": 1710,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo silexito?",
+    "gold": [
+        "12"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo silexito e 12",
+    "execution_accuracy": 1
+}
+{
+    "id": 1711,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo dolomito?",
+    "gold": [
+        "104"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo dolomito e 104",
+    "execution_accuracy": 1
+}
+{
+    "id": 1712,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo basalto?",
+    "gold": [
+        "89"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo basalto e 89",
+    "execution_accuracy": 1
+}
+{
+    "id": 1713,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo grainstone?",
+    "gold": [
+        "76"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo grainstone e 76",
+    "execution_accuracy": 1
+}
+{
+    "id": 1714,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo calcirudito?",
+    "gold": [
+        "76"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo calcirudito e 76",
+    "execution_accuracy": 1
+}
+{
+    "id": 1715,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo carnalita?",
+    "gold": [
+        "57"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo carnalita e 57",
+    "execution_accuracy": 1
+}
+{
+    "id": 1716,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo gipsita?",
+    "gold": [
+        "57"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo gipsita e 57",
+    "execution_accuracy": 1
+}
+{
+    "id": 1717,
+    "question": "Quantos poços da bacia CAMAMU TERRA atravessam unidades litoestratigráficas que são constituídas por rochas do tipo carvão?",
+    "gold": [
+        "59"
+    ],
+    "pred": "o numero de pocos da bacia camamu terra que atravessam unidades litoestratigraficas constituidas por rochas do tipo carvao e 59",
+    "execution_accuracy": 1
+}
