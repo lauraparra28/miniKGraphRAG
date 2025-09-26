@@ -22,7 +22,7 @@
     "gold": [
         "nao ha outros nomes"
     ],
-    "pred": "os outros nomes possiveis para o campo morro do barro sao os rotulos ou sinonimos associados a essa entidade conforme indicado no grafo neste caso a unica designacao disponivel e morro do barro portanto nao ha outros nomes ou sinonimos registrados para essa entidade",
+    "pred": "morro do barro e a unica denominacao disponivel no contexto fornecido nao ha outros nomes ou sinonimos associados a esta entidade",
     "execution_accuracy": 1
 }
 {
@@ -31,7 +31,7 @@
     "gold": [
         "igarape maripa"
     ],
-    "pred": "o campo japiim e tambem conhecido pelo nome de igarape maripa",
+    "pred": "o campo japiim tambem e conhecido pelo nome de igarape maripa",
     "execution_accuracy": 1
 }
 {
@@ -93,8 +93,8 @@
         "1bas71ba",
         "bas71"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas71ba incluem 1bas71ba 1bas71 1bas71 1bas71ba 1bas0071ba 1bas71ba bas71 e 1bas0071ba",
+    "execution_accuracy": 1
 }
 {
     "id": 27,
@@ -118,7 +118,7 @@
         "2icst1am",
         "icst1am"
     ],
-    "pred": "os outros nomes possiveis para o poco icst1 incluem 2icst1 2icst0001am icst1am 2icst1 2icst0001am 2icst1am 2icst1am e 2icst1am alem disso tambem e referenciado como 2icst0001am",
+    "pred": "os outros nomes possiveis para o poco icst1 incluem 2icst1 2icst0001am icst1am 2icst1 2icst0001am 2icst1am 2icst1am 2icst1am e 2icst0001am",
     "execution_accuracy": 1
 }
 {
@@ -180,7 +180,7 @@
         "lc2",
         "lc2am"
     ],
-    "pred": "o poco 1lc2 possui os seguintes nomes possiveis 1lc0002am 1lc0002am lc2am 1lc2 1lc0002am 1lc2am 1lc2am 1lc2 1lc2am e lc2",
+    "pred": "o poco 1lc2 possui os seguintes nomes possiveis 1lc0002am 1lc0002am lc2am 1lc2 1lc0002am 1lc2am 1lc2am 1lc2 e 1lc2am",
     "execution_accuracy": 1
 }
 {
@@ -192,7 +192,7 @@
         "2lmst1am",
         "lmst1"
     ],
-    "pred": "os outros nomes possiveis para o poco lmst1am incluem 2lmst0001am 2lmst1am 2lmst1am 2lmst1 2lmst1 2lmst0001am 2lmst1am e lmst1",
+    "pred": "os outros nomes possiveis para o poco lmst1am incluem 2lmst0001am 2lmst1am 2lmst1 2lmst1am 2lmst1 2lmst0001am 2lmst1am e lmst1am",
     "execution_accuracy": 1
 }
 {
@@ -218,7 +218,7 @@
         "rl1",
         "rl1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1rl1am sao 1rl1 1rl1 1rl1am 1rl1am 1rl0001am rl1 rl1am e 1rl0001am",
+    "pred": "os outros nomes possiveis para o poco 1rl1am incluem 1rl1am 1rl1 1rl1 1rl1am 1rl0001am rl1 rl1am e 1rl0001am",
     "execution_accuracy": 1
 }
 {
@@ -359,7 +359,7 @@
         "lg2",
         "lg2am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1lg2am incluem 1lg0002am 1lg2 lg2 1lg2am 1lg0002am 1lg2 1lg0002am e lg2am",
+    "pred": "os outros nomes possiveis para o poco 1lg2am incluem 1lg0002am 1lg2 lg2 1lg2am 1lg2 1lg0002am e lg2am",
     "execution_accuracy": 1
 }
 {
@@ -422,7 +422,7 @@
         "cs3",
         "cs3am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1cs3am incluem 1cs0003am 1cs0003am 1cs3am 1cs3 1cs3 cs3am 1cs0003am cs3 e 1cs3am",
+    "pred": "os outros nomes possiveis para o poco 1cs3am incluem 1cs0003am 1cs0003am 1cs3am 1cs3 1cs3 cs3am 1cs0003am e cs3",
     "execution_accuracy": 1
 }
 {
@@ -434,7 +434,7 @@
         "1md1am",
         "md1am"
     ],
-    "pred": "o poco md1 possui varios nomes ou rotulos que podem ser utilizados para referencialo os nomes possiveis para o poco md1 sao 1md0001am md1am 1md1am 1md1am 1md0001am 1md1 1md0001am 1md1 e 1md1am",
+    "pred": "os outros nomes possiveis para o poco md1 incluem 1md0001am md1am 1md1am 1md1am 1md0001am 1md1 1md0001am 1md1 e 1md1am",
     "execution_accuracy": 1
 }
 {
@@ -473,7 +473,7 @@
         "xust1",
         "xust1pa"
     ],
-    "pred": "os outros nomes possiveis para o poco 2xust1pa incluem 2xust0001pa 2xust1pa 2xust1 2xust0001pa 2xust1pa xust1pa xust1 e 2xust1",
+    "pred": "os outros nomes possiveis para o poco 2xust1pa sao 2xust0001pa 2xust1pa 2xust1 2xust0001pa 2xust1pa xust1pa xust1 e 2xust1",
     "execution_accuracy": 1
 }
 {
@@ -484,7 +484,7 @@
         "1bas84",
         "1bas84ba"
     ],
-    "pred": "os outros nomes possiveis para o poco bas84 incluem 1bas84 1bas0084ba 1bas0084ba 1bas84ba 1bas84ba 1bas84ba 1bas0084ba e bas84",
+    "pred": "os outros nomes possiveis para o poco bas84 incluem 1bas84 1bas0084ba 1bas0084ba 1bas84ba 1bas84ba 1bas84ba 1bas0084ba e 1bas84",
     "execution_accuracy": 1
 }
 {
@@ -497,8 +497,8 @@
         "pfj3",
         "pfj3am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1pfj3am incluem pfj3 1pfj3am pfj3am 1pfj0003am 1pfj0003am 1pfj3 1pfj0003am 1pfj3am 1pfj3 e 1pfj3am",
+    "execution_accuracy": 1
 }
 {
     "id": 128,
@@ -510,7 +510,7 @@
         "fz24",
         "fz24am"
     ],
-    "pred": "os outros nomes possiveis para o poco 9fz0024am incluem 9fz24am 9fz24am 9fz24 9fz0024am fz24am 9fz24am 9fz24 e 9fz0024am",
+    "pred": "os outros nomes possiveis para o poco 9fz0024am incluem 9fz24am 9fz24am 9fz24 9fz0024am fz24am 9fz24am 9fz24 e 9fz0024am alem de fz24",
     "execution_accuracy": 1
 }
 {
@@ -548,7 +548,7 @@
         "mnst1",
         "mnst1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 2mnst1am incluem mnst1 2mnst0001am 2mnst1am 2mnst0001am 2mnst1am 2mnst1 2mnst1 2mnst1am e 2mnst0001am",
+    "pred": "os outros nomes possiveis para o poco 2mnst1am incluem mnst1 2mnst0001am 2mnst1am 2mnst0001am 2mnst1am 2mnst1 2mnst1am 2mnst1 e 2mnst0001am",
     "execution_accuracy": 1
 }
 {
@@ -640,8 +640,8 @@
         "brsa5a",
         "brsa5abas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas127aba incluem 1brsa5a brsa5a 1brsa5bas 1bas127a brsa5abas 1bas127a 1bas0127aba 1bas0127aba 1bas127aba bas127a 1bas0127aba 1brsa5abas 1brsa5a 1bas127aba e 1bas127aba",
+    "execution_accuracy": 1
 }
 {
     "id": 160,
@@ -669,7 +669,7 @@
         "1tr1am",
         "tr1"
     ],
-    "pred": "os outros nomes possiveis para o poco tr1am incluem 1tr1 1tr0001am 1tr1am 1tr0001am 1tr1am 1tr1 e tr1",
+    "pred": "os outros nomes possiveis para o poco tr1am incluem 1tr1 1tr0001am 1tr1am 1tr0001am 1tr1am 1tr1 tr1 1tr0001am e 1tr1am",
     "execution_accuracy": 1
 }
 {
@@ -682,7 +682,7 @@
         "am12",
         "am12am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1am0012am incluem 1am12am 1am0012am 1am12 am12 1am12 1am0012am e 1am12",
+    "pred": "os outros nomes possiveis para o poco 1am0012am incluem 1am12am 1am0012am 1am12 am12 1am12am 1am0012am e 1am12",
     "execution_accuracy": 1
 }
 {
@@ -696,8 +696,8 @@
         "nbst1d",
         "nbst1dba"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 2nbst0001dba incluem 2nbst1ba 2nbst1d 2nbst1d 2nbst0001dba 2nbst1dba nbst1d 2nbst0001dba e 2nbst1dba",
+    "execution_accuracy": 1
 }
 {
     "id": 173,
@@ -735,8 +735,8 @@
         "rx4",
         "rx4am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1rx0004am incluem 1rx4am 1rx4 rx4am 1rx0004am 1rx4am 1rx4 rx4 e 1rx4am",
+    "execution_accuracy": 1
 }
 {
     "id": 183,
@@ -747,8 +747,8 @@
         "1bas73ba",
         "bas73"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas73ba incluem 1bas73 1bas73ba 1bas0073ba 1bas0073ba 1bas73ba 1bas0073ba 1bas73ba e 1bas73",
+    "execution_accuracy": 1
 }
 {
     "id": 187,
@@ -760,8 +760,8 @@
         "elps17da",
         "elps17dabas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1elps17bas incluem 1elps17dabas elps17da 1elps0017dabas 1elps0017dabas 1elps17dabas 1elps17dabas 1elps17da 1elps17dabas 1elps0017dabas e elps17dabas",
+    "execution_accuracy": 1
 }
 {
     "id": 189,
@@ -799,8 +799,8 @@
         "lpu1",
         "lpu1am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1lpu0001am incluem lpu1 1lpu0001am 1lpu1am 1lpu1 1lpu1 lpu1am 1lpu1am 1lpu0001am e 1lpu1am",
+    "execution_accuracy": 1
 }
 {
     "id": 198,
@@ -879,8 +879,8 @@
         "brsa734",
         "brsa734bas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas144ba incluem 1bas144ba 1bas144 1bas144 1bas144ba 1brsa734 brsa734 1brsa734bas 1brsa734bas brsa734bas bas144 1bas0144ba 1bas0144ba 1brsa734 e 1bas0144ba",
+    "execution_accuracy": 1
 }
 {
     "id": 216,
@@ -918,8 +918,8 @@
         "ua4",
         "ua4am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 2ua0004am incluem 2ua0004am ua4 2ua4 2ua4am 2ua4 2ua0004am 2ua4am e 2ua0004am",
+    "execution_accuracy": 1
 }
 {
     "id": 223,
@@ -931,7 +931,7 @@
         "am1",
         "am1am"
     ],
-    "pred": "o poco 1am1 possui os seguintes nomes possiveis 1am0001am am1am 1am0001am 1am1 1am1am 1am1am 1am1 1am1am e 1am0001am",
+    "pred": "os outros nomes possiveis para o poco 1am1 incluem 1am0001am am1am 1am0001am 1am1 1am1am 1am1am 1am1 1am1am e 1am0001am",
     "execution_accuracy": 1
 }
 {
@@ -958,7 +958,7 @@
         "am6a",
         "am6aam"
     ],
-    "pred": "os outros nomes possiveis para o poco 1am6aam incluem am6aam 1am0006aam 1am6am 1am6a 1am6aam 1am6aam 1am6a 1am6aam e am6a",
+    "pred": "os outros nomes possiveis para o poco 1am6aam sao 1am0006aam am6aam 1am0006aam 1am6am 1am6a 1am6a 1am6aam 1am6a 1am6aam e am6a",
     "execution_accuracy": 1
 }
 {
@@ -1000,7 +1000,7 @@
         "imp1",
         "imp1am"
     ],
-    "pred": "o poco 1imp1am possui os seguintes nomes e rotulos alternativos 1imp1 imp1am 1imp1am 1imp0001am 1brsa98am 1brsa98am 1imp1 1imp0001am brsa98am 1brsa98 1brsa98 brsa98 imp1 1imp0001am e 1imp1am",
+    "pred": "os outros nomes possiveis para o poco 1imp1am incluem 1imp1 imp1am 1imp1am 1imp0001am 1brsa98am 1brsa98am 1imp1 1imp0001am brsa98am 1brsa98 1brsa98 brsa98 imp1 e 1imp0001am",
     "execution_accuracy": 1
 }
 {
@@ -1013,7 +1013,7 @@
         "ji7",
         "ji7ba"
     ],
-    "pred": "os outros nomes possiveis para o poco 7ji7ba incluem 7ji7ba 7ji7 7ji0007ba 7ji0007ba 7ji7 ji7 7ji0007ba 7ji7ba e 7ji7ba",
+    "pred": "os outros nomes possiveis para o poco 7ji7ba incluem 7ji7 7ji7ba 7ji0007ba 7ji0007ba 7ji7 ji7 7ji0007ba e 7ji7ba",
     "execution_accuracy": 1
 }
 {
@@ -1055,8 +1055,8 @@
         "1bas4ba",
         "bas4"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas4 incluem 1bas4ba 1bas4 1bas4ba 1bas4 1bas4ba bas4 1bas0004ba e 1bas0004ba",
+    "execution_accuracy": 1
 }
 {
     "id": 259,
@@ -1081,7 +1081,7 @@
         "ur1",
         "ur1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1ur1am incluem 1ur0001am 1ur0001am 1ur1 1ur1am 1ur0001am 1ur1 ur1 e ur1am",
+    "pred": "os outros nomes possiveis para o poco 1ur1am incluem 1ur0001am 1ur0001am 1ur1 1ur1am 1ur0001am 1ur1 e ur1 alem de 1ur1am",
     "execution_accuracy": 1
 }
 {
@@ -1094,7 +1094,7 @@
         "mist1",
         "mist1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 2mist1am incluem mist1am mist1 2mist1 2mist0001am 2mist1am 2mist1 2mist0001am e 2mist1am",
+    "pred": "os outros nomes possiveis para o poco 2mist1am incluem mist1am 2mist1 mist1 2mist1 2mist0001am 2mist1am 2mist1 2mist0001am e 2mist1am",
     "execution_accuracy": 1
 }
 {
@@ -1106,7 +1106,7 @@
         "1mu4am",
         "mu4am"
     ],
-    "pred": "os outros nomes possiveis para o poco mu4 incluem 1mu4 1mu0004am 1mu4am mu4am 1mu0004am 1mu4am 1mu0004am mu4 1mu4 e 1mu4am",
+    "pred": "os outros nomes possiveis para o poco mu4 incluem 1mu4 1mu0004am 1mu4am mu4am 1mu0004am 1mu4am 1mu0004am mu4 e 1mu4",
     "execution_accuracy": 1
 }
 {
@@ -1156,7 +1156,7 @@
         "mbx1",
         "mbx1ba"
     ],
-    "pred": "os outros nomes possiveis para o poco 3mbx1 incluem 3mbx0001ba 3mbx1 mbx1ba 3mbx1ba 3mbx1 3mbx0001ba 3mbx1ba mbx1 e 3mbx0001ba",
+    "pred": "os outros nomes possiveis para o poco 3mbx1 sao 3mbx0001ba 3mbx1 mbx1ba 3mbx1ba 3mbx1 3mbx0001ba 3mbx1ba mbx1 e 3mbx0001ba",
     "execution_accuracy": 1
 }
 {
@@ -1169,8 +1169,8 @@
         "fz27",
         "fz27am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 9fz0027am incluem 9fz27am 9fz27am 9fz0027am 9fz27 9fz0027am 9fz27am e fz27",
+    "execution_accuracy": 1
 }
 {
     "id": 288,
@@ -1185,8 +1185,8 @@
         "brsa702",
         "brsa702bas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas141 incluem 1bas141 1bas141ba 1brsa702bas 1brsa702 1bas141ba 1brsa702bas 1bas0141ba brsa702 1bas0141ba 1brsa702 bas141 e 1bas0141ba alem de brsa702bas",
+    "execution_accuracy": 1
 }
 {
     "id": 291,
@@ -1198,8 +1198,8 @@
         "br1",
         "br1pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1br1pa incluem br1pa 1br1 1br1 1br0001pa 1br1pa 1br1pa 1br0001pa e br1",
+    "execution_accuracy": 1
 }
 {
     "id": 294,
@@ -1211,7 +1211,7 @@
         "pe3",
         "pe3am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1pe0003am incluem 1pe3am 1pe3am 1pe3 1pe3 pe3am 1pe0003am 1pe3am e pe3",
+    "pred": "os outros nomes possiveis para o poco 1pe0003am incluem 1pe3am 1pe3 1pe3 pe3am 1pe0003am 1pe3am e pe3",
     "execution_accuracy": 1
 }
 {
@@ -1224,8 +1224,8 @@
         "lt1",
         "lt1am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1lt0001am incluem 1lt1 1lt0001am 1lt1am 1lt1am 1lt1 lt1 e 1lt1am",
+    "execution_accuracy": 1
 }
 {
     "id": 300,
@@ -1275,7 +1275,7 @@
         "tnst1",
         "tnst1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 2tnst1am incluem 2tnst0001am 2tnst1 2tnst0001am 2tnst1 tnst1 tnst1am 2tnst1am e 2tnst0001am alem disso tambem e conhecido como 2tnst1am",
+    "pred": "os outros nomes possiveis para o poco 2tnst1am incluem 2tnst0001am 2tnst1 2tnst0001am 2tnst1 tnst1 tnst1am 2tnst1am e 2tnst0001am",
     "execution_accuracy": 1
 }
 {
@@ -1301,8 +1301,8 @@
         "fz15",
         "fz15am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 9fz0015am incluem 9fz15am fz15am 9fz15 9fz0015am 9fz15 9fz0015am fz15 e 9fz15am",
+    "execution_accuracy": 1
 }
 {
     "id": 319,
@@ -1326,7 +1326,7 @@
         "1ms3am",
         "ms3"
     ],
-    "pred": "os outros nomes possiveis para o poco ms3am incluem 1ms3am 1ms0003am 1ms3 1ms3am 1ms0003am ms3 1ms3am ms3am e 1ms0003am",
+    "pred": "os outros nomes possiveis para o poco ms3am incluem 1ms3am 1ms0003am 1ms3 1ms3am 1ms0003am 1ms3am ms3 1ms0003am e 1ms3",
     "execution_accuracy": 1
 }
 {
@@ -1389,8 +1389,8 @@
         "rx2",
         "rx2am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1rx0002am sao rx2am 1rx0002am 1rx0002am 1rx2 1rx2am 1rx2am 1rx2 e rx2",
+    "execution_accuracy": 1
 }
 {
     "id": 340,
@@ -1414,8 +1414,8 @@
         "3bas109ba",
         "bas109"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 3bas109ba incluem 3bas109 3bas0109ba 3bas0109ba 3bas109 3bas109ba 3bas0109ba e bas109",
+    "execution_accuracy": 1
 }
 {
     "id": 347,
@@ -1453,7 +1453,7 @@
         "ji8",
         "ji8ba"
     ],
-    "pred": "os outros nomes possiveis para o poco 7ji8ba incluem ji8ba 7ji8 7ji8ba 7ji8ba 7ji0008ba 7ji8 ji8 e 7ji0008ba",
+    "pred": "os outros nomes possiveis para o poco 7ji8ba incluem ji8ba 7ji8 7ji8ba 7ji8ba 7ji0008ba 7ji8 ji8 7ji0008ba e 7ji8ba",
     "execution_accuracy": 1
 }
 {
@@ -1479,8 +1479,8 @@
         "am3",
         "am3am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1am0003am incluem 1am0003am 1am3am 1am3 1am3 1am0003am 1am0003am e am3am",
+    "execution_accuracy": 1
 }
 {
     "id": 364,
@@ -1518,7 +1518,7 @@
         "fz2",
         "fz2am"
     ],
-    "pred": "os outros nomes possiveis para o poco 9fz2am incluem 9fz2 9fz0002am 9fz0002am fz2 9fz2am fz2am 9fz0002am 9fz2am e 9fz2",
+    "pred": "os outros nomes possiveis para o poco 9fz2am incluem 9fz2 9fz0002am 9fz2am 9fz0002am fz2 9fz2am fz2am 9fz0002am 9fz2am e 9fz2",
     "execution_accuracy": 1
 }
 {
@@ -1557,7 +1557,7 @@
         "list1r",
         "list1rap"
     ],
-    "pred": "os outros nomes possiveis para o poco 2list1rap sao 2list0001rap 2list1r 2list1r list1r 2list1rap 2list1rap 2list1ap 2list0001rap e list1rap",
+    "pred": "os outros nomes possiveis para o poco 2list1rap incluem 2list0001rap 2list1r 2list1r list1r 2list1rap 2list1rap 2list1ap 2list0001rap e list1rap",
     "execution_accuracy": 1
 }
 {
@@ -1619,8 +1619,8 @@
         "1bas79ba",
         "bas79"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas79ba incluem 1bas79ba 1bas0079ba bas79 1bas0079ba 1bas79 e 1bas79ba",
+    "execution_accuracy": 1
 }
 {
     "id": 396,
@@ -1645,8 +1645,8 @@
         "ap1",
         "ap1pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 2ap0001pa incluem ap1pa 2ap0001pa 2ap1 2ap0001pa 2ap1 2ap0001pa 2ap1pa e 2ap1pa",
+    "execution_accuracy": 1
 }
 {
     "id": 402,
@@ -1662,8 +1662,8 @@
         "brsa637d",
         "brsa637dbas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "o poco 1bas140d possui os seguintes nomes possiveis 1bas0140dba 1bas140d 1bas140dba bas140d 1brsa637d 1brsa637bas 1bas140dba 1brsa637d 1brsa637dbas 1brsa637dbas brsa637dbas 1bas0140dba brsa637d 1bas140d e 1bas0140dba",
+    "execution_accuracy": 1
 }
 {
     "id": 405,
@@ -1675,7 +1675,7 @@
         "rx1",
         "rx1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1rx0001am sao 1rx0001am rx1am 1rx1 1rx0001am 1rx1am 1rx1am rx1 1rx1 e 1rx1am",
+    "pred": "os outros nomes possiveis para o poco 1rx0001am incluem 1rx0001am rx1am 1rx1 1rx0001am 1rx1am 1rx1am rx1 1rx1 e 1rx1am",
     "execution_accuracy": 1
 }
 {
@@ -1739,7 +1739,7 @@
         "ua2",
         "ua2am"
     ],
-    "pred": "o poco 1ua2 possui varios nomes possiveis que incluem 1ua2am 1ua2am 1ua2 1ua2 ua2 ua2am 1ua2am 1ua0002am 1ua0002am e 1ua0002am",
+    "pred": "o poco 1ua2 possui diversos nomes e rotulos que podem ser utilizados para referencialo os nomes possiveis para o poco 1ua2 incluem 1ua2am 1ua2am 1ua2 1ua2 ua2 ua2am 1ua2am 1ua0002am 1ua0002am e 1ua0002am esses diferentes rotulos representam a mesma entidade permitindo sua identificacao sob diversas denominacoes",
     "execution_accuracy": 1
 }
 {
@@ -1753,7 +1753,7 @@
         "stat7i",
         "stat7ibas"
     ],
-    "pred": "o poco 1stat7ibas possui os seguintes nomes possiveis 1stat0007ibas stat7ibas 1stat7i 1stat7i 1stat7i 1stat7i 1stat7ibas 1stat7ibas 1stat7ibas 1stat0007ibas 1stat0007ibas 1stat7ibas 1stat7bas 1stat7ibas stat7i stat7i e stat7ibas",
+    "pred": "os outros nomes possiveis para o poco 1stat7ibas incluem 1stat0007ibas stat7ibas 1stat7i 1stat7i 1stat7i 1stat7i 1stat7ibas 1stat7ibas 1stat7ibas 1stat0007ibas 1stat0007ibas 1stat7ibas 1stat7bas stat7i e stat7i",
     "execution_accuracy": 1
 }
 {
@@ -1770,8 +1770,8 @@
         "rut2",
         "rut2am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 3brsa126am incluem 3brsa126 3rut2 3brsa126am 3rut0002am 3rut2am 3rut0002am 3rut2 3rut0002am 3brsa126 3brsa126am brsa126 rut2am brsa126am rut2 3rut2am e 3rut2am",
+    "execution_accuracy": 1
 }
 {
     "id": 430,
@@ -1783,7 +1783,7 @@
         "cost3",
         "cost3bas"
     ],
-    "pred": "o poco 1cost3 possui os seguintes nomes e rotulos associados 1cost3bas 1cost0003bas 1cost3bas 1cost3bas 1cost3 cost3 cost3bas 1cost3 e 1cost0003bas todos esses nomes correspondem a mesma entidade o poco 1cost3",
+    "pred": "o poco 1cost3 possui os seguintes nomes e rotulos associados 1cost3bas 1cost0003bas 1cost3bas 1cost3bas 1cost3 cost3 cost3bas 1cost3 e 1cost0003bas todos esses nomes correspondem a mesma entidade referindose ao poco 1cost3",
     "execution_accuracy": 1
 }
 {
@@ -1822,7 +1822,7 @@
         "ui2",
         "ui2am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1ui2am incluem 1ui0002am 1ui0002am 1ui2am ui2am 1ui2 1ui2 e ui2",
+    "pred": "os outros nomes possiveis para o poco 1ui2am incluem 1ui2am 1ui0002am 1ui0002am 1ui2am ui2am 1ui2 1ui2 ui2 e 1ui0002am",
     "execution_accuracy": 1
 }
 {
@@ -1834,7 +1834,7 @@
         "2cpst1pa",
         "cpst1"
     ],
-    "pred": "os outros nomes possiveis para o poco cpst1pa incluem cpst1 2cpst0001pa 2cpst0001pa 2cpst1 2cpst1pa 2cpst1 2cpst1pa e 2cpst0001pa",
+    "pred": "os outros nomes possiveis para o poco cpst1pa incluem 2cpst0001pa 2cpst0001pa 2cpst1 2cpst1pa cpst1 2cpst1 2cpst1 e 2cpst1pa",
     "execution_accuracy": 1
 }
 {
@@ -1896,7 +1896,7 @@
         "fzt1",
         "fzt1ba"
     ],
-    "pred": "o poco 1fzt1 possui os seguintes nomes possiveis fzt1 1fzt0001ba 1fzt0001ba fzt1ba 1fzt1ba 1fzt1 1fzt1ba e 1fzt0001ba",
+    "pred": "os outros nomes possiveis para o poco 1fzt1 incluem fzt1 1fzt0001ba 1fzt0001ba fzt1ba 1fzt1ba 1fzt1 1fzt1ba e 1fzt0001ba",
     "execution_accuracy": 1
 }
 {
@@ -1951,7 +1951,7 @@
         "brsa128",
         "brsa128bas"
     ],
-    "pred": "os outros nomes possiveis para o poco 3bas133ba incluem 3brsa128 3bas133 3bas133 3bas0133ba 3bas0133ba brsa128bas 3brsa128bas 3brsa128 bas133 3brsa128bas 3bas133 3bas133ba 3bas0133ba e 3bas133ba",
+    "pred": "os outros nomes possiveis para o poco 3bas133ba incluem 3brsa128 3bas133 3bas133 3bas0133ba 3bas0133ba brsa128bas 3brsa128bas 3brsa128 bas133 e 3brsa128bas",
     "execution_accuracy": 1
 }
 {
@@ -1978,7 +1978,7 @@
         "ar1a",
         "ar1aam"
     ],
-    "pred": "os outros nomes possiveis para o poco 1ar0001aam incluem 1ar1aam 1ar0001aam 1ar1a 1ar0001aam 1ar1a 1ar1aam ar1a 1ar0001aam e 1ar1am",
+    "pred": "os outros nomes possiveis para o poco 1ar0001aam incluem 1ar1aam 1ar0001aam 1ar1a 1ar0001aam 1ar1a 1ar1aam ar1a 1ar0001aam 1ar1am e 1ar1aam",
     "execution_accuracy": 1
 }
 {
@@ -1991,7 +1991,7 @@
         "csst2",
         "csst2am"
     ],
-    "pred": "os outros nomes possiveis para o poco 2csst2am incluem 2csst0002am 2csst2 2csst2am 2csst2am 2csst0002am 2csst2 e csst2",
+    "pred": "os outros nomes possiveis para o poco 2csst2am incluem 2csst0002am 2csst2 2csst2am 2csst2 2csst0002am csst2 e csst2am",
     "execution_accuracy": 1
 }
 {
@@ -2004,7 +2004,7 @@
         "am8",
         "am8am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1am8am incluem 1am8am 1am8 1am0008am 1am0008am 1am8 am8 1am0008am 1am8am e 1am8",
+    "pred": "os outros nomes possiveis para o poco 1am8am incluem 1am8am 1am8 1am0008am 1am0008am 1am8am am8 1am0008am 1am8am e 1am8",
     "execution_accuracy": 1
 }
 {
@@ -2043,7 +2043,7 @@
         "3bas108ba",
         "bas108"
     ],
-    "pred": "os outros nomes possiveis para o poco 3bas108 incluem 3bas0108ba 3bas108 3bas108 3bas108ba 3bas108ba 3bas108ba 3bas0108ba e 3bas0108ba alem disso tambem e conhecido como bas108",
+    "pred": "os outros nomes possiveis para o poco 3bas108 incluem 3bas0108ba 3bas108 3bas108 3bas108ba 3bas108ba 3bas108ba 3bas0108ba e 3bas0108ba",
     "execution_accuracy": 1
 }
 {
@@ -2055,8 +2055,8 @@
         "1bas63ba",
         "bas63"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas63ba incluem 1bas0063ba 1bas0063ba 1bas63ba 1bas0063ba 1bas63ba 1bas63ba e bas63",
+    "execution_accuracy": 1
 }
 {
     "id": 501,
@@ -2109,8 +2109,8 @@
         "1am6am",
         "am6am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco am6 incluem 1am6am 1am6am 1am0006am 1am6am 1am0006am 1am6 am6am 1am0006am 1am6",
+    "execution_accuracy": 1
 }
 {
     "id": 514,
@@ -2125,8 +2125,8 @@
         "brsa5",
         "brsa5bas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas127 incluem 1brsa5 1brsa5bas 1bas127ba brsa5 bas127 brsa5bas 1bas0127ba 1bas127 1bas127 1bas127ba e 1brsa5bas",
+    "execution_accuracy": 1
 }
 {
     "id": 516,
@@ -2168,8 +2168,8 @@
         "pb1",
         "pb1pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1pb0001pa incluem 1pb0001pa pb1 1pb1 1pb1pa pb1pa 1pb1pa 1pb1pa 1pb0001pa e 1pb1",
+    "execution_accuracy": 1
 }
 {
     "id": 527,
@@ -2194,7 +2194,7 @@
         "itst1r",
         "itst1rpa"
     ],
-    "pred": "os outros nomes possiveis para o poco 2itst1pa incluem 2itst1 2itst0001pa 2itst0001pa 2itst1pa 2itst1pa 2itst1pa itst1 2itst0001pa 2itst1 e itst1pa",
+    "pred": "os outros nomes possiveis para o poco 2itst1pa incluem 2itst1 2itst0001pa 2itst0001pa 2itst1pa 2itst1pa itst1 2itst0001pa 2itst1 2itst0001rpa itst1r 2itst1rpa itst1rpa 2itst0001rpa 2itst1rpa 2itst1r 2itst1rpa e 2itst0001rpa",
     "execution_accuracy": 1
 }
 {
@@ -2243,7 +2243,7 @@
         "2itst1pa",
         "itst1"
     ],
-    "pred": "os outros nomes possiveis para o poco itst1pa incluem 2itst1 2itst0001pa 2itst0001pa 2itst1pa 2itst1pa 2itst1pa itst1 e 2itst0001pa",
+    "pred": "os outros nomes possiveis para o poco itst1pa sao 2itst1 2itst0001pa 2itst0001pa 2itst1pa 2itst1pa 2itst1pa itst1 e 2itst0001pa",
     "execution_accuracy": 1
 }
 {
@@ -2256,8 +2256,8 @@
         "mnt1",
         "mnt1bas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 7mnt0001bas incluem mnt1bas 7mnt1bas 7mnt1bas 7mnt1 mnt1 7mnt0001bas 7mnt1 e 7mnt1bas",
+    "execution_accuracy": 1
 }
 {
     "id": 550,
@@ -2307,7 +2307,7 @@
         "2igst1ba",
         "igst1"
     ],
-    "pred": "os outros nomes possiveis para o poco igst1ba incluem 2igst1 2igst0001ba 2igst1 2igst1 2igst0001ba 2igst1ba 2igst1ba e igst1ba",
+    "pred": "os outros nomes possiveis para o poco igst1ba incluem 2igst1 2igst0001ba 2igst1 2igst1 2igst0001ba 2igst1ba 2igst1ba e igst1",
     "execution_accuracy": 1
 }
 {
@@ -2320,7 +2320,7 @@
         "cast1",
         "cast1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 2cast1 incluem 2cast1 2cast0001am 2cast1am 2cast0001am cast1am 2cast0001am 2cast1 cast1 e 2cast1am",
+    "pred": "o poco 2cast1 possui varios nomes possiveis que incluem 2cast1 2cast0001am 2cast1am 2cast0001am cast1am 2cast0001am 2cast1 cast1 e 2cast1am",
     "execution_accuracy": 1
 }
 {
@@ -2350,7 +2350,7 @@
         "pest1",
         "pest1am"
     ],
-    "pred": "o poco 2pest1 possui os seguintes nomes possiveis 2pest1am 2pest1 2pest0001am 2pest0001am 2pest0001am pest1 pest1am e 2pest1",
+    "pred": "o poco 2pest1 possui os seguintes nomes e rotulos alternativos 2pest1am 2pest1 2pest0001am 2pest0001am 2pest0001am pest1 pest1am e 2pest1",
     "execution_accuracy": 1
 }
 {
@@ -2376,7 +2376,7 @@
         "rx3",
         "rx3am"
     ],
-    "pred": "o poco 1rx3 pode ser referido por diversos outros nomes que incluem 1rx3 rx3am 1rx0003am 1rx0003am 1rx3am 1rx3am rx3 e 1rx3",
+    "pred": "os outros nomes possiveis para o poco 1rx3 incluem 1rx3 rx3am 1rx0003am 1rx0003am 1rx3am 1rx3am rx3 1rx3 e 1rx0003am",
     "execution_accuracy": 1
 }
 {
@@ -2392,8 +2392,8 @@
         "brsa614",
         "brsa614bas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas139ba incluem 1brsa614bas 1brsa614bas brsa614bas 1brsa614 1bas0139ba 1bas139ba 1bas139ba 1bas0139ba 1bas0139ba brsa614 bas139 1brsa614 1bas139 1bas139ba e 1bas139",
+    "execution_accuracy": 1
 }
 {
     "id": 582,
@@ -2404,8 +2404,8 @@
         "3mb5ba",
         "mb5ba"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco mb5 incluem 3mb0005ba 3mb5 3mb5ba 3mb0005ba 3mb5 3mb0005ba 3mb5ba e mb5ba",
+    "execution_accuracy": 1
 }
 {
     "id": 586,
@@ -2417,7 +2417,7 @@
         "nbst1",
         "nbst1ba"
     ],
-    "pred": "o poco 2nbst1 possui os seguintes nomes e rotulos associados 2nbst1ba 2nbst0001ba 2nbst1ba 2nbst0001ba 2nbst1 2nbst0001ba nbst1ba e nbst1 todos esses nomes referemse a mesma entidade o poco 2nbst1",
+    "pred": "os outros nomes possiveis para o poco 2nbst1 sao 2nbst0001ba 2nbst1ba 2nbst0001ba 2nbst1 2nbst0001ba nbst1ba e nbst1",
     "execution_accuracy": 1
 }
 {
@@ -2430,7 +2430,7 @@
         "nost1",
         "nost1am"
     ],
-    "pred": "o poco 2nost1 possui os seguintes nomes possiveis 2nost1am nost1am 2nost0001am 2nost1 nost1 2nost0001am 2nost0001am 2nost1am 2nost1am e 2nost1",
+    "pred": "os outros nomes possiveis para o poco 2nost1 incluem 2nost1am nost1am 2nost0001am 2nost1 nost1 2nost0001am 2nost0001am e 2nost1",
     "execution_accuracy": 1
 }
 {
@@ -2494,8 +2494,8 @@
         "ssa1",
         "ssa1ba"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1ssa0001ba incluem 1ssa1ba 1ssa1ba 1ssa1 1ssa1 1ssa1ba 1ssa0001ba e ssa1",
+    "execution_accuracy": 1
 }
 {
     "id": 608,
@@ -2511,8 +2511,8 @@
         "rjp1",
         "rjp1am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1brsa1269am incluem 1brsa1269 1rjp1am 1rjp1 1rjp1am 1brsa1269 1brsa1269am brsa1269am 1brsa1269am 1rjp0001am 1rjp1 1rjp0001am 1rjp1am brsa1269 1rjp0001am rjp1 e rjp1am",
+    "execution_accuracy": 1
 }
 {
     "id": 611,
@@ -2566,7 +2566,7 @@
         "atz1",
         "atz1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1atz1 incluem atz1 1atz1am atz1am 1atz0001am 1atz1 1atz1am 1atz1am 1atz1 e 1atz0001am 1atz0001am",
+    "pred": "os outros nomes possiveis para o poco 1atz1 incluem atz1 1atz1am atz1am 1atz0001am 1atz1 1atz1am 1atz1am 1atz1 e 1atz0001am alem de 1atz0001am",
     "execution_accuracy": 1
 }
 {
@@ -2596,7 +2596,7 @@
         "list1",
         "list1ap"
     ],
-    "pred": "o poco 2list1 possui os seguintes nomes possiveis 2list0001ap 2list1 2list1ap 2list0001ap 2list0001ap 2list1ap e list1ap",
+    "pred": "o poco 2list1 possui varios nomes ou rotulos associados a ele que sao 2list0001ap 2list1 2list1 2list1ap 2list1ap list1 2list0001ap 2list0001ap e 2list1ap todos esses nomes referemse a mesma entidade o poco 2list1",
     "execution_accuracy": 1
 }
 {
@@ -2609,7 +2609,7 @@
         "rx6",
         "rx6am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1rx0006am incluem 1rx6am 1rx6am 1rx6 1rx0006am rx6am 1rx0006am 1rx6 e rx6",
+    "pred": "os outros nomes possiveis para o poco 1rx0006am incluem 1rx6am 1rx6 1rx0006am rx6am 1rx0006am 1rx6 e 1rx6am",
     "execution_accuracy": 1
 }
 {
@@ -2652,8 +2652,8 @@
         "ssb1",
         "ssb1am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1brsa1285 incluem 1ssb0001am 1ssb1am 1ssb0001am ssb1am brsa1285am brsa1285 1ssb1am 1ssb1am 1brsa1285am 1brsa1285am 1ssb1 1ssb1 1ssb0001am e 1brsa1285",
+    "execution_accuracy": 1
 }
 {
     "id": 641,
@@ -2665,8 +2665,8 @@
         "mi2",
         "mi2am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1mi0002am incluem 1mi0002am 1mi0002am 1mi2 1mi0002am mi2 1mi2 1mi2am mi2am e 1mi2am",
+    "execution_accuracy": 1
 }
 {
     "id": 644,
@@ -2677,8 +2677,8 @@
         "1bas32ba",
         "bas32"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas32ba incluem 1bas0032ba bas32 1bas32ba 1bas32 1bas0032ba 1bas0032ba e 1bas32",
+    "execution_accuracy": 1
 }
 {
     "id": 647,
@@ -2739,7 +2739,7 @@
         "jis1",
         "jis1ba"
     ],
-    "pred": "os outros nomes possiveis para o poco 1jis1 sao 1jis0001ba jis1ba 1jis0001ba 1jis1ba 1jis0001ba 1jis1ba e 1jis1",
+    "pred": "os outros nomes possiveis para o poco 1jis1 incluem 1jis0001ba jis1ba 1jis0001ba 1jis1ba 1jis0001ba 1jis1ba e 1jis1",
     "execution_accuracy": 1
 }
 {
@@ -2855,8 +2855,8 @@
         "1bas67ba",
         "bas67"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas67 incluem 1bas67ba bas67 1bas0067ba 1bas0067ba 1bas0067ba 1bas67ba e 1bas67",
+    "execution_accuracy": 1
 }
 {
     "id": 690,
@@ -2868,8 +2868,8 @@
         "sgmb48",
         "sgmb48ba"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 2sgmb48ba incluem sgmb48 2sgmb0048ba sgmb48ba 2sgmb48 2sgmb48 2sgmb48ba 2sgmb48 2sgmb48ba 2sgmb0048ba e 2sgmb0048ba",
+    "execution_accuracy": 1
 }
 {
     "id": 693,
@@ -2881,7 +2881,7 @@
         "no3",
         "no3am"
     ],
-    "pred": "o poco 1no3 possui os seguintes nomes possiveis 1no3am 1no0003am 1no3am 1no0003am 1no3 no3 no3am 1no0003am e 1no3",
+    "pred": "o poco 1no3 possui diversos nomes e rotulos que podem ser utilizados para referencialo os nomes possiveis para o poco 1no3 incluem 1no3am 1no0003am 1no3am 1no0003am 1no3 no3 no3am 1no0003am e 1no3 todos esses nomes correspondem a mesma entidade o poco 1no3",
     "execution_accuracy": 1
 }
 {
@@ -2935,8 +2935,8 @@
         "sp1",
         "sp1pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1sp0001pa incluem 1sp0001pa 1sp1pa 1sp0001pa 1sp0001pa 1sp1 1sp1 sp1 sp1pa e 1sp1pa",
+    "execution_accuracy": 1
 }
 {
     "id": 709,
@@ -2975,7 +2975,7 @@
         "lg3",
         "lg3am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1lg3 incluem 1lg0003am lg3 1lg3 1lg0003am 1lg3am 1lg0003am lg3am 1lg3am e 1lg3am",
+    "pred": "os outros nomes possiveis para o poco 1lg3 incluem 1lg0003am lg3 1lg3 1lg0003am 1lg3am 1lg0003am lg3am e 1lg3am",
     "execution_accuracy": 1
 }
 {
@@ -2987,7 +2987,7 @@
         "2pust1am",
         "pust1"
     ],
-    "pred": "os outros nomes possiveis para o poco pust1am incluem 2pust0001am 2pust1am 2pust0001am pust1 2pust1am 2pust1am 2pust0001am e 2pust1",
+    "pred": "os outros nomes possiveis para o poco pust1am incluem 2pust0001am 2pust1am 2pust0001am 2pust1am 2pust1am 2pust0001am 2pust1 e pust1",
     "execution_accuracy": 1
 }
 {
@@ -3003,7 +3003,7 @@
         "brsa112am",
         "ita1"
     ],
-    "pred": "os outros nomes possiveis para o poco ita1am incluem 1brsa112am 1ita0001am 1ita1am 1ita0001am 1ita1am brsa112am 1brsa112 1brsa112 ita1 brsa112 1ita1 1ita1 1ita1am e 1brsa112am",
+    "pred": "os outros nomes possiveis para o poco ita1am incluem 1brsa112am 1ita0001am 1ita1am 1ita0001am 1ita1am brsa112am 1brsa112 1brsa112 1ita1 1ita1 1ita1am 1brsa112am e 1ita0001am",
     "execution_accuracy": 1
 }
 {
@@ -3029,7 +3029,7 @@
         "ax1",
         "ax1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1ax1am incluem 1ax1 1ax0001am ax1 1ax1 1ax0001am 1ax1am 1ax0001am 1ax1 e ax1am",
+    "pred": "os outros nomes possiveis para o poco 1ax1am incluem 1ax1 1ax0001am ax1 1ax1am 1ax0001am 1ax1am 1ax0001am 1ax1 e ax1am",
     "execution_accuracy": 1
 }
 {
@@ -3055,7 +3055,7 @@
         "lcst1",
         "lcst1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 2lcst1am incluem lcst1am 2lcst1 2lcst0001am 2lcst1am 2lcst0001am 2lcst1 2lcst0001am e lcst1",
+    "pred": "os outros nomes possiveis para o poco 2lcst1am incluem lcst1am 2lcst1am 2lcst0001am 2lcst1am 2lcst0001am 2lcst1 2lcst0001am lcst1 2lcst1 e 2lcst1am",
     "execution_accuracy": 1
 }
 {
@@ -3093,8 +3093,8 @@
         "ro1",
         "ro1am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1ro0001am incluem 1ro1am 1ro1 1ro1 ro1am 1ro0001am 1ro0001am e 1ro1am",
+    "execution_accuracy": 1
 }
 {
     "id": 745,
@@ -3106,7 +3106,7 @@
         "ru2",
         "ru2am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1ru2 incluem 1ru2am 1ru2am 1ru0002am 1ru2 1ru2 1ru0002am ru2am 1ru0002am e ru2",
+    "pred": "o poco 1ru2 possui varios nomes possiveis que sao 1ru2am 1ru2am 1ru0002am 1ru2 1ru2 1ru0002am ru2am 1ru0002am e ru2 todos esses nomes referemse a mesma entidade",
     "execution_accuracy": 1
 }
 {
@@ -3144,8 +3144,8 @@
         "1bas72ba",
         "bas72"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas72 incluem 1bas72 1bas0072ba 1bas0072ba 1bas72ba 1bas72ba 1bas72 1bas72ba e bas72",
+    "execution_accuracy": 1
 }
 {
     "id": 757,
@@ -3156,7 +3156,7 @@
         "2sast1am",
         "sast1am"
     ],
-    "pred": "os outros nomes possiveis para o poco sast1 incluem 2sast1 2sast0001am 2sast1am 2sast0001am 2sast1am 2sast0001am e 2sast1am",
+    "pred": "os outros nomes possiveis para o poco sast1 incluem 2sast1 2sast0001am 2sast1am 2sast0001am 2sast1am 2sast0001am 2sast1 e 2sast1am",
     "execution_accuracy": 1
 }
 {
@@ -3198,7 +3198,7 @@
         "rust1",
         "rust1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 2rust1am incluem 2rust0001am 2rust1 2rust1am 2rust1 2rust0001am 2rust1am e rust1",
+    "pred": "os outros nomes possiveis para o poco 2rust1am incluem 2rust0001am 2rust1 2rust1am 2rust1 2rust0001am 2rust1am rust1 2rust1am e 2rust0001am",
     "execution_accuracy": 1
 }
 {
@@ -3211,7 +3211,7 @@
         "iju1",
         "iju1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1iju1 incluem 1iju0001am 1iju1am 1iju1 1iju1am 1iju1am 1iju0001am iju1am e 1iju0001am",
+    "pred": "os outros nomes possiveis para o poco 1iju1 sao 1iju0001am 1iju1am 1iju1 1iju1am 1iju1am 1iju0001am iju1am e 1iju0001am",
     "execution_accuracy": 1
 }
 {
@@ -3224,8 +3224,8 @@
         "mi3",
         "mi3am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1mi0003am incluem 1mi3 1mi0003am 1mi0003am mi3am 1mi3 mi3 1mi3am 1mi3am e 1mi3am",
+    "execution_accuracy": 1
 }
 {
     "id": 776,
@@ -3236,7 +3236,7 @@
         "2gust1pa",
         "gust1"
     ],
-    "pred": "os outros nomes possiveis para o poco gust1pa incluem 2gust0001pa 2gust0001pa 2gust1 gust1pa 2gust1pa 2gust1pa 2gust1 2gust0001pa e 2gust1pa",
+    "pred": "os outros nomes possiveis para o poco gust1pa incluem 2gust0001pa 2gust0001pa 2gust1 2gust1pa 2gust1 2gust0001pa e 2gust1pa",
     "execution_accuracy": 1
 }
 {
@@ -3261,7 +3261,7 @@
         "jut1",
         "jut1pa"
     ],
-    "pred": "os outros nomes possiveis para o poco 1jut1 incluem jut1pa 1jut0001pa 1jut1 jut1 1jut1pa 1jut0001pa 1jut1pa e 1jut0001pa",
+    "pred": "os outros nomes possiveis para o poco 1jut1 incluem jut1pa 1jut0001pa 1jut1 1jut1 1jut1pa 1jut0001pa e 1jut1pa",
     "execution_accuracy": 1
 }
 {
@@ -3299,7 +3299,7 @@
         "ipst1",
         "ipst1am"
     ],
-    "pred": "o poco 2ipst1 possui varios nomes e rotulos associados a ele os nomes possiveis para o poco 2ipst1 incluem 2ipst1am ipst1am 2ipst1 2ipst0001am 2ipst0001am 2ipst1 2ipst0001am e 2ipst1am",
+    "pred": "o poco 2ipst1 possui varios nomes e rotulos associados a ele os nomes possiveis para o poco 2ipst1 incluem 2ipst1am ipst1am 2ipst1 2ipst0001am 2ipst0001am 2ipst1 2ipst0001am e 2ipst1am todos esses rotulos referemse a mesma entidade o poco 2ipst1",
     "execution_accuracy": 1
 }
 {
@@ -3337,7 +3337,7 @@
         "fz7",
         "fz7am"
     ],
-    "pred": "os outros nomes possiveis para o poco 9fz0007am incluem 9fz7 9fz0007am 9fz0007am 9fz0007am fz7am 9fz7am 9fz7 9fz7am 9fz7am e fz7",
+    "pred": "os outros nomes possiveis para o poco 9fz0007am incluem 9fz7 9fz0007am 9fz0007am 9fz0007am fz7am 9fz7am 9fz7 9fz7am e 9fz7am",
     "execution_accuracy": 1
 }
 {
@@ -3362,8 +3362,8 @@
         "1bas88ba",
         "bas88"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas88ba incluem bas88 1bas0088ba 1bas0088ba 1bas88 1bas88ba 1bas88 1bas88ba e 1bas0088ba",
+    "execution_accuracy": 1
 }
 {
     "id": 812,
@@ -3374,7 +3374,7 @@
         "1ia1pa",
         "ia1pa"
     ],
-    "pred": "os outros nomes possiveis para o poco ia1 incluem 1ia1 ia1pa 1ia0001pa 1ia1pa 1ia1pa 1ia0001pa 1ia0001pa e 1ia1",
+    "pred": "os outros nomes possiveis para o poco ia1 incluem 1ia1 ia1pa 1ia0001pa 1ia1pa 1ia1pa 1ia0001pa 1ia0001pa e 1ia1pa alem disso o poco tambem e referido como ia1 e 1ia1",
     "execution_accuracy": 1
 }
 {
@@ -3425,8 +3425,8 @@
         "cm3",
         "cm3pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1cm3pa incluem 1cm0003pa 1cm0003pa 1cm3pa 1cm0003pa cm3pa 1cm3pa 1cm3 1cm3pa e 1cm3",
+    "execution_accuracy": 1
 }
 {
     "id": 828,
@@ -3437,8 +3437,8 @@
         "1bas77ba",
         "bas77"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas77ba incluem bas77 1bas0077ba 1bas0077ba 1bas77 1bas0077ba 1bas77ba 1bas77ba e 1bas77",
+    "execution_accuracy": 1
 }
 {
     "id": 831,
@@ -3463,7 +3463,7 @@
         "ar1",
         "ar1am"
     ],
-    "pred": "o poco 1ar1 possui os seguintes nomes possiveis 1ar0001am 1ar0001am 1ar1 1ar0001am ar1am 1ar1am ar1 e 1ar1am",
+    "pred": "o poco 1ar1 possui os seguintes nomes possiveis 1ar0001am 1ar0001am 1ar1 1ar0001am ar1am 1ar1am 1ar1am ar1 e 1ar1am",
     "execution_accuracy": 1
 }
 {
@@ -3524,8 +3524,8 @@
         "1bas5ba",
         "bas5"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas5ba incluem 1bas5ba 1bas5 1bas5ba 1bas5 bas5 1bas0005ba e 1bas0005ba",
+    "execution_accuracy": 1
 }
 {
     "id": 853,
@@ -3563,7 +3563,7 @@
         "so1",
         "so1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1so0001am incluem 1so0001am 1so1 1so1 1so1am 1so0001am 1so1am so1 e so1am",
+    "pred": "os outros nomes possiveis para o poco 1so0001am sao 1so0001am 1so1 1so1 1so1am 1so0001am 1so1am so1 e so1am",
     "execution_accuracy": 1
 }
 {
@@ -3633,7 +3633,7 @@
         "lfst1",
         "lfst1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 2lfst1am incluem 2lfst1am 2lfst0001am 2lfst0001am 2lfst1 lfst1am 2lfst1am 2lfst0001am 2lfst1 e lfst1",
+    "pred": "os outros nomes possiveis para o poco 2lfst1am incluem 2lfst1am 2lfst0001am 2lfst0001am 2lfst1 lfst1am 2lfst1am 2lfst0001am e 2lfst1",
     "execution_accuracy": 1
 }
 {
@@ -3671,8 +3671,8 @@
         "cd1",
         "cd1pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "o poco 1cd1 possui os seguintes nomes possiveis 1cd0001pa 1cd0001pa cd1pa 1cd1 1cd1pa 1cd0001pa 1cd1 cd1 e 1cd1pa",
+    "execution_accuracy": 1
 }
 {
     "id": 887,
@@ -3761,7 +3761,7 @@
         "1lit1am",
         "lit1am"
     ],
-    "pred": "os outros nomes possiveis para o poco lit1 incluem 1lit1 1lit1am lit1am 1lit0001am 1lit1am 1lit0001am 1lit1 1lit0001am e 1lit1am",
+    "pred": "os outros nomes possiveis para o poco lit1 incluem 1lit1 1lit1am lit1am 1lit0001am 1lit1am 1lit0001am 1lit1 e 1lit0001am",
     "execution_accuracy": 1
 }
 {
@@ -3774,7 +3774,7 @@
         "am4",
         "am4am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1am0004am incluem 1am4am 1am4 1am4am 1am4 1am0004am 1am4am e am4am",
+    "pred": "os outros nomes possiveis para o poco 1am0004am incluem 1am4am 1am4 1am4am 1am0004am 1am0004am 1am4am 1am4 am4am e am4",
     "execution_accuracy": 1
 }
 {
@@ -3799,7 +3799,7 @@
         "mb7",
         "mb7ba"
     ],
-    "pred": "os outros nomes possiveis para o poco 3mb7ba incluem 3mb0007ba 3mb7ba 3mb0007ba 3mb7 3mb7ba 3mb7 mb7 3mb7ba e 3mb0007ba",
+    "pred": "os outros nomes possiveis para o poco 3mb7ba incluem 3mb0007ba 3mb7ba 3mb0007ba 3mb7 3mb7 mb7 3mb7ba e 3mb0007ba",
     "execution_accuracy": 1
 }
 {
@@ -3825,8 +3825,8 @@
         "1bas146ba",
         "bas146"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas146ba incluem 1bas0146ba 1bas146 1bas146ba bas146 1bas0146ba 1bas146 1bas0146ba e 1bas146ba",
+    "execution_accuracy": 1
 }
 {
     "id": 923,
@@ -3837,8 +3837,8 @@
         "1bas78ba",
         "bas78"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas78 incluem bas78 1bas78ba 1bas0078ba 1bas0078ba 1bas78ba 1bas78 e 1bas78",
+    "execution_accuracy": 1
 }
 {
     "id": 926,
@@ -3875,8 +3875,8 @@
         "rg1",
         "rg1pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1rg0001pa incluem 1rg1pa 1rg1 1rg1 1rg0001pa rg1pa 1rg1pa 1rg1pa e 1rg0001pa",
+    "execution_accuracy": 1
 }
 {
     "id": 933,
@@ -3914,8 +3914,8 @@
         "3pam4dam",
         "pam4d"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco pam4dam incluem 3pam4am 3pam4dam 3pam4dam 3pam4d 3pam4d 3pam0004dam 3pam4dam pam4d 3pam0004dam e 3pam0004dam",
+    "execution_accuracy": 1
 }
 {
     "id": 942,
@@ -3926,8 +3926,8 @@
         "1bas3ba",
         "bas3"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas3 incluem 1bas3 1bas3ba 1bas3ba 1bas3ba bas3 1bas0003ba e 1bas0003ba",
+    "execution_accuracy": 1
 }
 {
     "id": 945,
@@ -3938,8 +3938,8 @@
         "1bas64ba",
         "bas64"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas64ba incluem 1bas0064ba 1bas64ba 1bas64ba 1bas64ba 1bas0064ba 1bas0064ba e bas64",
+    "execution_accuracy": 1
 }
 {
     "id": 949,
@@ -3976,8 +3976,8 @@
         "1bl1pa",
         "bl1pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco bl1 incluem 1bl0001pa 1bl1 bl1 1bl1pa 1bl1pa 1bl0001pa 1bl1 1bl1pa e 1bl0001pa",
+    "execution_accuracy": 1
 }
 {
     "id": 958,
@@ -3995,7 +3995,7 @@
         "mnt8dp",
         "mnt8dpbas"
     ],
-    "pred": "os outros nomes possiveis para o poco 3mnt8dpbas incluem 3brsa599dpbas 3mnt8bas 3mnt0008dpbas mnt8dp 3brsa599dpbas mnt8dpbas brsa599dpbas 3brsa599dp 3mnt8dp 3mnt8dpbas 3mnt8dpbas brsa599dp 3brsa599dp 3mnt8dp 3brsa599bas 3mnt0008dpbas 3mnt0008dpbas e 3mnt8dpbas",
+    "pred": "os outros nomes possiveis para o poco 3mnt8dpbas incluem 3brsa599dpbas 3mnt8bas 3mnt0008dpbas mnt8dp 3brsa599dpbas mnt8dpbas brsa599dpbas 3brsa599dp 3mnt8dp 3mnt8dpbas 3mnt8dpbas brsa599dp 3brsa599dp 3mnt8dp 3brsa599bas 3mnt0008dpbas e 3mnt0008dpbas",
     "execution_accuracy": 1
 }
 {
@@ -4035,7 +4035,7 @@
         "ibst1a",
         "ibst1apa"
     ],
-    "pred": "os outros nomes possiveis para o poco 2ibst1apa incluem 2ibst0001apa 2ibst0001apa 2ibst1apa 2ibst1a ibst1apa 2ibst1pa 2ibst1apa ibst1a 2ibst1a e 2ibst0001apa",
+    "pred": "os outros nomes possiveis para o poco 2ibst1apa incluem 2ibst0001apa 2ibst0001apa 2ibst1apa 2ibst1a ibst1apa 2ibst1pa 2ibst1apa 2ibst1a e 2ibst0001apa",
     "execution_accuracy": 1
 }
 {
@@ -4061,7 +4061,7 @@
         "9pa1am",
         "pa1a"
     ],
-    "pred": "os outros nomes possiveis para o poco pa1aam incluem 9pa1am pa1aam 9pa1a 9pa0001aam 9pa1aam 9pa0001aam pa1a 9pa1a 9pa0001aam e 9pa1aam",
+    "pred": "os outros nomes possiveis para o poco pa1aam incluem 9pa1am 9pa1a 9pa0001aam 9pa1aam 9pa0001aam pa1a 9pa1a 9pa0001aam e 9pa1aam",
     "execution_accuracy": 1
 }
 {
@@ -4099,8 +4099,8 @@
         "ta1",
         "ta1pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1ta0001pa incluem 1ta1 1ta1pa 1ta0001pa 1ta1 ta1 1ta0001pa ta1pa 1ta0001pa e 1ta1pa",
+    "execution_accuracy": 1
 }
 {
     "id": 985,
@@ -4162,8 +4162,8 @@
         "elps6",
         "elps6bas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 3elps6bas incluem 3elps6bas elps6 elps6bas 3elps6 3elps6bas 3elps0006bas 3elps6bas 3elps0006bas e 3elps0006bas",
+    "execution_accuracy": 1
 }
 {
     "id": 1004,
@@ -4175,8 +4175,8 @@
         "fz16",
         "fz16am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 9fz16 incluem 9fz0016am 9fz16am fz16am 9fz16am 9fz0016am 9fz16 fz16 9fz16 e 9fz0016am alem de 9fz16am",
+    "execution_accuracy": 1
 }
 {
     "id": 1007,
@@ -4214,7 +4214,7 @@
         "igst1",
         "igst1pa"
     ],
-    "pred": "os outros nomes possiveis para o poco 2igst1pa incluem igst1 2igst1pa 2igst0001pa 2igst0001pa 2igst1pa 2igst1pa 2igst1 e 2igst1",
+    "pred": "os outros nomes possiveis para o poco 2igst1pa incluem igst1 2igst1pa 2igst0001pa 2igst0001pa 2igst1pa 2igst1pa 2igst1 2igst1 e 2igst0001pa",
     "execution_accuracy": 1
 }
 {
@@ -4227,7 +4227,7 @@
         "just1",
         "just1am"
     ],
-    "pred": "os outros nomes possiveis para o poco 2just1 incluem just1am 2just0001am 2just1am 2just1am 2just0001am 2just1 2just1am 2just0001am just1 e 2just1",
+    "pred": "os outros nomes possiveis para o poco 2just1 incluem just1am 2just0001am 2just1am 2just1am 2just0001am 2just1 2just1am 2just0001am e 2just1",
     "execution_accuracy": 1
 }
 {
@@ -4252,7 +4252,7 @@
         "ms5",
         "ms5am"
     ],
-    "pred": "os outros nomes possiveis para o poco 1ms0005am incluem 1ms5 1ms5am 1ms0005am 1ms0005am 1ms5 ms5 1ms5am 1ms5am e 1ms0005am",
+    "pred": "os outros nomes possiveis para o poco 1ms0005am incluem 1ms5 1ms5am 1ms0005am 1ms0005am 1ms5 ms5 1ms5am 1ms5am 1ms0005am e ms5am",
     "execution_accuracy": 1
 }
 {
@@ -4289,8 +4289,8 @@
         "cm1",
         "cm1pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1cm1pa incluem 1cm0001pa 1cm1 cm1 1cm0001pa 1cm0001pa 1cm1pa cm1pa 1cm1 e 1cm1pa",
+    "execution_accuracy": 1
 }
 {
     "id": 1034,
@@ -4305,8 +4305,8 @@
         "brsa135",
         "brsa135bas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 3bas135 incluem brsa135bas 3bas135 3brsa135bas 3bas135ba 3bas0135ba 3bas0135ba 3bas135 3bas0135ba brsa135 3brsa135bas 3brsa135 bas135 e 3bas135ba",
+    "execution_accuracy": 1
 }
 {
     "id": 1038,
@@ -4360,8 +4360,8 @@
         "ma1",
         "ma1pa"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1ma0001pa incluem 1ma1pa 1ma1pa 1ma1pa 1ma0001pa 1ma1 ma1 ma1pa e 1ma1",
+    "execution_accuracy": 1
 }
 {
     "id": 1051,
@@ -4372,8 +4372,8 @@
         "1bas13ba",
         "bas13"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas13ba incluem bas13 1bas0013ba 1bas13ba 1bas13 1bas13 1bas13ba 1bas0013ba e 1bas13ba",
+    "execution_accuracy": 1
 }
 {
     "id": 1054,
@@ -4385,8 +4385,8 @@
         "pfj2",
         "pfj2am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 9pfj0002am incluem 9pfj2 9pfj2am pfj2 9pfj0002am 9pfj0002am 9pfj2am pfj2am 9pfj2am e 9pfj2",
+    "execution_accuracy": 1
 }
 {
     "id": 1057,
@@ -4398,8 +4398,8 @@
         "fmb1",
         "fmb1ba"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1fmb1ba incluem 1fmb1ba 1fmb0001ba fmb1 1fmb1 1fmb0001ba 1fmb1 1fmb1 1fmb0001ba e 1fmb1ba",
+    "execution_accuracy": 1
 }
 {
     "id": 1060,
@@ -4478,8 +4478,8 @@
         "elps10",
         "elps10bas"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 4elps10bas incluem 4elps0010bas 4elps10bas 4elps0010bas 4elps10 elps10bas 4elps10bas 4elps10 4elps10bas e 4elps0010bas",
+    "execution_accuracy": 1
 }
 {
     "id": 1077,
@@ -4490,8 +4490,8 @@
         "1bas126ba",
         "bas126"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 1bas126ba incluem bas126 1bas0126ba 1bas0126ba 1bas126 1bas126ba 1bas126 e 1bas0126ba",
+    "execution_accuracy": 1
 }
 {
     "id": 1080,
@@ -4503,8 +4503,8 @@
         "fz29",
         "fz29am"
     ],
-    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
-    "execution_accuracy": 0
+    "pred": "os outros nomes possiveis para o poco 9fz0029am incluem 9fz29 9fz0029am fz29am 9fz29am 9fz0029am 9fz0029am fz29 9fz29am e 9fz29",
+    "execution_accuracy": 1
 }
 {
     "id": 1083,
