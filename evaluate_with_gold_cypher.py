@@ -7,7 +7,7 @@ Uso:
   python evaluate_with_gold_cypher.py --ragas --tag 1hop
 
   # Sin RAGAS
-  python evaluate_with_gold_cypher.py --no-ragas --tag 1hop
+  python evaluate_with_gold_cypher.py --no-ragas --tag aggregation
 """
 import os, re, unicodedata, json
 from collections import Counter
@@ -69,6 +69,21 @@ def flatten_answers(ans):
 def normalize_nested_list(nested_list):
     return [[normalize(item) for item in sublist] for sublist in nested_list]
 
+def flatten_and_normalize(records):
+    """
+    Convierte resultados de Neo4j en un set de strings normalizados,
+    ignorando claves (alias) y orden.
+    """
+    values = []
+    for r in records:
+        for v in dict(r).values():
+            if isinstance(v, list):
+                values.extend(v)
+            else:
+                values.append(v)
+    # normaliza y deja como set
+    return set(normalize(str(x)) for x in values if x is not None)
+
 # =============================================
 # Métrica Execution Accuracy (EA)
 # =============================================
@@ -88,16 +103,19 @@ def execution_accuracy(pred_cypher: str, gold_cypher: str, driver: GraphDatabase
             pred_results = list(session.run(pred_cypher))
 
             # Normalizar resultados para comparar (orden y tipos)
-            gold_norm = [dict(r) for r in gold_results]
-            pred_norm = [dict(r) for r in pred_results]
+            gold_set = flatten_and_normalize(gold_results)
+            pred_set = flatten_and_normalize(pred_results)
+            print("Gold Results:", gold_set)
+            print("Pred Results:", pred_set)
 
         # Comparación exacta
-        if gold_norm == pred_norm:
+        if gold_set == pred_set:
             print("✅ Execution Accuracy: Las queries producen resultados idénticos.")
-        return gold_norm == pred_norm
+        return gold_set == pred_set
 
     except Exception as e:
         # Si hay error de sintaxis o ejecución en la query generada
+        print("❌ Error al ejecutar la query generada")
         return False
 
 # =========================
@@ -249,7 +267,6 @@ def main():
     # F1, BLEU, ROUGE-L no aplican aquí (solo EA)
     print("\n * * * MÉTRICAS FINALES (Cypher) * * *")
     print(f"Execution Accuracy: {EA_score:.2%}")
-   
 
     final_metrics = {
         "total_examples": n,

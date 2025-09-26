@@ -137,7 +137,7 @@
             ]
         ],
         "context": "Existem 2 campos localizados na bacia Amazonas.",
-        "gold_cypher": "MATCH (b:basin)<-[:located_in]-(f:field) WHERE 'Amazonas' IN b.rdfs_label RETURN COUNT(DISTINCT f) AS numero_de_campos"
+        "gold_cypher": "MATCH (b:basin)<-[:located_in]-(f:field) WHERE 'AMAZONAS' IN b.rdfs_label RETURN COUNT(DISTINCT f) AS numero_de_campos"
     },
     {
         "id": 18,
@@ -149,7 +149,7 @@
             ]
         ],
         "context": "Existem 6 campos localizados na bacia Camamu-Almada.",
-        "gold_cypher": "MATCH (b:basin)<-[:located_in]-(f:field) WHERE 'Camamu-Almada' IN b.rdfs_label RETURN COUNT(DISTINCT f) AS numero_de_campos"
+        "gold_cypher": "MATCH (b:basin)<-[:located_in]-(f:field) WHERE 'CAMAMU-ALMADA' IN b.rdfs_label RETURN COUNT(DISTINCT f) AS numero_de_campos"
     },
     {
         "id": 19,
@@ -160,7 +160,7 @@
             "Japiim"
         ],
         "context": "Na bacia Amazonas de URI BASE_CD_BACIA_030 existem 2 campos: Rio Uatuma, Japiim.",
-        "gold_cypher": "MATCH (b:basin)<-[:located_in]-(f:field) WHERE 'Amazonas' IN b.rdfs_label RETURN f.rdfs_label"
+        "gold_cypher": "MATCH (b:basin)<-[:located_in]-(f:field) WHERE 'AMAZONAS' IN b.rdfs_label RETURN f.rdfs_label"
     },
     {
         "id": 20,
@@ -175,7 +175,7 @@
             "Morro Do Barro"
         ],
         "context": "Na bacia Camamu-Almada de URI BASE_CD_BACIA_266 existem 6 campos: Área Do B128, Jiribatuba, Camarao Norte, Área Bas-064, Área Do B097, Morro Do Barro.",
-        "gold_cypher": "MATCH (b:basin)<-[:located_in]-(f:field) WHERE 'Camamu-Almada' IN b.rdfs_label RETURN f.rdfs_label"
+        "gold_cypher": "MATCH (b:basin)<-[:located_in]-(f:field) WHERE 'CAMAMU-ALMADA' IN b.rdfs_label RETURN f.rdfs_label"
     },
     {
         "id": 22,
