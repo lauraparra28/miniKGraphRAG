@@ -15,8 +15,8 @@ graph = Neo4jGraph( url="bolt://localhost:7687", username="neo4j",password="diri
     
 llm = load_cypher_llm() #load_llm()
 print(f"🔷 Using model {llm.model_name} for QA result")
-cypher_llm = load_cypher_llm_ollama()
-print(f"🔷 Using model {cypher_llm.model} for Generate Cypher statement")
+cypher_llm = load_cypher_llm() #load_cypher_llm_ollama
+print(f"🔷 Using model {cypher_llm.model_name} for Generate Cypher statement")
 print("✅ Successfully load LLM")
 
 chain = build_rag_chain(
