@@ -20,7 +20,7 @@ def load_llm(model_name="llama3:8b"): # MI PC: deepseek-r1:1.5b  qwen2.5:1.5b ge
         base_url="http://127.0.0.1:11434"
     )
     
-def load_cypher_llm(model_cypher="gpt-4o-mini"): # MI PC: qwen2.5:1.5b funcionó para generación CYPHER
+def load_cypher_llm(model_cypher="gpt-4.1-2025-04-14"): #gpt-4o-mini
     return ChatOpenAI(
         model_name=model_cypher,
         temperature=0.0,
